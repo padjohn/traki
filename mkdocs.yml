@@ -8,6 +8,7 @@ theme:
   features:
     - navigation.instant
     - content.tooltips
+    - navigation.tabs
   site_url: https://github.com/norygami/traki/
   icon:
     repo: fontawesome/brands/git-alt
@@ -37,7 +38,6 @@ plugins:
    - awesome-nav
    - glightbox
    - tags
-   - autolinks
 markdown_extensions:
   - abbr
   - attr_list
@@ -48,6 +48,11 @@ markdown_extensions:
       auto_append:
         - includes/abbreviations.md
         - includes/links.md
+validation:
+  links:
+    absolute_links: ignore
+    anchors: warn
+    unrecognized_links: warn
 watch:
 - includes
 extra_css:

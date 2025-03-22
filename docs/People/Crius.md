@@ -4,14 +4,15 @@ tags:
     - EnKAD
 ---
 
+![Crius](../assets/people/C1913.png){ width=200, align=right }
+
 ??? bio "Bio"
 
     **Name**: Danil Preston  
-    **Born:** 3th October 1872 || [Miletus][].  
+    **Born:** 21st October 1872 || Miletus  
 
     **Career**:  
-    [EnKAD](../Organizations/EnKAD.md) [1913]  
-    [IIS](../Organizations/IIS.md) [1921]  
-    [AIO](../Organizations/AIO.md) [1923]
+    [EnKAD][] [1913]  
+    [IIS][] [1921]  
 
 TODO

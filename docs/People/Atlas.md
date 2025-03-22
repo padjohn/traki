@@ -15,15 +15,15 @@ tags:
     **Career**:  
     [EnKAD][] [1913]  
     [IIS][] [1921]  
-    [AIO][] [1923]
+    AIO [1923]
 
 
 
 ## Early Life
-Atlas' life before [EnKAD][] is a question mark. Both of his parents were allegedly killed by Republicans during the [2nd Enlightement][]. Being left an orphan, Atlas was raised by his aunt, until he disappeared in 1908.
+Atlas' life before [EnKAD][] is a question mark. Both of his parents were allegedly killed by Republicans during the 2nd Enlightement. Being left an orphan, Atlas was raised by his aunt, until he disappeared in 1908.
 
 ## Bosporoi
-By the time he resurfaced in 1910, Atlas established himself as a Stratigos of the [Bospori Syndicate][]. Rumours say that he engaged in several criminal activities – from racketeering to gambling to the dissemination of illegal substances such as opium and heroin. Although the Bospori were known to engage in human trafficking and forced prostitution, it is unclear whether Atlas played a role in the organization of these crimes. In contrast, there is substantial evidence linking him to the Kerameikos Central Station Robbery, for which he was arrested by the Metropolitan Police on July 7th, 1913.
+By the time he resurfaced in 1910, Atlas established himself as a Stratigos of the Bospori Syndicate. Rumours say that he engaged in several criminal activities – from racketeering to gambling to the dissemination of illegal substances such as opium and heroin. Although the Bospori were known to engage in human trafficking and forced prostitution, it is unclear whether Atlas played a role in the organization of these crimes. In contrast, there is substantial evidence linking him to the Kerameikos Central Station Robbery, for which he was arrested by the Metropolitan Police on July 7th, 1913.
 
 While Atlas was being held for questioning, a senior officer from EnKAD – [Crius][] – happened to inspect the local prefecture. Crius took a personal interest in Atlas and took it upon himself to conduct the interrogation. According to an anonymous member of the prefecture's medical staff, 'Crius opened negotiations by shooting Atlas in the leg'. However, Atlas supposedly refused to share the names of his co-associates.
 
@@ -40,9 +40,9 @@ When Farago was about to cross the border, both herself and Atlas were picked up
 
 !!! quote "Case Calpoli: Minutes"
 
-    *"If it weren't for the intervention by the hands of the IAF, Corporal Farago's desertion might've produced a unique opportunity to lure out high-ranking members of* [REDACTED]'s *intelligence network. Over the last six years, Ionia has lost tens – if not hundreds – of state officials to illegal emigration.* 
+    *If it weren't for the intervention by the hands of the IAF, Corporal Farago's desertion might've produced a unique opportunity to lure out high-ranking members of* [REDACTED]'s *intelligence network. Over the last six years, Ionia has lost tens – if not hundreds – of state officials to illegal emigration.* 
 
-    *Although the IAF is to be commended for their efforts, this incident is further proof that all intelligence operations – including those conducted by the Secretariat for Foreign Affairs and the Secretariat for Defense – should be coordinated with the Secretariat for State Security."*
+    *Although the IAF is to be commended for their efforts, this incident is further proof that all intelligence operations – including those conducted by the Secretariat for Foreign Affairs and the Secretariat for Defense – should be coordinated with the Secretariat for State Security.*
 
 It's assumed that Calpoli was a major catalyst for Ionia to adapt an integrated intelligence strategy. One expression of this centralization appeared in 1921, when the [Commissariat for External Affairs][] (CoExA) was transferred from the Secretariat of External Affairs to the Secretariat for State Security. Although EnKAD itself wasn't practically affected by the reorganization, it henceforth operates under the umbrella of the [Ionian Intelligence Service][].
 

@@ -12,7 +12,5 @@ nav:
       - blog/index.md
   - People
   - Organizations
-  - States
-  - Cities
   - Events
-  - Tags
+ignore: "*_d.md"

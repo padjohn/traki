@@ -1,5 +1,4 @@
 ---
-title: IIS
 tags:
     - Ionia
 ---
@@ -13,6 +12,6 @@ Above all, the IIS aims to act as a singular entity - both domestically and abro
 
 !!! quote "State of the union (1924/34) – Tales from the shadow: Is the IIS too big to succeed?"
 
-    The IIS spends most of their time fighting itself.
+    *The IIS spends most of their time fighting itself.*
 
-Rumors of infighting were galvanized in 1923, when a former founding official of the Ionian State revealed himself as the Colonel of [Trachi][]'s armed forcs. of a detailed description of  operation became publicised. [Operation arteria](../Events/arteria.md) in 1923. In the course of this incident, several members of the IIS were either apprehended or outright liquidated. Furthermore, significant portions of the organization became publicly implicated. The Secretariat for State Security became the target of heavy scrutiny, with both the Undersecretary [Johan Fairclough](../People/Pallas.md) and the Secretary [Teron Pravoskos](../People/Hyperion) being subjected to several sets of internal inquiries.
+Rumors of infighting were galvanized in 1923, when a former founding official of the Ionian State revealed himself as the Colonel of [Trachi][]'s armed forcs. of a detailed description of  operation became publicised. [Operation arteria][] in 1923. In the course of this incident, several members of the IIS were either apprehended or outright liquidated. Furthermore, significant portions of the organization became publicly implicated. The Secretariat for State Security became the target of heavy scrutiny, with both the Undersecretary [Johan Fairclough][] and the Secretary [Teron Pravoskos][] being subjected to several sets of internal inquiries.
