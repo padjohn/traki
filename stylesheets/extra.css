@@ -32,3 +32,13 @@
           mask-image: var(--md-admonition-icon--bio);
 }
 
+.md-typeset figure.float-right {
+  float: right;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  margin-top: 0;
+}
+
+figure.float-right figcaption {
+  font-size: 0.6rem;
+}
