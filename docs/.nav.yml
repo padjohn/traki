@@ -1,0 +1,18 @@
+preserve_directory_names: true 
+ignore: "*.hidden.md" 
+
+sort:
+  direction: asc 
+  type: natural 
+  by: filename 
+  sections: last 
+  ignore_case: true 
+nav: 
+  - News:
+      - blog/index.md
+  - People
+  - Organizations
+  - States
+  - Cities
+  - Events
+  - Tags
