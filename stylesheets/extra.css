@@ -13,22 +13,22 @@
   .md-typeset h3 {
     color: #ffffff;
 }
-:root {
-  --md-admonition-icon--pied-piper: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 7.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0m-3 3.75a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 .75.75v4.25h.75a.75.75 0 0 1 0 1.5h-3a.75.75 0 0 1 0-1.5h.75V12h-.75a.75.75 0 0 1-.75-.75"/><path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1M2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12"/></svg>')
 }
-.md-typeset .admonition.pied-piper,
-.md-typeset details.pied-piper {
+:root {
+  --md-admonition-icon--bio: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 7.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0m-3 3.75a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 .75.75v4.25h.75a.75.75 0 0 1 0 1.5h-3a.75.75 0 0 1 0-1.5h.75V12h-.75a.75.75 0 0 1-.75-.75"/><path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1M2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12"/></svg>')
+}
+.md-typeset .admonition.bio,
+.md-typeset details.bio {
   border-color: rgb(255, 255, 255);
 }
-.md-typeset .pied-piper > .admonition-title,
-.md-typeset .pied-piper > summary {
+.md-typeset .bio > .admonition-title,
+.md-typeset .bio > summary {
   background-color: rgba(22, 22, 22, 0.1);
 }
-.md-typeset .pied-piper > .admonition-title::before,
-.md-typeset .pied-piper > summary::before {
-  background-color: rgb(26, 26, 26);
-  -webkit-mask-image: var(--md-admonition-icon--pied-piper);
-          mask-image: var(--md-admonition-icon--pied-piper);
+.md-typeset .bio > .admonition-title::before,
+.md-typeset .bio > summary::before {
+  background-color: rgb(255, 255, 255);
+  -webkit-mask-image: var(--md-admonition-icon--bio);
+          mask-image: var(--md-admonition-icon--bio);
 }
 
-}
