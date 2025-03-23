@@ -1,5 +1,8 @@
 site_name: TRAKI
 repo_url: https://github.com/norygami/traki/
+repo_name: traki
+edit_uri: edit/main/docs/
+
 theme:
   logo: assets/organizations/ARedC.png
   favicon: assets/organizations/ARedC.png
@@ -9,9 +12,12 @@ theme:
     - navigation.instant
     - content.tooltips
     - navigation.tabs
+    - content.action.edit
   site_url: https://github.com/norygami/traki/
   icon:
     repo: fontawesome/brands/git-alt
+    admonition:
+      construction: material/hammer-wrench
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -38,6 +44,12 @@ plugins:
    - awesome-nav
    - glightbox
    - tags
+   - git-revision-date-localized:
+      enable_creation_date: false
+   - social:
+      cards_layout_options:
+        font_family: Jost
+        background_color: black
 markdown_extensions:
   - abbr
   - attr_list
@@ -48,6 +60,10 @@ markdown_extensions:
       auto_append:
         - includes/abbreviations.md
         - includes/links.md
+  - pymdownx.blocks.caption
+  - md_in_html
+  - footnotes
+
 validation:
   links:
     absolute_links: ignore

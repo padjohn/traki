@@ -47,8 +47,11 @@ When Farago was about to cross the border, both herself and Atlas were picked up
 It's assumed that Calpoli was a major catalyst for Ionia to adapt an integrated intelligence strategy. One expression of this centralization appeared in 1921, when the [Commissariat for External Affairs][] (CoExA) was transferred from the Secretariat of External Affairs to the Secretariat for State Security. Although EnKAD itself wasn't practically affected by the reorganization, it henceforth operates under the umbrella of the [Ionian Intelligence Service][].
 
 ## *effigy*
-1921, Trachi, Orpheus, Eurydice
+
+!!! construction
+    1921, Trachi, Orpheus, Eurydice
 
 
 ## *arteria*
-1923, Trachi, Daphne, Ganymede
+!!! construction
+    1923, Trachi, Daphne, Ganymede
