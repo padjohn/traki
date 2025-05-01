@@ -44,6 +44,9 @@ plugins:
    - awesome-nav
    - glightbox
    - tags
+   - macros
+   - search
+   - table-reader
    - git-revision-date-localized:
       enable_creation_date: false
    - social:
@@ -55,7 +58,11 @@ markdown_extensions:
   - attr_list
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+        custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.snippets:
       auto_append:
         - includes/abbreviations.md
@@ -73,3 +80,6 @@ watch:
 - includes
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
