@@ -1,11 +1,12 @@
-# Characters/Solen
+---
+title: Solen
+---
+
+# Solen
 
 
-```mermaid
-graph TD
-    403_0["Actor_404"]
-    403_1["Actor_404: Stay in line, citizen!"]
-    403_2["Actor_404: Get back into the queue, will you?"]
-    403_0 --> 403_1
-    403_1 --> 403_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Solen** |  | ➡️ `1` \[Solen: Stay in line, citizen\!\] |
+| `1` | **Solen** | Stay in line, citizen\! | ➡️ `2` \[Solen: Get back into the queue, will you?\] |
+| `2` | **Solen** | Get back into the queue, will you? | End |

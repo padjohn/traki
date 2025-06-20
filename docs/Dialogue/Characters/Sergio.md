@@ -1,15 +1,14 @@
-# Characters/Sergio
+---
+title: Sergio
+---
+
+# Sergio
 
 
-```mermaid
-graph TD
-    395_0["Actor_396"]
-    395_1["Actor_396: Oh, don't worry!"]
-    395_2["Actor_396: I know just the perfect restaurant for the two of us."]
-    395_3["Actor_396: Don't you worry about that, my dear!"]
-    395_4["Actor_396: There's a beautiful cafe, right next to Laurel Bridge."]
-    395_0 --> 395_1
-    395_0 --> 395_3
-    395_1 --> 395_2
-    395_3 --> 395_4
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Sergio** |  | ➡️ `1` \[Sergio: Oh, don't worry\!\]<br>➡️ `3` \[Sergio: Don't you worry about that, my dear\!\] |
+| `1` | **Sergio** | Oh, don't worry\! | ➡️ `2` \[Sergio: I know just the perfect restaurant for the two of \.\.\.\] |
+| `2` | **Sergio** | I know just the perfect restaurant for the two of us\. | End |
+| `3` | **Sergio** | Don't you worry about that, my dear\! | ➡️ `4` \[Sergio: There's a beautiful cafe, right next to Laurel Bri\.\.\.\] |
+| `4` | **Sergio** | There's a beautiful cafe, right next to Laurel Bridge\. | End |

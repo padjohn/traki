@@ -1,15 +1,14 @@
-# Characters/Michael
+---
+title: Michael
+---
+
+# Michael
 
 
-```mermaid
-graph TD
-    329_0["Actor_331"]
-    329_1["Actor_331: This is ridiculous!"]
-    329_2["Actor_331: If I'm not in Trenton within the next five minutes, I'll be ruined!"]
-    329_3["Actor_331: I know, right?"]
-    329_4["Actor_331: Even Heinrich's here with us."]
-    329_0 --> 329_1
-    329_0 --> 329_3
-    329_1 --> 329_2
-    329_3 --> 329_4
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Michael** |  | ➡️ `1` \[Michael: This is ridiculous\!\]<br>➡️ `3` \[Michael: I know, right?\] |
+| `1` | **Michael** | This is ridiculous\! | ➡️ `2` \[Michael: If I'm not in Trenton within the next five minutes\.\.\.\] |
+| `2` | **Michael** | If I'm not in Trenton within the next five minutes, I'll be ruined\! | End |
+| `3` | **Michael** | I know, right? | ➡️ `4` \[Michael: Even Heinrich's here with us\.\] |
+| `4` | **Michael** | Even Heinrich's here with us\. | End |

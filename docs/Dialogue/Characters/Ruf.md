@@ -1,9 +1,11 @@
-# Characters/Ruf
+---
+title: Ruf
+---
+
+# Ruf
 
 
-```mermaid
-graph TD
-    384_0["Actor_384"]
-    384_1["Actor_384: What're you looking at?"]
-    384_0 --> 384_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Ruf** |  | ➡️ `1` \[Ruf: What're you looking at?\] |
+| `1` | **Ruf** | What're you looking at? | End |

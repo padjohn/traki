@@ -1,9 +1,11 @@
-# Characters/Johan
+---
+title: Johan
+---
+
+# Johan
 
 
-```mermaid
-graph TD
-    266_0["Actor_263"]
-    266_1["Actor_263: Where did I put that, again?"]
-    266_0 --> 266_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Johan** |  | ➡️ `1` \[Johan: Where did I put that, again?\] |
+| `1` | **Johan** | Where did I put that, again? | End |

@@ -1,15 +1,14 @@
-# Characters/Lavrenty
+---
+title: Lavrenty
+---
+
+# Lavrenty
 
 
-```mermaid
-graph TD
-    295_0["Actor_293"]
-    295_1["Actor_293: I'm sorry, man."]
-    295_2["Actor_293: But you know how she is..."]
-    295_3["Actor_293: Honestly?"]
-    295_4["Actor_293: I don't think I can take it anymore."]
-    295_0 --> 295_1
-    295_1 --> 295_2
-    295_2 --> 295_3
-    295_3 --> 295_4
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Lavrenty** |  | ➡️ `1` \[Lavrenty: I'm sorry, man\.\] |
+| `1` | **Lavrenty** | I'm sorry, man\. | ➡️ `2` \[Lavrenty: But you know how she is\.\.\.\] |
+| `2` | **Lavrenty** | But you know how she is\.\.\. | ➡️ `3` \[Lavrenty: Honestly?\] |
+| `3` | **Lavrenty** | Honestly? | ➡️ `4` \[Lavrenty: I don't think I can take it anymore\.\] |
+| `4` | **Lavrenty** | I don't think I can take it anymore\. | End |

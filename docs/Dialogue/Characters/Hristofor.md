@@ -1,6 +1,9 @@
-# Characters/Hristofor
+---
+title: Hristofor
+---
+
+# Hristofor
 
 
-```mermaid
-graph TD
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |

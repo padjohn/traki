@@ -1,11 +1,12 @@
-# Characters/Oskar
+---
+title: Oskar
+---
+
+# Oskar
 
 
-```mermaid
-graph TD
-    354_0["Actor_354"]
-    354_1["Actor_354: I think you really need to get a grip, man."]
-    354_2["Actor_354: Can't believe they cancelled the carnival."]
-    354_0 --> 354_1
-    354_0 --> 354_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Oskar** |  | ➡️ `1` \[Oskar: I think you really need to get a grip, man\.\]<br>➡️ `2` \[Oskar: Can't believe they cancelled the carnival\.\] |
+| `1` | **Oskar** | I think you really need to get a grip, man\. | End |
+| `2` | **Oskar** | Can't believe they cancelled the carnival\. | End |

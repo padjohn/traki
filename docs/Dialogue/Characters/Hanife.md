@@ -1,9 +1,11 @@
-# Characters/Hanife
+---
+title: Hanife
+---
+
+# Hanife
 
 
-```mermaid
-graph TD
-    239_0["Actor_236"]
-    239_1["Actor_236: Is it me or does this queue not move forward, at all?"]
-    239_0 --> 239_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Hanife** |  | ➡️ `1` \[Hanife: Is it me or does this queue not move forward, at a\.\.\.\] |
+| `1` | **Hanife** | Is it me or does this queue not move forward, at all? | End |

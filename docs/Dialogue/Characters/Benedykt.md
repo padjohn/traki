@@ -1,9 +1,11 @@
-# Characters/Benedykt
+---
+title: Benedykt
+---
+
+# Benedykt
 
 
-```mermaid
-graph TD
-    139_0["Actor_133"]
-    139_1["Actor_133: Are you lost?"]
-    139_0 --> 139_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Benedykt** |  | ➡️ `1` \[Benedykt: Are you lost?\] |
+| `1` | **Benedykt** | Are you lost? | End |

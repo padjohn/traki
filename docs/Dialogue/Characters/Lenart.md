@@ -1,6 +1,9 @@
-# Characters/Lenart
+---
+title: Lenart
+---
+
+# Lenart
 
 
-```mermaid
-graph TD
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |

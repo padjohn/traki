@@ -1,9 +1,11 @@
-# Characters/Veljko
+---
+title: Veljko
+---
+
+# Veljko
 
 
-```mermaid
-graph TD
-    433_0["Actor_434"]
-    433_1["Actor_434: Move along."]
-    433_0 --> 433_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Veljko** |  | ➡️ `1` \[Veljko: Move along\.\] |
+| `1` | **Veljko** | Move along\. | End |

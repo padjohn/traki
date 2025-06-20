@@ -1,13 +1,13 @@
-# Characters/Gabe
+---
+title: Gabe
+---
+
+# Gabe
 
 
-```mermaid
-graph TD
-    222_0["Actor_222"]
-    222_1["Actor_222: You're sitting on a gold mine here and you want it to simply waste away!?"]
-    222_2["Actor_222: I can't even begin to comprehend stupidity like that!"]
-    222_3["Actor_114: You're really starting to test my patience here..."]
-    222_0 --> 222_1
-    222_1 --> 222_2
-    222_2 --> 222_3
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Gabe** |  | ➡️ `1` \[Gabe: You're sitting on a gold mine here and you want it\.\.\.\] |
+| `1` | **Gabe** | You're sitting on a gold mine here and you want it to simply waste away\!? | ➡️ `2` \[Gabe: I can't even begin to comprehend stupidity like th\.\.\.\] |
+| `2` | **Gabe** | I can't even begin to comprehend stupidity like that\! | ➡️ `3` \[Andrey: You're really starting to test my patience here\.\.\.\] |
+| `3` | **Andrey** | You're really starting to test my patience here\.\.\. | End |

@@ -1,11 +1,12 @@
-# Characters/Lera
+---
+title: Lera
+---
+
+# Lera
 
 
-```mermaid
-graph TD
-    299_0["Actor_301"]
-    299_1["Actor_301: We've been waiting for at least half an hour already."]
-    299_2["Actor_301: This is ridiculous!"]
-    299_0 --> 299_1
-    299_0 --> 299_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Lera** |  | ➡️ `1` \[Lera: We've been waiting for at least half an hour alrea\.\.\.\]<br>➡️ `2` \[Lera: This is ridiculous\!\] |
+| `1` | **Lera** | We've been waiting for at least half an hour already\. | End |
+| `2` | **Lera** | This is ridiculous\! | End |

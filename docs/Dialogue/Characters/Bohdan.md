@@ -1,13 +1,13 @@
-# Characters/Bohdan
+---
+title: Bohdan
+---
+
+# Bohdan
 
 
-```mermaid
-graph TD
-    142_0["Actor_138"]
-    142_1["Actor_138: Hang the oppressor! Hang 'em high!"]
-    142_2["Actor_138: Hang the oppressor! Hang 'em high!"]
-    142_3["Actor_137: Move along, please."]
-    142_0 --> 142_1
-    142_1 --> 142_2
-    142_2 --> 142_3
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Bohdan** |  | ➡️ `1` \[Bohdan: Hang the oppressor\! Hang 'em high\!\] |
+| `1` | **Bohdan** | Hang the oppressor\! Hang 'em high\! | ➡️ `2` \[Bohdan: Hang the oppressor\! Hang 'em high\!\] |
+| `2` | **Bohdan** | Hang the oppressor\! Hang 'em high\! | ➡️ `3` \[Bohdan: Move along, please\.\] |
+| `3` | **Bohdan** | Move along, please\. | End |

@@ -1,23 +1,18 @@
-# Characters/Viljam
+---
+title: Viljam
+---
+
+# Viljam
 
 
-```mermaid
-graph TD
-    437_0["Actor_439"]
-    437_1["Actor_439: Why is no one buying anything?"]
-    437_2["Actor_439: I invested so much to get this spot here."]
-    437_3["Actor_439: My apologies!"]
-    437_4["Actor_439: I didn't see you there."]
-    437_5["Actor_439: Might I interest you in some herbs, medicine, or even jewelry?"]
-    437_6["Actor_439: For god's sake, buy something, please!"]
-    437_7["Actor_440: Yo!"]
-    437_8["Actor_440: I've got some of the good stuff, if you know what I mean."]
-    437_0 --> 437_1
-    437_0 --> 437_6
-    437_0 --> 437_7
-    437_1 --> 437_2
-    437_2 --> 437_3
-    437_3 --> 437_4
-    437_4 --> 437_5
-    437_7 --> 437_8
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Viljam** |  | ➡️ `1` \[Viljam: Why is no one buying anything?\]<br>➡️ `6` \[Viljam: For god's sake, buy something, please\!\]<br>➡️ `7` \[Vincent: Yo\!\] |
+| `1` | **Viljam** | Why is no one buying anything? | ➡️ `2` \[Viljam: I invested so much to get this spot here\.\] |
+| `2` | **Viljam** | I invested so much to get this spot here\. | ➡️ `3` \[Viljam: My apologies\!\] |
+| `3` | **Viljam** | My apologies\! | ➡️ `4` \[Viljam: I didn't see you there\.\] |
+| `4` | **Viljam** | I didn't see you there\. | ➡️ `5` \[Viljam: Might I interest you in some herbs, medicine, or e\.\.\.\] |
+| `5` | **Viljam** | Might I interest you in some herbs, medicine, or even jewelry? | End |
+| `6` | **Viljam** | For god's sake, buy something, please\! | End |
+| `7` | **Vincent** | Yo\! | ➡️ `8` \[Vincent: I've got some of the good stuff, if you know what \.\.\.\] |
+| `8` | **Vincent** | I've got some of the good stuff, if you know what I mean\. | End |

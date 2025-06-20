@@ -1,9 +1,11 @@
-# Characters/Dennis
+---
+title: Dennis
+---
+
+# Dennis
 
 
-```mermaid
-graph TD
-    177_0["Actor_177"]
-    177_1["Actor_177: Keep moving, please."]
-    177_0 --> 177_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Dennis** |  | ➡️ `1` \[Dennis: Keep moving, please\.\] |
+| `1` | **Dennis** | Keep moving, please\. | End |

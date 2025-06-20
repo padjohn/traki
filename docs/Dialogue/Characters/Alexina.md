@@ -1,11 +1,12 @@
-# Characters/Alexina
+---
+title: Alexina
+---
+
+# Alexina
 
 
-```mermaid
-graph TD
-    113_0["Actor_107"]
-    113_1["Actor_107: I saw one of the sutlers in Clarin wearing exactly the same dress, I swear!"]
-    113_2["Actor_107: Who?"]
-    113_0 --> 113_1
-    113_0 --> 113_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Alexina** |  | ➡️ `1` \[Alexina: I saw one of the sutlers in Clarin wearing exactly\.\.\.\]<br>➡️ `2` \[Alexina: Who?\] |
+| `1` | **Alexina** | I saw one of the sutlers in Clarin wearing exactly the same dress, I swear\! | End |
+| `2` | **Alexina** | Who? | End |

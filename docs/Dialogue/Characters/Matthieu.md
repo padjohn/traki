@@ -1,9 +1,11 @@
-# Characters/Matthieu
+---
+title: Matthieu
+---
+
+# Matthieu
 
 
-```mermaid
-graph TD
-    327_0["Actor_329"]
-    327_1["Actor_329: Thought they'd started the fireworks a few days early, at first."]
-    327_0 --> 327_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Matthieu** |  | ➡️ `1` \[Matthieu: Thought they'd started the fireworks a few days ea\.\.\.\] |
+| `1` | **Matthieu** | Thought they'd started the fireworks a few days early, at first\. | End |

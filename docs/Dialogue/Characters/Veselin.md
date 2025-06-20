@@ -1,6 +1,9 @@
-# Characters/Veselin
+---
+title: Veselin
+---
+
+# Veselin
 
 
-```mermaid
-graph TD
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |

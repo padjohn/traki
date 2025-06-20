@@ -1,9 +1,11 @@
-# Characters/Miloje
+---
+title: Miloje
+---
+
+# Miloje
 
 
-```mermaid
-graph TD
-    333_0["Actor_335"]
-    333_1["Actor_335: Have a nice day!"]
-    333_0 --> 333_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Miloje** |  | ➡️ `1` \[Miloje: Have a nice day\!\] |
+| `1` | **Miloje** | Have a nice day\! | End |

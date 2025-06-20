@@ -1,9 +1,11 @@
-# Characters/Miomir
+---
+title: Miomir
+---
+
+# Miomir
 
 
-```mermaid
-graph TD
-    335_0["Actor_336"]
-    335_1["Actor_336: Please move along."]
-    335_0 --> 335_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Miomir** |  | ➡️ `1` \[Miomir: Please move along\.\] |
+| `1` | **Miomir** | Please move along\. | End |

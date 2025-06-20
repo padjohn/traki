@@ -1,15 +1,14 @@
-# Characters/Emiliyan
+---
+title: Emiliyan
+---
+
+# Emiliyan
 
 
-```mermaid
-graph TD
-    199_0["Actor_199"]
-    199_1["Actor_199: Absolutely fascinating."]
-    199_2["Actor_199: See that crowd?"]
-    199_3["Actor_199: Herd mentality at it's finest!"]
-    199_4["Actor_199: All it needs is a little spark to light the fire."]
-    199_0 --> 199_1
-    199_0 --> 199_4
-    199_1 --> 199_2
-    199_2 --> 199_3
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Emiliyan** |  | ➡️ `1` \[Emiliyan: Absolutely fascinating\.\]<br>➡️ `4` \[Emiliyan: All it needs is a little spark to light the fire\.\] |
+| `1` | **Emiliyan** | Absolutely fascinating\. | ➡️ `2` \[Emiliyan: See that crowd?\] |
+| `2` | **Emiliyan** | See that crowd? | ➡️ `3` \[Emiliyan: Herd mentality at it's finest\!\] |
+| `3` | **Emiliyan** | Herd mentality at it's finest\! | End |
+| `4` | **Emiliyan** | All it needs is a little spark to light the fire\. | End |

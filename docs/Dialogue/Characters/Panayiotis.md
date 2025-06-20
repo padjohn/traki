@@ -1,9 +1,11 @@
-# Characters/Panayiotis
+---
+title: Panayiotis
+---
+
+# Panayiotis
 
 
-```mermaid
-graph TD
-    356_0["Actor_356"]
-    356_1["Actor_356: Stay in line, please."]
-    356_0 --> 356_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Panayiotis** |  | ➡️ `1` \[Panayiotis: Stay in line, please\.\] |
+| `1` | **Panayiotis** | Stay in line, please\. | End |

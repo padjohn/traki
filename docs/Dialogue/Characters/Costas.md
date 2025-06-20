@@ -1,9 +1,11 @@
-# Characters/Costas
+---
+title: Costas
+---
+
+# Costas
 
 
-```mermaid
-graph TD
-    161_0["Actor_158"]
-    161_1["Actor_158: You okay?"]
-    161_0 --> 161_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Costas** |  | ➡️ `1` \[Costas: You okay?\] |
+| `1` | **Costas** | You okay? | End |

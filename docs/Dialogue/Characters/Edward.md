@@ -1,31 +1,22 @@
-# Characters/Edward
+---
+title: Edward
+---
+
+# Edward
 
 
-```mermaid
-graph TD
-    190_0["Actor_190"]
-    190_1["Actor_190: Didn't think the Guard had any spine left in 'em."]
-    190_2["Actor_9: SCAhem."]
-    190_3["Actor_190: Oh, I'm terribly sorry, sir!"]
-    190_4["Actor_190: I didn't mean it like that!"]
-    190_5["Actor_9: SCNow, I'll pretend I didn't hear that."]
-    190_6["Actor_9: SBut I would be more careful about what I say from now on, if I were you."]
-    190_7["Actor_190: Of course, sir!"]
-    190_8["Actor_9: SCGlad we understand each other."]
-    190_9["Actor_9: SCarry on, citizen."]
-    190_10["Actor_190: N-naturally!"]
-    190_11["Actor_190: Hope you have a nice day, sir!"]
-    190_12["Actor_190: Hope you have a nice day, sir!"]
-    190_0 --> 190_1
-    190_0 --> 190_12
-    190_1 --> 190_2
-    190_2 --> 190_3
-    190_3 --> 190_4
-    190_4 --> 190_5
-    190_5 --> 190_6
-    190_6 --> 190_7
-    190_7 --> 190_8
-    190_8 --> 190_9
-    190_9 --> 190_10
-    190_10 --> 190_11
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Edward** |  | ➡️ `1` \[Edward: Didn't think the Guard had any spine left in 'em\.\]<br>➡️ `12` \[Edward: Hope you have a nice day, sir\!\] |
+| `1` | **Edward** | Didn't think the Guard had any spine left in 'em\. | ➡️ `2` \[Ganymede: Ahem\.\] |
+| `2` | **Ganymede** | Ahem\. | ➡️ `3` \[Edward: Oh, I'm terribly sorry, sir\!\] |
+| `3` | **Edward** | Oh, I'm terribly sorry, sir\! | ➡️ `4` \[Edward: I didn't mean it like that\!\] |
+| `4` | **Edward** | I didn't mean it like that\! | ➡️ `5` \[Ganymede: Now, I'll pretend I didn't hear that\.\] |
+| `5` | **Ganymede** | Now, I'll pretend I didn't hear that\. | ➡️ `6` \[Ganymede: But I would be more careful about what I say from \.\.\.\] |
+| `6` | **Ganymede** | But I would be more careful about what I say from now on, if I were you\. | ➡️ `7` \[Edward: Of course, sir\!\] |
+| `7` | **Edward** | Of course, sir\! | ➡️ `8` \[Ganymede: Glad we understand each other\.\] |
+| `8` | **Ganymede** | Glad we understand each other\. | ➡️ `9` \[Ganymede: Carry on, citizen\.\] |
+| `9` | **Ganymede** | Carry on, citizen\. | ➡️ `10` \[Edward: N\-naturally\!\] |
+| `10` | **Edward** | N\-naturally\! | ➡️ `11` \[Edward: Hope you have a nice day, sir\!\] |
+| `11` | **Edward** | Hope you have a nice day, sir\! | End |
+| `12` | **Edward** | Hope you have a nice day, sir\! | End |

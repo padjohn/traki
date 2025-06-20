@@ -1,9 +1,11 @@
-# Characters/Arben
+---
+title: Arben
+---
+
+# Arben
 
 
-```mermaid
-graph TD
-    89_0["Actor_16"]
-    89_167["Actor_60: Have a good one."]
-    89_0 --> 89_167
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Pandora** |  | ➡️ `167` \[Arben: Have a good one\.\] |
+| `167` | **Arben** | Have a good one\. | End |

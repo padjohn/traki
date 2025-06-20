@@ -1,9 +1,11 @@
-# Characters/Kay
+---
+title: Kay
+---
+
+# Kay
 
 
-```mermaid
-graph TD
-    277_0["Actor_273"]
-    277_1["Actor_273: Good day to you!"]
-    277_0 --> 277_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Kay** |  | ➡️ `1` \[Kay: Good day to you\!\] |
+| `1` | **Kay** | Good day to you\! | End |

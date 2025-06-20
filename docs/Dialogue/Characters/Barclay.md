@@ -1,17 +1,15 @@
-# Characters/Barclay
+---
+title: Barclay
+---
+
+# Barclay
 
 
-```mermaid
-graph TD
-    135_0["Actor_129"]
-    135_1["Actor_129: Another eighteen hour shift!?"]
-    135_2["Actor_129: Are these guys kidding me?"]
-    135_3["Actor_129: Heheheh."]
-    135_4["Actor_129: Who's laughing now, fuckhead?"]
-    135_5["Actor_129: Hehehehe."]
-    135_0 --> 135_1
-    135_0 --> 135_3
-    135_0 --> 135_5
-    135_1 --> 135_2
-    135_3 --> 135_4
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Barclay** |  | ➡️ `1` \[Barclay: Another eighteen hour shift\!?\]<br>➡️ `3` \[Barclay: Heheheh\.\]<br>➡️ `5` \[Barclay: Hehehehe\.\] |
+| `1` | **Barclay** | Another eighteen hour shift\!? | ➡️ `2` \[Barclay: Are these guys kidding me?\] |
+| `2` | **Barclay** | Are these guys kidding me? | End |
+| `3` | **Barclay** | Heheheh\. | ➡️ `4` \[Barclay: Who's laughing now, fuckhead?\] |
+| `4` | **Barclay** | Who's laughing now, fuckhead? | End |
+| `5` | **Barclay** | Hehehehe\. | End |

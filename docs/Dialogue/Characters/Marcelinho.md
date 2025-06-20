@@ -1,19 +1,16 @@
-# Characters/Marcelinho
+---
+title: Marcelinho
+---
+
+# Marcelinho
 
 
-```mermaid
-graph TD
-    312_0["Actor_313"]
-    312_1["Actor_313: Seriously?"]
-    312_2["Actor_313: You've never stepped foot into the Parliament?"]
-    312_3["Actor_313: There's a session scheduled for tomorrow."]
-    312_4["Actor_313: Maybe the two of us could go and watch it, for a bit."]
-    312_5["Actor_313: It's a date, then!"]
-    312_6["Actor_313: God, I miss Suzana."]
-    312_0 --> 312_1
-    312_0 --> 312_5
-    312_0 --> 312_6
-    312_1 --> 312_2
-    312_2 --> 312_3
-    312_3 --> 312_4
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Marcelinho** |  | ➡️ `1` \[Marcelinho: Seriously?\]<br>➡️ `5` \[Marcelinho: It's a date, then\!\]<br>➡️ `6` \[Marcelinho: God, I miss Suzana\.\] |
+| `1` | **Marcelinho** | Seriously? | ➡️ `2` \[Marcelinho: You've never stepped foot into the Parliament?\] |
+| `2` | **Marcelinho** | You've never stepped foot into the Parliament? | ➡️ `3` \[Marcelinho: There's a session scheduled for tomorrow\.\] |
+| `3` | **Marcelinho** | There's a session scheduled for tomorrow\. | ➡️ `4` \[Marcelinho: Maybe the two of us could go and watch it, for a b\.\.\.\] |
+| `4` | **Marcelinho** | Maybe the two of us could go and watch it, for a bit\. | End |
+| `5` | **Marcelinho** | It's a date, then\! | End |
+| `6` | **Marcelinho** | God, I miss Suzana\. | End |

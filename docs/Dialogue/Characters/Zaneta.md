@@ -1,19 +1,16 @@
-# Characters/Zaneta
+---
+title: Zaneta
+---
+
+# Zaneta
 
 
-```mermaid
-graph TD
-    450_0["Actor_452"]
-    450_1["Actor_452: No way!"]
-    450_2["Actor_452: Barkley or something."]
-    450_3["Actor_452: I swear, she's rocking exactly the same style as you."]
-    450_4["Actor_452: Yeah, that girl from Albion."]
-    450_5["Actor_452: Barkley or something."]
-    450_6["Actor_452: I swear, she's rocking exactly the same style as you."]
-    450_0 --> 450_1
-    450_0 --> 450_4
-    450_1 --> 450_2
-    450_2 --> 450_3
-    450_4 --> 450_5
-    450_5 --> 450_6
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Zaneta** |  | ➡️ `1` \[Zaneta: No way\!\]<br>➡️ `4` \[Zaneta: Yeah, that girl from Albion\.\] |
+| `1` | **Zaneta** | No way\! | ➡️ `2` \[Zaneta: Barkley or something\.\] |
+| `2` | **Zaneta** | Barkley or something\. | ➡️ `3` \[Zaneta: I swear, she's rocking exactly the same style as y\.\.\.\] |
+| `3` | **Zaneta** | I swear, she's rocking exactly the same style as you\. | End |
+| `4` | **Zaneta** | Yeah, that girl from Albion\. | ➡️ `5` \[Zaneta: Barkley or something\.\] |
+| `5` | **Zaneta** | Barkley or something\. | ➡️ `6` \[Zaneta: I swear, she's rocking exactly the same style as y\.\.\.\] |
+| `6` | **Zaneta** | I swear, she's rocking exactly the same style as you\. | End |

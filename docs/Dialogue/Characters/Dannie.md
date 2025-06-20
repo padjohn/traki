@@ -1,11 +1,12 @@
-# Characters/Dannie
+---
+title: Dannie
+---
+
+# Dannie
 
 
-```mermaid
-graph TD
-    170_0["Actor_169"]
-    170_1["Actor_169: Stop pushing!"]
-    170_2["Actor_178: Excuse me."]
-    170_0 --> 170_1
-    170_0 --> 170_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Dannie** |  | ➡️ `1` \[Dannie: Stop pushing\!\]<br>➡️ `2` \[Dima: Excuse me\.\] |
+| `1` | **Dannie** | Stop pushing\! | End |
+| `2` | **Dima** | Excuse me\. | End |

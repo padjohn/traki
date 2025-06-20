@@ -1,13 +1,13 @@
-# Characters/Brunello
+---
+title: Brunello
+---
+
+# Brunello
 
 
-```mermaid
-graph TD
-    146_0["Actor_142"]
-    146_1["Actor_142: Seriously?"]
-    146_2["Actor_142: What the hell is going on?"]
-    146_3["Actor_142: I'm getting really anxious about all this."]
-    146_0 --> 146_1
-    146_0 --> 146_3
-    146_1 --> 146_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Brunello** |  | ➡️ `1` \[Brunello: Seriously?\]<br>➡️ `3` \[Brunello: I'm getting really anxious about all this\.\] |
+| `1` | **Brunello** | Seriously? | ➡️ `2` \[Brunello: What the hell is going on?\] |
+| `2` | **Brunello** | What the hell is going on? | End |
+| `3` | **Brunello** | I'm getting really anxious about all this\. | End |

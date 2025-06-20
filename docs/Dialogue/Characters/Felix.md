@@ -1,11 +1,12 @@
-# Characters/Felix
+---
+title: Felix
+---
+
+# Felix
 
 
-```mermaid
-graph TD
-    207_0["Actor_207"]
-    207_1["Actor_207: You don't find petunias like these, in most places."]
-    207_2["Actor_207: All that work for nothing..."]
-    207_0 --> 207_1
-    207_0 --> 207_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Felix** |  | ➡️ `1` \[Felix: You don't find petunias like these, in most places\.\.\.\]<br>➡️ `2` \[Felix: All that work for nothing\.\.\.\] |
+| `1` | **Felix** | You don't find petunias like these, in most places\. | End |
+| `2` | **Felix** | All that work for nothing\.\.\. | End |

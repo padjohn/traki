@@ -1,9 +1,11 @@
-# Characters/Florine
+---
+title: Florine
+---
+
+# Florine
 
 
-```mermaid
-graph TD
-    213_0["Actor_213"]
-    213_1["Actor_213: Looks like it's serious."]
-    213_0 --> 213_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Florine** |  | ➡️ `1` \[Florine: Looks like it's serious\.\] |
+| `1` | **Florine** | Looks like it's serious\. | End |

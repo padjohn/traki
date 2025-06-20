@@ -1,9 +1,11 @@
-# Characters/Marek
+---
+title: Marek
+---
+
+# Marek
 
 
-```mermaid
-graph TD
-    314_0["Actor_315"]
-    314_1["Actor_315: I wonder how much this'll go for..."]
-    314_0 --> 314_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Marek** |  | ➡️ `1` \[Marek: I wonder how much this'll go for\.\.\.\] |
+| `1` | **Marek** | I wonder how much this'll go for\.\.\. | End |

@@ -1,9 +1,11 @@
-# Characters/Nikolai
+---
+title: Nikolai
+---
+
+# Nikolai
 
 
-```mermaid
-graph TD
-    349_0["Actor_349"]
-    349_1["Actor_349: You better behave yourselves!"]
-    349_0 --> 349_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Nikolai** |  | ➡️ `1` \[Nikolai: You better behave yourselves\!\] |
+| `1` | **Nikolai** | You better behave yourselves\! | End |

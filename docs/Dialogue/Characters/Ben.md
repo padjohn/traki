@@ -1,11 +1,12 @@
-# Characters/Ben
+---
+title: Ben
+---
+
+# Ben
 
 
-```mermaid
-graph TD
-    138_0["Actor_132"]
-    138_1["Actor_132: Agreed!"]
-    138_2["Actor_132: I don't know when I saw her leave the house the last time."]
-    138_0 --> 138_1
-    138_1 --> 138_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Ben** |  | ➡️ `1` \[Ben: Agreed\!\] |
+| `1` | **Ben** | Agreed\! | ➡️ `2` \[Ben: I don't know when I saw her leave the house the la\.\.\.\] |
+| `2` | **Ben** | I don't know when I saw her leave the house the last time\. | End |

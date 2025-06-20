@@ -1,13 +1,13 @@
-# Characters/Nicolai
+---
+title: Nicolai
+---
+
+# Nicolai
 
 
-```mermaid
-graph TD
-    345_0["Actor_345"]
-    345_1["Actor_345: Sometimes it feels like I'm doing the same thing every day."]
-    345_2["Actor_345: Yup."]
-    345_3["Actor_345: It's still there."]
-    345_0 --> 345_1
-    345_0 --> 345_2
-    345_2 --> 345_3
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Nicolai** |  | ➡️ `1` \[Nicolai: Sometimes it feels like I'm doing the same thing e\.\.\.\]<br>➡️ `2` \[Nicolai: Yup\.\] |
+| `1` | **Nicolai** | Sometimes it feels like I'm doing the same thing every day\. | End |
+| `2` | **Nicolai** | Yup\. | ➡️ `3` \[Nicolai: It's still there\.\] |
+| `3` | **Nicolai** | It's still there\. | End |

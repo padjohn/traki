@@ -1,35 +1,24 @@
-# Characters/Serval
+---
+title: Serval
+---
+
+# Serval
 
 
-```mermaid
-graph TD
-    396_0["Actor_397"]
-    396_1["Actor_397: Are you okay, my lady?"]
-    396_2["Actor_192: I'm alright."]
-    396_3["Actor_192: Just a bit dizzy from the trip."]
-    396_4["Actor_192: Let's get the custom's procedure over with."]
-    396_5["Actor_397: Right away, my lady."]
-    396_6["Actor_397: Good day, sir."]
-    396_7["Actor_397: Good day, sir."]
-    396_8["Actor_397: Are you okay, my lady?"]
-    396_9["Actor_192: I'm alright."]
-    396_10["Actor_192: Just a bit dizzy from the trip."]
-    396_11["Actor_192: Let's get the custom's procedure over with."]
-    396_12["Actor_397: Right away, my lady."]
-    396_13["Actor_397: Good day, sir."]
-    396_14["Actor_397: Good day, sir."]
-    396_0 --> 396_1
-    396_1 --> 396_2
-    396_2 --> 396_3
-    396_3 --> 396_4
-    396_4 --> 396_5
-    396_5 --> 396_6
-    396_6 --> 396_7
-    396_7 --> 396_8
-    396_8 --> 396_9
-    396_9 --> 396_10
-    396_10 --> 396_11
-    396_11 --> 396_12
-    396_12 --> 396_13
-    396_13 --> 396_14
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Serval** |  | ➡️ `1` \[Serval: Are you okay, my lady?\] |
+| `1` | **Serval** | Are you okay, my lady? | ➡️ `2` \[Elena: I'm alright\.\] |
+| `2` | **Elena** | I'm alright\. | ➡️ `3` \[Elena: Just a bit dizzy from the trip\.\] |
+| `3` | **Elena** | Just a bit dizzy from the trip\. | ➡️ `4` \[Elena: Let's get the custom's procedure over with\.\] |
+| `4` | **Elena** | Let's get the custom's procedure over with\. | ➡️ `5` \[Serval: Right away, my lady\.\] |
+| `5` | **Serval** | Right away, my lady\. | ➡️ `6` \[Serval: Good day, sir\.\] |
+| `6` | **Serval** | Good day, sir\. | ➡️ `7` \[Serval: Good day, sir\.\] |
+| `7` | **Serval** | Good day, sir\. | ➡️ `8` \[Serval: Are you okay, my lady?\] |
+| `8` | **Serval** | Are you okay, my lady? | ➡️ `9` \[Elena: I'm alright\.\] |
+| `9` | **Elena** | I'm alright\. | ➡️ `10` \[Elena: Just a bit dizzy from the trip\.\] |
+| `10` | **Elena** | Just a bit dizzy from the trip\. | ➡️ `11` \[Elena: Let's get the custom's procedure over with\.\] |
+| `11` | **Elena** | Let's get the custom's procedure over with\. | ➡️ `12` \[Serval: Right away, my lady\.\] |
+| `12` | **Serval** | Right away, my lady\. | ➡️ `13` \[Serval: Good day, sir\.\] |
+| `13` | **Serval** | Good day, sir\. | ➡️ `14` \[Serval: Good day, sir\.\] |
+| `14` | **Serval** | Good day, sir\. | End |

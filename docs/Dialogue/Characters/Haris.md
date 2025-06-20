@@ -1,11 +1,12 @@
-# Characters/Haris
+---
+title: Haris
+---
+
+# Haris
 
 
-```mermaid
-graph TD
-    240_0["Actor_237"]
-    240_1["Actor_237: Right."]
-    240_2["Actor_237: I just hope there won't be any more bloodshed."]
-    240_0 --> 240_1
-    240_1 --> 240_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Haris** |  | ➡️ `1` \[Haris: Right\.\] |
+| `1` | **Haris** | Right\. | ➡️ `2` \[Haris: I just hope there won't be any more bloodshed\.\] |
+| `2` | **Haris** | I just hope there won't be any more bloodshed\. | End |

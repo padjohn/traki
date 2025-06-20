@@ -1,51 +1,32 @@
-# Characters/Darius
+---
+title: Darius
+---
+
+# Darius
 
 
-```mermaid
-graph TD
-    171_0["Actor_171"]
-    171_1["Actor_171: Are you serious?"]
-    171_2["Actor_171: I can't just wait 'a few days'!"]
-    171_3["Actor_171: There's a market of people eager to buy over there, AND the biggest festival of the year coming up!"]
-    171_4["Actor_171: I got some A-class souvenirs and if people can't take it with them when they go home..."]
-    171_5["Actor_171: I'm not one to say, but you might have a riot on your hands."]
-    171_6["Actor_260: Now... I'm gonna pretend I didn't hear that."]
-    171_7["Actor_260: Please check in with the custom's office if you have any complaints."]
-    171_8["Actor_171: FINE!"]
-    171_9["Actor_171: Don't say I didn't warn you!"]
-    171_10["Actor_171: Are you serious?"]
-    171_11["Actor_171: I can't just wait 'a few days'!"]
-    171_12["Actor_171: There's a market of people eager to buy over there, AND the biggest festival of the year coming up!"]
-    171_13["Actor_171: I got some A-class souvenirs and if people can't take it with them when they go home..."]
-    171_14["Actor_171: I'm not one to say, but you might have a riot on your hands."]
-    171_15["Actor_149: Now... I'm gonna pretend I didn't hear that."]
-    171_16["Actor_149: Please check in with the custom's office if you have any complaints."]
-    171_17["Actor_171: FINE!"]
-    171_18["Actor_171: Don't say I didn't warn you!"]
-    171_19["Actor_171: Bunch of imbeciles, all of them..."]
-    171_20["Actor_171: Bunch of imbeciles, all of them..."]
-    171_21["Actor_183: I'm moving up the ranks, baby!"]
-    171_22["Actor_183: I'm moving up the ranks, baby!"]
-    171_0 --> 171_1
-    171_0 --> 171_19
-    171_0 --> 171_21
-    171_0 --> 171_22
-    171_1 --> 171_2
-    171_2 --> 171_3
-    171_3 --> 171_4
-    171_4 --> 171_5
-    171_5 --> 171_6
-    171_6 --> 171_7
-    171_7 --> 171_8
-    171_8 --> 171_9
-    171_9 --> 171_10
-    171_10 --> 171_11
-    171_11 --> 171_12
-    171_12 --> 171_13
-    171_13 --> 171_14
-    171_14 --> 171_15
-    171_15 --> 171_16
-    171_16 --> 171_17
-    171_17 --> 171_18
-    171_19 --> 171_20
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Darius** |  | ➡️ `1` \[Darius: Are you serious?\]<br>➡️ `19` \[Darius: Bunch of imbeciles, all of them\.\.\.\]<br>➡️ `21` \[Diogo: I'm moving up the ranks, baby\!\]<br>➡️ `22` \[Diogo: I'm moving up the ranks, baby\!\] |
+| `1` | **Darius** | Are you serious? | ➡️ `2` \[Darius: I can't just wait 'a few days'\!\] |
+| `2` | **Darius** | I can't just wait 'a few days'\! | ➡️ `3` \[Darius: There's a market of people eager to buy over there\.\.\.\] |
+| `3` | **Darius** | There's a market of people eager to buy over there, AND the biggest festival of the year coming up\! | ➡️ `4` \[Darius: I got some A\-class souvenirs and if people can't t\.\.\.\] |
+| `4` | **Darius** | I got some A\-class souvenirs and if people can't take it with them when they go home\.\.\. | ➡️ `5` \[Darius: I'm not one to say, but you might have a riot on y\.\.\.\] |
+| `5` | **Darius** | I'm not one to say, but you might have a riot on your hands\. | ➡️ `6` \[Jelka: Now\.\.\. I'm gonna pretend I didn't hear that\.\] |
+| `6` | **Jelka** | Now\.\.\. I'm gonna pretend I didn't hear that\. | ➡️ `7` \[Jelka: Please check in with the custom's office if you ha\.\.\.\] |
+| `7` | **Jelka** | Please check in with the custom's office if you have any complaints\. | ➡️ `8` \[Darius: FINE\!\] |
+| `8` | **Darius** | FINE\! | ➡️ `9` \[Darius: Don't say I didn't warn you\!\] |
+| `9` | **Darius** | Don't say I didn't warn you\! | ➡️ `10` \[Darius: Are you serious?\] |
+| `10` | **Darius** | Are you serious? | ➡️ `11` \[Darius: I can't just wait 'a few days'\!\] |
+| `11` | **Darius** | I can't just wait 'a few days'\! | ➡️ `12` \[Darius: There's a market of people eager to buy over there\.\.\.\] |
+| `12` | **Darius** | There's a market of people eager to buy over there, AND the biggest festival of the year coming up\! | ➡️ `13` \[Darius: I got some A\-class souvenirs and if people can't t\.\.\.\] |
+| `13` | **Darius** | I got some A\-class souvenirs and if people can't take it with them when they go home\.\.\. | ➡️ `14` \[Darius: I'm not one to say, but you might have a riot on y\.\.\.\] |
+| `14` | **Darius** | I'm not one to say, but you might have a riot on your hands\. | ➡️ `15` \[Clemens: Now\.\.\. I'm gonna pretend I didn't hear that\.\] |
+| `15` | **Clemens** | Now\.\.\. I'm gonna pretend I didn't hear that\. | ➡️ `16` \[Clemens: Please check in with the custom's office if you ha\.\.\.\] |
+| `16` | **Clemens** | Please check in with the custom's office if you have any complaints\. | ➡️ `17` \[Darius: FINE\!\] |
+| `17` | **Darius** | FINE\! | ➡️ `18` \[Darius: Don't say I didn't warn you\!\] |
+| `18` | **Darius** | Don't say I didn't warn you\! | End |
+| `19` | **Darius** | Bunch of imbeciles, all of them\.\.\. | ➡️ `20` \[Darius: Bunch of imbeciles, all of them\.\.\.\] |
+| `20` | **Darius** | Bunch of imbeciles, all of them\.\.\. | End |
+| `21` | **Diogo** | I'm moving up the ranks, baby\! | End |
+| `22` | **Diogo** | I'm moving up the ranks, baby\! | End |

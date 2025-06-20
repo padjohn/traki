@@ -1,6 +1,9 @@
-# Characters/Manfred
+---
+title: Manfred
+---
+
+# Manfred
 
 
-```mermaid
-graph TD
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |

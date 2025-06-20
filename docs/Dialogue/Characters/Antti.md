@@ -1,13 +1,13 @@
-# Characters/Antti
+---
+title: Antti
+---
+
+# Antti
 
 
-```mermaid
-graph TD
-    121_0["Actor_116"]
-    121_1["Actor_116: Sorry sir, only authorized personnel allowed."]
-    121_2["Actor_116: Hey there."]
-    121_3["Actor_116: Get out of here."]
-    121_0 --> 121_1
-    121_0 --> 121_2
-    121_0 --> 121_3
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Antti** |  | ➡️ `1` \[Antti: Sorry sir, only authorized personnel allowed\.\]<br>➡️ `2` \[Antti: Hey there\.\]<br>➡️ `3` \[Antti: Get out of here\.\] |
+| `1` | **Antti** | Sorry sir, only authorized personnel allowed\. | End |
+| `2` | **Antti** | Hey there\. | End |
+| `3` | **Antti** | Get out of here\. | End |

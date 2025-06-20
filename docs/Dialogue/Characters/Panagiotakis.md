@@ -1,9 +1,11 @@
-# Characters/Panagiotakis
+---
+title: Panagiotakis
+---
+
+# Panagiotakis
 
 
-```mermaid
-graph TD
-    355_0["Actor_355"]
-    355_1["Actor_355: No entry for civilians."]
-    355_0 --> 355_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Panagiotakis** |  | ➡️ `1` \[Panagiotakis: No entry for civilians\.\] |
+| `1` | **Panagiotakis** | No entry for civilians\. | End |

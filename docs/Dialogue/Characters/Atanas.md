@@ -1,9 +1,11 @@
-# Characters/Atanas
+---
+title: Atanas
+---
+
+# Atanas
 
 
-```mermaid
-graph TD
-    132_0["Actor_94"]
-    132_1["Actor_94: High road and Ribon Alley succesfully secured, sir!"]
-    132_0 --> 132_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Atanas** |  | ➡️ `1` \[Atanas: High road and Ribon Alley succesfully secured, sir\.\.\.\] |
+| `1` | **Atanas** | High road and Ribon Alley succesfully secured, sir\! | End |

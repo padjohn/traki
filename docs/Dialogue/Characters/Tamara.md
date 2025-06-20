@@ -1,6 +1,9 @@
-# Characters/Tamara
+---
+title: Tamara
+---
+
+# Tamara
 
 
-```mermaid
-graph TD
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |

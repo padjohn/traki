@@ -1,9 +1,11 @@
-# Characters/Gun
+---
+title: Gun
+---
+
+# Gun
 
 
-```mermaid
-graph TD
-    235_0["Actor_232"]
-    235_1["Actor_232: Man, I sure hope Mark's alright."]
-    235_0 --> 235_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Gun** |  | ➡️ `1` \[Gun: Man, I sure hope Mark's alright\.\] |
+| `1` | **Gun** | Man, I sure hope Mark's alright\. | End |

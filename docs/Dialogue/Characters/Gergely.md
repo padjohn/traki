@@ -1,11 +1,12 @@
-# Characters/Gergely
+---
+title: Gergely
+---
+
+# Gergely
 
 
-```mermaid
-graph TD
-    227_0["Actor_226"]
-    227_1["Actor_226: Honestly, I'm not so sure."]
-    227_2["Actor_226: Some people are saying that the Ionians have these guys by their balls."]
-    227_0 --> 227_1
-    227_1 --> 227_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Gergely** |  | ➡️ `1` \[Gergely: Honestly, I'm not so sure\.\] |
+| `1` | **Gergely** | Honestly, I'm not so sure\. | ➡️ `2` \[Gergely: Some people are saying that the Ionians have these\.\.\.\] |
+| `2` | **Gergely** | Some people are saying that the Ionians have these guys by their balls\. | End |

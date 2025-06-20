@@ -1,6 +1,9 @@
-# Characters/Vangel
+---
+title: Vangel
+---
+
+# Vangel
 
 
-```mermaid
-graph TD
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |

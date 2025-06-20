@@ -1,13 +1,13 @@
-# Characters/Eulalia
+---
+title: Eulalia
+---
+
+# Eulalia
 
 
-```mermaid
-graph TD
-    203_0["Actor_203"]
-    203_1["Actor_203: Really?"]
-    203_2["Actor_203: That's so unlike him..."]
-    203_3["Actor_203: I hope he's alright."]
-    203_0 --> 203_1
-    203_1 --> 203_2
-    203_2 --> 203_3
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Eulalia** |  | ➡️ `1` \[Eulalia: Really?\] |
+| `1` | **Eulalia** | Really? | ➡️ `2` \[Eulalia: That's so unlike him\.\.\.\] |
+| `2` | **Eulalia** | That's so unlike him\.\.\. | ➡️ `3` \[Eulalia: I hope he's alright\.\] |
+| `3` | **Eulalia** | I hope he's alright\. | End |

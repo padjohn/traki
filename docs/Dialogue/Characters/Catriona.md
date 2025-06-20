@@ -1,11 +1,12 @@
-# Characters/Catriona
+---
+title: Catriona
+---
+
+# Catriona
 
 
-```mermaid
-graph TD
-    148_0["Actor_144"]
-    148_1["Actor_144: I knew we should've taken them with us..."]
-    148_2["Actor_144: Will we ever be able to go home?"]
-    148_0 --> 148_1
-    148_0 --> 148_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Catriona** |  | ➡️ `1` \[Catriona: I knew we should've taken them with us\.\.\.\]<br>➡️ `2` \[Catriona: Will we ever be able to go home?\] |
+| `1` | **Catriona** | I knew we should've taken them with us\.\.\. | End |
+| `2` | **Catriona** | Will we ever be able to go home? | End |

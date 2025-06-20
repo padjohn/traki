@@ -1,11 +1,12 @@
-# Characters/Sergei
+---
+title: Sergei
+---
+
+# Sergei
 
 
-```mermaid
-graph TD
-    393_0["Actor_394"]
-    393_1["Actor_394: You know what they say about the Trachian markets, right?"]
-    393_2["Actor_394: Neither do I."]
-    393_0 --> 393_1
-    393_1 --> 393_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Sergei** |  | ➡️ `1` \[Sergei: You know what they say about the Trachian markets,\.\.\.\] |
+| `1` | **Sergei** | You know what they say about the Trachian markets, right? | ➡️ `2` \[Sergei: Neither do I\.\] |
+| `2` | **Sergei** | Neither do I\. | End |

@@ -1,9 +1,11 @@
-# Characters/Ljiljana
+---
+title: Ljiljana
+---
+
+# Ljiljana
 
 
-```mermaid
-graph TD
-    300_0["Actor_302"]
-    300_1["Actor_302: I could stand here all day!"]
-    300_0 --> 300_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Ljiljana** |  | ➡️ `1` \[Ljiljana: I could stand here all day\!\] |
+| `1` | **Ljiljana** | I could stand here all day\! | End |

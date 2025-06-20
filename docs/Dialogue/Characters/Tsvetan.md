@@ -1,11 +1,12 @@
-# Characters/Tsvetan
+---
+title: Tsvetan
+---
+
+# Tsvetan
 
 
-```mermaid
-graph TD
-    422_0["Actor_424"]
-    422_1["Actor_424: I don't know who tipped us off."]
-    422_2["Actor_424: But some guys are saying that the notice came from one of Amryn's people."]
-    422_0 --> 422_1
-    422_1 --> 422_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Tsvetan** |  | ➡️ `1` \[Tsvetan: I don't know who tipped us off\.\] |
+| `1` | **Tsvetan** | I don't know who tipped us off\. | ➡️ `2` \[Tsvetan: But some guys are saying that the notice came from\.\.\.\] |
+| `2` | **Tsvetan** | But some guys are saying that the notice came from one of Amryn's people\. | End |

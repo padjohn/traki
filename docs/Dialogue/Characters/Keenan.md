@@ -1,11 +1,12 @@
-# Characters/Keenan
+---
+title: Keenan
+---
+
+# Keenan
 
 
-```mermaid
-graph TD
-    278_0["Actor_274"]
-    278_1["Actor_274: Apologies for the inconvenience!"]
-    278_2["Actor_274: Apologies for the inconvenience!"]
-    278_0 --> 278_1
-    278_0 --> 278_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Keenan** |  | ➡️ `1` \[Keenan: Apologies for the inconvenience\!\]<br>➡️ `2` \[Keenan: Apologies for the inconvenience\!\] |
+| `1` | **Keenan** | Apologies for the inconvenience\! | End |
+| `2` | **Keenan** | Apologies for the inconvenience\! | End |

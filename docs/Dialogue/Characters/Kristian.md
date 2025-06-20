@@ -1,9 +1,11 @@
-# Characters/Kristian
+---
+title: Kristian
+---
+
+# Kristian
 
 
-```mermaid
-graph TD
-    287_0["Actor_285"]
-    287_1["Actor_285: Don't cause any trouble."]
-    287_0 --> 287_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Kristian** |  | ➡️ `1` \[Kristian: Don't cause any trouble\.\] |
+| `1` | **Kristian** | Don't cause any trouble\. | End |

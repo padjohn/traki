@@ -1,9 +1,11 @@
-# Characters/Ervin
+---
+title: Ervin
+---
+
+# Ervin
 
 
-```mermaid
-graph TD
-    202_0["Actor_202"]
-    202_1["Actor_202: Stay on your toes, citizen."]
-    202_0 --> 202_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Ervin** |  | ➡️ `1` \[Ervin: Stay on your toes, citizen\.\] |
+| `1` | **Ervin** | Stay on your toes, citizen\. | End |

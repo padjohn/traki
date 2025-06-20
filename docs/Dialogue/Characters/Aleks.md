@@ -1,11 +1,12 @@
-# Characters/Aleks
+---
+title: Aleks
+---
+
+# Aleks
 
 
-```mermaid
-graph TD
-    110_0["Actor_104"]
-    110_1["Actor_104: ..."]
-    110_2["Actor_104: What a piece of shit..."]
-    110_0 --> 110_1
-    110_0 --> 110_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Aleks** |  | ➡️ `1` \[Aleks: \.\.\.\]<br>➡️ `2` \[Aleks: What a piece of shit\.\.\.\] |
+| `1` | **Aleks** | \.\.\. | End |
+| `2` | **Aleks** | What a piece of shit\.\.\. | End |

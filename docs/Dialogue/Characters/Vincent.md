@@ -1,6 +1,9 @@
-# Characters/Vincent
+---
+title: Vincent
+---
+
+# Vincent
 
 
-```mermaid
-graph TD
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |

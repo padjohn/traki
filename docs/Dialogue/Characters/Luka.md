@@ -1,9 +1,11 @@
-# Characters/Luka
+---
+title: Luka
+---
+
+# Luka
 
 
-```mermaid
-graph TD
-    306_0["Actor_307"]
-    306_1["Actor_307: Move along."]
-    306_0 --> 306_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Luka** |  | ➡️ `1` \[Luka: Move along\.\] |
+| `1` | **Luka** | Move along\. | End |

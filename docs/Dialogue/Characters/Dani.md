@@ -1,11 +1,12 @@
-# Characters/Dani
+---
+title: Dani
+---
+
+# Dani
 
 
-```mermaid
-graph TD
-    167_0["Actor_165"]
-    167_1["Actor_165: Nah, man."]
-    167_2["Actor_165: They don't got the numbers."]
-    167_0 --> 167_1
-    167_1 --> 167_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Dani** |  | ➡️ `1` \[Dani: Nah, man\.\] |
+| `1` | **Dani** | Nah, man\. | ➡️ `2` \[Dani: They don't got the numbers\.\] |
+| `2` | **Dani** | They don't got the numbers\. | End |

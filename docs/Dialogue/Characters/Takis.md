@@ -1,9 +1,11 @@
-# Characters/Takis
+---
+title: Takis
+---
+
+# Takis
 
 
-```mermaid
-graph TD
-    411_0["Actor_414"]
-    411_1["Actor_414: Keep your distance, please."]
-    411_0 --> 411_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Takis** |  | ➡️ `1` \[Takis: Keep your distance, please\.\] |
+| `1` | **Takis** | Keep your distance, please\. | End |

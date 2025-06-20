@@ -1,11 +1,12 @@
-# Characters/Tarik
+---
+title: Tarik
+---
+
+# Tarik
 
 
-```mermaid
-graph TD
-    413_0["Actor_74"]
-    413_1["Actor_74: And I'm telling you..."]
-    413_2["Actor_74: That we don't have any space left in there."]
-    413_0 --> 413_1
-    413_1 --> 413_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Tarik** |  | ➡️ `1` \[Tarik: And I'm telling you\.\.\.\] |
+| `1` | **Tarik** | And I'm telling you\.\.\. | ➡️ `2` \[Tarik: That we don't have any space left in there\.\] |
+| `2` | **Tarik** | That we don't have any space left in there\. | End |

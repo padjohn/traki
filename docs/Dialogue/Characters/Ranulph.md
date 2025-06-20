@@ -1,11 +1,12 @@
-# Characters/Ranulph
+---
+title: Ranulph
+---
+
+# Ranulph
 
 
-```mermaid
-graph TD
-    373_0["Actor_373"]
-    373_1["Actor_373: Sorry, sir!"]
-    373_2["Actor_373: The bridge is temporarily closed."]
-    373_0 --> 373_1
-    373_1 --> 373_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Ranulph** |  | ➡️ `1` \[Ranulph: Sorry, sir\!\] |
+| `1` | **Ranulph** | Sorry, sir\! | ➡️ `2` \[Ranulph: The bridge is temporarily closed\.\] |
+| `2` | **Ranulph** | The bridge is temporarily closed\. | End |

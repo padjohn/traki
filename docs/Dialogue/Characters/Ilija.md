@@ -1,7 +1,10 @@
-# Characters/Ilija
+---
+title: Ilija
+---
+
+# Ilija
 
 
-```mermaid
-graph TD
-    253_0["Actor_250"]
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Ilija** |  | End |

@@ -1,6 +1,9 @@
-# Characters/Elena
+---
+title: Elena
+---
+
+# Elena
 
 
-```mermaid
-graph TD
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |

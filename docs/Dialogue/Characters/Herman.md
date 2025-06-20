@@ -1,9 +1,11 @@
-# Characters/Herman
+---
+title: Herman
+---
+
+# Herman
 
 
-```mermaid
-graph TD
-    246_0["Actor_244"]
-    246_1["Actor_244: Sorry Sir, no entry from this side."]
-    246_0 --> 246_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Herman** |  | ➡️ `1` \[Herman: Sorry Sir, no entry from this side\.\] |
+| `1` | **Herman** | Sorry Sir, no entry from this side\. | End |

@@ -1,17 +1,15 @@
-# Characters/Sofia
+---
+title: Sofia
+---
+
+# Sofia
 
 
-```mermaid
-graph TD
-    402_0["Actor_403"]
-    402_1["Actor_403: Oh, I saw them too!"]
-    402_2["Actor_403: It broke down in the middle of the street, yesterday."]
-    402_3["Actor_403: You should have seen them!"]
-    402_4["Actor_403: You should have seen them!"]
-    402_5["Actor_403: They were furious!"]
-    402_0 --> 402_1
-    402_0 --> 402_4
-    402_1 --> 402_2
-    402_2 --> 402_3
-    402_4 --> 402_5
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Sofia** |  | ➡️ `1` \[Sofia: Oh, I saw them too\!\]<br>➡️ `4` \[Sofia: You should have seen them\!\] |
+| `1` | **Sofia** | Oh, I saw them too\! | ➡️ `2` \[Sofia: It broke down in the middle of the street, yesterd\.\.\.\] |
+| `2` | **Sofia** | It broke down in the middle of the street, yesterday\. | ➡️ `3` \[Sofia: You should have seen them\!\] |
+| `3` | **Sofia** | You should have seen them\! | End |
+| `4` | **Sofia** | You should have seen them\! | ➡️ `5` \[Sofia: They were furious\!\] |
+| `5` | **Sofia** | They were furious\! | End |

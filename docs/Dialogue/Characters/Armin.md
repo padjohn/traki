@@ -1,11 +1,12 @@
-# Characters/Armin
+---
+title: Armin
+---
+
+# Armin
 
 
-```mermaid
-graph TD
-    125_0["Actor_121"]
-    125_1["Actor_121: Would you look at that ornamentation!"]
-    125_2["Actor_121: Simply magnificent!"]
-    125_0 --> 125_1
-    125_1 --> 125_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Armin** |  | ➡️ `1` \[Armin: Would you look at that ornamentation\!\] |
+| `1` | **Armin** | Would you look at that ornamentation\! | ➡️ `2` \[Armin: Simply magnificent\!\] |
+| `2` | **Armin** | Simply magnificent\! | End |

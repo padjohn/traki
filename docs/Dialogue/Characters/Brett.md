@@ -1,13 +1,13 @@
-# Characters/Brett
+---
+title: Brett
+---
+
+# Brett
 
 
-```mermaid
-graph TD
-    145_0["Actor_141"]
-    145_1["Actor_141: Yea, I heard so too."]
-    145_2["Actor_141: Though you know how much people like to gossip about these kind of things."]
-    145_3["Actor_141: Whatever might or might not happen, there's nowhere to run, anyway."]
-    145_0 --> 145_1
-    145_0 --> 145_3
-    145_1 --> 145_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Brett** |  | ➡️ `1` \[Brett: Yea, I heard so too\.\]<br>➡️ `3` \[Brett: Whatever might or might not happen, there's nowher\.\.\.\] |
+| `1` | **Brett** | Yea, I heard so too\. | ➡️ `2` \[Brett: Though you know how much people like to gossip abo\.\.\.\] |
+| `2` | **Brett** | Though you know how much people like to gossip about these kind of things\. | End |
+| `3` | **Brett** | Whatever might or might not happen, there's nowhere to run, anyway\. | End |

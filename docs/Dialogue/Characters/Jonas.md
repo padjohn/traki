@@ -1,13 +1,13 @@
-# Characters/Jonas
+---
+title: Jonas
+---
+
+# Jonas
 
 
-```mermaid
-graph TD
-    267_0["Actor_264"]
-    267_1["Actor_264: Please calm down, sir."]
-    267_2["Actor_130: This is ridiculous!"]
-    267_3["Actor_130: I have an appointment in Trachi at six o' clock, damn you!"]
-    267_0 --> 267_1
-    267_1 --> 267_2
-    267_2 --> 267_3
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Jonas** |  | ➡️ `1` \[Jonas: Please calm down, sir\.\] |
+| `1` | **Jonas** | Please calm down, sir\. | ➡️ `2` \[Bartolomeu: This is ridiculous\!\] |
+| `2` | **Bartolomeu** | This is ridiculous\! | ➡️ `3` \[Bartolomeu: I have an appointment in Trachi at six o' clock, d\.\.\.\] |
+| `3` | **Bartolomeu** | I have an appointment in Trachi at six o' clock, damn you\! | End |

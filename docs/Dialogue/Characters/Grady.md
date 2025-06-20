@@ -1,13 +1,13 @@
-# Characters/Grady
+---
+title: Grady
+---
+
+# Grady
 
 
-```mermaid
-graph TD
-    231_0["Actor_230"]
-    231_1["Actor_230: My cousin was supposed to arrive an hour ago..."]
-    231_2["Actor_230: Yeah, some people even tried to swim through the river, out of desperation."]
-    231_3["Actor_230: Can you believe that?"]
-    231_0 --> 231_1
-    231_0 --> 231_2
-    231_2 --> 231_3
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Grady** |  | ➡️ `1` \[Grady: My cousin was supposed to arrive an hour ago\.\.\.\]<br>➡️ `2` \[Grady: Yeah, some people even tried to swim through the r\.\.\.\] |
+| `1` | **Grady** | My cousin was supposed to arrive an hour ago\.\.\. | End |
+| `2` | **Grady** | Yeah, some people even tried to swim through the river, out of desperation\. | ➡️ `3` \[Grady: Can you believe that?\] |
+| `3` | **Grady** | Can you believe that? | End |

@@ -1,21 +1,17 @@
-# Characters/Natasza
+---
+title: Natasza
+---
+
+# Natasza
 
 
-```mermaid
-graph TD
-    341_0["Actor_341"]
-    341_1["Actor_341: Don't you hate tourists, as well?"]
-    341_2["Actor_341: Only eyes for the big attractions."]
-    341_3["Actor_341: For me, it's all about these little alleys and their cute little shops!"]
-    341_4["Actor_341: Tsk."]
-    341_5["Actor_341: I hate tourists."]
-    341_6["Actor_341: You're with me on this, right?"]
-    341_7["Actor_341: It's time for change."]
-    341_0 --> 341_1
-    341_0 --> 341_3
-    341_0 --> 341_4
-    341_0 --> 341_6
-    341_0 --> 341_7
-    341_1 --> 341_2
-    341_4 --> 341_5
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Natasza** |  | ➡️ `1` \[Natasza: Don't you hate tourists, as well?\]<br>➡️ `3` \[Natasza: For me, it's all about these little alleys and the\.\.\.\]<br>➡️ `4` \[Natasza: Tsk\.\]<br>➡️ `6` \[Natasza: You're with me on this, right?\]<br>➡️ `7` \[Natasza: It's time for change\.\] |
+| `1` | **Natasza** | Don't you hate tourists, as well? | ➡️ `2` \[Natasza: Only eyes for the big attractions\.\] |
+| `2` | **Natasza** | Only eyes for the big attractions\. | End |
+| `3` | **Natasza** | For me, it's all about these little alleys and their cute little shops\! | End |
+| `4` | **Natasza** | Tsk\. | ➡️ `5` \[Natasza: I hate tourists\.\] |
+| `5` | **Natasza** | I hate tourists\. | End |
+| `6` | **Natasza** | You're with me on this, right? | End |
+| `7` | **Natasza** | It's time for change\. | End |

@@ -1,11 +1,12 @@
-# Characters/Crt
+---
+title: Crt
+---
+
+# Crt
 
 
-```mermaid
-graph TD
-    164_0["Actor_160"]
-    164_1["Actor_160: Fuck the Guardies. Fuck Faber. Fuck Amryn. Fuck everyone who's not on our side."]
-    164_2["Actor_160: Fuck Faber. Fuck the Guardies. Fuck Amryn. Fuck everyone who's not on our side."]
-    164_0 --> 164_1
-    164_1 --> 164_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Crt** |  | ➡️ `1` \[Crt: Fuck the Guardies\. Fuck Faber\. Fuck Amryn\. Fuck ev\.\.\.\] |
+| `1` | **Crt** | Fuck the Guardies\. Fuck Faber\. Fuck Amryn\. Fuck everyone who's not on our side\. | ➡️ `2` \[Crt: Fuck Faber\. Fuck the Guardies\. Fuck Amryn\. Fuck ev\.\.\.\] |
+| `2` | **Crt** | Fuck Faber\. Fuck the Guardies\. Fuck Amryn\. Fuck everyone who's not on our side\. | End |

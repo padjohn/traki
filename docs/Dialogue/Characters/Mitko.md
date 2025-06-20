@@ -1,9 +1,11 @@
-# Characters/Mitko
+---
+title: Mitko
+---
+
+# Mitko
 
 
-```mermaid
-graph TD
-    339_0["Actor_95"]
-    339_1["Actor_95: This road is temporarily closed."]
-    339_0 --> 339_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Mitko** |  | ➡️ `1` \[Mitko: This road is temporarily closed\.\] |
+| `1` | **Mitko** | This road is temporarily closed\. | End |

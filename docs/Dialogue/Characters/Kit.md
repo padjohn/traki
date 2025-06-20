@@ -1,9 +1,11 @@
-# Characters/Kit
+---
+title: Kit
+---
+
+# Kit
 
 
-```mermaid
-graph TD
-    282_0["Actor_279"]
-    282_1["Actor_279: Man, these guys sure like to take their time."]
-    282_0 --> 282_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Kit** |  | ➡️ `1` \[Kit: Man, these guys sure like to take their time\.\] |
+| `1` | **Kit** | Man, these guys sure like to take their time\. | End |

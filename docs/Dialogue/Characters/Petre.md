@@ -1,6 +1,9 @@
-# Characters/Petre
+---
+title: Petre
+---
+
+# Petre
 
 
-```mermaid
-graph TD
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |

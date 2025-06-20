@@ -1,73 +1,40 @@
-# ATOPIA/Bark/Provoke
+---
+title: Provoke
+---
+
+# Provoke
 
 
-```mermaid
-graph TD
-    26_0["Actor_9"]
-    26_2["Actor_9: Eat shit."]
-    26_3["Actor_10: Watch me."]
-    26_4["Actor_9: Ganymede"]
-    26_5["Actor_10: Daphne"]
-    26_6["Actor_10: Trojan whore."]
-    26_10["Actor_10: Get some."]
-    26_11["Actor_10: P1"]
-    26_17["Actor_10: P1"]
-    26_19["Actor_10: P2"]
-    26_20["Actor_10: P3"]
-    26_21["Actor_10: P4"]
-    26_22["Actor_10: P5"]
-    26_23["Actor_10: P6"]
-    26_33["Actor_10: Goodbye."]
-    26_34["Actor_10: Cease."]
-    26_35["Actor_10: See you."]
-    26_36["Actor_10: Enough."]
-    26_37["Actor_10: Freeloader."]
-    26_38["Actor_10: Parasite."]
-    26_39["Actor_10: Die."]
-    26_40["Actor_10: Clown."]
-    26_41["Actor_10: Another one."]
-    26_42["Actor_10: Asshole."]
-    26_44["Actor_10: Catamite."]
-    26_48["Actor_10: Timotej!"]
-    26_49["Actor_10: Timo."]
-    26_52["Actor_10: Traitor."]
-    26_53["Actor_10: Idiot."]
-    26_54["Actor_10: Idiot."]
-    26_57["Actor_10: Half-breed."]
-    26_58["Actor_10: Bastard."]
-    26_0 --> 26_4
-    26_0 --> 26_5
-    26_4 --> 26_11
-    26_5 --> 26_17
-    26_5 --> 26_19
-    26_5 --> 26_20
-    26_5 --> 26_21
-    26_5 --> 26_22
-    26_5 --> 26_23
-    26_17 --> 26_10
-    26_19 --> 26_3
-    26_19 --> 26_35
-    26_19 --> 26_39
-    26_19 --> 26_44
-    26_19 --> 26_52
-    26_20 --> 26_34
-    26_20 --> 26_37
-    26_20 --> 26_40
-    26_20 --> 26_53
-    26_20 --> 26_57
-    26_20 --> 26_3
-    26_20 --> 26_35
-    26_20 --> 26_39
-    26_20 --> 26_44
-    26_20 --> 26_52
-    26_21 --> 26_36
-    26_21 --> 26_48
-    26_21 --> 26_38
-    26_21 --> 26_54
-    26_21 --> 26_58
-    26_22 --> 26_6
-    26_22 --> 26_41
-    26_22 --> 26_42
-    26_22 --> 26_49
-    26_23 --> 26_33
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Ganymede** |  | ➡️ `4` \[Ganymede: Ganymede\]<br>➡️ `5` \[Daphne: Daphne\] |
+| `3` | **Daphne** | Watch me\. | End |
+| `4` | **Ganymede** | Ganymede | ➡️ `11` \[Daphne: P1\] |
+| `5` | **Daphne** | Daphne | ➡️ `17` \[Daphne: P1\]<br>➡️ `19` \[Daphne: P2\]<br>➡️ `20` \[Daphne: P3\]<br>➡️ `21` \[Daphne: P4\]<br>➡️ `22` \[Daphne: P5\]<br>➡️ `23` \[Daphne: P6\] |
+| `6` | **Daphne** | Trojan whore\. | End |
+| `10` | **Daphne** | Get some\. | End |
+| `11` | **Daphne** | P1 | End |
+| `17` | **Daphne** | P1 | ➡️ `10` \[Daphne: Get some\.\] |
+| `19` | **Daphne** | P2 | ➡️ `3` \[Daphne: Watch me\.\]<br>➡️ `35` \[Daphne: See you\.\]<br>➡️ `39` \[Daphne: Die\.\]<br>➡️ `44` \[Daphne: Catamite\.\]<br>➡️ `52` \[Daphne: Traitor\.\] |
+| `20` | **Daphne** | P3 | ➡️ `34` \[Daphne: Cease\.\]<br>➡️ `37` \[Daphne: Freeloader\.\]<br>➡️ `40` \[Daphne: Clown\.\]<br>➡️ `53` \[Daphne: Idiot\.\]<br>➡️ `57` \[Daphne: Half\-breed\.\]<br>➡️ `3` \[Daphne: Watch me\.\]<br>➡️ `35` \[Daphne: See you\.\]<br>➡️ `39` \[Daphne: Die\.\]<br>➡️ `44` \[Daphne: Catamite\.\]<br>➡️ `52` \[Daphne: Traitor\.\] |
+| `21` | **Daphne** | P4 | ➡️ `36` \[Daphne: Enough\.\]<br>➡️ `48` \[Daphne: Timotej\!\]<br>➡️ `38` \[Daphne: Parasite\.\]<br>➡️ `54` \[Daphne: Idiot\.\]<br>➡️ `58` \[Daphne: Bastard\.\] |
+| `22` | **Daphne** | P5 | ➡️ `6` \[Daphne: Trojan whore\.\]<br>➡️ `41` \[Daphne: Another one\.\]<br>➡️ `42` \[Daphne: Asshole\.\]<br>➡️ `49` \[Daphne: Timo\.\] |
+| `23` | **Daphne** | P6 | ➡️ `33` \[Daphne: Goodbye\.\] |
+| `33` | **Daphne** | Goodbye\. | End |
+| `34` | **Daphne** | Cease\. | End |
+| `35` | **Daphne** | See you\. | End |
+| `36` | **Daphne** | Enough\. | End |
+| `37` | **Daphne** | Freeloader\. | End |
+| `38` | **Daphne** | Parasite\. | End |
+| `39` | **Daphne** | Die\. | End |
+| `40` | **Daphne** | Clown\. | End |
+| `41` | **Daphne** | Another one\. | End |
+| `42` | **Daphne** | Asshole\. | End |
+| `44` | **Daphne** | Catamite\. | End |
+| `48` | **Daphne** | Timotej\! | End |
+| `49` | **Daphne** | Timo\. | End |
+| `52` | **Daphne** | Traitor\. | End |
+| `53` | **Daphne** | Idiot\. | End |
+| `54` | **Daphne** | Idiot\. | End |
+| `57` | **Daphne** | Half\-breed\. | End |
+| `58` | **Daphne** | Bastard\. | End |

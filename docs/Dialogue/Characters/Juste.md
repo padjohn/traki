@@ -1,15 +1,14 @@
-# Characters/Juste
+---
+title: Juste
+---
+
+# Juste
 
 
-```mermaid
-graph TD
-    274_0["Actor_270"]
-    274_1["Actor_270: Twenty-eight degrees and rising..."]
-    274_2["Actor_270: How can people enjoy this heat?"]
-    274_3["Actor_270: Finally a bit of a breeze."]
-    274_4["Actor_270: And here's the calm before the storm."]
-    274_0 --> 274_1
-    274_0 --> 274_3
-    274_0 --> 274_4
-    274_1 --> 274_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Juste** |  | ➡️ `1` \[Juste: Twenty\-eight degrees and rising\.\.\.\]<br>➡️ `3` \[Juste: Finally a bit of a breeze\.\]<br>➡️ `4` \[Juste: And here's the calm before the storm\.\] |
+| `1` | **Juste** | Twenty\-eight degrees and rising\.\.\. | ➡️ `2` \[Juste: How can people enjoy this heat?\] |
+| `2` | **Juste** | How can people enjoy this heat? | End |
+| `3` | **Juste** | Finally a bit of a breeze\. | End |
+| `4` | **Juste** | And here's the calm before the storm\. | End |

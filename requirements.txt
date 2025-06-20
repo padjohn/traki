@@ -9,3 +9,4 @@ mkdocs-material[imaging]
 mkdocs-git-revision-date-localized-plugin
 mkdocs-table-reader-plugin
 mkdocs-macros-plugin
+mkdocs-panzoom-plugin

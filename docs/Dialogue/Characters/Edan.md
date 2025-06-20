@@ -1,9 +1,11 @@
-# Characters/Edan
+---
+title: Edan
+---
+
+# Edan
 
 
-```mermaid
-graph TD
-    186_0["Actor_186"]
-    186_1["Actor_186: Yea, I heard so too."]
-    186_0 --> 186_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Edan** |  | ➡️ `1` \[Edan: Yea, I heard so too\.\] |
+| `1` | **Edan** | Yea, I heard so too\. | End |

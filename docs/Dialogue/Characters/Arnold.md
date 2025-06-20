@@ -1,9 +1,11 @@
-# Characters/Arnold
+---
+title: Arnold
+---
+
+# Arnold
 
 
-```mermaid
-graph TD
-    127_0["Actor_71"]
-    127_1["Actor_71: NCI think we're done here."]
-    127_0 --> 127_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Arnold** |  | ➡️ `1` \[Arnold: I think we're done here\.\] |
+| `1` | **Arnold** | I think we're done here\. | End |

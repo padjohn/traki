@@ -1,9 +1,11 @@
-# Characters/Dimitriv
+---
+title: Dimitriv
+---
+
+# Dimitriv
 
 
-```mermaid
-graph TD
-    180_0["Actor_181"]
-    180_1["Actor_181: Hot damn, that's going to be a great harvest at that rate!"]
-    180_0 --> 180_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Dimitriv** |  | ➡️ `1` \[Dimitriv: Hot damn, that's going to be a great harvest at th\.\.\.\] |
+| `1` | **Dimitriv** | Hot damn, that's going to be a great harvest at that rate\! | End |

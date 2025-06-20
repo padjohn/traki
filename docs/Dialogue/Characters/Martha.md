@@ -1,9 +1,11 @@
-# Characters/Martha
+---
+title: Martha
+---
+
+# Martha
 
 
-```mermaid
-graph TD
-    323_0["Actor_324"]
-    323_1["Actor_324: No, I won't calm down!"]
-    323_0 --> 323_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Martha** |  | ➡️ `1` \[Martha: No, I won't calm down\!\] |
+| `1` | **Martha** | No, I won't calm down\! | End |

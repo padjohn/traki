@@ -1,6 +1,9 @@
-# Characters/Vasko
+---
+title: Vasko
+---
+
+# Vasko
 
 
-```mermaid
-graph TD
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |

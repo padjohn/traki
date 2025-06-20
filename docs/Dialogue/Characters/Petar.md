@@ -1,9 +1,11 @@
-# Characters/Petar
+---
+title: Petar
+---
+
+# Petar
 
 
-```mermaid
-graph TD
-    364_0["Actor_363"]
-    364_1["Actor_363: I bet the Ionians did this!"]
-    364_0 --> 364_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Petar** |  | ➡️ `1` \[Petar: I bet the Ionians did this\!\] |
+| `1` | **Petar** | I bet the Ionians did this\! | End |

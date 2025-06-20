@@ -1,9 +1,11 @@
-# Characters/Albert
+---
+title: Albert
+---
+
+# Albert
 
 
-```mermaid
-graph TD
-    109_0["Actor_103"]
-    109_1["Actor_103: Hah! No patience these young folks!"]
-    109_0 --> 109_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Albert** |  | ➡️ `1` \[Albert: Hah\! No patience these young folks\!\] |
+| `1` | **Albert** | Hah\! No patience these young folks\! | End |

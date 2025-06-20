@@ -1,9 +1,11 @@
-# Characters/Niko
+---
+title: Niko
+---
+
+# Niko
 
 
-```mermaid
-graph TD
-    348_0["Actor_348"]
-    348_1["Actor_348: This place is a mess!"]
-    348_0 --> 348_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Niko** |  | ➡️ `1` \[Niko: This place is a mess\!\] |
+| `1` | **Niko** | This place is a mess\! | End |

@@ -1,13 +1,13 @@
-# Characters/Adam
+---
+title: Adam
+---
+
+# Adam
 
 
-```mermaid
-graph TD
-    105_0["Actor_99"]
-    105_1["Actor_99: I get that."]
-    105_2["Actor_99: We're still on the same team, though."]
-    105_3["Actor_365: Please behave yourself."]
-    105_0 --> 105_1
-    105_1 --> 105_2
-    105_2 --> 105_3
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Adam** |  | ➡️ `1` \[Adam: I get that\.\] |
+| `1` | **Adam** | I get that\. | ➡️ `2` \[Adam: We're still on the same team, though\.\] |
+| `2` | **Adam** | We're still on the same team, though\. | ➡️ `3` \[Petre: Please behave yourself\.\] |
+| `3` | **Petre** | Please behave yourself\. | End |

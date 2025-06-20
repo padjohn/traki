@@ -1,11 +1,12 @@
-# Characters/Ferdo
+---
+title: Ferdo
+---
+
+# Ferdo
 
 
-```mermaid
-graph TD
-    209_0["Actor_209"]
-    209_1["Actor_209: Holy shit..."]
-    209_2["Actor_209: That's fucked up, man."]
-    209_0 --> 209_1
-    209_1 --> 209_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Ferdo** |  | ➡️ `1` \[Ferdo: Holy shit\.\.\.\] |
+| `1` | **Ferdo** | Holy shit\.\.\. | ➡️ `2` \[Ferdo: That's fucked up, man\.\] |
+| `2` | **Ferdo** | That's fucked up, man\. | End |

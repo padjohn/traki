@@ -1,15 +1,14 @@
-# Characters/Ivan
+---
+title: Ivan
+---
+
+# Ivan
 
 
-```mermaid
-graph TD
-    260_0["Actor_257"]
-    260_1["Actor_257: Hope you have a good day, sir."]
-    260_2["Actor_257: Hope you have a good day, sir."]
-    260_3["Actor_257: Hope you have a good day, sir."]
-    260_4["Actor_257: Hope you have a good day, sir."]
-    260_0 --> 260_1
-    260_0 --> 260_3
-    260_1 --> 260_2
-    260_3 --> 260_4
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Ivan** |  | ➡️ `1` \[Ivan: Hope you have a good day, sir\.\]<br>➡️ `3` \[Ivan: Hope you have a good day, sir\.\] |
+| `1` | **Ivan** | Hope you have a good day, sir\. | ➡️ `2` \[Ivan: Hope you have a good day, sir\.\] |
+| `2` | **Ivan** | Hope you have a good day, sir\. | End |
+| `3` | **Ivan** | Hope you have a good day, sir\. | ➡️ `4` \[Ivan: Hope you have a good day, sir\.\] |
+| `4` | **Ivan** | Hope you have a good day, sir\. | End |

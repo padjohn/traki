@@ -1,11 +1,12 @@
-# Characters/Gabriel
+---
+title: Gabriel
+---
+
+# Gabriel
 
 
-```mermaid
-graph TD
-    223_0["Actor_223"]
-    223_1["Actor_223: Please don't loiter."]
-    223_2["Actor_433: Trachi forever!"]
-    223_0 --> 223_1
-    223_0 --> 223_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Gabriel** |  | ➡️ `1` \[Gabriel: Please don't loiter\.\]<br>➡️ `2` \[Vasko: Trachi forever\!\] |
+| `1` | **Gabriel** | Please don't loiter\. | End |
+| `2` | **Vasko** | Trachi forever\! | End |

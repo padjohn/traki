@@ -1,6 +1,9 @@
-# Characters/Vinko
+---
+title: Vinko
+---
+
+# Vinko
 
 
-```mermaid
-graph TD
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |

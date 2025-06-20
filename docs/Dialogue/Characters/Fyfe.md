@@ -1,9 +1,11 @@
-# Characters/Fyfe
+---
+title: Fyfe
+---
+
+# Fyfe
 
 
-```mermaid
-graph TD
-    221_0["Actor_221"]
-    221_1["Actor_221: Who the hell put this in the chimney?"]
-    221_0 --> 221_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Fyfe** |  | ➡️ `1` \[Fyfe: Who the hell put this in the chimney?\] |
+| `1` | **Fyfe** | Who the hell put this in the chimney? | End |

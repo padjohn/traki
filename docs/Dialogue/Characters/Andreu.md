@@ -1,9 +1,11 @@
-# Characters/Andreu
+---
+title: Andreu
+---
+
+# Andreu
 
 
-```mermaid
-graph TD
-    118_0["Actor_113"]
-    118_1["Actor_113: Please be patient."]
-    118_0 --> 118_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Andreu** |  | ➡️ `1` \[Andreu: Please be patient\.\] |
+| `1` | **Andreu** | Please be patient\. | End |

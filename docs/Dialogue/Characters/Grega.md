@@ -1,6 +1,9 @@
-# Characters/Grega
+---
+title: Grega
+---
+
+# Grega
 
 
-```mermaid
-graph TD
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |

@@ -1,11 +1,12 @@
-# Characters/Jeremias
+---
+title: Jeremias
+---
+
+# Jeremias
 
 
-```mermaid
-graph TD
-    264_0["Actor_261"]
-    264_1["Actor_261: Galson Alley, huh?"]
-    264_2["Actor_261: God, I hope they manage to find that poor girl soon."]
-    264_0 --> 264_1
-    264_0 --> 264_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Jeremias** |  | ➡️ `1` \[Jeremias: Galson Alley, huh?\]<br>➡️ `2` \[Jeremias: God, I hope they manage to find that poor girl soo\.\.\.\] |
+| `1` | **Jeremias** | Galson Alley, huh? | End |
+| `2` | **Jeremias** | God, I hope they manage to find that poor girl soon\. | End |

@@ -1,9 +1,11 @@
-# Characters/Goran
+---
+title: Goran
+---
+
+# Goran
 
 
-```mermaid
-graph TD
-    229_0["Actor_96"]
-    229_1["Actor_96: Nothing to see here."]
-    229_0 --> 229_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Goran** |  | ➡️ `1` \[Goran: Nothing to see here\.\] |
+| `1` | **Goran** | Nothing to see here\. | End |

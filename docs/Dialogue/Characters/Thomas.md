@@ -1,11 +1,12 @@
-# Characters/Thomas
+---
+title: Thomas
+---
+
+# Thomas
 
 
-```mermaid
-graph TD
-    417_0["Actor_419"]
-    417_1["Actor_419: Move along, please."]
-    417_2["Actor_441: Nothing to see here, friend."]
-    417_0 --> 417_1
-    417_0 --> 417_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Thomas** |  | ➡️ `1` \[Thomas: Move along, please\.\]<br>➡️ `2` \[Vinko: Nothing to see here, friend\.\] |
+| `1` | **Thomas** | Move along, please\. | End |
+| `2` | **Vinko** | Nothing to see here, friend\. | End |

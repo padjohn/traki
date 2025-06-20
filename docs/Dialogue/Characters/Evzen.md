@@ -1,9 +1,11 @@
-# Characters/Evzen
+---
+title: Evzen
+---
+
+# Evzen
 
 
-```mermaid
-graph TD
-    205_0["Actor_205"]
-    205_1["Actor_205: I've got my eye on you."]
-    205_0 --> 205_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Evzen** |  | ➡️ `1` \[Evzen: I've got my eye on you\.\] |
+| `1` | **Evzen** | I've got my eye on you\. | End |

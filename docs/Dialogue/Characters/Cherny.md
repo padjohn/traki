@@ -1,11 +1,12 @@
-# Characters/Cherny
+---
+title: Cherny
+---
+
+# Cherny
 
 
-```mermaid
-graph TD
-    151_0["Actor_147"]
-    151_1["Actor_147: Good day to you!"]
-    151_2["Actor_235: We're in charge, now."]
-    151_0 --> 151_1
-    151_0 --> 151_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Cherny** |  | ➡️ `1` \[Cherny: Good day to you\!\]<br>➡️ `2` \[Gusztáv: We're in charge, now\.\] |
+| `1` | **Cherny** | Good day to you\! | End |
+| `2` | **Gusztáv** | We're in charge, now\. | End |

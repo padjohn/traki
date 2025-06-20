@@ -1,11 +1,12 @@
-# Characters/Bohuslav
+---
+title: Bohuslav
+---
+
+# Bohuslav
 
 
-```mermaid
-graph TD
-    143_0["Actor_139"]
-    143_1["Actor_139: This charade gives the worst of bureaucracies a run for their money!"]
-    143_2["Actor_415: This charade gives the worst of bureaucracies a run for their money!"]
-    143_0 --> 143_1
-    143_0 --> 143_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Bohuslav** |  | ➡️ `1` \[Bohuslav: This charade gives the worst of bureaucracies a ru\.\.\.\]<br>➡️ `2` \[Tamara: This charade gives the worst of bureaucracies a ru\.\.\.\] |
+| `1` | **Bohuslav** | This charade gives the worst of bureaucracies a run for their money\! | End |
+| `2` | **Tamara** | This charade gives the worst of bureaucracies a run for their money\! | End |

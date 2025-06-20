@@ -1,11 +1,12 @@
-# Characters/Marija
+---
+title: Marija
+---
+
+# Marija
 
 
-```mermaid
-graph TD
-    316_0["Actor_317"]
-    316_1["Actor_317: Can't believe you still insist on wearing that ridiculous outfit"]
-    316_2["Actor_317: You're really something else..."]
-    316_0 --> 316_1
-    316_0 --> 316_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Marija** |  | ➡️ `1` \[Marija: Can't believe you still insist on wearing that rid\.\.\.\]<br>➡️ `2` \[Marija: You're really something else\.\.\.\] |
+| `1` | **Marija** | Can't believe you still insist on wearing that ridiculous outfit | End |
+| `2` | **Marija** | You're really something else\.\.\. | End |

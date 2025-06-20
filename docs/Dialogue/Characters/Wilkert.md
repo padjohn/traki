@@ -1,6 +1,9 @@
-# Characters/Wilkert
+---
+title: Wilkert
+---
+
+# Wilkert
 
 
-```mermaid
-graph TD
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |

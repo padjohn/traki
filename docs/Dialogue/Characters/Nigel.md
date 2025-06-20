@@ -1,11 +1,12 @@
-# Characters/Nigel
+---
+title: Nigel
+---
+
+# Nigel
 
 
-```mermaid
-graph TD
-    347_0["Actor_347"]
-    347_1["Actor_347: Hope you have a nice day."]
-    347_2["Actor_347: Keep your hands where I can see them."]
-    347_0 --> 347_1
-    347_0 --> 347_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Nigel** |  | ➡️ `1` \[Nigel: Hope you have a nice day\.\]<br>➡️ `2` \[Nigel: Keep your hands where I can see them\.\] |
+| `1` | **Nigel** | Hope you have a nice day\. | End |
+| `2` | **Nigel** | Keep your hands where I can see them\. | End |

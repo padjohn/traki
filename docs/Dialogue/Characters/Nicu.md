@@ -1,6 +1,9 @@
-# Characters/Nicu
+---
+title: Nicu
+---
+
+# Nicu
 
 
-```mermaid
-graph TD
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |

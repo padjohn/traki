@@ -1,9 +1,11 @@
-# Characters/Emil
+---
+title: Emil
+---
+
+# Emil
 
 
-```mermaid
-graph TD
-    197_0["Actor_197"]
-    197_1["Actor_197: Please keep your distance."]
-    197_0 --> 197_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Emil** |  | ➡️ `1` \[Emil: Please keep your distance\.\] |
+| `1` | **Emil** | Please keep your distance\. | End |

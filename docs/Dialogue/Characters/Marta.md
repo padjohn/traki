@@ -1,11 +1,12 @@
-# Characters/Marta
+---
+title: Marta
+---
+
+# Marta
 
 
-```mermaid
-graph TD
-    322_0["Actor_323"]
-    322_1["Actor_323: Don't cry my dear!"]
-    322_2["Actor_323: We'll go next year when everything is sorted out."]
-    322_0 --> 322_1
-    322_1 --> 322_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Marta** |  | ➡️ `1` \[Marta: Don't cry my dear\!\] |
+| `1` | **Marta** | Don't cry my dear\! | ➡️ `2` \[Marta: We'll go next year when everything is sorted out\.\] |
+| `2` | **Marta** | We'll go next year when everything is sorted out\. | End |

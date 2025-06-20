@@ -1,15 +1,14 @@
-# Characters/Terrell
+---
+title: Terrell
+---
+
+# Terrell
 
 
-```mermaid
-graph TD
-    416_0["Actor_418"]
-    416_1["Actor_418: The bridge will be reopened at the earliest opportunity."]
-    416_2["Actor_418: The bridge will be reopened at the earliest opportunity."]
-    416_3["Actor_418: The bridge will be reopened at the earliest opportunity."]
-    416_4["Actor_418: The bridge will be reopened at the earliest opportunity."]
-    416_0 --> 416_1
-    416_0 --> 416_2
-    416_2 --> 416_3
-    416_3 --> 416_4
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Terrell** |  | ➡️ `1` \[Terrell: The bridge will be reopened at the earliest opport\.\.\.\]<br>➡️ `2` \[Terrell: The bridge will be reopened at the earliest opport\.\.\.\] |
+| `1` | **Terrell** | The bridge will be reopened at the earliest opportunity\. | End |
+| `2` | **Terrell** | The bridge will be reopened at the earliest opportunity\. | ➡️ `3` \[Terrell: The bridge will be reopened at the earliest opport\.\.\.\] |
+| `3` | **Terrell** | The bridge will be reopened at the earliest opportunity\. | ➡️ `4` \[Terrell: The bridge will be reopened at the earliest opport\.\.\.\] |
+| `4` | **Terrell** | The bridge will be reopened at the earliest opportunity\. | End |

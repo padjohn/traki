@@ -1,11 +1,12 @@
-# Characters/Frederick
+---
+title: Frederick
+---
+
+# Frederick
 
 
-```mermaid
-graph TD
-    219_0["Actor_219"]
-    219_1["Actor_219: Sorry, sir."]
-    219_2["Actor_219: But the upper levels are off-limits, for now."]
-    219_0 --> 219_1
-    219_1 --> 219_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Frederick** |  | ➡️ `1` \[Frederick: Sorry, sir\.\] |
+| `1` | **Frederick** | Sorry, sir\. | ➡️ `2` \[Frederick: But the upper levels are off\-limits, for now\.\] |
+| `2` | **Frederick** | But the upper levels are off\-limits, for now\. | End |

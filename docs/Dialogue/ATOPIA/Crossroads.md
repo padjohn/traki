@@ -1,137 +1,75 @@
-# ATOPIA/Crossroads
+---
+title: Crossroads
+---
+
+# Crossroads
 
 
-```mermaid
-graph TD
-    93_0["Actor_408"]
-    93_1["Actor_408: Yo Timo!"]
-    93_2["Actor_408: What are you doing out here?"]
-    93_3["Actor_9: RSHey Stevo."]
-    93_4["Actor_9: RSI'm on my way to Lashanka."]
-    93_5["Actor_9: RSMum asked me to grab some things from the market."]
-    93_6["Actor_118: You've got some guts showing yourself around here!"]
-    93_7["Actor_9: REHuh?"]
-    93_8["Actor_118: You know what I'm talking about!"]
-    93_9["Actor_118: Parading Anton around like you own him!"]
-    93_10["Actor_9: NCWe've been over this."]
-    93_11["Actor_9: NHe wanted to stay with me."]
-    93_12["Actor_118: That's a lie!"]
-    93_13["Actor_118: You just bought him over!"]
-    93_14["Actor_9: NCYou're blaming me for feeding him?"]
-    93_15["Actor_118: It's not fair!"]
-    93_16["Actor_9: NIf you hadn't thrown a fit, he wouldn't have run away in the first place!"]
-    93_17["Actor_118: Fuck you!"]
-    93_18["Actor_118: And you, just standing there!"]
-    93_19["Actor_408: Listen, Timo..."]
-    93_20["Actor_408: I know you like Anton very much."]
-    93_21["Actor_408: But it's Apo's dog."]
-    93_22["Actor_408: You can't just take something away because you feel like it."]
-    93_23["Actor_9: NCI didn't take him away."]
-    93_24["Actor_9: NHe just followed me back home."]
-    93_25["Actor_408: That doesn't make it less of a crime."]
-    93_26["Actor_9: NHow can you call that a crime?"]
-    93_27["Actor_9: NIt's for Anton to decide who he wants to be with!"]
-    93_28["Actor_408: That's not how it works, and you know that."]
-    93_29["Actor_118: Enough!!"]
-    93_30["Actor_118: If you don't want to give him back..."]
-    93_31["Actor_118: Then I'll just take him."]
-    93_32["Actor_118: Hey!"]
-    93_33["Actor_118: It's me, Anton."]
-    93_34["Actor_118: Let's go home."]
-    93_35["Actor_9: NCSee?"]
-    93_36["Actor_9: NHe doesn't want to."]
-    93_37["Actor_118: Shut up, you thief!"]
-    93_38["Actor_118: Come on, Anton!"]
-    93_39["Actor_118: What's wrong?"]
-    93_40["Actor_118: Don't you recognize me?"]
-    93_41["Actor_9: NCAlright."]
-    93_42["Actor_9: NI'm leaving."]
-    93_43["Actor_118: Stop!!"]
-    93_44["Actor_118: Give him back!"]
-    93_45["Actor_9: NCSeriously, Apo..."]
-    93_46["Actor_9: NHow dense are you?"]
-    93_47["Actor_118: I'm clever enough to see what kind of shit you're pulling!"]
-    93_48["Actor_118: You're trying to turn Anton against me!"]
-    93_49["Actor_9: NCI didn't do anything like that."]
-    93_50["Actor_9: NYou pushed him away all by yourself."]
-    93_51["Actor_118: How dare you!"]
-    93_52["Actor_118: I'm taking him home now."]
-    93_53["Actor_118: And there's nothing you can do about it."]
-    93_54["Actor_118: Ouch!"]
-    93_55["Actor_118: What the fuck!"]
-    93_56["Actor_118: You stupid little..."]
-    93_57["Actor_9: RAStop it!"]
-    93_58["Actor_9: RAYou're hurting him!"]
-    93_59["Actor_9: REW-what?!"]
-    93_60["Actor_9: RALet me go!"]
-    93_61["Actor_408: I'm sorry, Timo."]
-    93_62["Actor_408: But it's his dog."]
-    93_63["Actor_9: RANO!!!"]
-    93_64["Actor_9: RAYou little shit!"]
-    93_65["Actor_461: none"]
-    93_0 --> 93_1
-    93_1 --> 93_2
-    93_2 --> 93_3
-    93_3 --> 93_4
-    93_4 --> 93_5
-    93_5 --> 93_6
-    93_6 --> 93_7
-    93_7 --> 93_8
-    93_8 --> 93_9
-    93_9 --> 93_10
-    93_10 --> 93_11
-    93_11 --> 93_12
-    93_12 --> 93_13
-    93_13 --> 93_14
-    93_14 --> 93_15
-    93_15 --> 93_16
-    93_16 --> 93_17
-    93_17 --> 93_18
-    93_18 --> 93_19
-    93_19 --> 93_20
-    93_20 --> 93_21
-    93_21 --> 93_22
-    93_22 --> 93_23
-    93_23 --> 93_24
-    93_24 --> 93_25
-    93_25 --> 93_26
-    93_26 --> 93_27
-    93_27 --> 93_28
-    93_28 --> 93_29
-    93_29 --> 93_30
-    93_30 --> 93_31
-    93_31 --> 93_32
-    93_32 --> 93_33
-    93_33 --> 93_34
-    93_34 --> 93_35
-    93_35 --> 93_36
-    93_36 --> 93_37
-    93_37 --> 93_38
-    93_38 --> 93_39
-    93_39 --> 93_40
-    93_40 --> 93_41
-    93_41 --> 93_42
-    93_42 --> 93_43
-    93_43 --> 93_44
-    93_44 --> 93_45
-    93_45 --> 93_46
-    93_46 --> 93_47
-    93_47 --> 93_48
-    93_48 --> 93_49
-    93_49 --> 93_50
-    93_50 --> 93_51
-    93_51 --> 93_52
-    93_52 --> 93_53
-    93_53 --> 93_54
-    93_54 --> 93_55
-    93_55 --> 93_56
-    93_56 --> 93_57
-    93_57 --> 93_58
-    93_58 --> 93_59
-    93_59 --> 93_60
-    93_60 --> 93_61
-    93_61 --> 93_62
-    93_62 --> 93_63
-    93_63 --> 93_64
-    93_64 --> 93_65
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Stevo** |  | ➡️ `1` \[Stevo: Yo Timo\!\] |
+| `1` | **Stevo** | Yo Timo\! | ➡️ `2` \[Stevo: What are you doing out here?\] |
+| `2` | **Stevo** | What are you doing out here? | ➡️ `3` \[Ganymede: Hey Stevo\.\] |
+| `3` | **Ganymede** | Hey Stevo\. | ➡️ `4` \[Ganymede: I'm on my way to Lashanka\.\] |
+| `4` | **Ganymede** | I'm on my way to Lashanka\. | ➡️ `5` \[Ganymede: Mum asked me to grab some things from the market\.\] |
+| `5` | **Ganymede** | Mum asked me to grab some things from the market\. | ➡️ `6` \[Apostol: You've got some guts showing yourself around here\!\] |
+| `6` | **Apostol** | You've got some guts showing yourself around here\! | ➡️ `7` \[Ganymede: Huh?\] |
+| `7` | **Ganymede** | Huh? | ➡️ `8` \[Apostol: You know what I'm talking about\!\] |
+| `8` | **Apostol** | You know what I'm talking about\! | ➡️ `9` \[Apostol: Parading Anton around like you own him\!\] |
+| `9` | **Apostol** | Parading Anton around like you own him\! | ➡️ `10` \[Ganymede: We've been over this\.\] |
+| `10` | **Ganymede** | We've been over this\. | ➡️ `11` \[Ganymede: He wanted to stay with me\.\] |
+| `11` | **Ganymede** | He wanted to stay with me\. | ➡️ `12` \[Apostol: That's a lie\!\] |
+| `12` | **Apostol** | That's a lie\! | ➡️ `13` \[Apostol: You just bought him over\!\] |
+| `13` | **Apostol** | You just bought him over\! | ➡️ `14` \[Ganymede: You're blaming me for feeding him?\] |
+| `14` | **Ganymede** | You're blaming me for feeding him? | ➡️ `15` \[Apostol: It's not fair\!\] |
+| `15` | **Apostol** | It's not fair\! | ➡️ `16` \[Ganymede: If you hadn't thrown a fit, he wouldn't have run a\.\.\.\] |
+| `16` | **Ganymede** | If you hadn't thrown a fit, he wouldn't have run away in the first place\! | ➡️ `17` \[Apostol: Fuck you\!\] |
+| `17` | **Apostol** | Fuck you\! | ➡️ `18` \[Apostol: And you, just standing there\!\] |
+| `18` | **Apostol** | And you, just standing there\! | ➡️ `19` \[Stevo: Listen, Timo\.\.\.\] |
+| `19` | **Stevo** | Listen, Timo\.\.\. | ➡️ `20` \[Stevo: I know you like Anton very much\.\] |
+| `20` | **Stevo** | I know you like Anton very much\. | ➡️ `21` \[Stevo: But it's Apo's dog\.\] |
+| `21` | **Stevo** | But it's Apo's dog\. | ➡️ `22` \[Stevo: You can't just take something away because you fee\.\.\.\] |
+| `22` | **Stevo** | You can't just take something away because you feel like it\. | ➡️ `23` \[Ganymede: I didn't take him away\.\] |
+| `23` | **Ganymede** | I didn't take him away\. | ➡️ `24` \[Ganymede: He just followed me back home\.\] |
+| `24` | **Ganymede** | He just followed me back home\. | ➡️ `25` \[Stevo: That doesn't make it less of a crime\.\] |
+| `25` | **Stevo** | That doesn't make it less of a crime\. | ➡️ `26` \[Ganymede: How can you call that a crime?\] |
+| `26` | **Ganymede** | How can you call that a crime? | ➡️ `27` \[Ganymede: It's for Anton to decide who he wants to be with\!\] |
+| `27` | **Ganymede** | It's for Anton to decide who he wants to be with\! | ➡️ `28` \[Stevo: That's not how it works, and you know that\.\] |
+| `28` | **Stevo** | That's not how it works, and you know that\. | ➡️ `29` \[Apostol: Enough\!\!\] |
+| `29` | **Apostol** | Enough\!\! | ➡️ `30` \[Apostol: If you don't want to give him back\.\.\.\] |
+| `30` | **Apostol** | If you don't want to give him back\.\.\. | ➡️ `31` \[Apostol: Then I'll just take him\.\] |
+| `31` | **Apostol** | Then I'll just take him\. | ➡️ `32` \[Apostol: Hey\!\] |
+| `32` | **Apostol** | Hey\! | ➡️ `33` \[Apostol: It's me, Anton\.\] |
+| `33` | **Apostol** | It's me, Anton\. | ➡️ `34` \[Apostol: Let's go home\.\] |
+| `34` | **Apostol** | Let's go home\. | ➡️ `35` \[Ganymede: See?\] |
+| `35` | **Ganymede** | See? | ➡️ `36` \[Ganymede: He doesn't want to\.\] |
+| `36` | **Ganymede** | He doesn't want to\. | ➡️ `37` \[Apostol: Shut up, you thief\!\] |
+| `37` | **Apostol** | Shut up, you thief\! | ➡️ `38` \[Apostol: Come on, Anton\!\] |
+| `38` | **Apostol** | Come on, Anton\! | ➡️ `39` \[Apostol: What's wrong?\] |
+| `39` | **Apostol** | What's wrong? | ➡️ `40` \[Apostol: Don't you recognize me?\] |
+| `40` | **Apostol** | Don't you recognize me? | ➡️ `41` \[Ganymede: Alright\.\] |
+| `41` | **Ganymede** | Alright\. | ➡️ `42` \[Ganymede: I'm leaving\.\] |
+| `42` | **Ganymede** | I'm leaving\. | ➡️ `43` \[Apostol: Stop\!\!\] |
+| `43` | **Apostol** | Stop\!\! | ➡️ `44` \[Apostol: Give him back\!\] |
+| `44` | **Apostol** | Give him back\! | ➡️ `45` \[Ganymede: Seriously, Apo\.\.\.\] |
+| `45` | **Ganymede** | Seriously, Apo\.\.\. | ➡️ `46` \[Ganymede: How dense are you?\] |
+| `46` | **Ganymede** | How dense are you? | ➡️ `47` \[Apostol: I'm clever enough to see what kind of shit you're \.\.\.\] |
+| `47` | **Apostol** | I'm clever enough to see what kind of shit you're pulling\! | ➡️ `48` \[Apostol: You're trying to turn Anton against me\!\] |
+| `48` | **Apostol** | You're trying to turn Anton against me\! | ➡️ `49` \[Ganymede: I didn't do anything like that\.\] |
+| `49` | **Ganymede** | I didn't do anything like that\. | ➡️ `50` \[Ganymede: You pushed him away all by yourself\.\] |
+| `50` | **Ganymede** | You pushed him away all by yourself\. | ➡️ `51` \[Apostol: How dare you\!\] |
+| `51` | **Apostol** | How dare you\! | ➡️ `52` \[Apostol: I'm taking him home now\.\] |
+| `52` | **Apostol** | I'm taking him home now\. | ➡️ `53` \[Apostol: And there's nothing you can do about it\.\] |
+| `53` | **Apostol** | And there's nothing you can do about it\. | ➡️ `54` \[Apostol: Ouch\!\] |
+| `54` | **Apostol** | Ouch\! | ➡️ `55` \[Apostol: What the fuck\!\] |
+| `55` | **Apostol** | What the fuck\! | ➡️ `56` \[Apostol: You stupid little\.\.\.\] |
+| `56` | **Apostol** | You stupid little\.\.\. | ➡️ `57` \[Ganymede: Stop it\!\] |
+| `57` | **Ganymede** | Stop it\! | ➡️ `58` \[Ganymede: You're hurting him\!\] |
+| `58` | **Ganymede** | You're hurting him\! | ➡️ `59` \[Ganymede: W\-what?\!\] |
+| `59` | **Ganymede** | W\-what?\! | ➡️ `60` \[Ganymede: Let me go\!\] |
+| `60` | **Ganymede** | Let me go\! | ➡️ `61` \[Stevo: I'm sorry, Timo\.\] |
+| `61` | **Stevo** | I'm sorry, Timo\. | ➡️ `62` \[Stevo: But it's his dog\.\] |
+| `62` | **Stevo** | But it's his dog\. | ➡️ `63` \[Ganymede: NO\!\!\!\] |
+| `63` | **Ganymede** | NO\!\!\! | ➡️ `64` \[Ganymede: You little shit\!\] |
+| `64` | **Ganymede** | You little shit\! | ➡️ `65` \[none: none\] |
+| `65` | **none** | none | End |

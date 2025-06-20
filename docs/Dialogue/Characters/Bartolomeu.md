@@ -1,6 +1,9 @@
-# Characters/Bartolomeu
+---
+title: Bartolomeu
+---
+
+# Bartolomeu
 
 
-```mermaid
-graph TD
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |

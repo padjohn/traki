@@ -1,13 +1,13 @@
-# Characters/Cesar
+---
+title: Cesar
+---
+
+# Cesar
 
 
-```mermaid
-graph TD
-    149_0["Actor_145"]
-    149_1["Actor_145: This has been going on for long enough!"]
-    149_2["Actor_145: We gotta put a stop to this!"]
-    149_3["Actor_145: Anyone seen the Hendricks, lately?"]
-    149_0 --> 149_1
-    149_0 --> 149_3
-    149_1 --> 149_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Cesar** |  | ➡️ `1` \[Cesar: This has been going on for long enough\!\]<br>➡️ `3` \[Cesar: Anyone seen the Hendricks, lately?\] |
+| `1` | **Cesar** | This has been going on for long enough\! | ➡️ `2` \[Cesar: We gotta put a stop to this\!\] |
+| `2` | **Cesar** | We gotta put a stop to this\! | End |
+| `3` | **Cesar** | Anyone seen the Hendricks, lately? | End |

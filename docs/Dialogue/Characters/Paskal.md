@@ -1,15 +1,14 @@
-# Characters/Paskal
+---
+title: Paskal
+---
+
+# Paskal
 
 
-```mermaid
-graph TD
-    359_0["Actor_358"]
-    359_1["Actor_358: Yeah!"]
-    359_2["Actor_358: It's a very old building, dating back to 1648."]
-    359_3["Actor_358: You should see it at night!"]
-    359_4["Actor_358: If you're free later, we could have a look at together."]
-    359_0 --> 359_1
-    359_1 --> 359_2
-    359_2 --> 359_3
-    359_3 --> 359_4
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Paskal** |  | ➡️ `1` \[Paskal: Yeah\!\] |
+| `1` | **Paskal** | Yeah\! | ➡️ `2` \[Paskal: It's a very old building, dating back to 1648\.\] |
+| `2` | **Paskal** | It's a very old building, dating back to 1648\. | ➡️ `3` \[Paskal: You should see it at night\!\] |
+| `3` | **Paskal** | You should see it at night\! | ➡️ `4` \[Paskal: If you're free later, we could have a look at toge\.\.\.\] |
+| `4` | **Paskal** | If you're free later, we could have a look at together\. | End |

@@ -1,9 +1,11 @@
-# Characters/Survan
+---
+title: Survan
+---
+
+# Survan
 
 
-```mermaid
-graph TD
-    406_0["Actor_409"]
-    406_1["Actor_409: Fresh vegetables – straight from Hartbert plains."]
-    406_0 --> 406_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Survan** |  | ➡️ `1` \[Survan: Fresh vegetables – straight from Hartbert plains\.\] |
+| `1` | **Survan** | Fresh vegetables – straight from Hartbert plains\. | End |

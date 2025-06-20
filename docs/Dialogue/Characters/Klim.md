@@ -1,9 +1,11 @@
-# Characters/Klim
+---
+title: Klim
+---
+
+# Klim
 
 
-```mermaid
-graph TD
-    284_0["Actor_282"]
-    284_1["Actor_282: Don't touch anything."]
-    284_0 --> 284_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Klim** |  | ➡️ `1` \[Klim: Don't touch anything\.\] |
+| `1` | **Klim** | Don't touch anything\. | End |

@@ -1,59 +1,36 @@
-# Characters/Dajana
+---
+title: Dajana
+---
+
+# Dajana
 
 
-```mermaid
-graph TD
-    165_0["Actor_161"]
-    165_1["Actor_161: Good day to you!"]
-    165_2["Actor_161: How may I help?"]
-    165_3["Actor_13: NI'd like to inquire about the status of a request me and my companions filed earlier."]
-    165_4["Actor_161: Certainly! Your name, if you'd be so kind?"]
-    165_5["Actor_13: NJulius Gaston."]
-    165_6["Actor_161: Let's see..."]
-    165_7["Actor_161: There doesn't seem to be anything here."]
-    165_8["Actor_161: I'll be right back."]
-    165_9["Actor_161: I'm afraid there's no record of any requests under that name."]
-    165_10["Actor_161: Are you sure that you were the one who filed it?"]
-    165_11["Actor_13: NAbsolutely."]
-    165_12["Actor_13: NCThank you for the effort, anyway."]
-    165_13["Actor_161: Wait, please!"]
-    165_14["Actor_161: It's a long shot..."]
-    165_15["Actor_161: But I could check the archives, if you want."]
-    165_16["Actor_161: We've had a lot of commotion lately and might have put it there by accident."]
-    165_17["Actor_13: NThat would be very forthcoming, thank you."]
-    165_18["Actor_161: I'll be right back!"]
-    165_19["Actor_161: Unfortunately, there doesn't seem to be any sign of the request there, either..."]
-    165_20["Actor_161: I'm very sorry!"]
-    165_21["Actor_13: NCThere's no need."]
-    165_22["Actor_13: NThank you, once more, for your dedication."]
-    165_23["Actor_13: NCHave a nice day."]
-    165_24["Actor_161: Y-you too!"]
-    165_25["Actor_461: none"]
-    165_26["Actor_161: Sorry I couldn't help you!"]
-    165_0 --> 165_1
-    165_0 --> 165_26
-    165_1 --> 165_2
-    165_2 --> 165_3
-    165_3 --> 165_4
-    165_4 --> 165_5
-    165_5 --> 165_6
-    165_6 --> 165_7
-    165_7 --> 165_8
-    165_8 --> 165_9
-    165_9 --> 165_10
-    165_10 --> 165_11
-    165_11 --> 165_12
-    165_12 --> 165_13
-    165_13 --> 165_14
-    165_14 --> 165_15
-    165_15 --> 165_16
-    165_16 --> 165_17
-    165_17 --> 165_18
-    165_18 --> 165_19
-    165_19 --> 165_20
-    165_20 --> 165_21
-    165_21 --> 165_22
-    165_22 --> 165_23
-    165_23 --> 165_24
-    165_24 --> 165_25
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Dajana** |  | ➡️ `1` \[Dajana: Good day to you\!\]<br>➡️ `26` \[Dajana: Sorry I couldn't help you\!\] |
+| `1` | **Dajana** | Good day to you\! | ➡️ `2` \[Dajana: How may I help?\] |
+| `2` | **Dajana** | How may I help? | ➡️ `3` \[Atlas: I'd like to inquire about the status of a request \.\.\.\] |
+| `3` | **Atlas** | I'd like to inquire about the status of a request me and my companions filed earlier\. | ➡️ `4` \[Dajana: Certainly\! Your name, if you'd be so kind?\] |
+| `4` | **Dajana** | Certainly\! Your name, if you'd be so kind? | ➡️ `5` \[Atlas: Julius Gaston\.\] |
+| `5` | **Atlas** | Julius Gaston\. | ➡️ `6` \[Dajana: Let's see\.\.\.\] |
+| `6` | **Dajana** | Let's see\.\.\. | ➡️ `7` \[Dajana: There doesn't seem to be anything here\.\] |
+| `7` | **Dajana** | There doesn't seem to be anything here\. | ➡️ `8` \[Dajana: I'll be right back\.\] |
+| `8` | **Dajana** | I'll be right back\. | ➡️ `9` \[Dajana: I'm afraid there's no record of any requests under\.\.\.\] |
+| `9` | **Dajana** | I'm afraid there's no record of any requests under that name\. | ➡️ `10` \[Dajana: Are you sure that you were the one who filed it?\] |
+| `10` | **Dajana** | Are you sure that you were the one who filed it? | ➡️ `11` \[Atlas: Absolutely\.\] |
+| `11` | **Atlas** | Absolutely\. | ➡️ `12` \[Atlas: Thank you for the effort, anyway\.\] |
+| `12` | **Atlas** | Thank you for the effort, anyway\. | ➡️ `13` \[Dajana: Wait, please\!\] |
+| `13` | **Dajana** | Wait, please\! | ➡️ `14` \[Dajana: It's a long shot\.\.\.\] |
+| `14` | **Dajana** | It's a long shot\.\.\. | ➡️ `15` \[Dajana: But I could check the archives, if you want\.\] |
+| `15` | **Dajana** | But I could check the archives, if you want\. | ➡️ `16` \[Dajana: We've had a lot of commotion lately and might have\.\.\.\] |
+| `16` | **Dajana** | We've had a lot of commotion lately and might have put it there by accident\. | ➡️ `17` \[Atlas: That would be very forthcoming, thank you\.\] |
+| `17` | **Atlas** | That would be very forthcoming, thank you\. | ➡️ `18` \[Dajana: I'll be right back\!\] |
+| `18` | **Dajana** | I'll be right back\! | ➡️ `19` \[Dajana: Unfortunately, there doesn't seem to be any sign o\.\.\.\] |
+| `19` | **Dajana** | Unfortunately, there doesn't seem to be any sign of the request there, either\.\.\. | ➡️ `20` \[Dajana: I'm very sorry\!\] |
+| `20` | **Dajana** | I'm very sorry\! | ➡️ `21` \[Atlas: There's no need\.\] |
+| `21` | **Atlas** | There's no need\. | ➡️ `22` \[Atlas: Thank you, once more, for your dedication\.\] |
+| `22` | **Atlas** | Thank you, once more, for your dedication\. | ➡️ `23` \[Atlas: Have a nice day\.\] |
+| `23` | **Atlas** | Have a nice day\. | ➡️ `24` \[Dajana: Y\-you too\!\] |
+| `24` | **Dajana** | Y\-you too\! | ➡️ `25` \[none: none\] |
+| `25` | **none** | none | End |
+| `26` | **Dajana** | Sorry I couldn't help you\! | End |

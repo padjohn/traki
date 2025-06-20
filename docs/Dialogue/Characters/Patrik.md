@@ -1,11 +1,12 @@
-# Characters/Patrik
+---
+title: Patrik
+---
+
+# Patrik
 
 
-```mermaid
-graph TD
-    360_0["Actor_359"]
-    360_1["Actor_359: Another day, another revolution."]
-    360_2["Actor_359: Another day, another revolution."]
-    360_0 --> 360_1
-    360_1 --> 360_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Patrik** |  | ➡️ `1` \[Patrik: Another day, another revolution\.\] |
+| `1` | **Patrik** | Another day, another revolution\. | ➡️ `2` \[Patrik: Another day, another revolution\.\] |
+| `2` | **Patrik** | Another day, another revolution\. | End |

@@ -1,13 +1,13 @@
-# Characters/Denis
+---
+title: Denis
+---
+
+# Denis
 
 
-```mermaid
-graph TD
-    176_0["Actor_176"]
-    176_1["Actor_176: Yeah, it's weird..."]
-    176_2["Actor_176: That's like the first time I see the town hall being closed."]
-    176_3["Actor_176: I guess everything makes sense now."]
-    176_0 --> 176_1
-    176_0 --> 176_3
-    176_1 --> 176_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Denis** |  | ➡️ `1` \[Denis: Yeah, it's weird\.\.\.\]<br>➡️ `3` \[Denis: I guess everything makes sense now\.\] |
+| `1` | **Denis** | Yeah, it's weird\.\.\. | ➡️ `2` \[Denis: That's like the first time I see the town hall bei\.\.\.\] |
+| `2` | **Denis** | That's like the first time I see the town hall being closed\. | End |
+| `3` | **Denis** | I guess everything makes sense now\. | End |

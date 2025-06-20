@@ -1,9 +1,11 @@
-# Characters/Ljuban
+---
+title: Ljuban
+---
+
+# Ljuban
 
 
-```mermaid
-graph TD
-    301_0["Actor_303"]
-    301_1["Actor_303: Hello, Mr. Hendrick."]
-    301_0 --> 301_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Ljuban** |  | ➡️ `1` \[Ljuban: Hello, Mr\. Hendrick\.\] |
+| `1` | **Ljuban** | Hello, Mr\. Hendrick\. | End |

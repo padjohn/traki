@@ -1,9 +1,11 @@
-# Characters/Mirek
+---
+title: Mirek
+---
+
+# Mirek
 
 
-```mermaid
-graph TD
-    336_0["Actor_337"]
-    336_1["Actor_337: Hey there."]
-    336_0 --> 336_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Mirek** |  | ➡️ `1` \[Mirek: Hey there\.\] |
+| `1` | **Mirek** | Hey there\. | End |

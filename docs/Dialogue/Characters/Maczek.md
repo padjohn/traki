@@ -1,6 +1,9 @@
-# Characters/Maczek
+---
+title: Maczek
+---
+
+# Maczek
 
 
-```mermaid
-graph TD
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |

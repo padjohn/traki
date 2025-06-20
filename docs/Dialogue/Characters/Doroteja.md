@@ -1,13 +1,13 @@
-# Characters/Doroteja
+---
+title: Doroteja
+---
+
+# Doroteja
 
 
-```mermaid
-graph TD
-    183_0["Actor_184"]
-    183_1["Actor_184: For god's sake..."]
-    183_2["Actor_184: What the hell is going on?"]
-    183_3["Actor_281: Almost there..."]
-    183_0 --> 183_1
-    183_0 --> 183_3
-    183_1 --> 183_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Doroteja** |  | ➡️ `1` \[Doroteja: For god's sake\.\.\.\]<br>➡️ `3` \[Klement: Almost there\.\.\.\] |
+| `1` | **Doroteja** | For god's sake\.\.\. | ➡️ `2` \[Doroteja: What the hell is going on?\] |
+| `2` | **Doroteja** | What the hell is going on? | End |
+| `3` | **Klement** | Almost there\.\.\. | End |

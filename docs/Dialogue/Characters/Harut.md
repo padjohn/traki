@@ -1,9 +1,11 @@
-# Characters/Harut
+---
+title: Harut
+---
+
+# Harut
 
 
-```mermaid
-graph TD
-    241_0["Actor_238"]
-    241_1["Actor_238: I was here first!"]
-    241_0 --> 241_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Harut** |  | ➡️ `1` \[Harut: I was here first\!\] |
+| `1` | **Harut** | I was here first\! | End |

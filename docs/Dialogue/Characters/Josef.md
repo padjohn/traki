@@ -1,11 +1,12 @@
-# Characters/Josef
+---
+title: Josef
+---
+
+# Josef
 
 
-```mermaid
-graph TD
-    269_0["Actor_266"]
-    269_1["Actor_266: Please stay back."]
-    269_2["Actor_266: Please stay back."]
-    269_0 --> 269_1
-    269_0 --> 269_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Josef** |  | ➡️ `1` \[Josef: Please stay back\.\]<br>➡️ `2` \[Josef: Please stay back\.\] |
+| `1` | **Josef** | Please stay back\. | End |
+| `2` | **Josef** | Please stay back\. | End |

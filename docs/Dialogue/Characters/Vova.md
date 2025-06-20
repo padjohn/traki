@@ -1,9 +1,11 @@
-# Characters/Vova
+---
+title: Vova
+---
+
+# Vova
 
 
-```mermaid
-graph TD
-    441_0["Actor_443"]
-    441_1["Actor_443: He did what?!"]
-    441_0 --> 441_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Vova** |  | ➡️ `1` \[Vova: He did what?\!\] |
+| `1` | **Vova** | He did what?\! | End |

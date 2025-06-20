@@ -1,11 +1,12 @@
-# Characters/Sylvaine
+---
+title: Sylvaine
+---
+
+# Sylvaine
 
 
-```mermaid
-graph TD
-    409_0["Actor_412"]
-    409_1["Actor_412: Everytime I go to the market, I'm thinking of the things I'm gonna buy."]
-    409_2["Actor_412: But I'm really not good with choices."]
-    409_0 --> 409_1
-    409_1 --> 409_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Sylvaine** |  | ➡️ `1` \[Sylvaine: Everytime I go to the market, I'm thinking of the \.\.\.\] |
+| `1` | **Sylvaine** | Everytime I go to the market, I'm thinking of the things I'm gonna buy\. | ➡️ `2` \[Sylvaine: But I'm really not good with choices\.\] |
+| `2` | **Sylvaine** | But I'm really not good with choices\. | End |

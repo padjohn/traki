@@ -1,9 +1,11 @@
-# Characters/Mathilda
+---
+title: Mathilda
+---
+
+# Mathilda
 
 
-```mermaid
-graph TD
-    326_0["Actor_328"]
-    326_1["Actor_328: This tarte au citron is the best I've ever had!"]
-    326_0 --> 326_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Mathilda** |  | ➡️ `1` \[Mathilda: This tarte au citron is the best I've ever had\!\] |
+| `1` | **Mathilda** | This tarte au citron is the best I've ever had\! | End |

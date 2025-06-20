@@ -1,9 +1,11 @@
-# Characters/Dimos
+---
+title: Dimos
+---
+
+# Dimos
 
 
-```mermaid
-graph TD
-    181_0["Actor_182"]
-    181_1["Actor_182: Good day to you!"]
-    181_0 --> 181_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Dimos** |  | ➡️ `1` \[Dimos: Good day to you\!\] |
+| `1` | **Dimos** | Good day to you\! | End |

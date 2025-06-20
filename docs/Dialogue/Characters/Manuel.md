@@ -1,19 +1,16 @@
-# Characters/Manuel
+---
+title: Manuel
+---
+
+# Manuel
 
 
-```mermaid
-graph TD
-    311_0["Actor_312"]
-    311_1["Actor_312: I wonder..."]
-    311_2["Actor_312: Do you think I can make the swim all the way over to Rondham?"]
-    311_3["Actor_312: Hmm..."]
-    311_4["Actor_312: It's not THAT far, really..."]
-    311_5["Actor_312: Yup."]
-    311_6["Actor_312: Today's the day."]
-    311_0 --> 311_1
-    311_0 --> 311_3
-    311_0 --> 311_5
-    311_1 --> 311_2
-    311_3 --> 311_4
-    311_5 --> 311_6
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Manuel** |  | ➡️ `1` \[Manuel: I wonder\.\.\.\]<br>➡️ `3` \[Manuel: Hmm\.\.\.\]<br>➡️ `5` \[Manuel: Yup\.\] |
+| `1` | **Manuel** | I wonder\.\.\. | ➡️ `2` \[Manuel: Do you think I can make the swim all the way over \.\.\.\] |
+| `2` | **Manuel** | Do you think I can make the swim all the way over to Rondham? | End |
+| `3` | **Manuel** | Hmm\.\.\. | ➡️ `4` \[Manuel: It's not THAT far, really\.\.\.\] |
+| `4` | **Manuel** | It's not THAT far, really\.\.\. | End |
+| `5` | **Manuel** | Yup\. | ➡️ `6` \[Manuel: Today's the day\.\] |
+| `6` | **Manuel** | Today's the day\. | End |

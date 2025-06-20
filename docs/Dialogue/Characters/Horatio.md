@@ -1,9 +1,11 @@
-# Characters/Horatio
+---
+title: Horatio
+---
+
+# Horatio
 
 
-```mermaid
-graph TD
-    249_0["Actor_247"]
-    249_1["Actor_247: Hey there!"]
-    249_0 --> 249_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Horatio** |  | ➡️ `1` \[Horatio: Hey there\!\] |
+| `1` | **Horatio** | Hey there\! | End |

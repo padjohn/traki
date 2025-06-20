@@ -1,9 +1,11 @@
-# Characters/Julius
+---
+title: Julius
+---
+
+# Julius
 
 
-```mermaid
-graph TD
-    272_0["Actor_65"]
-    272_1["Actor_65: SGood luck Drenem."]
-    272_0 --> 272_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Julius** |  | ➡️ `1` \[Julius: Good luck Drenem\.\] |
+| `1` | **Julius** | Good luck Drenem\. | End |

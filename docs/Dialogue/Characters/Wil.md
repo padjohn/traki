@@ -1,15 +1,14 @@
-# Characters/Wil
+---
+title: Wil
+---
+
+# Wil
 
 
-```mermaid
-graph TD
-    443_0["Actor_446"]
-    443_1["Actor_446: That's ridiculous!"]
-    443_2["Actor_446: Aren't we like, citizen of this city?"]
-    443_3["Actor_446: Me too."]
-    443_4["Actor_446: The city's really changed, hasn't it?"]
-    443_0 --> 443_1
-    443_0 --> 443_3
-    443_1 --> 443_2
-    443_3 --> 443_4
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Wil** |  | ➡️ `1` \[Wil: That's ridiculous\!\]<br>➡️ `3` \[Wil: Me too\.\] |
+| `1` | **Wil** | That's ridiculous\! | ➡️ `2` \[Wil: Aren't we like, citizen of this city?\] |
+| `2` | **Wil** | Aren't we like, citizen of this city? | End |
+| `3` | **Wil** | Me too\. | ➡️ `4` \[Wil: The city's really changed, hasn't it?\] |
+| `4` | **Wil** | The city's really changed, hasn't it? | End |

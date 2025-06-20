@@ -1,11 +1,12 @@
-# Characters/Constantin
+---
+title: Constantin
+---
+
+# Constantin
 
 
-```mermaid
-graph TD
-    157_0["Actor_153"]
-    157_1["Actor_153: Word is that some guy literally waltzed in there and threatened the mayor."]
-    157_2["Actor_153: Poor little Clara..."]
-    157_0 --> 157_1
-    157_0 --> 157_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Constantin** |  | ➡️ `1` \[Constantin: Word is that some guy literally waltzed in there a\.\.\.\]<br>➡️ `2` \[Constantin: Poor little Clara\.\.\.\] |
+| `1` | **Constantin** | Word is that some guy literally waltzed in there and threatened the mayor\. | End |
+| `2` | **Constantin** | Poor little Clara\.\.\. | End |

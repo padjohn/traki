@@ -1,9 +1,11 @@
-# Characters/Valentin
+---
+title: Valentin
+---
+
+# Valentin
 
 
-```mermaid
-graph TD
-    425_0["Actor_427"]
-    425_1["Actor_427: Hey there."]
-    425_0 --> 425_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Valentin** |  | ➡️ `1` \[Valentin: Hey there\.\] |
+| `1` | **Valentin** | Hey there\. | End |

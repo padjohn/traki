@@ -1,17 +1,15 @@
-# Characters/Sasho
+---
+title: Sasho
+---
+
+# Sasho
 
 
-```mermaid
-graph TD
-    388_0["Actor_388"]
-    388_1["Actor_388: Can I interest you in some of the finest garlic and pepper that the southern shores have to offer?"]
-    388_2["Actor_388: I can't believe they've closed off the exit!"]
-    388_3["Actor_388: How am I gonna explain that to her..."]
-    388_4["Actor_388: Can I interest you in some of the finest rhadishes from Calpoli?"]
-    388_5["Actor_418: The bridge will be reopened at the earliest opportunity."]
-    388_0 --> 388_1
-    388_0 --> 388_4
-    388_0 --> 388_5
-    388_1 --> 388_2
-    388_2 --> 388_3
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Sasho** |  | ➡️ `1` \[Sasho: Can I interest you in some of the finest garlic an\.\.\.\]<br>➡️ `4` \[Sasho: Can I interest you in some of the finest rhadishes\.\.\.\]<br>➡️ `5` \[Terrell: The bridge will be reopened at the earliest opport\.\.\.\] |
+| `1` | **Sasho** | Can I interest you in some of the finest garlic and pepper that the southern shores have to offer? | ➡️ `2` \[Sasho: I can't believe they've closed off the exit\!\] |
+| `2` | **Sasho** | I can't believe they've closed off the exit\! | ➡️ `3` \[Sasho: How am I gonna explain that to her\.\.\.\] |
+| `3` | **Sasho** | How am I gonna explain that to her\.\.\. | End |
+| `4` | **Sasho** | Can I interest you in some of the finest rhadishes from Calpoli? | End |
+| `5` | **Terrell** | The bridge will be reopened at the earliest opportunity\. | End |

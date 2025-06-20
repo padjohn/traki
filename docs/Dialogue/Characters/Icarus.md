@@ -1,41 +1,27 @@
-# Characters/Icarus
+---
+title: Icarus
+---
+
+# Icarus
 
 
-```mermaid
-graph TD
-    251_0["Actor_4"]
-    251_1["Actor_4: NHere we go."]
-    251_2["Actor_9: SLet's hope this works."]
-    251_3["Actor_86: What's the meaning of this?"]
-    251_4["Actor_404: Sir!"]
-    251_5["Actor_404: Please stay inside the carriage!"]
-    251_6["Actor_86: Nonsense!"]
-    251_7["Actor_86: Why did we stop?"]
-    251_8["Actor_404: There's a cart blocking the road, sir."]
-    251_9["Actor_86: Then move it!"]
-    251_10["Actor_404: Working on it, sir!"]
-    251_11["Actor_4: SCCome on..."]
-    251_12["Actor_4: SPWhat's he waiting for?"]
-    251_13["Actor_9: SHe'll do it, don't worry."]
-    251_14["Actor_86: Is there a problem?"]
-    251_15["Actor_404: Sorry Sir!"]
-    251_16["Actor_404: We'll have the road cleared, momentarily!"]
-    251_17["Actor_404: \Hold it!"]
-    251_0 --> 251_1
-    251_1 --> 251_2
-    251_2 --> 251_3
-    251_3 --> 251_4
-    251_4 --> 251_5
-    251_5 --> 251_6
-    251_6 --> 251_7
-    251_7 --> 251_8
-    251_8 --> 251_9
-    251_9 --> 251_10
-    251_10 --> 251_11
-    251_11 --> 251_12
-    251_12 --> 251_13
-    251_13 --> 251_14
-    251_14 --> 251_15
-    251_15 --> 251_16
-    251_16 --> 251_17
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Icarus** |  | ➡️ `1` \[Icarus: Here we go\.\] |
+| `1` | **Icarus** | Here we go\. | ➡️ `2` \[Ganymede: Let's hope this works\.\] |
+| `2` | **Ganymede** | Let's hope this works\. | ➡️ `3` \[Wilkert: What's the meaning of this?\] |
+| `3` | **Wilkert** | What's the meaning of this? | ➡️ `4` \[Solen: Sir\!\] |
+| `4` | **Solen** | Sir\! | ➡️ `5` \[Solen: Please stay inside the carriage\!\] |
+| `5` | **Solen** | Please stay inside the carriage\! | ➡️ `6` \[Wilkert: Nonsense\!\] |
+| `6` | **Wilkert** | Nonsense\! | ➡️ `7` \[Wilkert: Why did we stop?\] |
+| `7` | **Wilkert** | Why did we stop? | ➡️ `8` \[Solen: There's a cart blocking the road, sir\.\] |
+| `8` | **Solen** | There's a cart blocking the road, sir\. | ➡️ `9` \[Wilkert: Then move it\!\] |
+| `9` | **Wilkert** | Then move it\! | ➡️ `10` \[Solen: Working on it, sir\!\] |
+| `10` | **Solen** | Working on it, sir\! | ➡️ `11` \[Icarus: Come on\.\.\.\] |
+| `11` | **Icarus** | Come on\.\.\. | ➡️ `12` \[Icarus: What's he waiting for?\] |
+| `12` | **Icarus** | What's he waiting for? | ➡️ `13` \[Ganymede: He'll do it, don't worry\.\] |
+| `13` | **Ganymede** | He'll do it, don't worry\. | ➡️ `14` \[Wilkert: Is there a problem?\] |
+| `14` | **Wilkert** | Is there a problem? | ➡️ `15` \[Solen: Sorry Sir\!\] |
+| `15` | **Solen** | Sorry Sir\! | ➡️ `16` \[Solen: We'll have the road cleared, momentarily\!\] |
+| `16` | **Solen** | We'll have the road cleared, momentarily\! | ➡️ `17` \[Solen: \\\>Hold it\!\] |
+| `17` | **Solen** | \\\>Hold it\! | End |

@@ -1,9 +1,11 @@
-# Characters/Kuzman
+---
+title: Kuzman
+---
+
+# Kuzman
 
 
-```mermaid
-graph TD
-    289_0["Actor_287"]
-    289_1["Actor_287: Keep your chin up."]
-    289_0 --> 289_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Kuzman** |  | ➡️ `1` \[Kuzman: Keep your chin up\.\] |
+| `1` | **Kuzman** | Keep your chin up\. | End |

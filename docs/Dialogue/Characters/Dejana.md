@@ -1,9 +1,11 @@
-# Characters/Dejana
+---
+title: Dejana
+---
+
+# Dejana
 
 
-```mermaid
-graph TD
-    174_0["Actor_174"]
-    174_1["Actor_174: Do you have a fever or something?"]
-    174_0 --> 174_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Dejana** |  | ➡️ `1` \[Dejana: Do you have a fever or something?\] |
+| `1` | **Dejana** | Do you have a fever or something? | End |

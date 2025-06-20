@@ -1,11 +1,12 @@
-# Characters/Antton
+---
+title: Antton
+---
+
+# Antton
 
 
-```mermaid
-graph TD
-    122_0["Actor_117"]
-    122_1["Actor_117: Don't worry!"]
-    122_2["Actor_117: I'm sure he's fine."]
-    122_0 --> 122_1
-    122_1 --> 122_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Antton** |  | ➡️ `1` \[Antton: Don't worry\!\] |
+| `1` | **Antton** | Don't worry\! | ➡️ `2` \[Antton: I'm sure he's fine\.\] |
+| `2` | **Antton** | I'm sure he's fine\. | End |

@@ -1,9 +1,11 @@
-# Characters/Lyudmil
+---
+title: Lyudmil
+---
+
+# Lyudmil
 
 
-```mermaid
-graph TD
-    308_0["Actor_309"]
-    308_1["Actor_309: Yo, keep your hands of those pralines!"]
-    308_0 --> 308_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Lyudmil** |  | ➡️ `1` \[Lyudmil: Yo, keep your hands of those pralines\!\] |
+| `1` | **Lyudmil** | Yo, keep your hands of those pralines\! | End |

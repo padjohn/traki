@@ -1,9 +1,11 @@
-# Characters/Gretchen
+---
+title: Gretchen
+---
+
+# Gretchen
 
 
-```mermaid
-graph TD
-    233_0["Actor_83"]
-    233_1["Actor_83: Thank you so much for having us."]
-    233_0 --> 233_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Gretchen** |  | ➡️ `1` \[Gretchen: Thank you so much for having us\.\] |
+| `1` | **Gretchen** | Thank you so much for having us\. | End |

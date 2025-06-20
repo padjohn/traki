@@ -1,115 +1,64 @@
-# Characters/Nikoleta
+---
+title: Nikoleta
+---
+
+# Nikoleta
 
 
-```mermaid
-graph TD
-    350_0["Actor_350"]
-    350_1["Actor_350: Salutations, Mister!"]
-    350_2["Actor_350: How can I help you?"]
-    350_3["Actor_13: NWe've been told we'd need a visa to enter Trachi."]
-    350_4["Actor_350: Quite right!"]
-    350_5["Actor_350: If you're not a citizen, that is!"]
-    350_6["Actor_350: I just need each of you to fill out these forms here and here..."]
-    350_7["Actor_350: Coupled with appendices 4 and 5."]
-    350_8["Actor_9: NCAll thirteen pages?"]
-    350_9["Actor_350: As you said it."]
-    350_10["Actor_350: Feel free to take a seat over there, if you want."]
-    350_11["Actor_461: none"]
-    350_12["Actor_9: NWere you ever convicted?"]
-    350_13["Actor_9: NCWhat does the insignia of Trachi depict?"]
-    350_14["Actor_9: NUnderscore the prime numbers in the following list."]
-    350_15["Actor_9: SIs there a system to these questions, at all?"]
-    350_16["Actor_10: SCApart from trying to provoke a killing spree, you mean?"]
-    350_17["Actor_9: SIt's deliberate, isn't it?"]
-    350_18["Actor_13: NYou saw the queue at the gates, didn't you?"]
-    350_19["Actor_9: NSo they're trying to filtering people with this?"]
-    350_20["Actor_13: NCAnd delay the others."]
-    350_21["Actor_9: NWhy?"]
-    350_22["Actor_13: NCBeats me."]
-    350_23["Actor_9: NCIf they shut the gates..."]
-    350_24["Actor_9: NThey'd violate the treaty, right?"]
-    350_25["Actor_13: NCorrect."]
-    350_26["Actor_13: NBut we shouldn't jump to conclusions."]
-    350_27["Actor_13: NCLet's focus on the task ahead."]
-    350_28["Actor_10: SCPermission to speak."]
-    350_29["Actor_13: NCIf you have to."]
-    350_30["Actor_10: SPCAs soon as we're inside the city..."]
-    350_31["Actor_10: SPI'll find the clerk responsible for this questionnaire."]
-    350_32["Actor_10: SPCAnd once I do..."]
-    350_33["Actor_10: SCI'll take his stupid forms and shove them so far up his bureaucratic b-"]
-    350_34["Actor_13: SCYou've made your point."]
-    350_35["Actor_10: SIf they're so keen on cooperating, why pull a stunt like this?"]
-    350_36["Actor_13: SEither way, musing on it won't help."]
-    350_37["Actor_9: RI feel personally violated."]
-    350_38["Actor_10: NCAnd utterly exhausted, at that."]
-    350_39["Actor_461: none"]
-    350_40["Actor_350: Hello again!"]
-    350_41["Actor_13: NThere you go."]
-    350_42["Actor_350: Wonderful!"]
-    350_43["Actor_13: SCWe're a bit short on time, I'm afraid..."]
-    350_44["Actor_13: SAnd would really appreciate if there are no further delays."]
-    350_45["Actor_350: Apologies for the inconvenience."]
-    350_46["Actor_350: Verification should only take a moment."]
-    350_47["Actor_350: Sorry for the delay!"]
-    350_48["Actor_350: Mr. Angelov was it?"]
-    350_49["Actor_13: NRight."]
-    350_50["Actor_350: Born on the 7th September, 1894 in Mavrochori?"]
-    350_51["Actor_13: NCExactly."]
-    350_52["Actor_350: I'm afraid there's a problem."]
-    350_53["Actor_461: none"]
-    350_54["Actor_350: I'm sorry, but there's nothing I can do for you."]
-    350_0 --> 350_1
-    350_0 --> 350_40
-    350_0 --> 350_54
-    350_1 --> 350_2
-    350_2 --> 350_3
-    350_3 --> 350_4
-    350_4 --> 350_5
-    350_5 --> 350_6
-    350_6 --> 350_7
-    350_7 --> 350_8
-    350_8 --> 350_9
-    350_9 --> 350_10
-    350_10 --> 350_11
-    350_11 --> 350_12
-    350_12 --> 350_13
-    350_13 --> 350_14
-    350_14 --> 350_15
-    350_15 --> 350_16
-    350_16 --> 350_17
-    350_17 --> 350_18
-    350_18 --> 350_19
-    350_19 --> 350_20
-    350_20 --> 350_21
-    350_21 --> 350_22
-    350_22 --> 350_23
-    350_23 --> 350_24
-    350_24 --> 350_25
-    350_25 --> 350_26
-    350_26 --> 350_27
-    350_27 --> 350_28
-    350_28 --> 350_29
-    350_29 --> 350_30
-    350_30 --> 350_31
-    350_31 --> 350_32
-    350_32 --> 350_33
-    350_33 --> 350_34
-    350_34 --> 350_35
-    350_35 --> 350_36
-    350_36 --> 350_37
-    350_37 --> 350_38
-    350_38 --> 350_39
-    350_40 --> 350_41
-    350_41 --> 350_42
-    350_42 --> 350_43
-    350_43 --> 350_44
-    350_44 --> 350_45
-    350_45 --> 350_46
-    350_46 --> 350_47
-    350_47 --> 350_48
-    350_48 --> 350_49
-    350_49 --> 350_50
-    350_50 --> 350_51
-    350_51 --> 350_52
-    350_52 --> 350_53
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Nikoleta** |  | ➡️ `1` \[Nikoleta: Salutations, Mister\!\]<br>➡️ `40` \[Nikoleta: Hello again\!\]<br>➡️ `54` \[Nikoleta: I'm sorry, but there's nothing I can do for you\.\] |
+| `1` | **Nikoleta** | Salutations, Mister\! | ➡️ `2` \[Nikoleta: How can I help you?\] |
+| `2` | **Nikoleta** | How can I help you? | ➡️ `3` \[Atlas: We've been told we'd need a visa to enter Trachi\.\] |
+| `3` | **Atlas** | We've been told we'd need a visa to enter Trachi\. | ➡️ `4` \[Nikoleta: Quite right\!\] |
+| `4` | **Nikoleta** | Quite right\! | ➡️ `5` \[Nikoleta: If you're not a citizen, that is\!\] |
+| `5` | **Nikoleta** | If you're not a citizen, that is\! | ➡️ `6` \[Nikoleta: I just need each of you to fill out these forms he\.\.\.\] |
+| `6` | **Nikoleta** | I just need each of you to fill out these forms here and here\.\.\. | ➡️ `7` \[Nikoleta: Coupled with appendices 4 and 5\.\] |
+| `7` | **Nikoleta** | Coupled with appendices 4 and 5\. | ➡️ `8` \[Ganymede: All thirteen pages?\] |
+| `8` | **Ganymede** | All thirteen pages? | ➡️ `9` \[Nikoleta: As you said it\.\] |
+| `9` | **Nikoleta** | As you said it\. | ➡️ `10` \[Nikoleta: Feel free to take a seat over there, if you want\.\] |
+| `10` | **Nikoleta** | Feel free to take a seat over there, if you want\. | ➡️ `11` \[none: none\] |
+| `11` | **none** | none | ➡️ `12` \[Ganymede: Were you ever convicted?\] |
+| `12` | **Ganymede** | Were you ever convicted? | ➡️ `13` \[Ganymede: What does the insignia of Trachi depict?\] |
+| `13` | **Ganymede** | What does the insignia of Trachi depict? | ➡️ `14` \[Ganymede: Underscore the prime numbers in the following list\.\.\.\] |
+| `14` | **Ganymede** | Underscore the prime numbers in the following list\. | ➡️ `15` \[Ganymede: Is there a system to these questions, at all?\] |
+| `15` | **Ganymede** | Is there a system to these questions, at all? | ➡️ `16` \[Daphne: Apart from trying to provoke a killing spree, you \.\.\.\] |
+| `16` | **Daphne** | Apart from trying to provoke a killing spree, you mean? | ➡️ `17` \[Ganymede: It's deliberate, isn't it?\] |
+| `17` | **Ganymede** | It's deliberate, isn't it? | ➡️ `18` \[Atlas: You saw the queue at the gates, didn't you?\] |
+| `18` | **Atlas** | You saw the queue at the gates, didn't you? | ➡️ `19` \[Ganymede: So they're trying to filtering people with this?\] |
+| `19` | **Ganymede** | So they're trying to filtering people with this? | ➡️ `20` \[Atlas: And delay the others\.\] |
+| `20` | **Atlas** | And delay the others\. | ➡️ `21` \[Ganymede: Why?\] |
+| `21` | **Ganymede** | Why? | ➡️ `22` \[Atlas: Beats me\.\] |
+| `22` | **Atlas** | Beats me\. | ➡️ `23` \[Ganymede: If they shut the gates\.\.\.\] |
+| `23` | **Ganymede** | If they shut the gates\.\.\. | ➡️ `24` \[Ganymede: They'd violate the treaty, right?\] |
+| `24` | **Ganymede** | They'd violate the treaty, right? | ➡️ `25` \[Atlas: Correct\.\] |
+| `25` | **Atlas** | Correct\. | ➡️ `26` \[Atlas: But we shouldn't jump to conclusions\.\] |
+| `26` | **Atlas** | But we shouldn't jump to conclusions\. | ➡️ `27` \[Atlas: Let's focus on the task ahead\.\] |
+| `27` | **Atlas** | Let's focus on the task ahead\. | ➡️ `28` \[Daphne: Permission to speak\.\] |
+| `28` | **Daphne** | Permission to speak\. | ➡️ `29` \[Atlas: If you have to\.\] |
+| `29` | **Atlas** | If you have to\. | ➡️ `30` \[Daphne: As soon as we're inside the city\.\.\.\] |
+| `30` | **Daphne** | As soon as we're inside the city\.\.\. | ➡️ `31` \[Daphne: I'll find the clerk responsible for this questionn\.\.\.\] |
+| `31` | **Daphne** | I'll find the clerk responsible for this questionnaire\. | ➡️ `32` \[Daphne: And once I do\.\.\.\] |
+| `32` | **Daphne** | And once I do\.\.\. | ➡️ `33` \[Daphne: I'll take his stupid forms and shove them so far u\.\.\.\] |
+| `33` | **Daphne** | I'll take his stupid forms and shove them so far up his bureaucratic b\- | ➡️ `34` \[Atlas: You've made your point\.\] |
+| `34` | **Atlas** | You've made your point\. | ➡️ `35` \[Daphne: If they're so keen on cooperating, why pull a stun\.\.\.\] |
+| `35` | **Daphne** | If they're so keen on cooperating, why pull a stunt like this? | ➡️ `36` \[Atlas: Either way, musing on it won't help\.\] |
+| `36` | **Atlas** | Either way, musing on it won't help\. | ➡️ `37` \[Ganymede: I feel personally violated\.\] |
+| `37` | **Ganymede** | I feel personally violated\. | ➡️ `38` \[Daphne: And utterly exhausted, at that\.\] |
+| `38` | **Daphne** | And utterly exhausted, at that\. | ➡️ `39` \[none: none\] |
+| `39` | **none** | none | End |
+| `40` | **Nikoleta** | Hello again\! | ➡️ `41` \[Atlas: There you go\.\] |
+| `41` | **Atlas** | There you go\. | ➡️ `42` \[Nikoleta: Wonderful\!\] |
+| `42` | **Nikoleta** | Wonderful\! | ➡️ `43` \[Atlas: We're a bit short on time, I'm afraid\.\.\.\] |
+| `43` | **Atlas** | We're a bit short on time, I'm afraid\.\.\. | ➡️ `44` \[Atlas: And would really appreciate if there are no furthe\.\.\.\] |
+| `44` | **Atlas** | And would really appreciate if there are no further delays\. | ➡️ `45` \[Nikoleta: Apologies for the inconvenience\.\] |
+| `45` | **Nikoleta** | Apologies for the inconvenience\. | ➡️ `46` \[Nikoleta: Verification should only take a moment\.\] |
+| `46` | **Nikoleta** | Verification should only take a moment\. | ➡️ `47` \[Nikoleta: Sorry for the delay\!\] |
+| `47` | **Nikoleta** | Sorry for the delay\! | ➡️ `48` \[Nikoleta: Mr\. Angelov was it?\] |
+| `48` | **Nikoleta** | Mr\. Angelov was it? | ➡️ `49` \[Atlas: Right\.\] |
+| `49` | **Atlas** | Right\. | ➡️ `50` \[Nikoleta: Born on the 7th September, 1894 in Mavrochori?\] |
+| `50` | **Nikoleta** | Born on the 7th September, 1894 in Mavrochori? | ➡️ `51` \[Atlas: Exactly\.\] |
+| `51` | **Atlas** | Exactly\. | ➡️ `52` \[Nikoleta: I'm afraid there's a problem\.\] |
+| `52` | **Nikoleta** | I'm afraid there's a problem\. | ➡️ `53` \[none: none\] |
+| `53` | **none** | none | End |
+| `54` | **Nikoleta** | I'm sorry, but there's nothing I can do for you\. | End |

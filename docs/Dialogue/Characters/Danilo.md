@@ -1,11 +1,12 @@
-# Characters/Danilo
+---
+title: Danilo
+---
+
+# Danilo
 
 
-```mermaid
-graph TD
-    169_0["Actor_168"]
-    169_1["Actor_168: This is preposterous!"]
-    169_2["Actor_168: I'm a Trachian citizen, you hear me?"]
-    169_0 --> 169_1
-    169_1 --> 169_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Danilo** |  | ➡️ `1` \[Danilo: This is preposterous\!\] |
+| `1` | **Danilo** | This is preposterous\! | ➡️ `2` \[Danilo: I'm a Trachian citizen, you hear me?\] |
+| `2` | **Danilo** | I'm a Trachian citizen, you hear me? | End |

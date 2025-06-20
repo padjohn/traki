@@ -1,6 +1,9 @@
-# Characters/Clemens
+---
+title: Clemens
+---
+
+# Clemens
 
 
-```mermaid
-graph TD
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |

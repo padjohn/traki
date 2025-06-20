@@ -1,11 +1,12 @@
-# Characters/Vasco
+---
+title: Vasco
+---
+
+# Vasco
 
 
-```mermaid
-graph TD
-    429_0["Actor_431"]
-    429_1["Actor_431: The bridge will be reopened at the earliest opportunity."]
-    429_2["Actor_431: The bridge will be reopened at the earliest opportunity."]
-    429_0 --> 429_1
-    429_0 --> 429_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Vasco** |  | ➡️ `1` \[Vasco: The bridge will be reopened at the earliest opport\.\.\.\]<br>➡️ `2` \[Vasco: The bridge will be reopened at the earliest opport\.\.\.\] |
+| `1` | **Vasco** | The bridge will be reopened at the earliest opportunity\. | End |
+| `2` | **Vasco** | The bridge will be reopened at the earliest opportunity\. | End |

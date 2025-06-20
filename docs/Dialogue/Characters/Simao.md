@@ -1,9 +1,11 @@
-# Characters/Simao
+---
+title: Simao
+---
+
+# Simao
 
 
-```mermaid
-graph TD
-    398_0["Actor_399"]
-    398_1["Actor_399: Not allowed to talk at work, sorry."]
-    398_0 --> 398_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Simao** |  | ➡️ `1` \[Simao: Not allowed to talk at work, sorry\.\] |
+| `1` | **Simao** | Not allowed to talk at work, sorry\. | End |

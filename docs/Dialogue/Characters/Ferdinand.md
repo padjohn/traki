@@ -1,9 +1,11 @@
-# Characters/Ferdinand
+---
+title: Ferdinand
+---
+
+# Ferdinand
 
 
-```mermaid
-graph TD
-    208_0["Actor_208"]
-    208_1["Actor_208: Get in line, please."]
-    208_0 --> 208_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Ferdinand** |  | ➡️ `1` \[Ferdinand: Get in line, please\.\] |
+| `1` | **Ferdinand** | Get in line, please\. | End |

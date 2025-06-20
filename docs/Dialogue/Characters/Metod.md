@@ -1,9 +1,11 @@
-# Characters/Metod
+---
+title: Metod
+---
+
+# Metod
 
 
-```mermaid
-graph TD
-    328_0["Actor_330"]
-    328_1["Actor_330: Get a move on."]
-    328_0 --> 328_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Metod** |  | ➡️ `1` \[Metod: Get a move on\.\] |
+| `1` | **Metod** | Get a move on\. | End |

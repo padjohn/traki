@@ -1,13 +1,13 @@
-# Characters/Colin
+---
+title: Colin
+---
+
+# Colin
 
 
-```mermaid
-graph TD
-    156_0["Actor_152"]
-    156_1["Actor_152: Looks like a storm's coming this way."]
-    156_2["Actor_310: Can you see those clouds, too?"]
-    156_3["Actor_152: I'll stay right here, no matter what happens."]
-    156_0 --> 156_1
-    156_0 --> 156_2
-    156_0 --> 156_3
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Colin** |  | ➡️ `1` \[Colin: Looks like a storm's coming this way\.\]<br>➡️ `2` \[Maczek: Can you see those clouds, too?\]<br>➡️ `3` \[Colin: I'll stay right here, no matter what happens\.\] |
+| `1` | **Colin** | Looks like a storm's coming this way\. | End |
+| `2` | **Maczek** | Can you see those clouds, too? | End |
+| `3` | **Colin** | I'll stay right here, no matter what happens\. | End |

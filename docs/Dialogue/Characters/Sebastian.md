@@ -1,9 +1,11 @@
-# Characters/Sebastian
+---
+title: Sebastian
+---
+
+# Sebastian
 
 
-```mermaid
-graph TD
-    389_0["Actor_389"]
-    389_1["Actor_389: What to do..."]
-    389_0 --> 389_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Sebastian** |  | ➡️ `1` \[Sebastian: What to do\.\.\.\] |
+| `1` | **Sebastian** | What to do\.\.\. | End |

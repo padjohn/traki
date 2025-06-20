@@ -1,11 +1,12 @@
-# Characters/Valentina
+---
+title: Valentina
+---
+
+# Valentina
 
 
-```mermaid
-graph TD
-    426_0["Actor_428"]
-    426_1["Actor_428: Weather's really nice this time of the year, ain't it?"]
-    426_2["Actor_428: What's everyone so worked up about?"]
-    426_0 --> 426_1
-    426_0 --> 426_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Valentina** |  | ➡️ `1` \[Valentina: Weather's really nice this time of the year, ain't\.\.\.\]<br>➡️ `2` \[Valentina: What's everyone so worked up about?\] |
+| `1` | **Valentina** | Weather's really nice this time of the year, ain't it? | End |
+| `2` | **Valentina** | What's everyone so worked up about? | End |

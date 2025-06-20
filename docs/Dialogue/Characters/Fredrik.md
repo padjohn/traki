@@ -1,11 +1,12 @@
-# Characters/Fredrik
+---
+title: Fredrik
+---
+
+# Fredrik
 
 
-```mermaid
-graph TD
-    220_0["Actor_220"]
-    220_1["Actor_220: Sorry, no entry."]
-    220_2["Actor_220: Good day to you!"]
-    220_0 --> 220_1
-    220_1 --> 220_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Fredrik** |  | ➡️ `1` \[Fredrik: Sorry, no entry\.\] |
+| `1` | **Fredrik** | Sorry, no entry\. | ➡️ `2` \[Fredrik: Good day to you\!\] |
+| `2` | **Fredrik** | Good day to you\! | End |

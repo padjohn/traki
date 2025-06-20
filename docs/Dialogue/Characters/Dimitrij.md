@@ -1,9 +1,11 @@
-# Characters/Dimitrij
+---
+title: Dimitrij
+---
+
+# Dimitrij
 
 
-```mermaid
-graph TD
-    179_0["Actor_180"]
-    179_1["Actor_180: For freedom!"]
-    179_0 --> 179_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Dimitrij** |  | ➡️ `1` \[Dimitrij: For freedom\!\] |
+| `1` | **Dimitrij** | For freedom\! | End |

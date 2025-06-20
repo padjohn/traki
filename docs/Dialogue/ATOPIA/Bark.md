@@ -1,141 +1,71 @@
-# ATOPIA/Bark
+---
+title: Bark
+---
+
+# Bark
 
 
-```mermaid
-graph TD
-    23_0["Actor_9"]
-    23_1["Actor_9: Die."]
-    23_2["Actor_9: Eat shit."]
-    23_3["Actor_10: Watch me."]
-    23_4["Actor_9: Ganymede"]
-    23_5["Actor_10: Daphne"]
-    23_6["Actor_10: Trojan whore."]
-    23_7["Actor_9: Knockout."]
-    23_8["Actor_9: Bitch of Hermingrad."]
-    23_9["Actor_9: Singing in the rain"]
-    23_10["Actor_10: Too slow."]
-    23_11["Actor_10: P1"]
-    23_12["Actor_10: P2"]
-    23_13["Actor_10: P3"]
-    23_14["Actor_10: P4"]
-    23_15["Actor_10: P5"]
-    23_16["Actor_10: P6"]
-    23_17["Actor_10: P1"]
-    23_18["Actor_10: Eat shit."]
-    23_19["Actor_10: P2"]
-    23_20["Actor_10: P3"]
-    23_21["Actor_10: P4"]
-    23_22["Actor_10: P5"]
-    23_23["Actor_10: P6"]
-    23_24["Actor_9: Die."]
-    23_25["Actor_9: Memories of 1923."]
-    23_26["Actor_10: For Iky."]
-    23_27["Actor_9: Too late."]
-    23_28["Actor_9: Again."]
-    23_29["Actor_9: EnTARD."]
-    23_30["Actor_9: Singing in the rain."]
-    23_32["Actor_9: Good night."]
-    23_33["Actor_10: Goodbye."]
-    23_34["Actor_10: Cease."]
-    23_35["Actor_10: See you."]
-    23_36["Actor_10: Enough."]
-    23_37["Actor_10: Freeloader."]
-    23_38["Actor_10: Parasite."]
-    23_39["Actor_10: Die."]
-    23_40["Actor_10: Clown."]
-    23_41["Actor_10: Another one."]
-    23_42["Actor_10: Asshole."]
-    23_43["Actor_10: Manface."]
-    23_44["Actor_10: Catamite."]
-    23_45["Actor_9: Obsolete."]
-    23_46["Actor_9: Dorothy!"]
-    23_47["Actor_9: Dotty."]
-    23_48["Actor_10: Timotej!"]
-    23_49["Actor_10: Timo."]
-    23_50["Actor_9: Payback."]
-    23_51["Actor_9: Serves you right."]
-    23_52["Actor_10: Shithead."]
-    23_53["Actor_10: Idiot."]
-    23_54["Actor_10: Idiot."]
-    23_55["Actor_10: Eat shit."]
-    23_56["Actor_9: Get stuffed."]
-    23_57["Actor_10: Half-breed."]
-    23_58["Actor_10: Bastard."]
-    23_59["Actor_4: Icarus"]
-    23_61["Actor_4: Straight to hell."]
-    23_62["Actor_4: And so much more."]
-    23_63["Actor_10: I'll mess you up!"]
-    23_64["Actor_10: Eat shit!"]
-    23_0 --> 23_4
-    23_0 --> 23_5
-    23_0 --> 23_59
-    23_4 --> 23_11
-    23_4 --> 23_12
-    23_4 --> 23_13
-    23_4 --> 23_14
-    23_4 --> 23_15
-    23_4 --> 23_16
-    23_5 --> 23_17
-    23_5 --> 23_19
-    23_5 --> 23_20
-    23_5 --> 23_21
-    23_5 --> 23_22
-    23_5 --> 23_23
-    23_11 --> 23_7
-    23_11 --> 23_27
-    23_12 --> 23_1
-    23_12 --> 23_28
-    23_12 --> 23_32
-    23_12 --> 23_50
-    23_12 --> 23_27
-    23_12 --> 23_63
-    23_13 --> 23_18
-    23_13 --> 23_26
-    23_13 --> 23_43
-    23_13 --> 23_45
-    23_13 --> 23_55
-    23_13 --> 23_56
-    23_13 --> 23_1
-    23_13 --> 23_28
-    23_13 --> 23_32
-    23_13 --> 23_50
-    23_13 --> 23_63
-    23_14 --> 23_9
-    23_14 --> 23_24
-    23_14 --> 23_25
-    23_14 --> 23_46
-    23_14 --> 23_51
-    23_15 --> 23_8
-    23_15 --> 23_29
-    23_15 --> 23_30
-    23_15 --> 23_47
-    23_17 --> 23_10
-    23_17 --> 23_64
-    23_19 --> 23_3
-    23_19 --> 23_35
-    23_19 --> 23_39
-    23_19 --> 23_44
-    23_19 --> 23_52
-    23_20 --> 23_34
-    23_20 --> 23_37
-    23_20 --> 23_40
-    23_20 --> 23_53
-    23_20 --> 23_57
-    23_20 --> 23_3
-    23_20 --> 23_35
-    23_20 --> 23_39
-    23_20 --> 23_44
-    23_20 --> 23_52
-    23_21 --> 23_36
-    23_21 --> 23_48
-    23_21 --> 23_38
-    23_21 --> 23_54
-    23_21 --> 23_58
-    23_22 --> 23_6
-    23_22 --> 23_41
-    23_22 --> 23_42
-    23_22 --> 23_49
-    23_23 --> 23_33
-    23_59 --> 23_61
-    23_59 --> 23_62
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Ganymede** |  | ➡️ `4` \[Ganymede: Ganymede\]<br>➡️ `5` \[Daphne: Daphne\]<br>➡️ `59` \[Icarus: Icarus\] |
+| `1` | **Ganymede** | Die\. | End |
+| `3` | **Daphne** | Watch me\. | End |
+| `4` | **Ganymede** | Ganymede | ➡️ `11` \[Daphne: P1\]<br>➡️ `12` \[Daphne: P2\]<br>➡️ `13` \[Daphne: P3\]<br>➡️ `14` \[Daphne: P4\]<br>➡️ `15` \[Daphne: P5\]<br>➡️ `16` \[Daphne: P6\] |
+| `5` | **Daphne** | Daphne | ➡️ `17` \[Daphne: P1\]<br>➡️ `19` \[Daphne: P2\]<br>➡️ `20` \[Daphne: P3\]<br>➡️ `21` \[Daphne: P4\]<br>➡️ `22` \[Daphne: P5\]<br>➡️ `23` \[Daphne: P6\] |
+| `6` | **Daphne** | Trojan whore\. | End |
+| `7` | **Ganymede** | Knockout\. | End |
+| `8` | **Ganymede** | Bitch of Hermingrad\. | End |
+| `9` | **Ganymede** | Singing in the rain | End |
+| `10` | **Daphne** | Too slow\. | End |
+| `11` | **Daphne** | P1 | ➡️ `7` \[Ganymede: Knockout\.\]<br>➡️ `27` \[Ganymede: Too late\.\] |
+| `12` | **Daphne** | P2 | ➡️ `1` \[Ganymede: Die\.\]<br>➡️ `28` \[Ganymede: Again\.\]<br>➡️ `32` \[Ganymede: Good night\.\]<br>➡️ `50` \[Ganymede: Payback\.\]<br>➡️ `27` \[Ganymede: Too late\.\]<br>➡️ `63` \[Daphne: I'll mess you up\!\] |
+| `13` | **Daphne** | P3 | ➡️ `18` \[Daphne: Eat shit\.\]<br>➡️ `26` \[Daphne: For Iky\.\]<br>➡️ `43` \[Daphne: Manface\.\]<br>➡️ `45` \[Ganymede: Obsolete\.\]<br>➡️ `55` \[Daphne: Eat shit\.\]<br>➡️ `56` \[Ganymede: Get stuffed\.\]<br>➡️ `1` \[Ganymede: Die\.\]<br>➡️ `28` \[Ganymede: Again\.\]<br>➡️ `32` \[Ganymede: Good night\.\]<br>➡️ `50` \[Ganymede: Payback\.\]<br>➡️ `63` \[Daphne: I'll mess you up\!\] |
+| `14` | **Daphne** | P4 | ➡️ `9` \[Ganymede: Singing in the rain\]<br>➡️ `24` \[Ganymede: Die\.\]<br>➡️ `25` \[Ganymede: Memories of 1923\.\]<br>➡️ `46` \[Ganymede: Dorothy\!\]<br>➡️ `51` \[Ganymede: Serves you right\.\] |
+| `15` | **Daphne** | P5 | ➡️ `8` \[Ganymede: Bitch of Hermingrad\.\]<br>➡️ `29` \[Ganymede: EnTARD\.\]<br>➡️ `30` \[Ganymede: Singing in the rain\.\]<br>➡️ `47` \[Ganymede: Dotty\.\] |
+| `16` | **Daphne** | P6 | End |
+| `17` | **Daphne** | P1 | ➡️ `10` \[Daphne: Too slow\.\]<br>➡️ `64` \[Daphne: Eat shit\!\] |
+| `18` | **Daphne** | Eat shit\. | End |
+| `19` | **Daphne** | P2 | ➡️ `3` \[Daphne: Watch me\.\]<br>➡️ `35` \[Daphne: See you\.\]<br>➡️ `39` \[Daphne: Die\.\]<br>➡️ `44` \[Daphne: Catamite\.\]<br>➡️ `52` \[Daphne: Shithead\.\] |
+| `20` | **Daphne** | P3 | ➡️ `34` \[Daphne: Cease\.\]<br>➡️ `37` \[Daphne: Freeloader\.\]<br>➡️ `40` \[Daphne: Clown\.\]<br>➡️ `53` \[Daphne: Idiot\.\]<br>➡️ `57` \[Daphne: Half\-breed\.\]<br>➡️ `3` \[Daphne: Watch me\.\]<br>➡️ `35` \[Daphne: See you\.\]<br>➡️ `39` \[Daphne: Die\.\]<br>➡️ `44` \[Daphne: Catamite\.\]<br>➡️ `52` \[Daphne: Shithead\.\] |
+| `21` | **Daphne** | P4 | ➡️ `36` \[Daphne: Enough\.\]<br>➡️ `48` \[Daphne: Timotej\!\]<br>➡️ `38` \[Daphne: Parasite\.\]<br>➡️ `54` \[Daphne: Idiot\.\]<br>➡️ `58` \[Daphne: Bastard\.\] |
+| `22` | **Daphne** | P5 | ➡️ `6` \[Daphne: Trojan whore\.\]<br>➡️ `41` \[Daphne: Another one\.\]<br>➡️ `42` \[Daphne: Asshole\.\]<br>➡️ `49` \[Daphne: Timo\.\] |
+| `23` | **Daphne** | P6 | ➡️ `33` \[Daphne: Goodbye\.\] |
+| `24` | **Ganymede** | Die\. | End |
+| `25` | **Ganymede** | Memories of 1923\. | End |
+| `26` | **Daphne** | For Iky\. | End |
+| `27` | **Ganymede** | Too late\. | End |
+| `28` | **Ganymede** | Again\. | End |
+| `29` | **Ganymede** | EnTARD\. | End |
+| `30` | **Ganymede** | Singing in the rain\. | End |
+| `32` | **Ganymede** | Good night\. | End |
+| `33` | **Daphne** | Goodbye\. | End |
+| `34` | **Daphne** | Cease\. | End |
+| `35` | **Daphne** | See you\. | End |
+| `36` | **Daphne** | Enough\. | End |
+| `37` | **Daphne** | Freeloader\. | End |
+| `38` | **Daphne** | Parasite\. | End |
+| `39` | **Daphne** | Die\. | End |
+| `40` | **Daphne** | Clown\. | End |
+| `41` | **Daphne** | Another one\. | End |
+| `42` | **Daphne** | Asshole\. | End |
+| `43` | **Daphne** | Manface\. | End |
+| `44` | **Daphne** | Catamite\. | End |
+| `45` | **Ganymede** | Obsolete\. | End |
+| `46` | **Ganymede** | Dorothy\! | End |
+| `47` | **Ganymede** | Dotty\. | End |
+| `48` | **Daphne** | Timotej\! | End |
+| `49` | **Daphne** | Timo\. | End |
+| `50` | **Ganymede** | Payback\. | End |
+| `51` | **Ganymede** | Serves you right\. | End |
+| `52` | **Daphne** | Shithead\. | End |
+| `53` | **Daphne** | Idiot\. | End |
+| `54` | **Daphne** | Idiot\. | End |
+| `55` | **Daphne** | Eat shit\. | End |
+| `56` | **Ganymede** | Get stuffed\. | End |
+| `57` | **Daphne** | Half\-breed\. | End |
+| `58` | **Daphne** | Bastard\. | End |
+| `59` | **Icarus** | Icarus | ➡️ `61` \[Icarus: Straight to hell\.\]<br>➡️ `62` \[Icarus: And so much more\.\] |
+| `61` | **Icarus** | Straight to hell\. | End |
+| `62` | **Icarus** | And so much more\. | End |
+| `63` | **Daphne** | I'll mess you up\! | End |
+| `64` | **Daphne** | Eat shit\! | End |

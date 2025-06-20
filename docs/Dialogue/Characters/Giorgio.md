@@ -1,9 +1,11 @@
-# Characters/Giorgio
+---
+title: Giorgio
+---
+
+# Giorgio
 
 
-```mermaid
-graph TD
-    228_0["Actor_228"]
-    228_1["Actor_228: Top of the day to you."]
-    228_0 --> 228_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Giorgio** |  | ➡️ `1` \[Giorgio: Top of the day to you\.\] |
+| `1` | **Giorgio** | Top of the day to you\. | End |

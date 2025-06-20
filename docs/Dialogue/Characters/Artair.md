@@ -1,9 +1,11 @@
-# Characters/Artair
+---
+title: Artair
+---
+
+# Artair
 
 
-```mermaid
-graph TD
-    128_0["Actor_123"]
-    128_1["Actor_123: Stop pushing."]
-    128_0 --> 128_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Artair** |  | ➡️ `1` \[Artair: Stop pushing\.\] |
+| `1` | **Artair** | Stop pushing\. | End |

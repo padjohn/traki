@@ -1,7 +1,10 @@
-# Characters/Heinz
+---
+title: Heinz
+---
+
+# Heinz
 
 
-```mermaid
-graph TD
-    244_0["Actor_242"]
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Heinz** |  | End |

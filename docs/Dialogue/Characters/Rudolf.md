@@ -1,6 +1,9 @@
-# Characters/Rudolf
+---
+title: Rudolf
+---
+
+# Rudolf
 
 
-```mermaid
-graph TD
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |

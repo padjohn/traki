@@ -1,9 +1,11 @@
-# Characters/Yordan
+---
+title: Yordan
+---
+
+# Yordan
 
 
-```mermaid
-graph TD
-    447_0["Actor_449"]
-    447_1["Actor_449: Only if it's someone from their side, of course!"]
-    447_0 --> 447_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Yordan** |  | ➡️ `1` \[Yordan: Only if it's someone from their side, of course\!\] |
+| `1` | **Yordan** | Only if it's someone from their side, of course\! | End |

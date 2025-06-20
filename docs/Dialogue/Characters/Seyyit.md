@@ -1,13 +1,13 @@
-# Characters/Seyyit
+---
+title: Seyyit
+---
+
+# Seyyit
 
 
-```mermaid
-graph TD
-    397_0["Actor_398"]
-    397_1["Actor_398: Don't you worry my dear!"]
-    397_2["Actor_398: I can handle a bunch of brigands without breaking a sweat!"]
-    397_3["Actor_398: I never felt better in my entire life!"]
-    397_0 --> 397_1
-    397_0 --> 397_3
-    397_1 --> 397_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Seyyit** |  | ➡️ `1` \[Seyyit: Don't you worry my dear\!\]<br>➡️ `3` \[Seyyit: I never felt better in my entire life\!\] |
+| `1` | **Seyyit** | Don't you worry my dear\! | ➡️ `2` \[Seyyit: I can handle a bunch of brigands without breaking \.\.\.\] |
+| `2` | **Seyyit** | I can handle a bunch of brigands without breaking a sweat\! | End |
+| `3` | **Seyyit** | I never felt better in my entire life\! | End |

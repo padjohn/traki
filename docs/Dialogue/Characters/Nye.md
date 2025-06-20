@@ -1,13 +1,13 @@
-# Characters/Nye
+---
+title: Nye
+---
+
+# Nye
 
 
-```mermaid
-graph TD
-    351_0["Actor_351"]
-    351_1["Actor_351: They say that someone in the crowd fired first."]
-    351_2["Actor_351: Who would do such a thing?"]
-    351_3["Actor_351: Why would the Militia do something like that?"]
-    351_0 --> 351_1
-    351_0 --> 351_3
-    351_1 --> 351_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Nye** |  | ➡️ `1` \[Nye: They say that someone in the crowd fired first\.\]<br>➡️ `3` \[Nye: Why would the Militia do something like that?\] |
+| `1` | **Nye** | They say that someone in the crowd fired first\. | ➡️ `2` \[Nye: Who would do such a thing?\] |
+| `2` | **Nye** | Who would do such a thing? | End |
+| `3` | **Nye** | Why would the Militia do something like that? | End |

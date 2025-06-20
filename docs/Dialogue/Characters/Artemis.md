@@ -1,9 +1,11 @@
-# Characters/Artemis
+---
+title: Artemis
+---
+
+# Artemis
 
 
-```mermaid
-graph TD
-    130_0["Actor_125"]
-    130_1["Actor_125: Can't believe we're letting this guy go."]
-    130_0 --> 130_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Artemis** |  | ➡️ `1` \[Artemis: Can't believe we're letting this guy go\.\] |
+| `1` | **Artemis** | Can't believe we're letting this guy go\. | End |

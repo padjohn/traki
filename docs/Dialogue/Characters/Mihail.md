@@ -1,65 +1,39 @@
-# Characters/Mihail
+---
+title: Mihail
+---
+
+# Mihail
 
 
-```mermaid
-graph TD
-    330_0["Actor_332"]
-    330_1["Actor_332: Yo."]
-    330_2["Actor_332: Can I help you?"]
-    330_3["Actor_9: NSAll good!"]
-    330_4["Actor_9: NSCJust having a look around."]
-    330_5["Actor_9: NGDDon't let me keep you!"]
-    330_6["Actor_332: Heh."]
-    330_7["Actor_332: How much do you want?"]
-    330_8["Actor_9: NI'm sorry?"]
-    330_9["Actor_332: Oh..."]
-    330_10["Actor_332: You're not here because of that?"]
-    330_11["Actor_9: NGDI guess not!"]
-    330_12["Actor_332: Alright."]
-    330_13["Actor_9: NSCJust out of interest..."]
-    330_14["Actor_9: NSWhat do you got?"]
-    330_15["Actor_332: How do I know you're not one the Guardies?"]
-    330_16["Actor_9: NSCYou don't."]
-    330_17["Actor_9: NSBut there's one right over there."]
-    330_18["Actor_9: SGWant to go and ask him?"]
-    330_19["Actor_9: NGDJust kidding, of course!"]
-    330_20["Actor_9: NSCNot like he'd believe me, anyway."]
-    330_21["Actor_9: NSRight?"]
-    330_22["Actor_332: Chario."]
-    330_23["Actor_9: SCI see."]
-    330_24["Actor_9: SSThank you for sharing that with me."]
-    330_25["Actor_332: No problem, man."]
-    330_26["Actor_332: And good luck."]
-    330_27["Actor_9: NSYou too, friend."]
-    330_28["Actor_461: none"]
-    330_29["Actor_332: See you on the other side."]
-    330_0 --> 330_1
-    330_0 --> 330_29
-    330_1 --> 330_2
-    330_2 --> 330_3
-    330_3 --> 330_4
-    330_4 --> 330_5
-    330_5 --> 330_6
-    330_6 --> 330_7
-    330_7 --> 330_8
-    330_8 --> 330_9
-    330_9 --> 330_10
-    330_10 --> 330_11
-    330_11 --> 330_12
-    330_12 --> 330_13
-    330_13 --> 330_14
-    330_14 --> 330_15
-    330_15 --> 330_16
-    330_16 --> 330_17
-    330_17 --> 330_18
-    330_18 --> 330_19
-    330_19 --> 330_20
-    330_20 --> 330_21
-    330_21 --> 330_22
-    330_22 --> 330_23
-    330_23 --> 330_24
-    330_24 --> 330_25
-    330_25 --> 330_26
-    330_26 --> 330_27
-    330_27 --> 330_28
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Mihail** |  | ➡️ `1` \[Mihail: Yo\.\]<br>➡️ `29` \[Mihail: See you on the other side\.\] |
+| `1` | **Mihail** | Yo\. | ➡️ `2` \[Mihail: Can I help you?\] |
+| `2` | **Mihail** | Can I help you? | ➡️ `3` \[Ganymede: All good\!\] |
+| `3` | **Ganymede** | All good\! | ➡️ `4` \[Ganymede: Just having a look around\.\] |
+| `4` | **Ganymede** | Just having a look around\. | ➡️ `5` \[Ganymede: Don't let me keep you\!\] |
+| `5` | **Ganymede** | Don't let me keep you\! | ➡️ `6` \[Mihail: Heh\.\] |
+| `6` | **Mihail** | Heh\. | ➡️ `7` \[Mihail: How much do you want?\] |
+| `7` | **Mihail** | How much do you want? | ➡️ `8` \[Ganymede: I'm sorry?\] |
+| `8` | **Ganymede** | I'm sorry? | ➡️ `9` \[Mihail: Oh\.\.\.\] |
+| `9` | **Mihail** | Oh\.\.\. | ➡️ `10` \[Mihail: You're not here because of that?\] |
+| `10` | **Mihail** | You're not here because of that? | ➡️ `11` \[Ganymede: I guess not\!\] |
+| `11` | **Ganymede** | I guess not\! | ➡️ `12` \[Mihail: Alright\.\] |
+| `12` | **Mihail** | Alright\. | ➡️ `13` \[Ganymede: Just out of interest\.\.\.\] |
+| `13` | **Ganymede** | Just out of interest\.\.\. | ➡️ `14` \[Ganymede: What do you got?\] |
+| `14` | **Ganymede** | What do you got? | ➡️ `15` \[Mihail: How do I know you're not one the Guardies?\] |
+| `15` | **Mihail** | How do I know you're not one the Guardies? | ➡️ `16` \[Ganymede: You don't\.\] |
+| `16` | **Ganymede** | You don't\. | ➡️ `17` \[Ganymede: But there's one right over there\.\] |
+| `17` | **Ganymede** | But there's one right over there\. | ➡️ `18` \[Ganymede: Want to go and ask him?\] |
+| `18` | **Ganymede** | Want to go and ask him? | ➡️ `19` \[Ganymede: Just kidding, of course\!\] |
+| `19` | **Ganymede** | Just kidding, of course\! | ➡️ `20` \[Ganymede: Not like he'd believe me, anyway\.\] |
+| `20` | **Ganymede** | Not like he'd believe me, anyway\. | ➡️ `21` \[Ganymede: Right?\] |
+| `21` | **Ganymede** | Right? | ➡️ `22` \[Mihail: Chario\.\] |
+| `22` | **Mihail** | Chario\. | ➡️ `23` \[Ganymede: I see\.\] |
+| `23` | **Ganymede** | I see\. | ➡️ `24` \[Ganymede: Thank you for sharing that with me\.\] |
+| `24` | **Ganymede** | Thank you for sharing that with me\. | ➡️ `25` \[Mihail: No problem, man\.\] |
+| `25` | **Mihail** | No problem, man\. | ➡️ `26` \[Mihail: And good luck\.\] |
+| `26` | **Mihail** | And good luck\. | ➡️ `27` \[Ganymede: You too, friend\.\] |
+| `27` | **Ganymede** | You too, friend\. | ➡️ `28` \[none: none\] |
+| `28` | **none** | none | End |
+| `29` | **Mihail** | See you on the other side\. | End |

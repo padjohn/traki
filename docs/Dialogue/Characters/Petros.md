@@ -1,21 +1,17 @@
-# Characters/Petros
+---
+title: Petros
+---
+
+# Petros
 
 
-```mermaid
-graph TD
-    88_0["Actor_16"]
-    88_1["Actor_367: So that's what the shootout was about?"]
-    88_2["Actor_346: Anyways, I asked Richard about it."]
-    88_3["Actor_346: And he told me that there was a jailbreak, yesterday."]
-    88_4["Actor_383: Good morning, Mr. Hendrick."]
-    88_5["Actor_383: Hope you a nice day, Mr."]
-    88_6["Actor_383: Good morning."]
-    88_167["Actor_59: Behave."]
-    88_0 --> 88_167
-    88_0 --> 88_1
-    88_0 --> 88_6
-    88_1 --> 88_2
-    88_2 --> 88_3
-    88_3 --> 88_4
-    88_4 --> 88_5
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Pandora** |  | ➡️ `167` \[Petros: Behave\.\]<br>➡️ `1` \[Petros: So that's what the shootout was about?\]<br>➡️ `6` \[Rudolf: Good morning\.\] |
+| `1` | **Petros** | So that's what the shootout was about? | ➡️ `2` \[Nicu: Anyways, I asked Richard about it\.\] |
+| `2` | **Nicu** | Anyways, I asked Richard about it\. | ➡️ `3` \[Nicu: And he told me that there was a jailbreak, yesterd\.\.\.\] |
+| `3` | **Nicu** | And he told me that there was a jailbreak, yesterday\. | ➡️ `4` \[Rudolf: Good morning, Mr\. Hendrick\.\] |
+| `4` | **Rudolf** | Good morning, Mr\. Hendrick\. | ➡️ `5` \[Rudolf: Hope you a nice day, Mr\.\] |
+| `5` | **Rudolf** | Hope you a nice day, Mr\. | End |
+| `6` | **Rudolf** | Good morning\. | End |
+| `167` | **Petros** | Behave\. | End |

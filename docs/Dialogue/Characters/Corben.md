@@ -1,6 +1,9 @@
-# Characters/Corben
+---
+title: Corben
+---
+
+# Corben
 
 
-```mermaid
-graph TD
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |

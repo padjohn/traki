@@ -1,9 +1,11 @@
-# Characters/Artem
+---
+title: Artem
+---
+
+# Artem
 
 
-```mermaid
-graph TD
-    129_0["Actor_124"]
-    129_1["Actor_124: At this point, I don't even know if I'll ever manage to get in..."]
-    129_0 --> 129_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Artem** |  | ➡️ `1` \[Artem: At this point, I don't even know if I'll ever mana\.\.\.\] |
+| `1` | **Artem** | At this point, I don't even know if I'll ever manage to get in\.\.\. | End |

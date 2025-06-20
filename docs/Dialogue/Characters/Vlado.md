@@ -1,13 +1,13 @@
-# Characters/Vlado
+---
+title: Vlado
+---
+
+# Vlado
 
 
-```mermaid
-graph TD
-    52_0["Actor_1"]
-    52_83["Actor_9"]
-    52_149["Actor_34: Get lost."]
-    52_150["Actor_34: I mean it."]
-    52_0 --> 52_83
-    52_83 --> 52_149
-    52_83 --> 52_150
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **invalid** |  | ➡️ `83` \[Ganymede\] |
+| `83` | **Ganymede** |  | ➡️ `149` \[Vlado: Get lost\.\]<br>➡️ `150` \[Vlado: I mean it\.\] |
+| `149` | **Vlado** | Get lost\. | End |
+| `150` | **Vlado** | I mean it\. | End |

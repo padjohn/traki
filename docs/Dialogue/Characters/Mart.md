@@ -1,13 +1,13 @@
-# Characters/Martí
+---
+title: Martí
+---
+
+# Martí
 
 
-```mermaid
-graph TD
-    325_0["Actor_326"]
-    325_1["Actor_326: Aww, that's too bad!"]
-    325_2["Actor_326: I really hoped you could pose for me."]
-    325_3["Actor_326: You're so beautiful, the picture would almost paint itself."]
-    325_0 --> 325_1
-    325_1 --> 325_2
-    325_2 --> 325_3
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Martí** |  | ➡️ `1` \[Martí: Aww, that's too bad\!\] |
+| `1` | **Martí** | Aww, that's too bad\! | ➡️ `2` \[Martí: I really hoped you could pose for me\.\] |
+| `2` | **Martí** | I really hoped you could pose for me\. | ➡️ `3` \[Martí: You're so beautiful, the picture would almost pain\.\.\.\] |
+| `3` | **Martí** | You're so beautiful, the picture would almost paint itself\. | End |

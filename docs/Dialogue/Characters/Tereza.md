@@ -1,11 +1,12 @@
-# Characters/Tereza
+---
+title: Tereza
+---
+
+# Tereza
 
 
-```mermaid
-graph TD
-    415_0["Actor_417"]
-    415_1["Actor_417: How dare this brute call a lady like me a witch!"]
-    415_2["Actor_417: Oh, I'll show him, alright!"]
-    415_0 --> 415_1
-    415_1 --> 415_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Tereza** |  | ➡️ `1` \[Tereza: How dare this brute call a lady like me a witch\!\] |
+| `1` | **Tereza** | How dare this brute call a lady like me a witch\! | ➡️ `2` \[Tereza: Oh, I'll show him, alright\!\] |
+| `2` | **Tereza** | Oh, I'll show him, alright\! | End |

@@ -1,9 +1,11 @@
-# Characters/Gord
+---
+title: Gord
+---
+
+# Gord
 
 
-```mermaid
-graph TD
-    230_0["Actor_229"]
-    230_1["Actor_229: Two days, and I'll be traversing the seas again."]
-    230_0 --> 230_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Gord** |  | ➡️ `1` \[Gord: Two days, and I'll be traversing the seas again\.\] |
+| `1` | **Gord** | Two days, and I'll be traversing the seas again\. | End |

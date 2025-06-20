@@ -1,11 +1,12 @@
-# Characters/Jessika
+---
+title: Jessika
+---
+
+# Jessika
 
 
-```mermaid
-graph TD
-    265_0["Actor_262"]
-    265_1["Actor_262: Good day to you!"]
-    265_2["Actor_262: There's a storm coming."]
-    265_0 --> 265_1
-    265_0 --> 265_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Jessika** |  | ➡️ `1` \[Jessika: Good day to you\!\]<br>➡️ `2` \[Jessika: There's a storm coming\.\] |
+| `1` | **Jessika** | Good day to you\! | End |
+| `2` | **Jessika** | There's a storm coming\. | End |

@@ -1,9 +1,11 @@
-# Characters/Rada
+---
+title: Rada
+---
+
+# Rada
 
 
-```mermaid
-graph TD
-    369_0["Actor_370"]
-    369_1["Actor_370: There's nothing we can do really..."]
-    369_0 --> 369_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Rada** |  | ➡️ `1` \[Rada: There's nothing we can do really\.\.\.\] |
+| `1` | **Rada** | There's nothing we can do really\.\.\. | End |

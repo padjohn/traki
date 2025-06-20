@@ -1,9 +1,11 @@
-# Characters/Neno
+---
+title: Neno
+---
+
+# Neno
 
 
-```mermaid
-graph TD
-    343_0["Actor_343"]
-    343_1["Actor_343: I've got my eyes on you."]
-    343_0 --> 343_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Neno** |  | ➡️ `1` \[Neno: I've got my eyes on you\.\] |
+| `1` | **Neno** | I've got my eyes on you\. | End |

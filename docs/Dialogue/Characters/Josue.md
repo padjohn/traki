@@ -1,11 +1,12 @@
-# Characters/Josue
+---
+title: Josue
+---
+
+# Josue
 
 
-```mermaid
-graph TD
-    270_0["Actor_267"]
-    270_1["Actor_267: Move along, please!"]
-    270_2["Actor_267: Move along, please!"]
-    270_0 --> 270_1
-    270_0 --> 270_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Josue** |  | ➡️ `1` \[Josue: Move along, please\!\]<br>➡️ `2` \[Josue: Move along, please\!\] |
+| `1` | **Josue** | Move along, please\! | End |
+| `2` | **Josue** | Move along, please\! | End |

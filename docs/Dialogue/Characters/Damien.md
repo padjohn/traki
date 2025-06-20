@@ -1,9 +1,11 @@
-# Characters/Damien
+---
+title: Damien
+---
+
+# Damien
 
 
-```mermaid
-graph TD
-    166_0["Actor_163"]
-    166_1["Actor_163: What are you waiting for?"]
-    166_0 --> 166_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Damien** |  | ➡️ `1` \[Damien: What are you waiting for?\] |
+| `1` | **Damien** | What are you waiting for? | End |

@@ -1,11 +1,12 @@
-# Characters/Zente
+---
+title: Zente
+---
+
+# Zente
 
 
-```mermaid
-graph TD
-    452_0["Actor_454"]
-    452_1["Actor_454: I don't want to go back!"]
-    452_2["Actor_454: I want to see Trachi like you promised!"]
-    452_0 --> 452_1
-    452_1 --> 452_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Zente** |  | ➡️ `1` \[Zente: I don't want to go back\!\] |
+| `1` | **Zente** | I don't want to go back\! | ➡️ `2` \[Zente: I want to see Trachi like you promised\!\] |
+| `2` | **Zente** | I want to see Trachi like you promised\! | End |

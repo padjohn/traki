@@ -1,23 +1,18 @@
-# Characters/Iwo
+---
+title: Iwo
+---
+
+# Iwo
 
 
-```mermaid
-graph TD
-    261_0["Actor_258"]
-    261_1["Actor_258: Listen, I know my goods are kinda pricey."]
-    261_2["Actor_258: But you wouldn't wanna be stingy when it comes to food, right?"]
-    261_3["Actor_258: Well, whatever it was..."]
-    261_4["Actor_258: It's probably a good idea to stock up on groceries."]
-    261_5["Actor_258: Well, whatever it was..."]
-    261_6["Actor_258: It's probably a good idea to stock up on groceries."]
-    261_7["Actor_258: No, don't worry."]
-    261_8["Actor_258: I'm not one of them."]
-    261_0 --> 261_1
-    261_0 --> 261_3
-    261_0 --> 261_5
-    261_0 --> 261_7
-    261_1 --> 261_2
-    261_3 --> 261_4
-    261_5 --> 261_6
-    261_7 --> 261_8
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Iwo** |  | ➡️ `1` \[Iwo: Listen, I know my goods are kinda pricey\.\]<br>➡️ `3` \[Iwo: Well, whatever it was\.\.\.\]<br>➡️ `5` \[Iwo: Well, whatever it was\.\.\.\]<br>➡️ `7` \[Iwo: No, don't worry\.\] |
+| `1` | **Iwo** | Listen, I know my goods are kinda pricey\. | ➡️ `2` \[Iwo: But you wouldn't wanna be stingy when it comes to \.\.\.\] |
+| `2` | **Iwo** | But you wouldn't wanna be stingy when it comes to food, right? | End |
+| `3` | **Iwo** | Well, whatever it was\.\.\. | ➡️ `4` \[Iwo: It's probably a good idea to stock up on groceries\.\.\.\] |
+| `4` | **Iwo** | It's probably a good idea to stock up on groceries\. | End |
+| `5` | **Iwo** | Well, whatever it was\.\.\. | ➡️ `6` \[Iwo: It's probably a good idea to stock up on groceries\.\.\.\] |
+| `6` | **Iwo** | It's probably a good idea to stock up on groceries\. | End |
+| `7` | **Iwo** | No, don't worry\. | ➡️ `8` \[Iwo: I'm not one of them\.\] |
+| `8` | **Iwo** | I'm not one of them\. | End |

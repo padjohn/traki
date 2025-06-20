@@ -1,15 +1,14 @@
-# Characters/Neil
+---
+title: Neil
+---
+
+# Neil
 
 
-```mermaid
-graph TD
-    342_0["Actor_342"]
-    342_1["Actor_342: I wonder..."]
-    342_2["Actor_342: Pork or beef?"]
-    342_3["Actor_342: I wonder..."]
-    342_4["Actor_342: Us or them?"]
-    342_0 --> 342_1
-    342_0 --> 342_3
-    342_1 --> 342_2
-    342_3 --> 342_4
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Neil** |  | ➡️ `1` \[Neil: I wonder\.\.\.\]<br>➡️ `3` \[Neil: I wonder\.\.\.\] |
+| `1` | **Neil** | I wonder\.\.\. | ➡️ `2` \[Neil: Pork or beef?\] |
+| `2` | **Neil** | Pork or beef? | End |
+| `3` | **Neil** | I wonder\.\.\. | ➡️ `4` \[Neil: Us or them?\] |
+| `4` | **Neil** | Us or them? | End |

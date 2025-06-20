@@ -1,9 +1,11 @@
-# Characters/Andreas
+---
+title: Andreas
+---
+
+# Andreas
 
 
-```mermaid
-graph TD
-    87_0["Actor_16"]
-    87_167["Actor_58: Keep the peace."]
-    87_0 --> 87_167
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Pandora** |  | ➡️ `167` \[Andreas: Keep the peace\.\] |
+| `167` | **Andreas** | Keep the peace\. | End |

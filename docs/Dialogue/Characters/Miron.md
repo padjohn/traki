@@ -1,11 +1,12 @@
-# Characters/Miron
+---
+title: Miron
+---
+
+# Miron
 
 
-```mermaid
-graph TD
-    338_0["Actor_40"]
-    338_1["Actor_40: I hope we'll meet again next year!"]
-    338_2["Actor_40: I hope we'll meet again next year!"]
-    338_0 --> 338_1
-    338_1 --> 338_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Miron** |  | ➡️ `1` \[Miron: I hope we'll meet again next year\!\] |
+| `1` | **Miron** | I hope we'll meet again next year\! | ➡️ `2` \[Miron: I hope we'll meet again next year\!\] |
+| `2` | **Miron** | I hope we'll meet again next year\! | End |

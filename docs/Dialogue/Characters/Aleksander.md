@@ -1,15 +1,14 @@
-# Characters/Aleksander
+---
+title: Aleksander
+---
+
+# Aleksander
 
 
-```mermaid
-graph TD
-    111_0["Actor_105"]
-    111_1["Actor_105: Maybe."]
-    111_2["Actor_105: But still, something like that has never happened, before."]
-    111_3["Actor_105: You sure?"]
-    111_4["Actor_105: I'm just gonna pull through until tonight."]
-    111_0 --> 111_1
-    111_0 --> 111_3
-    111_1 --> 111_2
-    111_3 --> 111_4
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Aleksander** |  | ➡️ `1` \[Aleksander: Maybe\.\]<br>➡️ `3` \[Aleksander: You sure?\] |
+| `1` | **Aleksander** | Maybe\. | ➡️ `2` \[Aleksander: But still, something like that has never happened,\.\.\.\] |
+| `2` | **Aleksander** | But still, something like that has never happened, before\. | End |
+| `3` | **Aleksander** | You sure? | ➡️ `4` \[Aleksander: I'm just gonna pull through until tonight\.\] |
+| `4` | **Aleksander** | I'm just gonna pull through until tonight\. | End |

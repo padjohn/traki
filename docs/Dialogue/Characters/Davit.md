@@ -1,11 +1,12 @@
-# Characters/Davit
+---
+title: Davit
+---
+
+# Davit
 
 
-```mermaid
-graph TD
-    173_0["Actor_173"]
-    173_1["Actor_173: You haven't tasted summer until you've had a bite of these charentais!"]
-    173_2["Actor_173: Get them before they're sold out!"]
-    173_0 --> 173_1
-    173_0 --> 173_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Davit** |  | ➡️ `1` \[Davit: You haven't tasted summer until you've had a bite \.\.\.\]<br>➡️ `2` \[Davit: Get them before they're sold out\!\] |
+| `1` | **Davit** | You haven't tasted summer until you've had a bite of these charentais\! | End |
+| `2` | **Davit** | Get them before they're sold out\! | End |

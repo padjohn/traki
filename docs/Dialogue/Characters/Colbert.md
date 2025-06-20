@@ -1,9 +1,11 @@
-# Characters/Colbert
+---
+title: Colbert
+---
+
+# Colbert
 
 
-```mermaid
-graph TD
-    155_0["Actor_151"]
-    155_1["Actor_151: What a day..."]
-    155_0 --> 155_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Colbert** |  | ➡️ `1` \[Colbert: What a day\.\.\.\] |
+| `1` | **Colbert** | What a day\.\.\. | End |

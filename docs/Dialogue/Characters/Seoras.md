@@ -1,9 +1,11 @@
-# Characters/Seoras
+---
+title: Seoras
+---
+
+# Seoras
 
 
-```mermaid
-graph TD
-    392_0["Actor_392"]
-    392_1["Actor_392: I just want my things back..."]
-    392_0 --> 392_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Seoras** |  | ➡️ `1` \[Seoras: I just want my things back\.\.\.\] |
+| `1` | **Seoras** | I just want my things back\.\.\. | End |

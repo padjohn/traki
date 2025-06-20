@@ -1,29 +1,21 @@
-# Characters/Marisa
+---
+title: Marisa
+---
+
+# Marisa
 
 
-```mermaid
-graph TD
-    318_0["Actor_319"]
-    318_1["Actor_319: You there!"]
-    318_2["Actor_319: Yes, I'm talking to you!"]
-    318_3["Actor_319: Look at those over there!"]
-    318_4["Actor_319: Juicy, aren't they?"]
-    318_5["Actor_319: You know what they call these down in Katakan, where they come from?"]
-    318_6["Actor_319: WATERMELONS!"]
-    318_7["Actor_319: That's right!"]
-    318_8["Actor_319: These bad boys pack as much water as you could drink in a day!"]
-    318_9["Actor_319: Wait!"]
-    318_10["Actor_319: Where are you going?"]
-    318_11["Actor_319: Back for some WATERMELONS, eh?"]
-    318_0 --> 318_1
-    318_0 --> 318_11
-    318_1 --> 318_2
-    318_2 --> 318_3
-    318_3 --> 318_4
-    318_4 --> 318_5
-    318_5 --> 318_6
-    318_6 --> 318_7
-    318_7 --> 318_8
-    318_8 --> 318_9
-    318_9 --> 318_10
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Marisa** |  | ➡️ `1` \[Marisa: You there\!\]<br>➡️ `11` \[Marisa: Back for some WATERMELONS, eh?\] |
+| `1` | **Marisa** | You there\! | ➡️ `2` \[Marisa: Yes, I'm talking to you\!\] |
+| `2` | **Marisa** | Yes, I'm talking to you\! | ➡️ `3` \[Marisa: Look at those over there\!\] |
+| `3` | **Marisa** | Look at those over there\! | ➡️ `4` \[Marisa: Juicy, aren't they?\] |
+| `4` | **Marisa** | Juicy, aren't they? | ➡️ `5` \[Marisa: You know what they call these down in Katakan, whe\.\.\.\] |
+| `5` | **Marisa** | You know what they call these down in Katakan, where they come from? | ➡️ `6` \[Marisa: WATERMELONS\!\] |
+| `6` | **Marisa** | WATERMELONS\! | ➡️ `7` \[Marisa: That's right\!\] |
+| `7` | **Marisa** | That's right\! | ➡️ `8` \[Marisa: These bad boys pack as much water as you could dri\.\.\.\] |
+| `8` | **Marisa** | These bad boys pack as much water as you could drink in a day\! | ➡️ `9` \[Marisa: Wait\!\] |
+| `9` | **Marisa** | Wait\! | ➡️ `10` \[Marisa: Where are you going?\] |
+| `10` | **Marisa** | Where are you going? | End |
+| `11` | **Marisa** | Back for some WATERMELONS, eh? | End |

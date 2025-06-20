@@ -1,11 +1,12 @@
-# Characters/Franccois
+---
+title: Franccois
+---
+
+# Franccois
 
 
-```mermaid
-graph TD
-    214_0["Actor_214"]
-    214_1["Actor_214: Yo, I heard Olli got frisked, yesterday."]
-    214_2["Actor_214: Fuck the Guardies."]
-    214_0 --> 214_1
-    214_0 --> 214_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Franccois** |  | ➡️ `1` \[Franccois: Yo, I heard Olli got frisked, yesterday\.\]<br>➡️ `2` \[Franccois: Fuck the Guardies\.\] |
+| `1` | **Franccois** | Yo, I heard Olli got frisked, yesterday\. | End |
+| `2` | **Franccois** | Fuck the Guardies\. | End |

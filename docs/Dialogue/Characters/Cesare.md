@@ -1,13 +1,13 @@
-# Characters/Cesare
+---
+title: Cesare
+---
+
+# Cesare
 
 
-```mermaid
-graph TD
-    150_0["Actor_146"]
-    150_1["Actor_146: Good day, sir!"]
-    150_2["Actor_146: Yo."]
-    150_3["Actor_248: Not like we have enough, either."]
-    150_0 --> 150_1
-    150_0 --> 150_2
-    150_0 --> 150_3
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Cesare** |  | ➡️ `1` \[Cesare: Good day, sir\!\]<br>➡️ `2` \[Cesare: Yo\.\]<br>➡️ `3` \[Hristofor: Not like we have enough, either\.\] |
+| `1` | **Cesare** | Good day, sir\! | End |
+| `2` | **Cesare** | Yo\. | End |
+| `3` | **Hristofor** | Not like we have enough, either\. | End |

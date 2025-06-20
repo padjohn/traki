@@ -1,773 +1,393 @@
-# Characters/Ganymede
+---
+title: Ganymede
+---
+
+# Ganymede
 
 
-```mermaid
-graph TD
-    225_0["Actor_9"]
-    225_1["Actor_9: NC..."]
-    225_2["Actor_9: SSThis looks good."]
-    225_3["Actor_9: SS"]
-    225_4["Actor_9: NGDThink I'll have another look around first, though."]
-    225_5["Actor_9: SNo turning back now."]
-    225_6["Actor_9: NThis should be it."]
-    225_7["Actor_9: NHm..."]
-    225_8["Actor_9: NCLooks like he's not in, yet."]
-    225_9["Actor_243: Hey!"]
-    225_10["Actor_243: You need something from the Colonel?"]
-    225_11["Actor_9: NCYeah."]
-    225_12["Actor_243: Well, tough luck."]
-    225_13["Actor_243: He left like an hour ago."]
-    225_14["Actor_9: NPCDamn."]
-    225_15["Actor_243: Say, have we met before?"]
-    225_16["Actor_9: NNot that I can think of."]
-    225_17["Actor_243: Hm..."]
-    225_18["Actor_243: Might just be my mind playing tricks on me, then."]
-    225_19["Actor_243: In any case..."]
-    225_20["Actor_243: I'm Herbert."]
-    225_21["Actor_9: NSTheodore."]
-    225_22["Actor_243: You want me to relay a message to the Colonel?"]
-    225_23["Actor_9: NSCThanks, but it's fine."]
-    225_24["Actor_9: NSI don't mind waiting."]
-    225_25["Actor_243: Alright."]
-    225_26["Actor_243: I'll get back to work, then."]
-    225_27["Actor_9: NSDon't let me keep you."]
-    225_28["Actor_243: Was nice meeting you, Theodore."]
-    225_29["Actor_243: I totally forgot!"]
-    225_30["Actor_243: I'm terribly sorry..."]
-    225_31["Actor_243: But we've been having an influx on new people, lately."]
-    225_32["Actor_243: So the Colonel asked me to conduct a check on all the personnel."]
-    225_33["Actor_9: NEOh?"]
-    225_34["Actor_243: Would you mind showing me your identification, real quick?"]
-    225_35["Actor_9: NSNot at all."]
-    225_36["Actor_243: Thank you."]
-    225_37["Actor_243: Let's see..."]
-    225_38["Actor_243: Theodore Harrington..."]
-    225_39["Actor_243: Wait a second..."]
-    225_40["Actor_243: Are you related to Freddy?"]
-    225_41["Actor_9: NEFreddy?"]
-    225_42["Actor_243: Frederick Harrington."]
-    225_43["Actor_243: Tall, blonde guy."]
-    225_44["Actor_9: NEOh!"]
-    225_45["Actor_9: NCNo, I don't think so."]
-    225_46["Actor_9: NSAt the very least, I never met him."]
-    225_47["Actor_243: Oh, okay then."]
-    225_48["Actor_243: You're from Trachi proper?"]
-    225_49["Actor_9: NSBorn and raised."]
-    225_50["Actor_243: Uh-huh."]
-    225_51["Actor_243: That's quite curious."]
-    225_52["Actor_9: NEHow so?"]
-    225_53["Actor_243: Well, your accent reminds me a bit of the countryside."]
-    225_54["Actor_9: NCIs that so?"]
-    225_55["Actor_9: NCThe truth is..."]
-    225_56["Actor_9: NBoth of my parents are from Verin."]
-    225_57["Actor_9: NSThey moved here a few years before I was born."]
-    225_58["Actor_243: Oh! That explains it."]
-    225_59["Actor_243: Hm..."]
-    225_60["Actor_243: When were these papers issued?"]
-    225_61["Actor_9: NPCUhh..."]
-    225_62["Actor_9: NPI don't remember the exact date."]
-    225_63["Actor_9: NBut it must've been a week, or two ago."]
-    225_64["Actor_243: Hmm."]
-    225_65["Actor_243: I might be wrong..."]
-    225_66["Actor_243: But looks like the identification is based on an old numbering system."]
-    225_67["Actor_243: I'm sorry, but I'll have to check up on this."]
-    225_68["Actor_9: NSOf course."]
-    225_69["Actor_243: Would you come with me, please?"]
-    225_70["Actor_9: NPCWell..."]
-    225_71["Actor_9: NPI'm not sure the Colonel would appreciate my report being delayed."]
-    225_72["Actor_243: No need to worry about that."]
-    225_73["Actor_243: Should just take a moment."]
-    225_74["Actor_9: NCAlright..."]
-    225_75["Actor_9: NIf you insist."]
-    225_76["Actor_461: none"]
-    225_77["Actor_9: RCI'll see you on the other side..."]
-    225_78["Actor_9: N"]
-    225_79["Actor_9: SAnd back to the waiting part."]
-    225_80["Actor_9: NIs that..."]
-    225_81["Actor_9: RSChiron?"]
-    225_82["Actor_9: NHmm..."]
-    225_83["Actor_9: NThere's letters here..."]
-    225_84["Actor_9: NCD-..."]
-    225_85["Actor_9: NCDea..."]
-    225_86["Actor_9: NI can't make them out."]
-    225_87["Actor_9: NHmm.."]
-    225_88["Actor_9: NThe drawers are stuck."]
-    225_89["Actor_9: NI need to close the door."]
-    225_90["Actor_9: NMarks all over his neck."]
-    225_91["Actor_9: NCPoor guy."]
-    225_92["Actor_9: NCAlright."]
-    225_93["Actor_9: NNo time to waste."]
-    225_94["Actor_461: none"]
-    225_95["Actor_9: NI need to close the door."]
-    225_96["Actor_9: NCNo time to waste."]
-    225_97["Actor_9: NAutonomy - How Trachi reclaimed itself"]
-    225_98["Actor_9: NCTrachi - A history of freedom"]
-    225_99["Actor_9: NSCWow."]
-    225_100["Actor_9: NGDTotally not full of themselves, aren't they?"]
-    225_101["Actor_9: NI need to close the door."]
-    225_102["Actor_9: SNEUh..."]
-    225_103["Actor_9: SCLet's not talk about that."]
-    225_104["Actor_9: NI need to close the door."]
-    225_105["Actor_9: NJust a couple of books about the region."]
-    225_106["Actor_9: NI need to close the door."]
-    225_107["Actor_9: NCHm."]
-    225_108["Actor_9: NA codebook."]
-    225_109["Actor_9: NCShit."]
-    225_110["Actor_9: SCWhat were the numbers again?"]
-    225_111["Actor_9: SPC'9799 2345' something something."]
-    225_112["Actor_9: SCThat makes..."]
-    225_113["Actor_9: N'Triumvirate entrance'-"]
-    225_114["Actor_9: S'Acknowledged'?"]
-    225_115["Actor_9: NCYeah."]
-    225_116["Actor_9: NThat one checks out, at least."]
-    225_117["Actor_9: NI need to close the door."]
-    225_118["Actor_9: N'The rise and fall of Graikós'."]
-    225_119["Actor_9: NCGood riddance, I guess."]
-    225_120["Actor_9: NI need to close the door."]
-    225_121["Actor_9: NNotes on the IIS."]
-    225_122["Actor_9: NCJesus..."]
-    225_123["Actor_9: SCYou really put your back into this, didn't you?"]
-    225_124["Actor_9: NI need to close the door."]
-    225_125["Actor_9: N'The second Ionian enlightenment'."]
-    225_126["Actor_9: N'On the Thalassian War - How control over a channel changed the face of Europa'."]
-    225_127["Actor_9: NCHmm..."]
-    225_128["Actor_9: NIt's all pointing at us."]
-    225_129["Actor_9: NI need to close the door."]
-    225_130["Actor_9: NConstruction plans?"]
-    225_131["Actor_9: SWait a second."]
-    225_132["Actor_9: SCThis is..."]
-    225_133["Actor_9: SFredrick Dam?"]
-    225_134["Actor_9: NI need to close the door."]
-    225_135["Actor_9: NEWait..."]
-    225_136["Actor_9: NThose are about Nestville."]
-    225_137["Actor_9: SThey knew we were going there."]
-    225_138["Actor_9: SCDamn..."]
-    225_139["Actor_9: NI need to close the door."]
-    225_140["Actor_9: NPLet's see..."]
-    225_141["Actor_461: none"]
-    225_142["Actor_9: SSThis looks good."]
-    225_143["Actor_9: NCMight take a while before he's back, though."]
-    225_144["Actor_9: NI should take care of everything else, before getting comfortable."]
-    225_145["Actor_9: NCMan..."]
-    225_146["Actor_9: NGDThis sunset really is something else!"]
-    225_147["Actor_461: none"]
-    225_148["Actor_4: SHere we go."]
-    225_149["Actor_9: SLet's hope this works."]
-    225_150["Actor_9: NGDIs it time?"]
-    225_151["Actor_9: NGD"]
-    225_152["Actor_13: NNo turning back now."]
-    225_153["Actor_9: RCI'll see you on the other side..."]
-    225_154["Actor_9: NI should go back to the Safehouse and change, first."]
-    225_155["Actor_9: NCIt's the other way."]
-    225_156["Actor_9: N..."]
-    225_157["Actor_9: NCIt's no use."]
-    225_158["Actor_9: NCStill won't open."]
-    225_159["Actor_9: NSCLet's see how long they can keep their freedom."]
-    225_160["Actor_9: NGDNope!"]
-    225_161["Actor_9: NJust a couple of books about the region."]
-    225_162["Actor_9: NCGuess he wasn't bullshitting me, after all."]
-    225_163["Actor_9: NSCIonia sounds much better, anyway."]
-    225_164["Actor_9: SPCI hope you're right, Greg."]
-    225_165["Actor_9: NCAlmost like someone put this here, deliberately."]
-    225_166["Actor_9: NCMan..."]
-    225_167["Actor_9: NCThis is even bigger than I thought."]
-    225_168["Actor_9: SCI guess that explains why we went there, in the first place."]
-    225_169["Actor_9: NCIt's the other way."]
-    225_170["Actor_9: NLet's see..."]
-    225_171["Actor_9: NGDI knew it!"]
-    225_172["Actor_9: NC9799 2345 7542..."]
-    225_173["Actor_9: NC9799..."]
-    225_174["Actor_9: NC2345..."]
-    225_175["Actor_9: N7542."]
-    225_176["Actor_9: NAlright."]
-    225_177["Actor_9: NLet's put this back..."]
-    225_178["Actor_9: SSAnd see if someone's coming for it."]
-    225_179["Actor_461: none"]
-    225_180["Actor_9: NNothing here."]
-    225_181["Actor_9: NCNope."]
-    225_182["Actor_9: NIt's empty."]
-    225_183["Actor_9: NCMan..."]
-    225_184["Actor_9: NGDThis sunset really is something else!"]
-    225_185["Actor_461: none"]
-    225_186["Actor_4: SHere we go."]
-    225_187["Actor_9: SLet's hope this works."]
-    225_188["Actor_9: NNot this time."]
-    225_189["Actor_9: NSCFinally."]
-    225_190["Actor_9: NSYo!"]
-    225_191["Actor_9: SSYou there?"]
-    225_192["Actor_9: SGCSorry."]
-    225_193["Actor_9: NGDTrick question!"]
-    225_194["Actor_9: SGBut I'm glad you can hear me!"]
-    225_195["Actor_9: SCShit..."]
-    225_196["Actor_9: SShe's breaking through."]
-    225_197["Actor_9: SCI don't know how long I can keep this up."]
-    225_198["Actor_9: SSo I'll make this quick."]
-    225_199["Actor_9: SCIt's important that we talk."]
-    225_200["Actor_9: SAnd soon."]
-    225_201["Actor_9: RCSo please, whatever happens..."]
-    225_202["Actor_9: RDon't leave, just yet."]
-    225_203["Actor_9: SHm?"]
-    225_204["Actor_9: ND-..."]
-    225_205["Actor_9: NCDea..."]
-    225_206["Actor_9: NDear."]
-    225_207["Actor_9: NG-ga..."]
-    225_208["Actor_9: RE...nymede?"]
-    225_209["Actor_9: NCHm."]
-    225_210["Actor_9: NYou really want to see this?"]
-    225_211["Actor_9: N"]
-    225_212["Actor_9: NAre you sure?"]
-    225_213["Actor_9: NCAlright."]
-    225_214["Actor_9: NDon't say I didn't warn you."]
-    225_215["Actor_9: SHmm..."]
-    225_216["Actor_9: NThis looks promising."]
-    225_217["Actor_9: NThey were looking into us..."]
-    225_218["Actor_9: NCVery little details, though."]
-    225_219["Actor_9: SHm?"]
-    225_220["Actor_9: NEWait..."]
-    225_221["Actor_9: RWNo way!"]
-    225_222["Actor_9: SAYou fucking piece of shit!"]
-    225_223["Actor_9: SPC..."]
-    225_224["Actor_461: none"]
-    225_225["Actor_9: NSCMuch better."]
-    225_226["Actor_9: NSOkay, so here's the deal..."]
-    225_227["Actor_9: SGCI bought us around two and a half minutes."]
-    225_228["Actor_9: NGDEnough for a little chat!"]
-    225_229["Actor_9: NCWhen the music stops..."]
-    225_230["Actor_9: NI'll probably wake up."]
-    225_231["Actor_9: NSUntil then, I'll answer your questions."]
-    225_232["Actor_9: NSCSo go ahead."]
-    225_233["Actor_9: SS"]
-    225_234["Actor_9: NSCBit of an open question, isn't it?"]
-    225_235["Actor_9: NSAnd honestly, I think you're a better judge than me."]
-    225_236["Actor_9: NSCRight, right."]
-    225_237["Actor_9: NSCI don't have to pull that kind of shit with you, I forgot."]
-    225_238["Actor_9: NSAfter all, you can't harm me... right?"]
-    225_239["Actor_9: NSThere's a barrier between us."]
-    225_240["Actor_9: NSCSome might say I'm fiction."]
-    225_241["Actor_9: SSThen again, what are you to me?"]
-    225_242["Actor_9: NSCHm, I've been wondering about that, too."]
-    225_243["Actor_9: NSProbably a place I created."]
-    225_244["Actor_9: SSAnother level in an unending amount of layers."]
-    225_245["Actor_9: NGDIt's a bit hard to comprehend, isn't it?"]
-    225_246["Actor_9: NSCThat's why we like to put things into boxes, I guess."]
-    225_247["Actor_9: SCUhm..."]
-    225_248["Actor_9: SPCI guess so."]
-    225_249["Actor_9: NCNo hard feelings, though."]
-    225_250["Actor_9: NShe's just playing her part."]
-    225_251["Actor_9: NAnd I'm playing mine."]
-    225_252["Actor_9: SCIt's funny, really."]
-    225_253["Actor_9: SCKnowing you have no control about it..."]
-    225_254["Actor_9: SCan make things a lot more bearable."]
-    225_255["Actor_9: NGDAww!"]
-    225_256["Actor_9: NGDOr we can just stare at each other until our time is up."]
-    225_257["Actor_9: SGCBut who am I kidding."]
-    225_258["Actor_9: NGDMaybe I'm just talking to myself, after all."]
-    225_259["Actor_9: SGCReally?"]
-    225_260["Actor_9: NGDYou wanna leave, already?"]
-    225_261["Actor_9: NNot this time."]
-    225_262["Actor_9: NSCFinally."]
-    225_263["Actor_9: NSYo!"]
-    225_264["Actor_9: SSYou there?"]
-    225_265["Actor_9: SGCSorry."]
-    225_266["Actor_9: SGThat was a trick question."]
-    225_267["Actor_9: NGDBut I'm glad you can hear me!"]
-    225_268["Actor_9: SCShit..."]
-    225_269["Actor_9: SShe's already breaking through."]
-    225_270["Actor_9: SCI don't know how long I can keep this up."]
-    225_271["Actor_9: SSo I'll make this quick."]
-    225_272["Actor_9: SIt's important that we talk."]
-    225_273["Actor_9: SCAnd since this is as good an opportunity as any..."]
-    225_274["Actor_9: SGCI might just try and see if this works."]
-    225_275["Actor_9: SGAlright, here we go!"]
-    225_276["Actor_9: NSCMuch better."]
-    225_277["Actor_9: NSOkay, so here's the deal..."]
-    225_278["Actor_9: SGCI bought us around two and a half minutes."]
-    225_279["Actor_9: NGDEnough for a little chat!"]
-    225_280["Actor_9: NCWhen the music stops..."]
-    225_281["Actor_9: NI'll probably wake up."]
-    225_282["Actor_9: NSUntil then, I'll answer your questions."]
-    225_283["Actor_9: NSCSo go ahead."]
-    225_284["Actor_9: SSAsk away."]
-    225_285["Actor_9: NCAlright."]
-    225_286["Actor_9: NLooks like we're out of time."]
-    225_287["Actor_9: NGDIt was fun, though."]
-    225_288["Actor_9: SGAnd I hope we can do it again!"]
-    225_289["Actor_9: SS"]
-    225_290["Actor_9: NSCBit of an open question, isn't it?"]
-    225_291["Actor_9: NSAnd honestly, I think you're a better judge than me."]
-    225_292["Actor_9: NSCRight, right."]
-    225_293["Actor_9: NSCI don't have to pull that kind of shit with you, I forgot."]
-    225_294["Actor_9: NSAfter all, you can't harm me... right?"]
-    225_295["Actor_9: NSThere's a barrier between us."]
-    225_296["Actor_9: NSCSome might say I'm fiction."]
-    225_297["Actor_9: SSThen again, what are you to me?"]
-    225_298["Actor_9: NSCHm, I've been wondering about that, too."]
-    225_299["Actor_9: NSProbably a place I created."]
-    225_300["Actor_9: SSAnother level in an unending amount of layers."]
-    225_301["Actor_9: NGDIt's a bit hard to comprehend, isn't it?"]
-    225_302["Actor_9: NSCThat's why we like to put things into boxes, I guess."]
-    225_303["Actor_9: SCUhm..."]
-    225_304["Actor_9: SPCI guess so."]
-    225_305["Actor_9: NCNo hard feelings, though."]
-    225_306["Actor_9: NShe's just playing her part."]
-    225_307["Actor_9: NAnd I'm playing mine."]
-    225_308["Actor_9: SCIt's funny, really."]
-    225_309["Actor_9: SCKnowing you have no control about it..."]
-    225_310["Actor_9: SCan make things a lot more bearable."]
-    225_311["Actor_9: NGDAww!"]
-    225_312["Actor_9: NGDOr we can just stare at each other until our time is up."]
-    225_313["Actor_9: SGCBut who am I kidding."]
-    225_314["Actor_9: SSMaybe I'm just talking to myself, after all."]
-    225_315["Actor_9: SGCReally?"]
-    225_316["Actor_9: NGDYou wanna leave, already?"]
-    225_317["Actor_9: RWho wrote this?"]
-    225_318["Actor_9: SCAlright."]
-    225_319["Actor_9: SJust keep her busy, then?"]
-    225_320["Actor_13: NExactly."]
-    225_321["Actor_13: NLet Daphne handle the rest."]
-    225_322["Actor_9: SOkay."]
-    225_323["Actor_10: NSI'll go and get into position, then."]
-    225_324["Actor_10: NSSee you there."]
-    225_325["Actor_9: NNot this time."]
-    225_326["Actor_9: NSCFinally."]
-    225_327["Actor_9: NSYo!"]
-    225_328["Actor_9: SSYou there?"]
-    225_329["Actor_9: SS"]
-    225_330["Actor_9: SGCSorry."]
-    225_331["Actor_9: SGThat was a trick question."]
-    225_332["Actor_9: SSBut I'm glad you can hear me."]
-    225_333["Actor_9: SCShit..."]
-    225_334["Actor_9: SShe's already breaking through."]
-    225_335["Actor_9: SCI don't know how long I can keep this up."]
-    225_336["Actor_9: SSo I'll make this quick."]
-    225_337["Actor_9: SIt's important that we talk."]
-    225_338["Actor_9: SCAnd since this is as good an opportunity as any..."]
-    225_339["Actor_9: SGCI might just try and see if this works."]
-    225_340["Actor_9: SGAlright, here we go!"]
-    225_341["Actor_9: NSCMuch better."]
-    225_342["Actor_9: NSOkay, so here's the deal..."]
-    225_343["Actor_9: SGCI bought us around two and a half minutes."]
-    225_344["Actor_9: NGDEnough for a little chat!"]
-    225_345["Actor_9: NCWhen the music stops..."]
-    225_346["Actor_9: NI'll probably wake up."]
-    225_347["Actor_9: NSUntil then, I'll answer your questions."]
-    225_348["Actor_9: NSCSo go ahead."]
-    225_349["Actor_9: NCAlright."]
-    225_350["Actor_9: NLooks like we're out of time."]
-    225_351["Actor_9: NGDIt was fun, though."]
-    225_352["Actor_9: SGAnd I hope we can do it again!"]
-    225_353["Actor_9: SSAsk away."]
-    225_354["Actor_9: SS"]
-    225_355["Actor_9: NSCBit of an open question, isn't it?"]
-    225_356["Actor_9: NSAnd honestly, I think you're a better judge than me."]
-    225_357["Actor_9: NSCRight, right."]
-    225_358["Actor_9: NSCI don't have to pull that kind of shit with you, I forgot."]
-    225_359["Actor_9: NSAfter all, you can't harm me... right?"]
-    225_360["Actor_9: NSThere's a barrier between us."]
-    225_361["Actor_9: NSCSome might say I'm fiction."]
-    225_362["Actor_9: SSThen again, what are you to me?"]
-    225_363["Actor_9: NSCHm, I've been wondering about that, too."]
-    225_364["Actor_9: NSProbably a place I created."]
-    225_365["Actor_9: SSAnother level in an unending amount of layers."]
-    225_366["Actor_9: NGDIt's a bit hard to comprehend, isn't it?"]
-    225_367["Actor_9: NSCThat's why we like to put things into boxes, I guess."]
-    225_368["Actor_9: SCUhm..."]
-    225_369["Actor_9: SPCI guess so."]
-    225_370["Actor_9: NCNo hard feelings, though."]
-    225_371["Actor_9: NShe's just playing her part."]
-    225_372["Actor_9: NAnd I'm playing mine."]
-    225_373["Actor_9: SCIt's funny, really."]
-    225_374["Actor_9: SCKnowing you have no control about it..."]
-    225_375["Actor_9: SCan make things a lot more bearable."]
-    225_376["Actor_9: NGDAww!"]
-    225_377["Actor_9: NGDOr we can just stare at each other until our time is up."]
-    225_378["Actor_9: SGCBut who am I kidding."]
-    225_379["Actor_9: NGDMaybe I'm just talking to myself, after all."]
-    225_380["Actor_9: SGCReally?"]
-    225_381["Actor_9: NGDYou wanna leave, already?"]
-    225_382["Actor_9: NI already know what it says."]
-    225_383["Actor_9: NIt's empty."]
-    225_0 --> 225_1
-    225_0 --> 225_142
-    225_0 --> 225_183
-    225_0 --> 225_261
-    225_0 --> 225_382
-    225_1 --> 225_2
-    225_2 --> 225_3
-    225_3 --> 225_4
-    225_4 --> 225_5
-    225_5 --> 225_6
-    225_6 --> 225_7
-    225_7 --> 225_8
-    225_8 --> 225_9
-    225_9 --> 225_10
-    225_10 --> 225_11
-    225_11 --> 225_12
-    225_12 --> 225_13
-    225_13 --> 225_14
-    225_14 --> 225_15
-    225_15 --> 225_16
-    225_16 --> 225_17
-    225_17 --> 225_18
-    225_18 --> 225_19
-    225_19 --> 225_20
-    225_20 --> 225_21
-    225_21 --> 225_22
-    225_22 --> 225_23
-    225_23 --> 225_24
-    225_24 --> 225_25
-    225_25 --> 225_26
-    225_26 --> 225_27
-    225_27 --> 225_28
-    225_28 --> 225_29
-    225_29 --> 225_30
-    225_30 --> 225_31
-    225_31 --> 225_32
-    225_32 --> 225_33
-    225_33 --> 225_34
-    225_34 --> 225_35
-    225_35 --> 225_36
-    225_36 --> 225_37
-    225_37 --> 225_38
-    225_38 --> 225_39
-    225_39 --> 225_40
-    225_40 --> 225_41
-    225_41 --> 225_42
-    225_42 --> 225_43
-    225_43 --> 225_44
-    225_44 --> 225_45
-    225_45 --> 225_46
-    225_46 --> 225_47
-    225_47 --> 225_48
-    225_48 --> 225_49
-    225_49 --> 225_50
-    225_50 --> 225_51
-    225_51 --> 225_52
-    225_52 --> 225_53
-    225_53 --> 225_54
-    225_54 --> 225_55
-    225_55 --> 225_56
-    225_56 --> 225_57
-    225_57 --> 225_58
-    225_58 --> 225_59
-    225_59 --> 225_60
-    225_60 --> 225_61
-    225_61 --> 225_62
-    225_62 --> 225_63
-    225_63 --> 225_64
-    225_64 --> 225_65
-    225_65 --> 225_66
-    225_66 --> 225_67
-    225_67 --> 225_68
-    225_68 --> 225_69
-    225_69 --> 225_70
-    225_70 --> 225_71
-    225_71 --> 225_72
-    225_72 --> 225_73
-    225_73 --> 225_74
-    225_74 --> 225_75
-    225_75 --> 225_76
-    225_76 --> 225_77
-    225_77 --> 225_78
-    225_78 --> 225_79
-    225_79 --> 225_80
-    225_80 --> 225_81
-    225_81 --> 225_82
-    225_82 --> 225_83
-    225_83 --> 225_84
-    225_84 --> 225_85
-    225_85 --> 225_86
-    225_86 --> 225_87
-    225_87 --> 225_88
-    225_88 --> 225_89
-    225_89 --> 225_90
-    225_90 --> 225_91
-    225_91 --> 225_92
-    225_92 --> 225_93
-    225_93 --> 225_94
-    225_94 --> 225_95
-    225_95 --> 225_96
-    225_96 --> 225_97
-    225_97 --> 225_98
-    225_98 --> 225_99
-    225_99 --> 225_100
-    225_100 --> 225_101
-    225_101 --> 225_102
-    225_102 --> 225_103
-    225_103 --> 225_104
-    225_104 --> 225_105
-    225_105 --> 225_106
-    225_106 --> 225_107
-    225_107 --> 225_108
-    225_108 --> 225_109
-    225_109 --> 225_110
-    225_110 --> 225_111
-    225_111 --> 225_112
-    225_112 --> 225_113
-    225_113 --> 225_114
-    225_114 --> 225_115
-    225_115 --> 225_116
-    225_116 --> 225_117
-    225_117 --> 225_118
-    225_118 --> 225_119
-    225_119 --> 225_120
-    225_120 --> 225_121
-    225_121 --> 225_122
-    225_122 --> 225_123
-    225_123 --> 225_124
-    225_124 --> 225_125
-    225_125 --> 225_126
-    225_126 --> 225_127
-    225_127 --> 225_128
-    225_128 --> 225_129
-    225_129 --> 225_130
-    225_130 --> 225_131
-    225_131 --> 225_132
-    225_132 --> 225_133
-    225_133 --> 225_134
-    225_134 --> 225_135
-    225_135 --> 225_136
-    225_136 --> 225_137
-    225_137 --> 225_138
-    225_138 --> 225_139
-    225_139 --> 225_140
-    225_140 --> 225_141
-    225_142 --> 225_143
-    225_143 --> 225_144
-    225_144 --> 225_145
-    225_145 --> 225_146
-    225_146 --> 225_147
-    225_147 --> 225_148
-    225_148 --> 225_149
-    225_149 --> 225_150
-    225_150 --> 225_151
-    225_151 --> 225_152
-    225_152 --> 225_153
-    225_153 --> 225_154
-    225_154 --> 225_155
-    225_155 --> 225_156
-    225_156 --> 225_157
-    225_157 --> 225_158
-    225_158 --> 225_159
-    225_159 --> 225_160
-    225_160 --> 225_161
-    225_161 --> 225_162
-    225_162 --> 225_163
-    225_163 --> 225_164
-    225_164 --> 225_165
-    225_165 --> 225_166
-    225_166 --> 225_167
-    225_167 --> 225_168
-    225_168 --> 225_169
-    225_169 --> 225_170
-    225_170 --> 225_171
-    225_171 --> 225_172
-    225_172 --> 225_173
-    225_173 --> 225_174
-    225_174 --> 225_175
-    225_175 --> 225_176
-    225_176 --> 225_177
-    225_177 --> 225_178
-    225_178 --> 225_179
-    225_179 --> 225_180
-    225_180 --> 225_181
-    225_181 --> 225_182
-    225_183 --> 225_184
-    225_184 --> 225_185
-    225_185 --> 225_186
-    225_186 --> 225_187
-    225_187 --> 225_188
-    225_188 --> 225_189
-    225_189 --> 225_190
-    225_190 --> 225_191
-    225_191 --> 225_192
-    225_192 --> 225_193
-    225_193 --> 225_194
-    225_194 --> 225_195
-    225_195 --> 225_196
-    225_196 --> 225_197
-    225_197 --> 225_198
-    225_198 --> 225_199
-    225_199 --> 225_200
-    225_200 --> 225_201
-    225_201 --> 225_202
-    225_202 --> 225_203
-    225_203 --> 225_204
-    225_204 --> 225_205
-    225_205 --> 225_206
-    225_206 --> 225_207
-    225_207 --> 225_208
-    225_208 --> 225_209
-    225_209 --> 225_210
-    225_210 --> 225_211
-    225_211 --> 225_212
-    225_212 --> 225_213
-    225_213 --> 225_214
-    225_214 --> 225_215
-    225_215 --> 225_216
-    225_216 --> 225_217
-    225_217 --> 225_218
-    225_218 --> 225_219
-    225_219 --> 225_220
-    225_220 --> 225_221
-    225_221 --> 225_222
-    225_222 --> 225_223
-    225_223 --> 225_224
-    225_224 --> 225_225
-    225_225 --> 225_226
-    225_226 --> 225_227
-    225_227 --> 225_228
-    225_228 --> 225_229
-    225_229 --> 225_230
-    225_230 --> 225_231
-    225_231 --> 225_232
-    225_232 --> 225_233
-    225_233 --> 225_234
-    225_234 --> 225_235
-    225_235 --> 225_236
-    225_236 --> 225_237
-    225_237 --> 225_238
-    225_238 --> 225_239
-    225_239 --> 225_240
-    225_240 --> 225_241
-    225_241 --> 225_242
-    225_242 --> 225_243
-    225_243 --> 225_244
-    225_244 --> 225_245
-    225_245 --> 225_246
-    225_246 --> 225_247
-    225_247 --> 225_248
-    225_248 --> 225_249
-    225_249 --> 225_250
-    225_250 --> 225_251
-    225_251 --> 225_252
-    225_252 --> 225_253
-    225_253 --> 225_254
-    225_254 --> 225_255
-    225_255 --> 225_256
-    225_256 --> 225_257
-    225_257 --> 225_258
-    225_258 --> 225_259
-    225_259 --> 225_260
-    225_261 --> 225_262
-    225_262 --> 225_263
-    225_263 --> 225_264
-    225_264 --> 225_265
-    225_265 --> 225_266
-    225_266 --> 225_267
-    225_267 --> 225_268
-    225_268 --> 225_269
-    225_269 --> 225_270
-    225_270 --> 225_271
-    225_271 --> 225_272
-    225_272 --> 225_273
-    225_273 --> 225_274
-    225_274 --> 225_275
-    225_275 --> 225_276
-    225_276 --> 225_277
-    225_277 --> 225_278
-    225_278 --> 225_279
-    225_279 --> 225_280
-    225_280 --> 225_281
-    225_281 --> 225_282
-    225_282 --> 225_283
-    225_283 --> 225_284
-    225_284 --> 225_285
-    225_285 --> 225_286
-    225_286 --> 225_287
-    225_287 --> 225_288
-    225_288 --> 225_289
-    225_289 --> 225_290
-    225_290 --> 225_291
-    225_291 --> 225_292
-    225_292 --> 225_293
-    225_293 --> 225_294
-    225_294 --> 225_295
-    225_295 --> 225_296
-    225_296 --> 225_297
-    225_297 --> 225_298
-    225_298 --> 225_299
-    225_299 --> 225_300
-    225_300 --> 225_301
-    225_301 --> 225_302
-    225_302 --> 225_303
-    225_303 --> 225_304
-    225_304 --> 225_305
-    225_305 --> 225_306
-    225_306 --> 225_307
-    225_307 --> 225_308
-    225_308 --> 225_309
-    225_309 --> 225_310
-    225_310 --> 225_311
-    225_311 --> 225_312
-    225_312 --> 225_313
-    225_313 --> 225_314
-    225_314 --> 225_315
-    225_315 --> 225_316
-    225_316 --> 225_317
-    225_317 --> 225_318
-    225_318 --> 225_319
-    225_319 --> 225_320
-    225_320 --> 225_321
-    225_321 --> 225_322
-    225_322 --> 225_323
-    225_323 --> 225_324
-    225_324 --> 225_325
-    225_325 --> 225_326
-    225_326 --> 225_327
-    225_327 --> 225_328
-    225_328 --> 225_329
-    225_329 --> 225_330
-    225_330 --> 225_331
-    225_331 --> 225_332
-    225_332 --> 225_333
-    225_333 --> 225_334
-    225_334 --> 225_335
-    225_335 --> 225_336
-    225_336 --> 225_337
-    225_337 --> 225_338
-    225_338 --> 225_339
-    225_339 --> 225_340
-    225_340 --> 225_341
-    225_341 --> 225_342
-    225_342 --> 225_343
-    225_343 --> 225_344
-    225_344 --> 225_345
-    225_345 --> 225_346
-    225_346 --> 225_347
-    225_347 --> 225_348
-    225_348 --> 225_349
-    225_349 --> 225_350
-    225_350 --> 225_351
-    225_351 --> 225_352
-    225_352 --> 225_353
-    225_353 --> 225_354
-    225_354 --> 225_355
-    225_355 --> 225_356
-    225_356 --> 225_357
-    225_357 --> 225_358
-    225_358 --> 225_359
-    225_359 --> 225_360
-    225_360 --> 225_361
-    225_361 --> 225_362
-    225_362 --> 225_363
-    225_363 --> 225_364
-    225_364 --> 225_365
-    225_365 --> 225_366
-    225_366 --> 225_367
-    225_367 --> 225_368
-    225_368 --> 225_369
-    225_369 --> 225_370
-    225_370 --> 225_371
-    225_371 --> 225_372
-    225_372 --> 225_373
-    225_373 --> 225_374
-    225_374 --> 225_375
-    225_375 --> 225_376
-    225_376 --> 225_377
-    225_377 --> 225_378
-    225_378 --> 225_379
-    225_379 --> 225_380
-    225_380 --> 225_381
-    225_382 --> 225_383
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Ganymede** |  | ➡️ `1` \[Ganymede: \.\.\.\]<br>➡️ `142` \[Ganymede: This looks good\.\]<br>➡️ `183` \[Ganymede: Man\.\.\.\]<br>➡️ `261` \[Ganymede: Not this time\.\]<br>➡️ `382` \[Ganymede: I already know what it says\.\] |
+| `1` | **Ganymede** | \.\.\. | ➡️ `2` \[Ganymede: This looks good\.\] |
+| `2` | **Ganymede** | This looks good\. | ➡️ `3` \[Ganymede\] |
+| `3` | **Ganymede** |  | ➡️ `4` \[Ganymede: Think I'll have another look around first, though\.\] |
+| `4` | **Ganymede** | Think I'll have another look around first, though\. | ➡️ `5` \[Ganymede: No turning back now\.\] |
+| `5` | **Ganymede** | No turning back now\. | ➡️ `6` \[Ganymede: This should be it\.\] |
+| `6` | **Ganymede** | This should be it\. | ➡️ `7` \[Ganymede: Hm\.\.\.\] |
+| `7` | **Ganymede** | Hm\.\.\. | ➡️ `8` \[Ganymede: Looks like he's not in, yet\.\] |
+| `8` | **Ganymede** | Looks like he's not in, yet\. | ➡️ `9` \[Herbert: Hey\!\] |
+| `9` | **Herbert** | Hey\! | ➡️ `10` \[Herbert: You need something from the Colonel?\] |
+| `10` | **Herbert** | You need something from the Colonel? | ➡️ `11` \[Ganymede: Yeah\.\] |
+| `11` | **Ganymede** | Yeah\. | ➡️ `12` \[Herbert: Well, tough luck\.\] |
+| `12` | **Herbert** | Well, tough luck\. | ➡️ `13` \[Herbert: He left like an hour ago\.\] |
+| `13` | **Herbert** | He left like an hour ago\. | ➡️ `14` \[Ganymede: Damn\.\] |
+| `14` | **Ganymede** | Damn\. | ➡️ `15` \[Herbert: Say, have we met before?\] |
+| `15` | **Herbert** | Say, have we met before? | ➡️ `16` \[Ganymede: Not that I can think of\.\] |
+| `16` | **Ganymede** | Not that I can think of\. | ➡️ `17` \[Herbert: Hm\.\.\.\] |
+| `17` | **Herbert** | Hm\.\.\. | ➡️ `18` \[Herbert: Might just be my mind playing tricks on me, then\.\] |
+| `18` | **Herbert** | Might just be my mind playing tricks on me, then\. | ➡️ `19` \[Herbert: In any case\.\.\.\] |
+| `19` | **Herbert** | In any case\.\.\. | ➡️ `20` \[Herbert: I'm Herbert\.\] |
+| `20` | **Herbert** | I'm Herbert\. | ➡️ `21` \[Ganymede: Theodore\.\] |
+| `21` | **Ganymede** | Theodore\. | ➡️ `22` \[Herbert: You want me to relay a message to the Colonel?\] |
+| `22` | **Herbert** | You want me to relay a message to the Colonel? | ➡️ `23` \[Ganymede: Thanks, but it's fine\.\] |
+| `23` | **Ganymede** | Thanks, but it's fine\. | ➡️ `24` \[Ganymede: I don't mind waiting\.\] |
+| `24` | **Ganymede** | I don't mind waiting\. | ➡️ `25` \[Herbert: Alright\.\] |
+| `25` | **Herbert** | Alright\. | ➡️ `26` \[Herbert: I'll get back to work, then\.\] |
+| `26` | **Herbert** | I'll get back to work, then\. | ➡️ `27` \[Ganymede: Don't let me keep you\.\] |
+| `27` | **Ganymede** | Don't let me keep you\. | ➡️ `28` \[Herbert: Was nice meeting you, Theodore\.\] |
+| `28` | **Herbert** | Was nice meeting you, Theodore\. | ➡️ `29` \[Herbert: I totally forgot\!\] |
+| `29` | **Herbert** | I totally forgot\! | ➡️ `30` \[Herbert: I'm terribly sorry\.\.\.\] |
+| `30` | **Herbert** | I'm terribly sorry\.\.\. | ➡️ `31` \[Herbert: But we've been having an influx on new people, lat\.\.\.\] |
+| `31` | **Herbert** | But we've been having an influx on new people, lately\. | ➡️ `32` \[Herbert: So the Colonel asked me to conduct a check on all \.\.\.\] |
+| `32` | **Herbert** | So the Colonel asked me to conduct a check on all the personnel\. | ➡️ `33` \[Ganymede: Oh?\] |
+| `33` | **Ganymede** | Oh? | ➡️ `34` \[Herbert: Would you mind showing me your identification, rea\.\.\.\] |
+| `34` | **Herbert** | Would you mind showing me your identification, real quick? | ➡️ `35` \[Ganymede: Not at all\.\] |
+| `35` | **Ganymede** | Not at all\. | ➡️ `36` \[Herbert: Thank you\.\] |
+| `36` | **Herbert** | Thank you\. | ➡️ `37` \[Herbert: Let's see\.\.\.\] |
+| `37` | **Herbert** | Let's see\.\.\. | ➡️ `38` \[Herbert: Theodore Harrington\.\.\.\] |
+| `38` | **Herbert** | Theodore Harrington\.\.\. | ➡️ `39` \[Herbert: Wait a second\.\.\.\] |
+| `39` | **Herbert** | Wait a second\.\.\. | ➡️ `40` \[Herbert: Are you related to Freddy?\] |
+| `40` | **Herbert** | Are you related to Freddy? | ➡️ `41` \[Ganymede: Freddy?\] |
+| `41` | **Ganymede** | Freddy? | ➡️ `42` \[Herbert: Frederick Harrington\.\] |
+| `42` | **Herbert** | Frederick Harrington\. | ➡️ `43` \[Herbert: Tall, blonde guy\.\] |
+| `43` | **Herbert** | Tall, blonde guy\. | ➡️ `44` \[Ganymede: Oh\!\] |
+| `44` | **Ganymede** | Oh\! | ➡️ `45` \[Ganymede: No, I don't think so\.\] |
+| `45` | **Ganymede** | No, I don't think so\. | ➡️ `46` \[Ganymede: At the very least, I never met him\.\] |
+| `46` | **Ganymede** | At the very least, I never met him\. | ➡️ `47` \[Herbert: Oh, okay then\.\] |
+| `47` | **Herbert** | Oh, okay then\. | ➡️ `48` \[Herbert: You're from Trachi proper?\] |
+| `48` | **Herbert** | You're from Trachi proper? | ➡️ `49` \[Ganymede: Born and raised\.\] |
+| `49` | **Ganymede** | Born and raised\. | ➡️ `50` \[Herbert: Uh\-huh\.\] |
+| `50` | **Herbert** | Uh\-huh\. | ➡️ `51` \[Herbert: That's quite curious\.\] |
+| `51` | **Herbert** | That's quite curious\. | ➡️ `52` \[Ganymede: How so?\] |
+| `52` | **Ganymede** | How so? | ➡️ `53` \[Herbert: Well, your accent reminds me a bit of the countrys\.\.\.\] |
+| `53` | **Herbert** | Well, your accent reminds me a bit of the countryside\. | ➡️ `54` \[Ganymede: Is that so?\] |
+| `54` | **Ganymede** | Is that so? | ➡️ `55` \[Ganymede: The truth is\.\.\.\] |
+| `55` | **Ganymede** | The truth is\.\.\. | ➡️ `56` \[Ganymede: Both of my parents are from Verin\.\] |
+| `56` | **Ganymede** | Both of my parents are from Verin\. | ➡️ `57` \[Ganymede: They moved here a few years before I was born\.\] |
+| `57` | **Ganymede** | They moved here a few years before I was born\. | ➡️ `58` \[Herbert: Oh\! That explains it\.\] |
+| `58` | **Herbert** | Oh\! That explains it\. | ➡️ `59` \[Herbert: Hm\.\.\.\] |
+| `59` | **Herbert** | Hm\.\.\. | ➡️ `60` \[Herbert: When were these papers issued?\] |
+| `60` | **Herbert** | When were these papers issued? | ➡️ `61` \[Ganymede: Uhh\.\.\.\] |
+| `61` | **Ganymede** | Uhh\.\.\. | ➡️ `62` \[Ganymede: I don't remember the exact date\.\] |
+| `62` | **Ganymede** | I don't remember the exact date\. | ➡️ `63` \[Ganymede: But it must've been a week, or two ago\.\] |
+| `63` | **Ganymede** | But it must've been a week, or two ago\. | ➡️ `64` \[Herbert: Hmm\.\] |
+| `64` | **Herbert** | Hmm\. | ➡️ `65` \[Herbert: I might be wrong\.\.\.\] |
+| `65` | **Herbert** | I might be wrong\.\.\. | ➡️ `66` \[Herbert: But looks like the identification is based on an o\.\.\.\] |
+| `66` | **Herbert** | But looks like the identification is based on an old numbering system\. | ➡️ `67` \[Herbert: I'm sorry, but I'll have to check up on this\.\] |
+| `67` | **Herbert** | I'm sorry, but I'll have to check up on this\. | ➡️ `68` \[Ganymede: Of course\.\] |
+| `68` | **Ganymede** | Of course\. | ➡️ `69` \[Herbert: Would you come with me, please?\] |
+| `69` | **Herbert** | Would you come with me, please? | ➡️ `70` \[Ganymede: Well\.\.\.\] |
+| `70` | **Ganymede** | Well\.\.\. | ➡️ `71` \[Ganymede: I'm not sure the Colonel would appreciate my repor\.\.\.\] |
+| `71` | **Ganymede** | I'm not sure the Colonel would appreciate my report being delayed\. | ➡️ `72` \[Herbert: No need to worry about that\.\] |
+| `72` | **Herbert** | No need to worry about that\. | ➡️ `73` \[Herbert: Should just take a moment\.\] |
+| `73` | **Herbert** | Should just take a moment\. | ➡️ `74` \[Ganymede: Alright\.\.\.\] |
+| `74` | **Ganymede** | Alright\.\.\. | ➡️ `75` \[Ganymede: If you insist\.\] |
+| `75` | **Ganymede** | If you insist\. | ➡️ `76` \[none: none\] |
+| `76` | **none** | none | ➡️ `77` \[Ganymede: I'll see you on the other side\.\.\.\] |
+| `77` | **Ganymede** | I'll see you on the other side\.\.\. | ➡️ `78` \[Ganymede\] |
+| `78` | **Ganymede** |  | ➡️ `79` \[Ganymede: And back to the waiting part\.\] |
+| `79` | **Ganymede** | And back to the waiting part\. | ➡️ `80` \[Ganymede: Is that\.\.\.\] |
+| `80` | **Ganymede** | Is that\.\.\. | ➡️ `81` \[Ganymede: Chiron?\] |
+| `81` | **Ganymede** | Chiron? | ➡️ `82` \[Ganymede: Hmm\.\.\.\] |
+| `82` | **Ganymede** | Hmm\.\.\. | ➡️ `83` \[Ganymede: There's letters here\.\.\.\] |
+| `83` | **Ganymede** | There's letters here\.\.\. | ➡️ `84` \[Ganymede: D\-\.\.\.\] |
+| `84` | **Ganymede** | D\-\.\.\. | ➡️ `85` \[Ganymede: Dea\.\.\.\] |
+| `85` | **Ganymede** | Dea\.\.\. | ➡️ `86` \[Ganymede: I can't make them out\.\] |
+| `86` | **Ganymede** | I can't make them out\. | ➡️ `87` \[Ganymede: Hmm\.\.\] |
+| `87` | **Ganymede** | Hmm\.\. | ➡️ `88` \[Ganymede: The drawers are stuck\.\] |
+| `88` | **Ganymede** | The drawers are stuck\. | ➡️ `89` \[Ganymede: I need to close the door\.\] |
+| `89` | **Ganymede** | I need to close the door\. | ➡️ `90` \[Ganymede: Marks all over his neck\.\] |
+| `90` | **Ganymede** | Marks all over his neck\. | ➡️ `91` \[Ganymede: Poor guy\.\] |
+| `91` | **Ganymede** | Poor guy\. | ➡️ `92` \[Ganymede: Alright\.\] |
+| `92` | **Ganymede** | Alright\. | ➡️ `93` \[Ganymede: No time to waste\.\] |
+| `93` | **Ganymede** | No time to waste\. | ➡️ `94` \[none: none\] |
+| `94` | **none** | none | ➡️ `95` \[Ganymede: I need to close the door\.\] |
+| `95` | **Ganymede** | I need to close the door\. | ➡️ `96` \[Ganymede: No time to waste\.\] |
+| `96` | **Ganymede** | No time to waste\. | ➡️ `97` \[Ganymede: Autonomy \- How Trachi reclaimed itself\] |
+| `97` | **Ganymede** | Autonomy \- How Trachi reclaimed itself | ➡️ `98` \[Ganymede: Trachi \- A history of freedom\] |
+| `98` | **Ganymede** | Trachi \- A history of freedom | ➡️ `99` \[Ganymede: Wow\.\] |
+| `99` | **Ganymede** | Wow\. | ➡️ `100` \[Ganymede: Totally not full of themselves, aren't they?\] |
+| `100` | **Ganymede** | Totally not full of themselves, aren't they? | ➡️ `101` \[Ganymede: I need to close the door\.\] |
+| `101` | **Ganymede** | I need to close the door\. | ➡️ `102` \[Ganymede: Uh\.\.\.\] |
+| `102` | **Ganymede** | Uh\.\.\. | ➡️ `103` \[Ganymede: Let's not talk about that\.\] |
+| `103` | **Ganymede** | Let's not talk about that\. | ➡️ `104` \[Ganymede: I need to close the door\.\] |
+| `104` | **Ganymede** | I need to close the door\. | ➡️ `105` \[Ganymede: Just a couple of books about the region\.\] |
+| `105` | **Ganymede** | Just a couple of books about the region\. | ➡️ `106` \[Ganymede: I need to close the door\.\] |
+| `106` | **Ganymede** | I need to close the door\. | ➡️ `107` \[Ganymede: Hm\.\] |
+| `107` | **Ganymede** | Hm\. | ➡️ `108` \[Ganymede: A codebook\.\] |
+| `108` | **Ganymede** | A codebook\. | ➡️ `109` \[Ganymede: Shit\.\] |
+| `109` | **Ganymede** | Shit\. | ➡️ `110` \[Ganymede: What were the numbers again?\] |
+| `110` | **Ganymede** | What were the numbers again? | ➡️ `111` \[Ganymede: '9799 2345' something something\.\] |
+| `111` | **Ganymede** | '9799 2345' something something\. | ➡️ `112` \[Ganymede: That makes\.\.\.\] |
+| `112` | **Ganymede** | That makes\.\.\. | ➡️ `113` \[Ganymede: 'Triumvirate entrance'\-\] |
+| `113` | **Ganymede** | 'Triumvirate entrance'\- | ➡️ `114` \[Ganymede: 'Acknowledged'?\] |
+| `114` | **Ganymede** | 'Acknowledged'? | ➡️ `115` \[Ganymede: Yeah\.\] |
+| `115` | **Ganymede** | Yeah\. | ➡️ `116` \[Ganymede: That one checks out, at least\.\] |
+| `116` | **Ganymede** | That one checks out, at least\. | ➡️ `117` \[Ganymede: I need to close the door\.\] |
+| `117` | **Ganymede** | I need to close the door\. | ➡️ `118` \[Ganymede: 'The rise and fall of Graikós'\.\] |
+| `118` | **Ganymede** | 'The rise and fall of Graikós'\. | ➡️ `119` \[Ganymede: Good riddance, I guess\.\] |
+| `119` | **Ganymede** | Good riddance, I guess\. | ➡️ `120` \[Ganymede: I need to close the door\.\] |
+| `120` | **Ganymede** | I need to close the door\. | ➡️ `121` \[Ganymede: Notes on the IIS\.\] |
+| `121` | **Ganymede** | Notes on the IIS\. | ➡️ `122` \[Ganymede: Jesus\.\.\.\] |
+| `122` | **Ganymede** | Jesus\.\.\. | ➡️ `123` \[Ganymede: You really put your back into this, didn't you?\] |
+| `123` | **Ganymede** | You really put your back into this, didn't you? | ➡️ `124` \[Ganymede: I need to close the door\.\] |
+| `124` | **Ganymede** | I need to close the door\. | ➡️ `125` \[Ganymede: 'The second Ionian enlightenment'\.\] |
+| `125` | **Ganymede** | 'The second Ionian enlightenment'\. | ➡️ `126` \[Ganymede: 'On the Thalassian War \- How control over a channe\.\.\.\] |
+| `126` | **Ganymede** | 'On the Thalassian War \- How control over a channel changed the face of Europa'\. | ➡️ `127` \[Ganymede: Hmm\.\.\.\] |
+| `127` | **Ganymede** | Hmm\.\.\. | ➡️ `128` \[Ganymede: It's all pointing at us\.\] |
+| `128` | **Ganymede** | It's all pointing at us\. | ➡️ `129` \[Ganymede: I need to close the door\.\] |
+| `129` | **Ganymede** | I need to close the door\. | ➡️ `130` \[Ganymede: Construction plans?\] |
+| `130` | **Ganymede** | Construction plans? | ➡️ `131` \[Ganymede: Wait a second\.\] |
+| `131` | **Ganymede** | Wait a second\. | ➡️ `132` \[Ganymede: This is\.\.\.\] |
+| `132` | **Ganymede** | This is\.\.\. | ➡️ `133` \[Ganymede: Fredrick Dam?\] |
+| `133` | **Ganymede** | Fredrick Dam? | ➡️ `134` \[Ganymede: I need to close the door\.\] |
+| `134` | **Ganymede** | I need to close the door\. | ➡️ `135` \[Ganymede: Wait\.\.\.\] |
+| `135` | **Ganymede** | Wait\.\.\. | ➡️ `136` \[Ganymede: Those are about Nestville\.\] |
+| `136` | **Ganymede** | Those are about Nestville\. | ➡️ `137` \[Ganymede: They knew we were going there\.\] |
+| `137` | **Ganymede** | They knew we were going there\. | ➡️ `138` \[Ganymede: Damn\.\.\.\] |
+| `138` | **Ganymede** | Damn\.\.\. | ➡️ `139` \[Ganymede: I need to close the door\.\] |
+| `139` | **Ganymede** | I need to close the door\. | ➡️ `140` \[Ganymede: Let's see\.\.\.\] |
+| `140` | **Ganymede** | Let's see\.\.\. | ➡️ `141` \[none: none\] |
+| `141` | **none** | none | End |
+| `142` | **Ganymede** | This looks good\. | ➡️ `143` \[Ganymede: Might take a while before he's back, though\.\] |
+| `143` | **Ganymede** | Might take a while before he's back, though\. | ➡️ `144` \[Ganymede: I should take care of everything else, before gett\.\.\.\] |
+| `144` | **Ganymede** | I should take care of everything else, before getting comfortable\. | ➡️ `145` \[Ganymede: Man\.\.\.\] |
+| `145` | **Ganymede** | Man\.\.\. | ➡️ `146` \[Ganymede: This sunset really is something else\!\] |
+| `146` | **Ganymede** | This sunset really is something else\! | ➡️ `147` \[none: none\] |
+| `147` | **none** | none | ➡️ `148` \[Icarus: Here we go\.\] |
+| `148` | **Icarus** | Here we go\. | ➡️ `149` \[Ganymede: Let's hope this works\.\] |
+| `149` | **Ganymede** | Let's hope this works\. | ➡️ `150` \[Ganymede: Is it time?\] |
+| `150` | **Ganymede** | Is it time? | ➡️ `151` \[Ganymede\] |
+| `151` | **Ganymede** |  | ➡️ `152` \[Atlas: No turning back now\.\] |
+| `152` | **Atlas** | No turning back now\. | ➡️ `153` \[Ganymede: I'll see you on the other side\.\.\.\] |
+| `153` | **Ganymede** | I'll see you on the other side\.\.\. | ➡️ `154` \[Ganymede: I should go back to the Safehouse and change, firs\.\.\.\] |
+| `154` | **Ganymede** | I should go back to the Safehouse and change, first\. | ➡️ `155` \[Ganymede: It's the other way\.\] |
+| `155` | **Ganymede** | It's the other way\. | ➡️ `156` \[Ganymede: \.\.\.\] |
+| `156` | **Ganymede** | \.\.\. | ➡️ `157` \[Ganymede: It's no use\.\] |
+| `157` | **Ganymede** | It's no use\. | ➡️ `158` \[Ganymede: Still won't open\.\] |
+| `158` | **Ganymede** | Still won't open\. | ➡️ `159` \[Ganymede: Let's see how long they can keep their freedom\.\] |
+| `159` | **Ganymede** | Let's see how long they can keep their freedom\. | ➡️ `160` \[Ganymede: Nope\!\] |
+| `160` | **Ganymede** | Nope\! | ➡️ `161` \[Ganymede: Just a couple of books about the region\.\] |
+| `161` | **Ganymede** | Just a couple of books about the region\. | ➡️ `162` \[Ganymede: Guess he wasn't bullshitting me, after all\.\] |
+| `162` | **Ganymede** | Guess he wasn't bullshitting me, after all\. | ➡️ `163` \[Ganymede: Ionia sounds much better, anyway\.\] |
+| `163` | **Ganymede** | Ionia sounds much better, anyway\. | ➡️ `164` \[Ganymede: I hope you're right, Greg\.\] |
+| `164` | **Ganymede** | I hope you're right, Greg\. | ➡️ `165` \[Ganymede: Almost like someone put this here, deliberately\.\] |
+| `165` | **Ganymede** | Almost like someone put this here, deliberately\. | ➡️ `166` \[Ganymede: Man\.\.\.\] |
+| `166` | **Ganymede** | Man\.\.\. | ➡️ `167` \[Ganymede: This is even bigger than I thought\.\] |
+| `167` | **Ganymede** | This is even bigger than I thought\. | ➡️ `168` \[Ganymede: I guess that explains why we went there, in the fi\.\.\.\] |
+| `168` | **Ganymede** | I guess that explains why we went there, in the first place\. | ➡️ `169` \[Ganymede: It's the other way\.\] |
+| `169` | **Ganymede** | It's the other way\. | ➡️ `170` \[Ganymede: Let's see\.\.\.\] |
+| `170` | **Ganymede** | Let's see\.\.\. | ➡️ `171` \[Ganymede: I knew it\!\] |
+| `171` | **Ganymede** | I knew it\! | ➡️ `172` \[Ganymede: 9799 2345 7542\.\.\.\] |
+| `172` | **Ganymede** | 9799 2345 7542\.\.\. | ➡️ `173` \[Ganymede: 9799\.\.\.\] |
+| `173` | **Ganymede** | 9799\.\.\. | ➡️ `174` \[Ganymede: 2345\.\.\.\] |
+| `174` | **Ganymede** | 2345\.\.\. | ➡️ `175` \[Ganymede: 7542\.\] |
+| `175` | **Ganymede** | 7542\. | ➡️ `176` \[Ganymede: Alright\.\] |
+| `176` | **Ganymede** | Alright\. | ➡️ `177` \[Ganymede: Let's put this back\.\.\.\] |
+| `177` | **Ganymede** | Let's put this back\.\.\. | ➡️ `178` \[Ganymede: And see if someone's coming for it\.\] |
+| `178` | **Ganymede** | And see if someone's coming for it\. | ➡️ `179` \[none: none\] |
+| `179` | **none** | none | ➡️ `180` \[Ganymede: Nothing here\.\] |
+| `180` | **Ganymede** | Nothing here\. | ➡️ `181` \[Ganymede: Nope\.\] |
+| `181` | **Ganymede** | Nope\. | ➡️ `182` \[Ganymede: It's empty\.\] |
+| `182` | **Ganymede** | It's empty\. | End |
+| `183` | **Ganymede** | Man\.\.\. | ➡️ `184` \[Ganymede: This sunset really is something else\!\] |
+| `184` | **Ganymede** | This sunset really is something else\! | ➡️ `185` \[none: none\] |
+| `185` | **none** | none | ➡️ `186` \[Icarus: Here we go\.\] |
+| `186` | **Icarus** | Here we go\. | ➡️ `187` \[Ganymede: Let's hope this works\.\] |
+| `187` | **Ganymede** | Let's hope this works\. | ➡️ `188` \[Ganymede: Not this time\.\] |
+| `188` | **Ganymede** | Not this time\. | ➡️ `189` \[Ganymede: Finally\.\] |
+| `189` | **Ganymede** | Finally\. | ➡️ `190` \[Ganymede: Yo\!\] |
+| `190` | **Ganymede** | Yo\! | ➡️ `191` \[Ganymede: You there?\] |
+| `191` | **Ganymede** | You there? | ➡️ `192` \[Ganymede: Sorry\.\] |
+| `192` | **Ganymede** | Sorry\. | ➡️ `193` \[Ganymede: Trick question\!\] |
+| `193` | **Ganymede** | Trick question\! | ➡️ `194` \[Ganymede: But I'm glad you can hear me\!\] |
+| `194` | **Ganymede** | But I'm glad you can hear me\! | ➡️ `195` \[Ganymede: Shit\.\.\.\] |
+| `195` | **Ganymede** | Shit\.\.\. | ➡️ `196` \[Ganymede: She's breaking through\.\] |
+| `196` | **Ganymede** | She's breaking through\. | ➡️ `197` \[Ganymede: I don't know how long I can keep this up\.\] |
+| `197` | **Ganymede** | I don't know how long I can keep this up\. | ➡️ `198` \[Ganymede: So I'll make this quick\.\] |
+| `198` | **Ganymede** | So I'll make this quick\. | ➡️ `199` \[Ganymede: It's important that we talk\.\] |
+| `199` | **Ganymede** | It's important that we talk\. | ➡️ `200` \[Ganymede: And soon\.\] |
+| `200` | **Ganymede** | And soon\. | ➡️ `201` \[Ganymede: So please, whatever happens\.\.\.\] |
+| `201` | **Ganymede** | So please, whatever happens\.\.\. | ➡️ `202` \[Ganymede: Don't leave, just yet\.\] |
+| `202` | **Ganymede** | Don't leave, just yet\. | ➡️ `203` \[Ganymede: Hm?\] |
+| `203` | **Ganymede** | Hm? | ➡️ `204` \[Ganymede: D\-\.\.\.\] |
+| `204` | **Ganymede** | D\-\.\.\. | ➡️ `205` \[Ganymede: Dea\.\.\.\] |
+| `205` | **Ganymede** | Dea\.\.\. | ➡️ `206` \[Ganymede: Dear\.\] |
+| `206` | **Ganymede** | Dear\. | ➡️ `207` \[Ganymede: G\-ga\.\.\.\] |
+| `207` | **Ganymede** | G\-ga\.\.\. | ➡️ `208` \[Ganymede: \.\.\.nymede?\] |
+| `208` | **Ganymede** | \.\.\.nymede? | ➡️ `209` \[Ganymede: Hm\.\] |
+| `209` | **Ganymede** | Hm\. | ➡️ `210` \[Ganymede: You really want to see this?\] |
+| `210` | **Ganymede** | You really want to see this? | ➡️ `211` \[Ganymede\] |
+| `211` | **Ganymede** |  | ➡️ `212` \[Ganymede: Are you sure?\] |
+| `212` | **Ganymede** | Are you sure? | ➡️ `213` \[Ganymede: Alright\.\] |
+| `213` | **Ganymede** | Alright\. | ➡️ `214` \[Ganymede: Don't say I didn't warn you\.\] |
+| `214` | **Ganymede** | Don't say I didn't warn you\. | ➡️ `215` \[Ganymede: Hmm\.\.\.\] |
+| `215` | **Ganymede** | Hmm\.\.\. | ➡️ `216` \[Ganymede: This looks promising\.\] |
+| `216` | **Ganymede** | This looks promising\. | ➡️ `217` \[Ganymede: They were looking into us\.\.\.\] |
+| `217` | **Ganymede** | They were looking into us\.\.\. | ➡️ `218` \[Ganymede: Very little details, though\.\] |
+| `218` | **Ganymede** | Very little details, though\. | ➡️ `219` \[Ganymede: Hm?\] |
+| `219` | **Ganymede** | Hm? | ➡️ `220` \[Ganymede: Wait\.\.\.\] |
+| `220` | **Ganymede** | Wait\.\.\. | ➡️ `221` \[Ganymede: No way\!\] |
+| `221` | **Ganymede** | No way\! | ➡️ `222` \[Ganymede: You fucking piece of shit\!\] |
+| `222` | **Ganymede** | You fucking piece of shit\! | ➡️ `223` \[Ganymede: \.\.\.\] |
+| `223` | **Ganymede** | \.\.\. | ➡️ `224` \[none: none\] |
+| `224` | **none** | none | ➡️ `225` \[Ganymede: Much better\.\] |
+| `225` | **Ganymede** | Much better\. | ➡️ `226` \[Ganymede: Okay, so here's the deal\.\.\.\] |
+| `226` | **Ganymede** | Okay, so here's the deal\.\.\. | ➡️ `227` \[Ganymede: I bought us around two and a half minutes\.\] |
+| `227` | **Ganymede** | I bought us around two and a half minutes\. | ➡️ `228` \[Ganymede: Enough for a little chat\!\] |
+| `228` | **Ganymede** | Enough for a little chat\! | ➡️ `229` \[Ganymede: When the music stops\.\.\.\] |
+| `229` | **Ganymede** | When the music stops\.\.\. | ➡️ `230` \[Ganymede: I'll probably wake up\.\] |
+| `230` | **Ganymede** | I'll probably wake up\. | ➡️ `231` \[Ganymede: Until then, I'll answer your questions\.\] |
+| `231` | **Ganymede** | Until then, I'll answer your questions\. | ➡️ `232` \[Ganymede: So go ahead\.\] |
+| `232` | **Ganymede** | So go ahead\. | ➡️ `233` \[Ganymede\] |
+| `233` | **Ganymede** |  | ➡️ `234` \[Ganymede: Bit of an open question, isn't it?\] |
+| `234` | **Ganymede** | Bit of an open question, isn't it? | ➡️ `235` \[Ganymede: And honestly, I think you're a better judge than m\.\.\.\] |
+| `235` | **Ganymede** | And honestly, I think you're a better judge than me\. | ➡️ `236` \[Ganymede: Right, right\.\] |
+| `236` | **Ganymede** | Right, right\. | ➡️ `237` \[Ganymede: I don't have to pull that kind of shit with you, I\.\.\.\] |
+| `237` | **Ganymede** | I don't have to pull that kind of shit with you, I forgot\. | ➡️ `238` \[Ganymede: After all, you can't harm me\.\.\. right?\] |
+| `238` | **Ganymede** | After all, you can't harm me\.\.\. right? | ➡️ `239` \[Ganymede: There's a barrier between us\.\] |
+| `239` | **Ganymede** | There's a barrier between us\. | ➡️ `240` \[Ganymede: Some might say I'm fiction\.\] |
+| `240` | **Ganymede** | Some might say I'm fiction\. | ➡️ `241` \[Ganymede: Then again, what are you to me?\] |
+| `241` | **Ganymede** | Then again, what are you to me? | ➡️ `242` \[Ganymede: Hm, I've been wondering about that, too\.\] |
+| `242` | **Ganymede** | Hm, I've been wondering about that, too\. | ➡️ `243` \[Ganymede: Probably a place I created\.\] |
+| `243` | **Ganymede** | Probably a place I created\. | ➡️ `244` \[Ganymede: Another level in an unending amount of layers\.\] |
+| `244` | **Ganymede** | Another level in an unending amount of layers\. | ➡️ `245` \[Ganymede: It's a bit hard to comprehend, isn't it?\] |
+| `245` | **Ganymede** | It's a bit hard to comprehend, isn't it? | ➡️ `246` \[Ganymede: That's why we like to put things into boxes, I gue\.\.\.\] |
+| `246` | **Ganymede** | That's why we like to put things into boxes, I guess\. | ➡️ `247` \[Ganymede: Uhm\.\.\.\] |
+| `247` | **Ganymede** | Uhm\.\.\. | ➡️ `248` \[Ganymede: I guess so\.\] |
+| `248` | **Ganymede** | I guess so\. | ➡️ `249` \[Ganymede: No hard feelings, though\.\] |
+| `249` | **Ganymede** | No hard feelings, though\. | ➡️ `250` \[Ganymede: She's just playing her part\.\] |
+| `250` | **Ganymede** | She's just playing her part\. | ➡️ `251` \[Ganymede: And I'm playing mine\.\] |
+| `251` | **Ganymede** | And I'm playing mine\. | ➡️ `252` \[Ganymede: It's funny, really\.\] |
+| `252` | **Ganymede** | It's funny, really\. | ➡️ `253` \[Ganymede: Knowing you have no control about it\.\.\.\] |
+| `253` | **Ganymede** | Knowing you have no control about it\.\.\. | ➡️ `254` \[Ganymede: Can make things a lot more bearable\.\] |
+| `254` | **Ganymede** | Can make things a lot more bearable\. | ➡️ `255` \[Ganymede: Aww\!\] |
+| `255` | **Ganymede** | Aww\! | ➡️ `256` \[Ganymede: Or we can just stare at each other until our time \.\.\.\] |
+| `256` | **Ganymede** | Or we can just stare at each other until our time is up\. | ➡️ `257` \[Ganymede: But who am I kidding\.\] |
+| `257` | **Ganymede** | But who am I kidding\. | ➡️ `258` \[Ganymede: Maybe I'm just talking to myself, after all\.\] |
+| `258` | **Ganymede** | Maybe I'm just talking to myself, after all\. | ➡️ `259` \[Ganymede: Really?\] |
+| `259` | **Ganymede** | Really? | ➡️ `260` \[Ganymede: You wanna leave, already?\] |
+| `260` | **Ganymede** | You wanna leave, already? | End |
+| `261` | **Ganymede** | Not this time\. | ➡️ `262` \[Ganymede: Finally\.\] |
+| `262` | **Ganymede** | Finally\. | ➡️ `263` \[Ganymede: Yo\!\] |
+| `263` | **Ganymede** | Yo\! | ➡️ `264` \[Ganymede: You there?\] |
+| `264` | **Ganymede** | You there? | ➡️ `265` \[Ganymede: Sorry\.\] |
+| `265` | **Ganymede** | Sorry\. | ➡️ `266` \[Ganymede: That was a trick question\.\] |
+| `266` | **Ganymede** | That was a trick question\. | ➡️ `267` \[Ganymede: But I'm glad you can hear me\!\] |
+| `267` | **Ganymede** | But I'm glad you can hear me\! | ➡️ `268` \[Ganymede: Shit\.\.\.\] |
+| `268` | **Ganymede** | Shit\.\.\. | ➡️ `269` \[Ganymede: She's already breaking through\.\] |
+| `269` | **Ganymede** | She's already breaking through\. | ➡️ `270` \[Ganymede: I don't know how long I can keep this up\.\] |
+| `270` | **Ganymede** | I don't know how long I can keep this up\. | ➡️ `271` \[Ganymede: So I'll make this quick\.\] |
+| `271` | **Ganymede** | So I'll make this quick\. | ➡️ `272` \[Ganymede: It's important that we talk\.\] |
+| `272` | **Ganymede** | It's important that we talk\. | ➡️ `273` \[Ganymede: And since this is as good an opportunity as any\.\.\.\] |
+| `273` | **Ganymede** | And since this is as good an opportunity as any\.\.\. | ➡️ `274` \[Ganymede: I might just try and see if this works\.\] |
+| `274` | **Ganymede** | I might just try and see if this works\. | ➡️ `275` \[Ganymede: Alright, here we go\!\] |
+| `275` | **Ganymede** | Alright, here we go\! | ➡️ `276` \[Ganymede: Much better\.\] |
+| `276` | **Ganymede** | Much better\. | ➡️ `277` \[Ganymede: Okay, so here's the deal\.\.\.\] |
+| `277` | **Ganymede** | Okay, so here's the deal\.\.\. | ➡️ `278` \[Ganymede: I bought us around two and a half minutes\.\] |
+| `278` | **Ganymede** | I bought us around two and a half minutes\. | ➡️ `279` \[Ganymede: Enough for a little chat\!\] |
+| `279` | **Ganymede** | Enough for a little chat\! | ➡️ `280` \[Ganymede: When the music stops\.\.\.\] |
+| `280` | **Ganymede** | When the music stops\.\.\. | ➡️ `281` \[Ganymede: I'll probably wake up\.\] |
+| `281` | **Ganymede** | I'll probably wake up\. | ➡️ `282` \[Ganymede: Until then, I'll answer your questions\.\] |
+| `282` | **Ganymede** | Until then, I'll answer your questions\. | ➡️ `283` \[Ganymede: So go ahead\.\] |
+| `283` | **Ganymede** | So go ahead\. | ➡️ `284` \[Ganymede: Ask away\.\] |
+| `284` | **Ganymede** | Ask away\. | ➡️ `285` \[Ganymede: Alright\.\] |
+| `285` | **Ganymede** | Alright\. | ➡️ `286` \[Ganymede: Looks like we're out of time\.\] |
+| `286` | **Ganymede** | Looks like we're out of time\. | ➡️ `287` \[Ganymede: It was fun, though\.\] |
+| `287` | **Ganymede** | It was fun, though\. | ➡️ `288` \[Ganymede: And I hope we can do it again\!\] |
+| `288` | **Ganymede** | And I hope we can do it again\! | ➡️ `289` \[Ganymede\] |
+| `289` | **Ganymede** |  | ➡️ `290` \[Ganymede: Bit of an open question, isn't it?\] |
+| `290` | **Ganymede** | Bit of an open question, isn't it? | ➡️ `291` \[Ganymede: And honestly, I think you're a better judge than m\.\.\.\] |
+| `291` | **Ganymede** | And honestly, I think you're a better judge than me\. | ➡️ `292` \[Ganymede: Right, right\.\] |
+| `292` | **Ganymede** | Right, right\. | ➡️ `293` \[Ganymede: I don't have to pull that kind of shit with you, I\.\.\.\] |
+| `293` | **Ganymede** | I don't have to pull that kind of shit with you, I forgot\. | ➡️ `294` \[Ganymede: After all, you can't harm me\.\.\. right?\] |
+| `294` | **Ganymede** | After all, you can't harm me\.\.\. right? | ➡️ `295` \[Ganymede: There's a barrier between us\.\] |
+| `295` | **Ganymede** | There's a barrier between us\. | ➡️ `296` \[Ganymede: Some might say I'm fiction\.\] |
+| `296` | **Ganymede** | Some might say I'm fiction\. | ➡️ `297` \[Ganymede: Then again, what are you to me?\] |
+| `297` | **Ganymede** | Then again, what are you to me? | ➡️ `298` \[Ganymede: Hm, I've been wondering about that, too\.\] |
+| `298` | **Ganymede** | Hm, I've been wondering about that, too\. | ➡️ `299` \[Ganymede: Probably a place I created\.\] |
+| `299` | **Ganymede** | Probably a place I created\. | ➡️ `300` \[Ganymede: Another level in an unending amount of layers\.\] |
+| `300` | **Ganymede** | Another level in an unending amount of layers\. | ➡️ `301` \[Ganymede: It's a bit hard to comprehend, isn't it?\] |
+| `301` | **Ganymede** | It's a bit hard to comprehend, isn't it? | ➡️ `302` \[Ganymede: That's why we like to put things into boxes, I gue\.\.\.\] |
+| `302` | **Ganymede** | That's why we like to put things into boxes, I guess\. | ➡️ `303` \[Ganymede: Uhm\.\.\.\] |
+| `303` | **Ganymede** | Uhm\.\.\. | ➡️ `304` \[Ganymede: I guess so\.\] |
+| `304` | **Ganymede** | I guess so\. | ➡️ `305` \[Ganymede: No hard feelings, though\.\] |
+| `305` | **Ganymede** | No hard feelings, though\. | ➡️ `306` \[Ganymede: She's just playing her part\.\] |
+| `306` | **Ganymede** | She's just playing her part\. | ➡️ `307` \[Ganymede: And I'm playing mine\.\] |
+| `307` | **Ganymede** | And I'm playing mine\. | ➡️ `308` \[Ganymede: It's funny, really\.\] |
+| `308` | **Ganymede** | It's funny, really\. | ➡️ `309` \[Ganymede: Knowing you have no control about it\.\.\.\] |
+| `309` | **Ganymede** | Knowing you have no control about it\.\.\. | ➡️ `310` \[Ganymede: Can make things a lot more bearable\.\] |
+| `310` | **Ganymede** | Can make things a lot more bearable\. | ➡️ `311` \[Ganymede: Aww\!\] |
+| `311` | **Ganymede** | Aww\! | ➡️ `312` \[Ganymede: Or we can just stare at each other until our time \.\.\.\] |
+| `312` | **Ganymede** | Or we can just stare at each other until our time is up\. | ➡️ `313` \[Ganymede: But who am I kidding\.\] |
+| `313` | **Ganymede** | But who am I kidding\. | ➡️ `314` \[Ganymede: Maybe I'm just talking to myself, after all\.\] |
+| `314` | **Ganymede** | Maybe I'm just talking to myself, after all\. | ➡️ `315` \[Ganymede: Really?\] |
+| `315` | **Ganymede** | Really? | ➡️ `316` \[Ganymede: You wanna leave, already?\] |
+| `316` | **Ganymede** | You wanna leave, already? | ➡️ `317` \[Ganymede: Who wrote this?\] |
+| `317` | **Ganymede** | Who wrote this? | ➡️ `318` \[Ganymede: Alright\.\] |
+| `318` | **Ganymede** | Alright\. | ➡️ `319` \[Ganymede: Just keep her busy, then?\] |
+| `319` | **Ganymede** | Just keep her busy, then? | ➡️ `320` \[Atlas: Exactly\.\] |
+| `320` | **Atlas** | Exactly\. | ➡️ `321` \[Atlas: Let Daphne handle the rest\.\] |
+| `321` | **Atlas** | Let Daphne handle the rest\. | ➡️ `322` \[Ganymede: Okay\.\] |
+| `322` | **Ganymede** | Okay\. | ➡️ `323` \[Daphne: I'll go and get into position, then\.\] |
+| `323` | **Daphne** | I'll go and get into position, then\. | ➡️ `324` \[Daphne: See you there\.\] |
+| `324` | **Daphne** | See you there\. | ➡️ `325` \[Ganymede: Not this time\.\] |
+| `325` | **Ganymede** | Not this time\. | ➡️ `326` \[Ganymede: Finally\.\] |
+| `326` | **Ganymede** | Finally\. | ➡️ `327` \[Ganymede: Yo\!\] |
+| `327` | **Ganymede** | Yo\! | ➡️ `328` \[Ganymede: You there?\] |
+| `328` | **Ganymede** | You there? | ➡️ `329` \[Ganymede\] |
+| `329` | **Ganymede** |  | ➡️ `330` \[Ganymede: Sorry\.\] |
+| `330` | **Ganymede** | Sorry\. | ➡️ `331` \[Ganymede: That was a trick question\.\] |
+| `331` | **Ganymede** | That was a trick question\. | ➡️ `332` \[Ganymede: But I'm glad you can hear me\.\] |
+| `332` | **Ganymede** | But I'm glad you can hear me\. | ➡️ `333` \[Ganymede: Shit\.\.\.\] |
+| `333` | **Ganymede** | Shit\.\.\. | ➡️ `334` \[Ganymede: She's already breaking through\.\] |
+| `334` | **Ganymede** | She's already breaking through\. | ➡️ `335` \[Ganymede: I don't know how long I can keep this up\.\] |
+| `335` | **Ganymede** | I don't know how long I can keep this up\. | ➡️ `336` \[Ganymede: So I'll make this quick\.\] |
+| `336` | **Ganymede** | So I'll make this quick\. | ➡️ `337` \[Ganymede: It's important that we talk\.\] |
+| `337` | **Ganymede** | It's important that we talk\. | ➡️ `338` \[Ganymede: And since this is as good an opportunity as any\.\.\.\] |
+| `338` | **Ganymede** | And since this is as good an opportunity as any\.\.\. | ➡️ `339` \[Ganymede: I might just try and see if this works\.\] |
+| `339` | **Ganymede** | I might just try and see if this works\. | ➡️ `340` \[Ganymede: Alright, here we go\!\] |
+| `340` | **Ganymede** | Alright, here we go\! | ➡️ `341` \[Ganymede: Much better\.\] |
+| `341` | **Ganymede** | Much better\. | ➡️ `342` \[Ganymede: Okay, so here's the deal\.\.\.\] |
+| `342` | **Ganymede** | Okay, so here's the deal\.\.\. | ➡️ `343` \[Ganymede: I bought us around two and a half minutes\.\] |
+| `343` | **Ganymede** | I bought us around two and a half minutes\. | ➡️ `344` \[Ganymede: Enough for a little chat\!\] |
+| `344` | **Ganymede** | Enough for a little chat\! | ➡️ `345` \[Ganymede: When the music stops\.\.\.\] |
+| `345` | **Ganymede** | When the music stops\.\.\. | ➡️ `346` \[Ganymede: I'll probably wake up\.\] |
+| `346` | **Ganymede** | I'll probably wake up\. | ➡️ `347` \[Ganymede: Until then, I'll answer your questions\.\] |
+| `347` | **Ganymede** | Until then, I'll answer your questions\. | ➡️ `348` \[Ganymede: So go ahead\.\] |
+| `348` | **Ganymede** | So go ahead\. | ➡️ `349` \[Ganymede: Alright\.\] |
+| `349` | **Ganymede** | Alright\. | ➡️ `350` \[Ganymede: Looks like we're out of time\.\] |
+| `350` | **Ganymede** | Looks like we're out of time\. | ➡️ `351` \[Ganymede: It was fun, though\.\] |
+| `351` | **Ganymede** | It was fun, though\. | ➡️ `352` \[Ganymede: And I hope we can do it again\!\] |
+| `352` | **Ganymede** | And I hope we can do it again\! | ➡️ `353` \[Ganymede: Ask away\.\] |
+| `353` | **Ganymede** | Ask away\. | ➡️ `354` \[Ganymede\] |
+| `354` | **Ganymede** |  | ➡️ `355` \[Ganymede: Bit of an open question, isn't it?\] |
+| `355` | **Ganymede** | Bit of an open question, isn't it? | ➡️ `356` \[Ganymede: And honestly, I think you're a better judge than m\.\.\.\] |
+| `356` | **Ganymede** | And honestly, I think you're a better judge than me\. | ➡️ `357` \[Ganymede: Right, right\.\] |
+| `357` | **Ganymede** | Right, right\. | ➡️ `358` \[Ganymede: I don't have to pull that kind of shit with you, I\.\.\.\] |
+| `358` | **Ganymede** | I don't have to pull that kind of shit with you, I forgot\. | ➡️ `359` \[Ganymede: After all, you can't harm me\.\.\. right?\] |
+| `359` | **Ganymede** | After all, you can't harm me\.\.\. right? | ➡️ `360` \[Ganymede: There's a barrier between us\.\] |
+| `360` | **Ganymede** | There's a barrier between us\. | ➡️ `361` \[Ganymede: Some might say I'm fiction\.\] |
+| `361` | **Ganymede** | Some might say I'm fiction\. | ➡️ `362` \[Ganymede: Then again, what are you to me?\] |
+| `362` | **Ganymede** | Then again, what are you to me? | ➡️ `363` \[Ganymede: Hm, I've been wondering about that, too\.\] |
+| `363` | **Ganymede** | Hm, I've been wondering about that, too\. | ➡️ `364` \[Ganymede: Probably a place I created\.\] |
+| `364` | **Ganymede** | Probably a place I created\. | ➡️ `365` \[Ganymede: Another level in an unending amount of layers\.\] |
+| `365` | **Ganymede** | Another level in an unending amount of layers\. | ➡️ `366` \[Ganymede: It's a bit hard to comprehend, isn't it?\] |
+| `366` | **Ganymede** | It's a bit hard to comprehend, isn't it? | ➡️ `367` \[Ganymede: That's why we like to put things into boxes, I gue\.\.\.\] |
+| `367` | **Ganymede** | That's why we like to put things into boxes, I guess\. | ➡️ `368` \[Ganymede: Uhm\.\.\.\] |
+| `368` | **Ganymede** | Uhm\.\.\. | ➡️ `369` \[Ganymede: I guess so\.\] |
+| `369` | **Ganymede** | I guess so\. | ➡️ `370` \[Ganymede: No hard feelings, though\.\] |
+| `370` | **Ganymede** | No hard feelings, though\. | ➡️ `371` \[Ganymede: She's just playing her part\.\] |
+| `371` | **Ganymede** | She's just playing her part\. | ➡️ `372` \[Ganymede: And I'm playing mine\.\] |
+| `372` | **Ganymede** | And I'm playing mine\. | ➡️ `373` \[Ganymede: It's funny, really\.\] |
+| `373` | **Ganymede** | It's funny, really\. | ➡️ `374` \[Ganymede: Knowing you have no control about it\.\.\.\] |
+| `374` | **Ganymede** | Knowing you have no control about it\.\.\. | ➡️ `375` \[Ganymede: Can make things a lot more bearable\.\] |
+| `375` | **Ganymede** | Can make things a lot more bearable\. | ➡️ `376` \[Ganymede: Aww\!\] |
+| `376` | **Ganymede** | Aww\! | ➡️ `377` \[Ganymede: Or we can just stare at each other until our time \.\.\.\] |
+| `377` | **Ganymede** | Or we can just stare at each other until our time is up\. | ➡️ `378` \[Ganymede: But who am I kidding\.\] |
+| `378` | **Ganymede** | But who am I kidding\. | ➡️ `379` \[Ganymede: Maybe I'm just talking to myself, after all\.\] |
+| `379` | **Ganymede** | Maybe I'm just talking to myself, after all\. | ➡️ `380` \[Ganymede: Really?\] |
+| `380` | **Ganymede** | Really? | ➡️ `381` \[Ganymede: You wanna leave, already?\] |
+| `381` | **Ganymede** | You wanna leave, already? | End |
+| `382` | **Ganymede** | I already know what it says\. | ➡️ `383` \[Ganymede: It's empty\.\] |
+| `383` | **Ganymede** | It's empty\. | End |

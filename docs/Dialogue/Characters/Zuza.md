@@ -1,15 +1,14 @@
-# Characters/Zuza
+---
+title: Zuza
+---
+
+# Zuza
 
 
-```mermaid
-graph TD
-    457_0["Actor_460"]
-    457_1["Actor_460: Oh my!"]
-    457_2["Actor_460: I've never been to one of those..."]
-    457_3["Actor_460: They've closed off Rondham..."]
-    457_4["Actor_460: So, where we going to go now?"]
-    457_0 --> 457_1
-    457_0 --> 457_3
-    457_1 --> 457_2
-    457_3 --> 457_4
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Zuza** |  | ➡️ `1` \[Zuza: Oh my\!\]<br>➡️ `3` \[Zuza: They've closed off Rondham\.\.\.\] |
+| `1` | **Zuza** | Oh my\! | ➡️ `2` \[Zuza: I've never been to one of those\.\.\.\] |
+| `2` | **Zuza** | I've never been to one of those\.\.\. | End |
+| `3` | **Zuza** | They've closed off Rondham\.\.\. | ➡️ `4` \[Zuza: So, where we going to go now?\] |
+| `4` | **Zuza** | So, where we going to go now? | End |

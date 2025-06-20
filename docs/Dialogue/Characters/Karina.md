@@ -1,11 +1,12 @@
-# Characters/Karina
+---
+title: Karina
+---
+
+# Karina
 
 
-```mermaid
-graph TD
-    276_0["Actor_272"]
-    276_1["Actor_272: I'm sorry Carl..."]
-    276_2["Actor_272: But I wasn't hungry, back then."]
-    276_0 --> 276_1
-    276_1 --> 276_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Karina** |  | ➡️ `1` \[Karina: I'm sorry Carl\.\.\.\] |
+| `1` | **Karina** | I'm sorry Carl\.\.\. | ➡️ `2` \[Karina: But I wasn't hungry, back then\.\] |
+| `2` | **Karina** | But I wasn't hungry, back then\. | End |

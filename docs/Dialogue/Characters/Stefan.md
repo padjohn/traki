@@ -1,9 +1,11 @@
-# Characters/Stefan
+---
+title: Stefan
+---
+
+# Stefan
 
 
-```mermaid
-graph TD
-    405_0["Actor_406"]
-    405_1["Actor_406: Sorry sir, the embassy is off-limits."]
-    405_0 --> 405_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Stefan** |  | ➡️ `1` \[Stefan: Sorry sir, the embassy is off\-limits\.\] |
+| `1` | **Stefan** | Sorry sir, the embassy is off\-limits\. | End |

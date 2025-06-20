@@ -1,11 +1,12 @@
-# Characters/Petri
+---
+title: Petri
+---
+
+# Petri
 
 
-```mermaid
-graph TD
-    366_0["Actor_366"]
-    366_1["Actor_366: Nothing like a fresh, cold beer to start the day!"]
-    366_2["Actor_366: Nothing like a fresh, cold beer to start the day!"]
-    366_0 --> 366_1
-    366_0 --> 366_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Petri** |  | ➡️ `1` \[Petri: Nothing like a fresh, cold beer to start the day\!\]<br>➡️ `2` \[Petri: Nothing like a fresh, cold beer to start the day\!\] |
+| `1` | **Petri** | Nothing like a fresh, cold beer to start the day\! | End |
+| `2` | **Petri** | Nothing like a fresh, cold beer to start the day\! | End |

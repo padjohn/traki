@@ -1,9 +1,11 @@
-# Characters/Borislav
+---
+title: Borislav
+---
+
+# Borislav
 
 
-```mermaid
-graph TD
-    144_0["Actor_140"]
-    144_1["Actor_140: Get back into the queue, will you?"]
-    144_0 --> 144_1
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Borislav** |  | ➡️ `1` \[Borislav: Get back into the queue, will you?\] |
+| `1` | **Borislav** | Get back into the queue, will you? | End |

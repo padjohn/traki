@@ -1,11 +1,12 @@
-# Characters/Eva
+---
+title: Eva
+---
+
+# Eva
 
 
-```mermaid
-graph TD
-    204_0["Actor_204"]
-    204_1["Actor_204: They don't even let staff in, anymore."]
-    204_2["Actor_204: I guess that's what they get for fucking over their own people."]
-    204_0 --> 204_1
-    204_0 --> 204_2
-```
+| Entry ID | Speaker | Dialogue | Next |
+| :------- | :------ | :------- | :------------ |
+| `0` | **Eva** |  | ➡️ `1` \[Eva: They don't even let staff in, anymore\.\]<br>➡️ `2` \[Eva: I guess that's what they get for fucking over thei\.\.\.\] |
+| `1` | **Eva** | They don't even let staff in, anymore\. | End |
+| `2` | **Eva** | I guess that's what they get for fucking over their own people\. | End |
