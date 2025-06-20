@@ -9,8 +9,14 @@ title: Atlantis
 | :------- | :------ | :------- | :------------ |
 | `0` | **Atlas** |  | ➡️ `1` \[Pandora\] |
 | `1` | **Pandora** |  | ➡️ `167` \[Pandora: You'll hate me for this\.\] |
+| `167` | **Pandora** | You'll hate me for this\. | ➡️ `176` \[Pandora\] |
+| `176` | **Pandora** |  | ➡️ `170` \[Pandora: Have you seen my service card?\] |
+| `170` | **Pandora** | Have you seen my service card? | ➡️ `3` \[Pandora\] |
 | `3` | **Pandora** |  | ➡️ `4` \[Pandora: Áron?\] |
 | `4` | **Pandora** | Áron? | ➡️ `171` \[Pandora\] |
+| `171` | **Pandora** |  | ➡️ `173` \[Pandora: Hey\.\] |
+| `173` | **Pandora** | Hey\. | ➡️ `174` \[Pandora\] |
+| `174` | **Pandora** |  | ➡️ `6` \[Atlas: What's wrong?\] |
 | `6` | **Atlas** | What's wrong? | ➡️ `8` \[Pandora: I was about to ask you\.\] |
 | `8` | **Pandora** | I was about to ask you\. | ➡️ `9` \[Atlas: What do you mean?\] |
 | `9` | **Atlas** | What do you mean? | ➡️ `10` \[Pandora: You were doing the thing again\.\] |
@@ -44,6 +50,7 @@ title: Atlantis
 | `37` | **Atlas** | Not like it's up to me\. | ➡️ `38` \[Atlas: Most of the time\.\] |
 | `38` | **Atlas** | Most of the time\. | ➡️ `39` \[Atlas: It just happens\.\] |
 | `39` | **Atlas** | It just happens\. | ➡️ `179` \[Atlas\] |
+| `179` | **Atlas** |  | ➡️ `41` \[Pandora: Where does it take you?\] |
 | `41` | **Pandora** | Where does it take you? | ➡️ `42` \[Pandora\] |
 | `42` | **Pandora** |  | ➡️ `43` \[Atlas: Close your eyes\.\] |
 | `43` | **Atlas** | Close your eyes\. | ➡️ `44` \[Pandora: What?\] |
@@ -52,6 +59,7 @@ title: Atlantis
 | `46` | **Atlas** |  | ➡️ `47` \[Pandora: What now?\] |
 | `47` | **Pandora** | What now? | ➡️ `48` \[Atlas: Are you there?\] |
 | `48` | **Atlas** | Are you there? | ➡️ `184` \[Pandora\] |
+| `184` | **Pandora** |  | ➡️ `50` \[Pandora: Huh?\] |
 | `50` | **Pandora** | Huh? | ➡️ `51` \[Pandora: Are you losing it?\] |
 | `51` | **Pandora** | Are you losing it? | ➡️ `52` \[Atlas: Eyes shut\.\] |
 | `52` | **Atlas** | Eyes shut\. | ➡️ `53` \[Atlas: Mouth closed\.\] |
@@ -62,6 +70,20 @@ title: Atlantis
 | `57` | **Atlas** | Are you there? | ➡️ `58` \[Pandora: I guess\.\] |
 | `58` | **Pandora** | I guess\. | ➡️ `60` \[Atlas: Now think about a painful memory\.\] |
 | `60` | **Atlas** | Now think about a painful memory\. | ➡️ `187` \[Atlas: The worse the better\.\] |
+| `187` | **Atlas** | The worse the better\. | ➡️ `192` \[Atlas\] |
+| `192` | **Atlas** |  | ➡️ `193` \[Atlas: How does it feel?\] |
+| `193` | **Atlas** | How does it feel? | ➡️ `194` \[Pandora: Stings\.\] |
+| `194` | **Pandora** | Stings\. | ➡️ `198` \[Atlas: Why?\] |
+| `198` | **Atlas** | Why? | ➡️ `199` \[Pandora: I did something stupid\.\] |
+| `199` | **Pandora** | I did something stupid\. | ➡️ `211` \[Atlas: Would you do it again?\] |
+| `211` | **Atlas** | Would you do it again? | ➡️ `212` \[Pandora: Absolutely not\.\] |
+| `212` | **Pandora** | Absolutely not\. | ➡️ `215` \[Atlas: Why not?\] |
+| `215` | **Atlas** | Why not? | ➡️ `216` \[Pandora: Because I know better now\.\] |
+| `216` | **Pandora** | Because I know better now\. | ➡️ `210` \[Atlas\] |
+| `210` | **Atlas** |  | ➡️ `209` \[Atlas: Imagine a version of yourself\.\] |
+| `209` | **Atlas** | Imagine a version of yourself\. | ➡️ `213` \[Atlas: The one that made a mistake\.\] |
+| `213` | **Atlas** | The one that made a mistake\. | ➡️ `214` \[Atlas\] |
+| `214` | **Atlas** |  | ➡️ `67` \[Atlas: Can you embrace that person?\] |
 | `67` | **Atlas** | Can you embrace that person? | ➡️ `68` \[Atlas: At the risk of making that mistake again?\] |
 | `68` | **Atlas** | At the risk of making that mistake again? | ➡️ `76` \[Atlas\] |
 | `76` | **Atlas** |  | ➡️ `77` \[Atlas: Open your eyes\.\] |
@@ -80,6 +102,7 @@ title: Atlantis
 | `94` | **Atlas** |  | ➡️ `95` \[Pandora: Why?\] |
 | `95` | **Pandora** | Why? | ➡️ `96` \[Atlas: Because I’d rather hate myself\.\] |
 | `96` | **Atlas** | Because I’d rather hate myself\. | ➡️ `178` \[Atlas: Than anybody else\.\] |
+| `178` | **Atlas** | Than anybody else\. | ➡️ `97` \[Atlas\] |
 | `97` | **Atlas** |  | ➡️ `98` \[Pandora: Áron\.\] |
 | `98` | **Pandora** | Áron\. | ➡️ `100` \[Pandora: How long has this been going on?\] |
 | `100` | **Pandora** | How long has this been going on? | ➡️ `101` \[Pandora\] |
@@ -95,13 +118,16 @@ title: Atlantis
 | `111` | **Pandora** | Doesn't matter\. | ➡️ `113` \[Pandora: I want to fix it either way\!\] |
 | `113` | **Pandora** | I want to fix it either way\! | ➡️ `114` \[Atlas: I know\.\] |
 | `114` | **Atlas** | I know\. | ➡️ `220` \[Atlas: That's why I'm in love with you\.\] |
-| `120` | **Atlas** | I'm glad you understand\. | ➡️ `124` \[Atlas\] |
+| `220` | **Atlas** | That's why I'm in love with you\. | ➡️ `218` \[Pandora\] |
+| `218` | **Pandora** |  | ➡️ `122` \[Pandora: I love you too\.\] |
 | `122` | **Pandora** | I love you too\. | ➡️ `219` \[Pandora: Just the way you are\.\] |
-| `123` | **Pandora** | Yeah\. | ➡️ `125` \[Pandora: You love me because I want to put things right\.\] |
+| `219` | **Pandora** | Just the way you are\. | ➡️ `120` \[Atlas: I'm glad you understand\.\] |
+| `120` | **Atlas** | I'm glad you understand\. | ➡️ `124` \[Atlas\] |
 | `124` | **Atlas** |  | ➡️ `123` \[Pandora: Yeah\.\] |
+| `123` | **Pandora** | Yeah\. | ➡️ `125` \[Pandora: You love me because I want to put things right\.\] |
 | `125` | **Pandora** | You love me because I want to put things right\. | ➡️ `129` \[Pandora: And I love you because you won't let me\.\] |
-| `126` | **Atlas** | If that's how you want to put it\. | ➡️ `130` \[Atlas\] |
 | `129` | **Pandora** | And I love you because you won't let me\. | ➡️ `126` \[Atlas: If that's how you want to put it\.\] |
+| `126` | **Atlas** | If that's how you want to put it\. | ➡️ `130` \[Atlas\] |
 | `130` | **Atlas** |  | ➡️ `131` \[Pandora: What about you?\] |
 | `131` | **Pandora** | What about you? | ➡️ `132` \[Pandora\] |
 | `132` | **Pandora** |  | ➡️ `133` \[Atlas: Shouldn't you be heading out?\] |
@@ -111,6 +137,7 @@ title: Atlantis
 | `136` | **Pandora** | Fuck\! | ➡️ `137` \[Pandora\] |
 | `137` | **Pandora** |  | ➡️ `138` \[Atlas: Service card?\] |
 | `138` | **Atlas** | Service card? | ➡️ `181` \[Atlas\] |
+| `181` | **Atlas** |  | ➡️ `139` \[Pandora: Right here\!\] |
 | `139` | **Pandora** | Right here\! | ➡️ `140` \[Pandora\] |
 | `140` | **Pandora** |  | ➡️ `141` \[Pandora: Áron?\] |
 | `141` | **Pandora** | Áron? | ➡️ `142` \[Atlas: Hm?\] |
@@ -119,6 +146,7 @@ title: Atlantis
 | `144` | **Pandora** |  | ➡️ `145` \[Atlas: As long as we don't make it a habit\.\] |
 | `145` | **Atlas** | As long as we don't make it a habit\. | ➡️ `146` \[Pandora: Don't worry\!\] |
 | `146` | **Pandora** | Don't worry\! | ➡️ `180` \[Pandora\] |
+| `180` | **Pandora** |  | ➡️ `147` \[Pandora: I might be off for a couple of weeks anyway\.\] |
 | `147` | **Pandora** | I might be off for a couple of weeks anyway\. | ➡️ `149` \[Atlas: Where to?\] |
 | `149` | **Atlas** | Where to? | ➡️ `151` \[Pandora: It's just rumours at this point\.\] |
 | `151` | **Pandora** | It's just rumours at this point\. | ➡️ `152` \[Pandora: Something about a city and a dam\.\] |
@@ -128,35 +156,7 @@ title: Atlantis
 | `155` | **Pandora** |  | ➡️ `156` \[Atlas: I'll think about it\.\] |
 | `156` | **Atlas** | I'll think about it\. | ➡️ `157` \[Pandora: Good\.\] |
 | `157` | **Pandora** | Good\. | ➡️ `160` \[Pandora\] |
+| `160` | **Pandora** |  | ➡️ `158` \[Pandora: I'll see you later\!\] |
 | `158` | **Pandora** | I'll see you later\! | ➡️ `159` \[Pandora\] |
 | `159` | **Pandora** |  | ➡️ `182` \[Atlas\] |
-| `160` | **Pandora** |  | ➡️ `158` \[Pandora: I'll see you later\!\] |
-| `167` | **Pandora** | You'll hate me for this\. | ➡️ `176` \[Pandora\] |
-| `170` | **Pandora** | Have you seen my service card? | ➡️ `3` \[Pandora\] |
-| `171` | **Pandora** |  | ➡️ `173` \[Pandora: Hey\.\] |
-| `173` | **Pandora** | Hey\. | ➡️ `174` \[Pandora\] |
-| `174` | **Pandora** |  | ➡️ `6` \[Atlas: What's wrong?\] |
-| `176` | **Pandora** |  | ➡️ `170` \[Pandora: Have you seen my service card?\] |
-| `178` | **Atlas** | Than anybody else\. | ➡️ `97` \[Atlas\] |
-| `179` | **Atlas** |  | ➡️ `41` \[Pandora: Where does it take you?\] |
-| `180` | **Pandora** |  | ➡️ `147` \[Pandora: I might be off for a couple of weeks anyway\.\] |
-| `181` | **Atlas** |  | ➡️ `139` \[Pandora: Right here\!\] |
 | `182` | **Atlas** |  | End |
-| `184` | **Pandora** |  | ➡️ `50` \[Pandora: Huh?\] |
-| `187` | **Atlas** | The worse the better\. | ➡️ `192` \[Atlas\] |
-| `192` | **Atlas** |  | ➡️ `193` \[Atlas: How does it feel?\] |
-| `193` | **Atlas** | How does it feel? | ➡️ `194` \[Pandora: Stings\.\] |
-| `194` | **Pandora** | Stings\. | ➡️ `198` \[Atlas: Why?\] |
-| `198` | **Atlas** | Why? | ➡️ `199` \[Pandora: I did something stupid\.\] |
-| `199` | **Pandora** | I did something stupid\. | ➡️ `211` \[Atlas: Would you do it again?\] |
-| `209` | **Atlas** | Imagine a version of yourself\. | ➡️ `213` \[Atlas: The one that made a mistake\.\] |
-| `210` | **Atlas** |  | ➡️ `209` \[Atlas: Imagine a version of yourself\.\] |
-| `211` | **Atlas** | Would you do it again? | ➡️ `212` \[Pandora: Absolutely not\.\] |
-| `212` | **Pandora** | Absolutely not\. | ➡️ `215` \[Atlas: Why not?\] |
-| `213` | **Atlas** | The one that made a mistake\. | ➡️ `214` \[Atlas\] |
-| `214` | **Atlas** |  | ➡️ `67` \[Atlas: Can you embrace that person?\] |
-| `215` | **Atlas** | Why not? | ➡️ `216` \[Pandora: Because I know better now\.\] |
-| `216` | **Pandora** | Because I know better now\. | ➡️ `210` \[Atlas\] |
-| `218` | **Pandora** |  | ➡️ `122` \[Pandora: I love you too\.\] |
-| `219` | **Pandora** | Just the way you are\. | ➡️ `120` \[Atlas: I'm glad you understand\.\] |
-| `220` | **Atlas** | That's why I'm in love with you\. | ➡️ `218` \[Pandora\] |

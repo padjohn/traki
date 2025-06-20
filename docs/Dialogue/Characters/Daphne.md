@@ -63,67 +63,92 @@ title: Daphne
 | `83` | **Ganymede** |  | ➡️ `149` \[Pandora: Are you okay?\]<br>➡️ `247` \[Daphne: Remember to enjoy yourself\.\]<br>➡️ `103` \[Daphne: Hey Lorna\.\]<br>➡️ `248` \[Daphne: Don't be shy\.\]<br>➡️ `261` \[Daphne: The world's a village, huh?\]<br>➡️ `376` \[Daphne: Right behind you\.\]<br>➡️ `333` \[Daphne: Victory lap, hm?\]<br>➡️ `335` \[Daphne: Atlas?\]<br>➡️ `265` \[Daphne: Sorry\.\]<br>➡️ `342` \[Daphne: Eyes ahead\.\] |
 | `103` | **Daphne** | Hey Lorna\. | ➡️ `106` \[Pandora: Hey\.\] |
 | `106` | **Pandora** | Hey\. | ➡️ `211` \[Daphne: Cozy place, isn't it?\] |
+| `211` | **Daphne** | Cozy place, isn't it? | ➡️ `212` \[Pandora: Without a doubt\!\] |
+| `212` | **Pandora** | Without a doubt\! | ➡️ `317` \[Daphne: I got a weird look here and there\.\] |
+| `317` | **Daphne** | I got a weird look here and there\. | ➡️ `318` \[Daphne: But everybody kept their cool\.\] |
+| `318` | **Daphne** | But everybody kept their cool\. | ➡️ `313` \[Pandora: I'm glad to hear it\.\] |
+| `313` | **Pandora** | I'm glad to hear it\. | ➡️ `216` \[Pandora: The past is the past, after all\.\] |
+| `216` | **Pandora** | The past is the past, after all\. | ➡️ `217` \[Daphne: Exactly\!\] |
+| `217` | **Daphne** | Exactly\! | ➡️ `323` \[Pandora\] |
+| `323` | **Pandora** |  | ➡️ `325` \[Pandora: More importantly: Did you talk to Theo yet?\] |
+| `325` | **Pandora** | More importantly: Did you talk to Theo yet? | ➡️ `326` \[Daphne: I was just about to\.\] |
+| `326` | **Daphne** | I was just about to\. | ➡️ `327` \[Daphne: Do you want to come along?\] |
+| `327` | **Daphne** | Do you want to come along? | ➡️ `328` \[Pandora: I'd love to\!\] |
+| `328` | **Pandora** | I'd love to\! | ➡️ `332` \[Pandora: Maybe I'll get to borrow Anton for a second\.\] |
+| `332` | **Pandora** | Maybe I'll get to borrow Anton for a second\. | ➡️ `331` \[Daphne: Great\! Let's see what they're up to\.\] |
+| `331` | **Daphne** | Great\! Let's see what they're up to\. | End |
 | `149` | **Pandora** | Are you okay? | ➡️ `150` \[Daphne: Yeah\!\] |
 | `150` | **Daphne** | Yeah\! | ➡️ `152` \[Daphne: Thanks for jumping in\!\] |
 | `152` | **Daphne** | Thanks for jumping in\! | ➡️ `153` \[Pandora: Don't mention it\!\] |
 | `153` | **Pandora** | Don't mention it\! | ➡️ `154` \[Pandora: What are you doing out here?\] |
 | `154` | **Pandora** | What are you doing out here? | ➡️ `158` \[Daphne: I'm supposed to conduct a field\-study\.\] |
 | `158` | **Daphne** | I'm supposed to conduct a field\-study\. | ➡️ `289` \[Daphne: Evidently, I didn't get very far\.\] |
+| `289` | **Daphne** | Evidently, I didn't get very far\. | ➡️ `290` \[Pandora: Aww, I see\.\] |
+| `290` | **Pandora** | Aww, I see\. | ➡️ `295` \[Pandora: Are you looking for something specific?\] |
+| `295` | **Pandora** | Are you looking for something specific? | ➡️ `169` \[Daphne: Not really\.\] |
 | `169` | **Daphne** | Not really\. | ➡️ `359` \[Daphne: Just good old HMI\.\] |
+| `359` | **Daphne** | Just good old HMI\. | ➡️ `360` \[Pandora: Eh?\] |
+| `360` | **Pandora** | Eh? | ➡️ `362` \[Daphne: 'Human\-Monster Interaction'\] |
+| `362` | **Daphne** | 'Human\-Monster Interaction' | ➡️ `363` \[Pandora: Ohhh\!\] |
+| `363` | **Pandora** | Ohhh\! | ➡️ `364` \[Pandora: Does it always pan out like this?\] |
+| `364` | **Pandora** | Does it always pan out like this? | ➡️ `365` \[Daphne: Fortunately not\.\] |
+| `365` | **Daphne** | Fortunately not\. | ➡️ `366` \[Daphne: So I'm extra grateful for your help\!\] |
+| `366` | **Daphne** | So I'm extra grateful for your help\! | ➡️ `367` \[Daphne: Speaking of: Are you on patrol?\] |
+| `367` | **Daphne** | Speaking of: Are you on patrol? | ➡️ `170` \[Pandora: I was\.\] |
 | `170` | **Pandora** | I was\. | ➡️ `368` \[Pandora: I think\.\] |
+| `368` | **Pandora** | I think\. | ➡️ `171` \[Daphne: Huh? Did something happen?\] |
 | `171` | **Daphne** | Huh? Did something happen? | ➡️ `286` \[Pandora: It's a long story\.\] |
-| `199` | **Pandora** | That's where I was headed\. | ➡️ `310` \[Pandora: Before I ended up here\.\] |
-| `200` | **Daphne** | No sweat\! | ➡️ `201` \[Daphne: I'll see you there\.\] |
-| `201` | **Daphne** | I'll see you there\. | ➡️ `312` \[Daphne\] |
-| `211` | **Daphne** | Cozy place, isn't it? | ➡️ `212` \[Pandora: Without a doubt\!\] |
-| `212` | **Pandora** | Without a doubt\! | ➡️ `317` \[Daphne: I got a weird look here and there\.\] |
-| `216` | **Pandora** | The past is the past, after all\. | ➡️ `217` \[Daphne: Exactly\!\] |
-| `217` | **Daphne** | Exactly\! | ➡️ `323` \[Pandora\] |
-| `247` | **Daphne** | Remember to enjoy yourself\. | End |
-| `248` | **Daphne** | Don't be shy\. | End |
+| `286` | **Pandora** | It's a long story\. | ➡️ `296` \[Pandora: Basically, I lost my CO\.\] |
+| `296` | **Pandora** | Basically, I lost my CO\. | ➡️ `357` \[Daphne: Visually?\] |
+| `357` | **Daphne** | Visually? | ➡️ `297` \[Pandora: I hope so\.\] |
+| `297` | **Pandora** | I hope so\. | ➡️ `302` \[Pandora\] |
+| `302` | **Pandora** |  | ➡️ `309` \[Pandora: I've been meaning to ask around\.\] |
+| `309` | **Pandora** | I've been meaning to ask around\. | ➡️ `303` \[Daphne: No luck at the Checkpoint?\] |
+| `303` | **Daphne** | No luck at the Checkpoint? | ➡️ `257` \[Pandora\]<br>➡️ `249` \[Pandora: No luck so far\.\] |
 | `249` | **Pandora** | No luck so far\. | ➡️ `253` \[Pandora: Everybody's busy with themselves\.\] |
 | `253` | **Pandora** | Everybody's busy with themselves\. | ➡️ `254` \[Daphne: Yeah, I heard\.\] |
 | `254` | **Daphne** | Yeah, I heard\. | ➡️ `255` \[Pandora: I met a guy named Theo, though\.\] |
 | `255` | **Pandora** | I met a guy named Theo, though\. | ➡️ `311` \[Pandora: He said he wanted to talk to you\.\] |
+| `311` | **Pandora** | He said he wanted to talk to you\. | ➡️ `348` \[Daphne: Oh\! That could mean good news\.\] |
+| `348` | **Daphne** | Oh\! That could mean good news\. | ➡️ `349` \[Pandora: Is he helping out too?\] |
+| `349` | **Pandora** | Is he helping out too? | ➡️ `350` \[Daphne: For better or worse\.\] |
+| `350` | **Daphne** | For better or worse\. | ➡️ `351` \[Pandora: That's so nice of him\!\] |
+| `351` | **Pandora** | That's so nice of him\! | ➡️ `352` \[Pandora: Should we go and see him, then?\] |
+| `352` | **Pandora** | Should we go and see him, then? | ➡️ `353` \[Daphne: Yeah\!\] |
+| `353` | **Daphne** | Yeah\! | ➡️ `201` \[Daphne: I'll see you there\.\] |
+| `201` | **Daphne** | I'll see you there\. | ➡️ `312` \[Daphne\] |
+| `312` | **Daphne** |  | End |
 | `257` | **Pandora** |  | ➡️ `199` \[Pandora: That's where I was headed\.\] |
+| `199` | **Pandora** | That's where I was headed\. | ➡️ `310` \[Pandora: Before I ended up here\.\] |
+| `310` | **Pandora** | Before I ended up here\. | ➡️ `314` \[Daphne: I'm grateful you did\.\] |
+| `314` | **Daphne** | I'm grateful you did\. | ➡️ `315` \[Daphne: And I'd love to return the favor\.\] |
+| `315` | **Daphne** | And I'd love to return the favor\. | ➡️ `358` \[Pandora: Aww\!\] |
+| `358` | **Pandora** | Aww\! | ➡️ `375` \[Pandora: You don't need to\!\] |
+| `375` | **Pandora** | You don't need to\! | ➡️ `316` \[Daphne: Please, it's the least I can do\.\] |
+| `316` | **Daphne** | Please, it's the least I can do\. | ➡️ `369` \[Daphne: I got a friend who's into gossip\.\] |
+| `369` | **Daphne** | I got a friend who's into gossip\. | ➡️ `370` \[Daphne: If anyone's seen your CO, he'll know\.\] |
+| `370` | **Daphne** | If anyone's seen your CO, he'll know\. | ➡️ `371` \[Pandora: You think I could talk to him?\] |
+| `371` | **Pandora** | You think I could talk to him? | ➡️ `372` \[Daphne: Absolutely\!\] |
+| `372` | **Daphne** | Absolutely\! | ➡️ `373` \[Daphne: I'll put in a good word for you\!\] |
+| `373` | **Daphne** | I'll put in a good word for you\! | ➡️ `374` \[Pandora: Thank you so much\!\] |
+| `374` | **Pandora** | Thank you so much\! | ➡️ `200` \[Daphne: No sweat\!\] |
+| `200` | **Daphne** | No sweat\! | ➡️ `201` \[Daphne: I'll see you there\.\] |
+| `247` | **Daphne** | Remember to enjoy yourself\. | End |
+| `248` | **Daphne** | Don't be shy\. | End |
 | `261` | **Daphne** | The world's a village, huh? | ➡️ `262` \[Pandora: For sure\!\] |
 | `262` | **Pandora** | For sure\! | ➡️ `263` \[Pandora: It's so nice of you to help us out\!\] |
 | `263` | **Pandora** | It's so nice of you to help us out\! | ➡️ `264` \[Daphne: Aww, you're overselling it\.\] |
 | `264` | **Daphne** | Aww, you're overselling it\. | ➡️ `269` \[Daphne: Besides, it's very convenient for me too\.\] |
-| `265` | **Daphne** | Sorry\. | ➡️ `343` \[Daphne: But I don't feel very talkative right now\.\] |
+| `269` | **Daphne** | Besides, it's very convenient for me too\. | ➡️ `266` \[Pandora: Right\.\] |
 | `266` | **Pandora** | Right\. | ➡️ `268` \[Pandora: Let's hope you get some good material\.\] |
 | `268` | **Pandora** | Let's hope you get some good material\. | ➡️ `270` \[Daphne: Fingers crossed\.\] |
-| `269` | **Daphne** | Besides, it's very convenient for me too\. | ➡️ `266` \[Pandora: Right\.\] |
 | `270` | **Daphne** | Fingers crossed\. | ➡️ `280` \[Pandora\] |
-| `271` | **Pandora** | Cleo\. | ➡️ `282` \[Daphne: Spot on\!\] |
 | `280` | **Pandora** |  | ➡️ `281` \[Daphne: First things first, though\.\] |
 | `281` | **Daphne** | First things first, though\. | ➡️ `271` \[Pandora: Cleo\.\] |
+| `271` | **Pandora** | Cleo\. | ➡️ `282` \[Daphne: Spot on\!\] |
 | `282` | **Daphne** | Spot on\! | End |
-| `286` | **Pandora** | It's a long story\. | ➡️ `296` \[Pandora: Basically, I lost my CO\.\] |
-| `289` | **Daphne** | Evidently, I didn't get very far\. | ➡️ `290` \[Pandora: Aww, I see\.\] |
-| `290` | **Pandora** | Aww, I see\. | ➡️ `295` \[Pandora: Are you looking for something specific?\] |
-| `295` | **Pandora** | Are you looking for something specific? | ➡️ `169` \[Daphne: Not really\.\] |
-| `296` | **Pandora** | Basically, I lost my CO\. | ➡️ `357` \[Daphne: Visually?\] |
-| `297` | **Pandora** | I hope so\. | ➡️ `302` \[Pandora\] |
-| `302` | **Pandora** |  | ➡️ `309` \[Pandora: I've been meaning to ask around\.\] |
-| `303` | **Daphne** | No luck at the Checkpoint? | ➡️ `257` \[Pandora\]<br>➡️ `249` \[Pandora: No luck so far\.\] |
-| `309` | **Pandora** | I've been meaning to ask around\. | ➡️ `303` \[Daphne: No luck at the Checkpoint?\] |
-| `310` | **Pandora** | Before I ended up here\. | ➡️ `314` \[Daphne: I'm grateful you did\.\] |
-| `311` | **Pandora** | He said he wanted to talk to you\. | ➡️ `348` \[Daphne: Oh\! That could mean good news\.\] |
-| `312` | **Daphne** |  | End |
-| `313` | **Pandora** | I'm glad to hear it\. | ➡️ `216` \[Pandora: The past is the past, after all\.\] |
-| `314` | **Daphne** | I'm grateful you did\. | ➡️ `315` \[Daphne: And I'd love to return the favor\.\] |
-| `315` | **Daphne** | And I'd love to return the favor\. | ➡️ `358` \[Pandora: Aww\!\] |
-| `316` | **Daphne** | Please, it's the least I can do\. | ➡️ `369` \[Daphne: I got a friend who's into gossip\.\] |
-| `317` | **Daphne** | I got a weird look here and there\. | ➡️ `318` \[Daphne: But everybody kept their cool\.\] |
-| `318` | **Daphne** | But everybody kept their cool\. | ➡️ `313` \[Pandora: I'm glad to hear it\.\] |
-| `323` | **Pandora** |  | ➡️ `325` \[Pandora: More importantly: Did you talk to Theo yet?\] |
-| `325` | **Pandora** | More importantly: Did you talk to Theo yet? | ➡️ `326` \[Daphne: I was just about to\.\] |
-| `326` | **Daphne** | I was just about to\. | ➡️ `327` \[Daphne: Do you want to come along?\] |
-| `327` | **Daphne** | Do you want to come along? | ➡️ `328` \[Pandora: I'd love to\!\] |
-| `328` | **Pandora** | I'd love to\! | ➡️ `332` \[Pandora: Maybe I'll get to borrow Anton for a second\.\] |
-| `331` | **Daphne** | Great\! Let's see what they're up to\. | End |
-| `332` | **Pandora** | Maybe I'll get to borrow Anton for a second\. | ➡️ `331` \[Daphne: Great\! Let's see what they're up to\.\] |
+| `265` | **Daphne** | Sorry\. | ➡️ `343` \[Daphne: But I don't feel very talkative right now\.\] |
+| `343` | **Daphne** | But I don't feel very talkative right now\. | End |
 | `333` | **Daphne** | Victory lap, hm? | ➡️ `334` \[Atlas: Hopefully\.\] |
 | `334` | **Atlas** | Hopefully\. | End |
 | `335` | **Daphne** | Atlas? | ➡️ `336` \[Atlas: Hm?\] |
@@ -133,33 +158,8 @@ title: Daphne
 | `339` | **Daphne** | Not even a tiny bit? | ➡️ `340` \[Atlas: Should I be?\] |
 | `340` | **Atlas** | Should I be? | ➡️ `341` \[Daphne: It's a big day\.\] |
 | `341` | **Daphne** | It's a big day\. | ➡️ `344` \[Daphne: Anything could happen\.\] |
-| `342` | **Daphne** | Eyes ahead\. | End |
-| `343` | **Daphne** | But I don't feel very talkative right now\. | End |
 | `344` | **Daphne** | Anything could happen\. | ➡️ `345` \[Atlas: That's why I try to keep it steady\.\] |
 | `345` | **Atlas** | That's why I try to keep it steady\. | ➡️ `346` \[Daphne: Makes sense\.\] |
 | `346` | **Daphne** | Makes sense\. | End |
-| `348` | **Daphne** | Oh\! That could mean good news\. | ➡️ `349` \[Pandora: Is he helping out too?\] |
-| `349` | **Pandora** | Is he helping out too? | ➡️ `350` \[Daphne: For better or worse\.\] |
-| `350` | **Daphne** | For better or worse\. | ➡️ `351` \[Pandora: That's so nice of him\!\] |
-| `351` | **Pandora** | That's so nice of him\! | ➡️ `352` \[Pandora: Should we go and see him, then?\] |
-| `352` | **Pandora** | Should we go and see him, then? | ➡️ `353` \[Daphne: Yeah\!\] |
-| `353` | **Daphne** | Yeah\! | ➡️ `201` \[Daphne: I'll see you there\.\] |
-| `357` | **Daphne** | Visually? | ➡️ `297` \[Pandora: I hope so\.\] |
-| `358` | **Pandora** | Aww\! | ➡️ `375` \[Pandora: You don't need to\!\] |
-| `359` | **Daphne** | Just good old HMI\. | ➡️ `360` \[Pandora: Eh?\] |
-| `360` | **Pandora** | Eh? | ➡️ `362` \[Daphne: 'Human\-Monster Interaction'\] |
-| `362` | **Daphne** | 'Human\-Monster Interaction' | ➡️ `363` \[Pandora: Ohhh\!\] |
-| `363` | **Pandora** | Ohhh\! | ➡️ `364` \[Pandora: Does it always pan out like this?\] |
-| `364` | **Pandora** | Does it always pan out like this? | ➡️ `365` \[Daphne: Fortunately not\.\] |
-| `365` | **Daphne** | Fortunately not\. | ➡️ `366` \[Daphne: So I'm extra grateful for your help\!\] |
-| `366` | **Daphne** | So I'm extra grateful for your help\! | ➡️ `367` \[Daphne: Speaking of: Are you on patrol?\] |
-| `367` | **Daphne** | Speaking of: Are you on patrol? | ➡️ `170` \[Pandora: I was\.\] |
-| `368` | **Pandora** | I think\. | ➡️ `171` \[Daphne: Huh? Did something happen?\] |
-| `369` | **Daphne** | I got a friend who's into gossip\. | ➡️ `370` \[Daphne: If anyone's seen your CO, he'll know\.\] |
-| `370` | **Daphne** | If anyone's seen your CO, he'll know\. | ➡️ `371` \[Pandora: You think I could talk to him?\] |
-| `371` | **Pandora** | You think I could talk to him? | ➡️ `372` \[Daphne: Absolutely\!\] |
-| `372` | **Daphne** | Absolutely\! | ➡️ `373` \[Daphne: I'll put in a good word for you\!\] |
-| `373` | **Daphne** | I'll put in a good word for you\! | ➡️ `374` \[Pandora: Thank you so much\!\] |
-| `374` | **Pandora** | Thank you so much\! | ➡️ `200` \[Daphne: No sweat\!\] |
-| `375` | **Pandora** | You don't need to\! | ➡️ `316` \[Daphne: Please, it's the least I can do\.\] |
+| `342` | **Daphne** | Eyes ahead\. | End |
 | `376` | **Daphne** | Right behind you\. | End |

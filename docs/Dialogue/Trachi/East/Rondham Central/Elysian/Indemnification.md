@@ -11,6 +11,7 @@ title: Indemnification
 | `1` | **Orpheus** |  | ➡️ `2` \[Orpheus: Sorry I'm late\.\] |
 | `2` | **Orpheus** | Sorry I'm late\. | ➡️ `3` \[Atlas: Don't worry about it\.\] |
 | `3` | **Atlas** | Don't worry about it\. | ➡️ `509` \[Atlas\] |
+| `509` | **Atlas** |  | ➡️ `4` \[Orpheus: This is it?\\n\] |
 | `4` | **Orpheus** | This is it?\\n | ➡️ `5` \[Atlas: Preliminary print\.\] |
 | `5` | **Atlas** | Preliminary print\. | ➡️ `415` \[Atlas\] |
 | `415` | **Atlas** |  | ➡️ `416` \[Atlas: What do you think?\] |
@@ -27,6 +28,7 @@ title: Indemnification
 | `429` | **Atlas** | It's not your fault, you know\. | ➡️ `430` \[Orpheus: Look who's talking\.\] |
 | `430` | **Orpheus** | Look who's talking\. | ➡️ `431` \[Atlas: Exactly\.\] |
 | `431` | **Atlas** | Exactly\. | ➡️ `505` \[Atlas\] |
+| `505` | **Atlas** |  | ➡️ `432` \[Atlas: If I would've pushed it\.\.\.\] |
 | `432` | **Atlas** | If I would've pushed it\.\.\. | ➡️ `433` \[Atlas: They'd still be alive\.\] |
 | `433` | **Atlas** | They'd still be alive\. | ➡️ `434` \[Atlas\] |
 | `434` | **Atlas** |  | ➡️ `435` \[Orpheus: Is this what Eury had to put up with all these yea\.\.\.\] |
@@ -43,24 +45,27 @@ title: Indemnification
 | `446` | **Atlas** | For her sake, I hope your brother makes it out alive\. | ➡️ `447` \[Atlas: She too, perhaps\.\] |
 | `447` | **Atlas** | She too, perhaps\. | ➡️ `448` \[Atlas: Either way\.\.\.\] |
 | `448` | **Atlas** | Either way\.\.\. | ➡️ `451` \[Atlas: Hyperion dies\.\] |
-| `449` | **Orpheus** | And then? | ➡️ `506` \[Atlas\] |
-| `450` | **Atlas** | I'm free to spend my time sulking about the past again\. | ➡️ `452` \[Orpheus: I wish I could see it that way, too\.\] |
 | `451` | **Atlas** | Hyperion dies\. | ➡️ `507` \[Atlas\] |
+| `507` | **Atlas** |  | ➡️ `449` \[Orpheus: And then?\] |
+| `449` | **Orpheus** | And then? | ➡️ `506` \[Atlas\] |
+| `506` | **Atlas** |  | ➡️ `450` \[Atlas: I'm free to spend my time sulking about the past a\.\.\.\] |
+| `450` | **Atlas** | I'm free to spend my time sulking about the past again\. | ➡️ `452` \[Orpheus: I wish I could see it that way, too\.\] |
 | `452` | **Orpheus** | I wish I could see it that way, too\. | ➡️ `453` \[Orpheus\] |
 | `453` | **Orpheus** |  | ➡️ `454` \[Atlas: It's a luxury, really\.\] |
 | `454` | **Atlas** | It's a luxury, really\. | ➡️ `455` \[Atlas\] |
 | `455` | **Atlas** |  | ➡️ `456` \[Atlas: I never asked, by the way\.\] |
 | `456` | **Atlas** | I never asked, by the way\. | ➡️ `508` \[Atlas\] |
+| `508` | **Atlas** |  | ➡️ `457` \[Atlas: Was it your idea or his?\] |
 | `457` | **Atlas** | Was it your idea or his? | ➡️ `458` \[Orpheus: His, mostly\.\] |
 | `458` | **Orpheus** | His, mostly\. | ➡️ `459` \[Atlas: Figures\.\] |
 | `459` | **Atlas** | Figures\. | ➡️ `460` \[Orpheus: You're not surprised?\] |
 | `460` | **Orpheus** | You're not surprised? | ➡️ `461` \[Atlas: Not really\.\] |
 | `461` | **Atlas** | Not really\. | ➡️ `462` \[Atlas: I've met a lot of crazy people in my time\.\.\.\] |
 | `462` | **Atlas** | I've met a lot of crazy people in my time\.\.\. | ➡️ `466` \[Atlas\] |
+| `466` | **Atlas** |  | ➡️ `463` \[Atlas: But your brother takes the fucking cake\.\] |
 | `463` | **Atlas** | But your brother takes the fucking cake\. | ➡️ `464` \[Atlas\] |
 | `464` | **Atlas** |  | ➡️ `465` \[Atlas: And considering what Daph did to him\.\.\.\] |
 | `465` | **Atlas** | And considering what Daph did to him\.\.\. | ➡️ `467` \[Atlas: I bet he's having the time of his life right now\.\] |
-| `466` | **Atlas** |  | ➡️ `463` \[Atlas: But your brother takes the fucking cake\.\] |
 | `467` | **Atlas** | I bet he's having the time of his life right now\. | ➡️ `468` \[Atlas\] |
 | `468` | **Atlas** |  | ➡️ `469` \[Orpheus: Interesting perspective\.\] |
 | `469` | **Orpheus** | Interesting perspective\. | ➡️ `470` \[Atlas: One of many, I'm sure\.\] |
@@ -93,11 +98,6 @@ title: Indemnification
 | `496` | **Atlas** | We could always go pillage\. | ➡️ `497` \[Orpheus: You're joking\.\] |
 | `497` | **Orpheus** | You're joking\. | ➡️ `498` \[Atlas: Just throwing ideas into the mix\.\] |
 | `498` | **Atlas** | Just throwing ideas into the mix\. | ➡️ `502` \[Orpheus\] |
-| `501` | **Orpheus** | Let's go and have a chat with the ambassador\. | ➡️ `503` \[Orpheus\] |
 | `502` | **Orpheus** |  | ➡️ `501` \[Orpheus: Let's go and have a chat with the ambassador\.\] |
+| `501` | **Orpheus** | Let's go and have a chat with the ambassador\. | ➡️ `503` \[Orpheus\] |
 | `503` | **Orpheus** |  | End |
-| `505` | **Atlas** |  | ➡️ `432` \[Atlas: If I would've pushed it\.\.\.\] |
-| `506` | **Atlas** |  | ➡️ `450` \[Atlas: I'm free to spend my time sulking about the past a\.\.\.\] |
-| `507` | **Atlas** |  | ➡️ `449` \[Orpheus: And then?\] |
-| `508` | **Atlas** |  | ➡️ `457` \[Atlas: Was it your idea or his?\] |
-| `509` | **Atlas** |  | ➡️ `4` \[Orpheus: This is it?\\n\] |

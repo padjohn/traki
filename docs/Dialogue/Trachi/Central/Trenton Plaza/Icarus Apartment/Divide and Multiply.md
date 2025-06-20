@@ -18,8 +18,14 @@ title: Divide and Multiply
 | `8` | **Ganymede** | You sold him out\. | ➡️ `9` \[Atlas: I did\.\] |
 | `9` | **Atlas** | I did\. | ➡️ `10` \[Ganymede: Why?\] |
 | `10` | **Ganymede** | Why? | ➡️ `101` \[Ganymede\] |
+| `101` | **Ganymede** |  | ➡️ `102` \[Ganymede: Answer, Atlas\!\] |
+| `102` | **Ganymede** | Answer, Atlas\! | ➡️ `103` \[Atlas\] |
+| `103` | **Atlas** |  | ➡️ `13` \[Atlas: I know she pushed you, Ganymede\.\] |
 | `13` | **Atlas** | I know she pushed you, Ganymede\. | ➡️ `108` \[Atlas\] |
+| `108` | **Atlas** |  | ➡️ `15` \[Atlas: I told her to\.\] |
 | `15` | **Atlas** | I told her to\. | ➡️ `109` \[Atlas\] |
+| `109` | **Atlas** |  | ➡️ `111` \[Ganymede: Is that your idea of working together?\] |
+| `111` | **Ganymede** | Is that your idea of working together? | ➡️ `16` \[Atlas: It was either that\.\.\.\] |
 | `16` | **Atlas** | It was either that\.\.\. | ➡️ `17` \[Atlas: Or she'd kill you on the spot\.\] |
 | `17` | **Atlas** | Or she'd kill you on the spot\. | ➡️ `18` \[Atlas\] |
 | `18` | **Atlas** |  | ➡️ `20` \[Atlas: I promised that I'd keep you safe\.\] |
@@ -35,8 +41,8 @@ title: Divide and Multiply
 | `29` | **Ganymede** | Heard that one before\. | ➡️ `30` \[Atlas: You killed another kid, when you were six\.\] |
 | `30` | **Atlas** | You killed another kid, when you were six\. | ➡️ `31` \[Atlas: Over a dog\.\] |
 | `31` | **Atlas** | Over a dog\. | ➡️ `33` \[Atlas\] |
-| `32` | **Ganymede** | Did you tell her about that, too? | ➡️ `34` \[Atlas: Not yet\.\] |
 | `33` | **Atlas** |  | ➡️ `32` \[Ganymede: Did you tell her about that, too?\] |
+| `32` | **Ganymede** | Did you tell her about that, too? | ➡️ `34` \[Atlas: Not yet\.\] |
 | `34` | **Atlas** | Not yet\. | ➡️ `35` \[Atlas\] |
 | `35` | **Atlas** |  | ➡️ `36` \[Ganymede: Why are you protecting her?\] |
 | `36` | **Ganymede** | Why are you protecting her? | ➡️ `37` \[Atlas: She deserves a choice\.\] |
@@ -46,10 +52,12 @@ title: Divide and Multiply
 | `40` | **Ganymede** | And if she hurts him? | ➡️ `41` \[Atlas: One for one\.\] |
 | `41` | **Atlas** | One for one\. | ➡️ `42` \[Atlas: Like I promised\.\] |
 | `42` | **Atlas** | Like I promised\. | ➡️ `107` \[Ganymede\] |
+| `107` | **Ganymede** |  | ➡️ `43` \[Ganymede: For someone who’s that keen on taking responsibili\.\.\.\] |
 | `43` | **Ganymede** | For someone who’s that keen on taking responsibility… | ➡️ `44` \[Ganymede: You’re awfully indecisive\.\] |
 | `44` | **Ganymede** | You’re awfully indecisive\. | ➡️ `45` \[Atlas: Not despite\.\] |
 | `45` | **Atlas** | Not despite\. | ➡️ `46` \[Atlas: But precisely because of that\.\] |
 | `46` | **Atlas** | But precisely because of that\. | ➡️ `113` \[Atlas\] |
+| `113` | **Atlas** |  | ➡️ `47` \[Ganymede: So?\] |
 | `47` | **Ganymede** | So? | ➡️ `48` \[Ganymede: What’s plan B?\] |
 | `48` | **Ganymede** | What’s plan B? | ➡️ `49` \[Atlas: Keeping you busy until she gets here\.\] |
 | `49` | **Atlas** | Keeping you busy until she gets here\. | ➡️ `50` \[Ganymede: Huh?\] |
@@ -59,11 +67,12 @@ title: Divide and Multiply
 | `53` | **Atlas** | Because I'm still EnKAD, officially\. | ➡️ `54` \[Atlas: With backup on the way\.\] |
 | `54` | **Atlas** | With backup on the way\. | ➡️ `55` \[Ganymede: You motherfucker\!\] |
 | `55` | **Ganymede** | You motherfucker\! | ➡️ `110` \[Ganymede\] |
+| `110` | **Ganymede** |  | ➡️ `56` \[Atlas: Sorry, Gany\.\] |
 | `56` | **Atlas** | Sorry, Gany\. | ➡️ `57` \[Atlas: But my life's on the line here, too\.\] |
 | `57` | **Atlas** | But my life's on the line here, too\. | ➡️ `58` \[Ganymede: Obviously, yeah\.\] |
 | `58` | **Ganymede** | Obviously, yeah\. | ➡️ `61` \[Ganymede\] |
-| `60` | **Ganymede** | What else does she know? | ➡️ `62` \[Atlas: Your stunt in Siginum\.\] |
 | `61` | **Ganymede** |  | ➡️ `60` \[Ganymede: What else does she know?\] |
+| `60` | **Ganymede** | What else does she know? | ➡️ `62` \[Atlas: Your stunt in Siginum\.\] |
 | `62` | **Atlas** | Your stunt in Siginum\. | ➡️ `64` \[Ganymede: Is that why she's here?\] |
 | `64` | **Ganymede** | Is that why she's here? | ➡️ `65` \[Atlas: Primarily\.\] |
 | `65` | **Atlas** | Primarily\. | ➡️ `66` \[Ganymede: Did you tell her?\] |
@@ -73,8 +82,8 @@ title: Divide and Multiply
 | `69` | **Atlas** | Probably\. | ➡️ `70` \[Atlas: Though I guess we're about to find out\.\] |
 | `70` | **Atlas** | Though I guess we're about to find out\. | ➡️ `71` \[Ganymede: Yeah\.\] |
 | `71` | **Ganymede** | Yeah\. | ➡️ `73` \[Ganymede\] |
-| `72` | **Ganymede** | You better not be bullshitting us\. | ➡️ `74` \[Atlas: Glad we're thinking the same thing\.\] |
 | `73` | **Ganymede** |  | ➡️ `72` \[Ganymede: You better not be bullshitting us\.\] |
+| `72` | **Ganymede** | You better not be bullshitting us\. | ➡️ `74` \[Atlas: Glad we're thinking the same thing\.\] |
 | `74` | **Atlas** | Glad we're thinking the same thing\. | ➡️ `75` \[Ganymede: For the moment, yeah\.\] |
 | `75` | **Ganymede** | For the moment, yeah\. | ➡️ `76` \[Ganymede\] |
 | `76` | **Ganymede** |  | ➡️ `77` \[Ganymede: Alright, let's go\.\] |
@@ -102,12 +111,3 @@ title: Divide and Multiply
 | `98` | **Ganymede** |  | ➡️ `99` \[Ganymede\] |
 | `99` | **Ganymede** |  | ➡️ `100` \[Ganymede\] |
 | `100` | **Ganymede** |  | End |
-| `101` | **Ganymede** |  | ➡️ `102` \[Ganymede: Answer, Atlas\!\] |
-| `102` | **Ganymede** | Answer, Atlas\! | ➡️ `103` \[Atlas\] |
-| `103` | **Atlas** |  | ➡️ `13` \[Atlas: I know she pushed you, Ganymede\.\] |
-| `107` | **Ganymede** |  | ➡️ `43` \[Ganymede: For someone who’s that keen on taking responsibili\.\.\.\] |
-| `108` | **Atlas** |  | ➡️ `15` \[Atlas: I told her to\.\] |
-| `109` | **Atlas** |  | ➡️ `111` \[Ganymede: Is that your idea of working together?\] |
-| `110` | **Ganymede** |  | ➡️ `56` \[Atlas: Sorry, Gany\.\] |
-| `111` | **Ganymede** | Is that your idea of working together? | ➡️ `16` \[Atlas: It was either that\.\.\.\] |
-| `113` | **Atlas** |  | ➡️ `47` \[Ganymede: So?\] |

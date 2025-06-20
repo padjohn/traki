@@ -10,6 +10,9 @@ title: Ariadne
 | `0` | **Pandora** |  | ➡️ `1` \[Ariadne\]<br>➡️ `1` \[Ariadne\]<br>➡️ `2` \[Ariadne: Let's see\.\.\.\]<br>➡️ `12` \[Ariadne: The pantry is right over there\.\]<br>➡️ `13` \[Ariadne: I'll be right there\.\]<br>➡️ `14` \[Ariadne: Brunch should be ready in a minute\.\]<br>➡️ `59` \[Ariadne: Hope you have a nice afternoon, Terry\!\] |
 | `1` | **Ariadne** |  | ➡️ `167` \[Ariadne: Hi\!\]<br>➡️ `175` \[Ariadne: One for the road?\] |
 | `1` | **Ariadne** | Don't make me wait too long, darling\. | ➡️ `167` \[Ariadne: Hi\!\]<br>➡️ `175` \[Ariadne: One for the road?\] |
+| `167` | **Ariadne** | Hi\! | ➡️ `174` \[Pandora: Hey\.\] |
+| `174` | **Pandora** | Hey\. | ➡️ `175` \[Ariadne: One for the road?\] |
+| `175` | **Ariadne** | One for the road? | End |
 | `2` | **Ariadne** | Let's see\.\.\. | ➡️ `3` \[Ariadne: There's tomatoes, carrots and radishes\.\] |
 | `3` | **Ariadne** | There's tomatoes, carrots and radishes\. | ➡️ `4` \[Ariadne: That leaves\.\.\.\] |
 | `4` | **Ariadne** | That leaves\.\.\. | ➡️ `5` \[Ariadne: Onions, garlic and potatoes\.\] |
@@ -68,6 +71,3 @@ title: Ariadne
 | `57` | **Ganymede** | Will do\! | ➡️ `58` \[none: none\] |
 | `58` | **none** | none | End |
 | `59` | **Ariadne** | Hope you have a nice afternoon, Terry\! | End |
-| `167` | **Ariadne** | Hi\! | ➡️ `174` \[Pandora: Hey\.\] |
-| `174` | **Pandora** | Hey\. | ➡️ `175` \[Ariadne: One for the road?\] |
-| `175` | **Ariadne** | One for the road? | End |

@@ -18,10 +18,10 @@ title: Lazar
 | `8` | **Lazar** | As long as you keep your word\. | End |
 | `83` | **Ganymede** |  | ➡️ `149` \[Lazar: Hey\.\]<br>➡️ `150` \[Lazar: Nice to see you again\!\] |
 | `149` | **Lazar** | Hey\. | ➡️ `152` \[Pandora: Hello\!\] |
-| `150` | **Lazar** | Nice to see you again\! | End |
 | `152` | **Pandora** | Hello\! | ➡️ `153` \[Lazar: Are you new around here?\] |
 | `153` | **Lazar** | Are you new around here? | ➡️ `154` \[Pandora: I'm a regular, actually\.\] |
 | `154` | **Pandora** | I'm a regular, actually\. | ➡️ `155` \[Lazar: Really? I've never seen you before\.\] |
 | `155` | **Lazar** | Really? I've never seen you before\. | ➡️ `156` \[Pandora: Likewise\.\] |
 | `156` | **Pandora** | Likewise\. | ➡️ `157` \[Lazar: I guess you lean something new every day\.\] |
 | `157` | **Lazar** | I guess you lean something new every day\. | End |
+| `150` | **Lazar** | Nice to see you again\! | End |

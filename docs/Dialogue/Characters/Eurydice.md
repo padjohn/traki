@@ -31,8 +31,8 @@ title: Eurydice
 | `83` | **Ganymede** |  | ➡️ `149` \[Eurydice: I'll see you inside\.\]<br>➡️ `84` \[Eurydice: It's pretty, isn't it?\]<br>➡️ `103` \[Eurydice: So? What's the verdict?\] |
 | `84` | **Eurydice** | It's pretty, isn't it? | ➡️ `85` \[Pandora: For sure\!\] |
 | `85` | **Pandora** | For sure\! | ➡️ `101` \[Eurydice: Did you have a look at your room?\] |
-| `89` | **Pandora** | Not yet\. | End |
 | `101` | **Eurydice** | Did you have a look at your room? | ➡️ `89` \[Pandora: Not yet\.\] |
+| `89` | **Pandora** | Not yet\. | End |
 | `103` | **Eurydice** | So? What's the verdict? | ➡️ `106` \[Pandora: It's amazing\.\] |
 | `106` | **Pandora** | It's amazing\. | End |
 | `149` | **Eurydice** | I'll see you inside\. | End |

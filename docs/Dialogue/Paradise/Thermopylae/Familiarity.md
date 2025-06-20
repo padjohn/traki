@@ -8,10 +8,10 @@ title: Familiarity
 | Entry ID | Speaker | Dialogue | Next |
 | :------- | :------ | :------- | :------------ |
 | `0` | **invalid** |  | ➡️ `83` \[Pandora\] |
-| `1` | **Prometheus** |  | ➡️ `5` \[Prometheus: Great\.\] |
-| `5` | **Prometheus** | Great\. | ➡️ `85` \[Pandora: So what's the plan?\] |
 | `83` | **Pandora** |  | ➡️ `84` \[Daphne: Looks like we're all here\.\] |
 | `84` | **Daphne** | Looks like we're all here\. | ➡️ `1` \[Prometheus\] |
+| `1` | **Prometheus** |  | ➡️ `5` \[Prometheus: Great\.\] |
+| `5` | **Prometheus** | Great\. | ➡️ `85` \[Pandora: So what's the plan?\] |
 | `85` | **Pandora** | So what's the plan? | ➡️ `86` \[Prometheus: You were in the area earlier, right?\] |
 | `86` | **Prometheus** | You were in the area earlier, right? | ➡️ `87` \[Daphne: Yeah\.\] |
 | `87` | **Daphne** | Yeah\. | ➡️ `88` \[Prometheus: How many are in that camp, you reckon?\] |
@@ -25,6 +25,7 @@ title: Familiarity
 | `135` | **Pandora** | If they jump us while we're in their camp\.\.\. | ➡️ `136` \[Prometheus: We could always jump them first\.\] |
 | `136` | **Prometheus** | We could always jump them first\. | ➡️ `137` \[Pandora: Right\.\] |
 | `137` | **Pandora** | Right\. | ➡️ `183` \[Pandora: But Cleo is our first priority\.\] |
+| `183` | **Pandora** | But Cleo is our first priority\. | ➡️ `138` \[Eurydice\] |
 | `138` | **Eurydice** |  | ➡️ `139` \[Prometheus: Sounds good to me\.\] |
 | `139` | **Prometheus** | Sounds good to me\. | ➡️ `140` \[Daphne: Dito\.\] |
 | `140` | **Daphne** | Dito\. | ➡️ `141` \[Daphne: As long as I don't have to do the talking\.\] |
@@ -41,22 +42,21 @@ title: Familiarity
 | `160` | **Goblin** | How about I smash your face in, instead? | ➡️ `161` \[Prometheus: You're welcome to try\.\] |
 | `161` | **Prometheus** | You're welcome to try\. | ➡️ `162` \[Prometheus: But I'd prefer to talk to your boss, instead\!\] |
 | `162` | **Prometheus** | But I'd prefer to talk to your boss, instead\! | ➡️ `164` \[Goblin: Give me a reason not to gut you right here\.\] |
-| `163` | **Prometheus** | Don't you worry\. | ➡️ `170` \[Prometheus: We'll behave\!\] |
 | `164` | **Goblin** | Give me a reason not to gut you right here\. | ➡️ `165` \[Prometheus\] |
 | `165` | **Prometheus** |  | ➡️ `166` \[Goblin: You serious?\] |
 | `166` | **Goblin** | You serious? | ➡️ `167` \[Prometheus: We wouldn't be here, otherwise\.\] |
 | `167` | **Prometheus** | We wouldn't be here, otherwise\. | ➡️ `168` \[Goblin: Alright\.\] |
 | `168` | **Goblin** | Alright\. | ➡️ `169` \[Goblin: But one wrong move\-\] |
 | `169` | **Goblin** | But one wrong move\- | ➡️ `163` \[Prometheus: Don't you worry\.\] |
+| `163` | **Prometheus** | Don't you worry\. | ➡️ `170` \[Prometheus: We'll behave\!\] |
 | `170` | **Prometheus** | We'll behave\! | ➡️ `171` \[Prometheus\] |
 | `171` | **Prometheus** |  | ➡️ `172` \[Prometheus: See? I knew it'd be easy\!\] |
 | `172` | **Prometheus** | See? I knew it'd be easy\! | ➡️ `173` \[Pandora: How the hell did you do that?\] |
 | `173` | **Pandora** | How the hell did you do that? | ➡️ `175` \[Prometheus: I'd love to tell you\.\] |
-| `174` | **Daphne** | Anyways\. | ➡️ `180` \[Daphne: Let's go and make the most of it\.\] |
 | `175` | **Prometheus** | I'd love to tell you\. | ➡️ `176` \[Prometheus: But a boy's got to keep a secret or two\!\] |
 | `176` | **Prometheus** | But a boy's got to keep a secret or two\! | ➡️ `178` \[Eurydice\] |
 | `178` | **Eurydice** |  | ➡️ `174` \[Daphne: Anyways\.\] |
+| `174` | **Daphne** | Anyways\. | ➡️ `180` \[Daphne: Let's go and make the most of it\.\] |
 | `180` | **Daphne** | Let's go and make the most of it\. | ➡️ `181` \[Prometheus: Agreed\!\] |
 | `181` | **Prometheus** | Agreed\! | ➡️ `182` \[Prometheus\] |
 | `182` | **Prometheus** |  | End |
-| `183` | **Pandora** | But Cleo is our first priority\. | ➡️ `138` \[Eurydice\] |

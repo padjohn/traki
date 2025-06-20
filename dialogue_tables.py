@@ -71,15 +71,9 @@ class DialogueParser:
         if not isinstance(text, str):
             return text
         
-        # Escape backslashes first, so new escapes are not double-escaped
         text = text.replace('\\', '\\\\')
-        
-        # Escape other common Markdown special characters
-        # List of characters to escape: ` * _ { } [ ] ( ) # + - . ! > /
         special_chars = r'`*_{}[]()#+-.!>/'
         for char in special_chars:
-            # Only escape if the character is not already escaped (handled by replacing '\\' first)
-            # and is not itself a backslash.
             if char != '\\':
                 text = text.replace(char, '\\' + char)
         return text
@@ -95,32 +89,51 @@ class DialogueParser:
         conv_entries = entries_df[entries_df.ConvID == conv_id].copy()
         conv_links = links_df[links_df.OriginConvID == conv_id].copy()
 
-        # --- Filter out orphaned nodes (reachable from Entry ID 0) ---
+        # --- Filter out truly orphaned nodes (reachable from Entry ID 0 using BFS) ---
         reachable_ids = set()
-        queue = []
+        bfs_queue = []
 
-        # Start traversal from Entry ID 0 if it exists within this conversation's entries
         if 0 in conv_entries['ID'].values:
-            queue.append(0)
+            bfs_queue.append(0)
             reachable_ids.add(0)
         
-        # Perform a Breadth-First Search (BFS) to find all reachable nodes
-        while queue:
-            current_id = queue.pop(0) # Use pop(0) for BFS
-            # Find all outgoing links from the current node within this conversation
+        while bfs_queue:
+            current_id = bfs_queue.pop(0) 
             current_entry_links = conv_links[conv_links.OriginID == current_id]
             for _, link in current_entry_links.iterrows():
                 dest_id = int(link.DestID)
-                # Ensure the destination ID is part of the current conversation's entries
-                # and has not been visited yet
                 if dest_id in conv_entries['ID'].values and dest_id not in reachable_ids:
                     reachable_ids.add(dest_id)
-                    queue.append(dest_id)
+                    bfs_queue.append(dest_id)
         
-        # Filter conv_entries to only include nodes that were found to be reachable
+        # Filter oprhaned entries
         conv_entries = conv_entries[conv_entries.ID.isin(reachable_ids)].copy()
-        # --- End of orphaned node filtering ---
+        
+        # --- Depth-First Traversal (DFS) to determine display order ---
+        ordered_entry_ids = []
+        dfs_stack = []
+        visited_dfs = set()
 
+        if 0 in reachable_ids:
+            dfs_stack.append(0)
+            visited_dfs.add(0) 
+
+        while dfs_stack:
+            current_id = dfs_stack.pop()
+            ordered_entry_ids.append(current_id)
+
+            next_dest_ids = sorted([
+                int(link.DestID) for _, link in conv_links[conv_links.OriginID == current_id].iterrows()
+                if int(link.DestID) in reachable_ids and int(link.DestID) not in visited_dfs
+            ], reverse=True) 
+
+            for dest_id in next_dest_ids:
+                if dest_id not in visited_dfs:
+                    visited_dfs.add(dest_id)
+                    dfs_stack.append(dest_id)
+        
+        final_ordered_ids = [id_ for id_ in ordered_entry_ids if id_ in conv_entries['ID'].values]
+        conv_entries = conv_entries.set_index('ID').loc[final_ordered_ids].reset_index()
         conv_entries['Next Scene(s)'] = ''
 
         for idx, entry in conv_entries.iterrows():
@@ -129,11 +142,9 @@ class DialogueParser:
 
             next_scenes = []
             for _, link in current_entry_links.iterrows():
-                # Ensure dest_id is in the reachable_ids set before trying to find its details
-                # This prevents errors if a link points to an entry that was filtered out
                 dest_id = int(link.DestID)
-                if dest_id not in reachable_ids:
-                    continue # Skip links to unreachable (orphaned) nodes
+                if dest_id not in reachable_ids: 
+                    continue 
                     
                 dest_entry = entries_df[(entries_df.ConvID == link.DestConvID) & (entries_df.ID == link.DestID)].iloc[0]
                 dest_actor = dest_entry.entrytag.split('_')[0] if pd.notna(dest_entry.entrytag) else f"Actor_{dest_entry.Actor}"
@@ -157,9 +168,6 @@ class DialogueParser:
         markdown_table += "| Entry ID | Speaker | Dialogue | Next |\n"
         markdown_table += "| :------- | :------ | :------- | :------------ |\n"
 
-        # Sort entries by ID to maintain a consistent order in the table
-        conv_entries = conv_entries.sort_values(by='ID').reset_index(drop=True)
-
         for _, entry in conv_entries.iterrows():
             entry_id = f"`{int(entry.ID)}`"
             actor_name = entry.entrytag.split('_')[0] if pd.notna(entry.entrytag) else f"Actor_{entry.Actor}"
@@ -168,11 +176,6 @@ class DialogueParser:
             dialogue_text = re.sub(r"\[.*?\]", "", dialogue_text).strip().replace('"', "'").replace("\n", " ")
             dialogue_text = self._escape_markdown_special_chars(dialogue_text)
             
-            # The note_text variable is still here but not used in the markdown table string anymore
-            note_text = entry.Description if pd.notna(entry.Description) else ""
-            note_text = note_text.strip().replace('"', "'").replace("\n", " ")
-            note_text = self._escape_markdown_special_chars(note_text)
-
             next_scenes_col = entry['Next Scene(s)']
 
             markdown_table += (
@@ -199,11 +202,9 @@ class DialogueParser:
                 continue
             
             conv_id = int(conv['ID'])
-            # --- Exclude blacklisted conversations ---
             if conv_id in exclude_conv_ids:
                 print(f"Skipping blacklisted conversation ID: {conv_id} - {conv.Title}")
                 continue
-            # --- End of blacklist exclusion ---
             
             conv_path_parts = conv['Title'].split('/')
             nested_dirs = []
@@ -251,7 +252,6 @@ def define_env(env):
     @env.macro
     def build_dialogue_tables(csv_path, output_dir='docs/Dialogue', exclude_conv_ids=None):
         parser = DialogueParser(csv_path)
-        # Ensure exclude_conv_ids is a list, even if None is passed from MkDocs (if not specified)
         return parser.build_all_dialogue_tables(output_dir, exclude_conv_ids if exclude_conv_ids is not None else [])
 
 # CLI entry point (for direct execution)
@@ -260,7 +260,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Generate dialogue tables as Markdown pages.')
     parser.add_argument('--csv_path', default='docs/assets/dialogue/export_raw.csv', help='Path to the exported dialogue CSV')
     parser.add_argument('--output_dir', default='docs/Dialogue', help='Output directory for Markdown files')
-    parser.add_argument('--exclude_conv_ids', nargs='*', type=int, default=[91, ], 
+    parser.add_argument('--exclude_conv_ids', nargs='*', type=int, default=[], 
                         help='List of Conversation IDs to exclude completely (e.g., --exclude_conv_ids 1 5 10)')
     args = parser.parse_args()
 

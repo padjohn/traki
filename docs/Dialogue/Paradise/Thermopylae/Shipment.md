@@ -14,8 +14,8 @@ title: Shipment
 | `87` | **Dimitrios** | Do I look like I make the rules? | ➡️ `88` \[Arben: Yeah, whatever\.\] |
 | `88` | **Arben** | Yeah, whatever\. | ➡️ `89` \[Arben: Take it or leave it\.\] |
 | `89` | **Arben** | Take it or leave it\. | ➡️ `92` \[Arben: I don't care\.\] |
-| `91` | **Arben** |  | ➡️ `93` \[Dimitrios: Wait\.\] |
 | `92` | **Arben** | I don't care\. | ➡️ `91` \[Arben\] |
+| `91` | **Arben** |  | ➡️ `93` \[Dimitrios: Wait\.\] |
 | `93` | **Dimitrios** | Wait\. | ➡️ `94` \[Arben: What?\] |
 | `94` | **Arben** | What? | ➡️ `95` \[Dimitrios: You forgot your cart\.\] |
 | `95` | **Dimitrios** | You forgot your cart\. | ➡️ `96` \[Arben: Jokes on you, bud\.\] |

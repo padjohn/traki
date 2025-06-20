@@ -10,8 +10,8 @@ title: Reception (E)
 | `0` | **invalid** |  | ➡️ `83` \[Ganymede\] |
 | `83` | **Ganymede** |  | ➡️ `179` \[Miron\]<br>➡️ `335` \[Miron: Stay safe, okay?\] |
 | `179` | **Miron** |  | ➡️ `308` \[Daphne: Excuse me?\] |
-| `262` | **Daphne** |  | ➡️ `309` \[Miron: There it is\!\] |
 | `308` | **Daphne** | Excuse me? | ➡️ `262` \[Daphne\] |
+| `262` | **Daphne** |  | ➡️ `309` \[Miron: There it is\!\] |
 | `309` | **Miron** | There it is\! | ➡️ `310` \[Miron\] |
 | `310` | **Miron** |  | ➡️ `311` \[Miron: Just a second\!\] |
 | `311` | **Miron** | Just a second\! | ➡️ `312` \[Miron\] |
@@ -35,8 +35,8 @@ title: Reception (E)
 | `330` | **Miron** | Would you be so kind and sign right here? | ➡️ `331` \[Miron\] |
 | `331` | **Miron** |  | ➡️ `332` \[Miron: Thank you\.\] |
 | `332` | **Miron** | Thank you\. | ➡️ `336` \[Miron: Here's your pass\.\] |
+| `336` | **Miron** | Here's your pass\. | ➡️ `337` \[Daphne: Thanks\.\] |
+| `337` | **Daphne** | Thanks\. | ➡️ `333` \[Miron: Was nice seeing you again\!\] |
 | `333` | **Miron** | Was nice seeing you again\! | ➡️ `334` \[Daphne: Likewise\!\] |
 | `334` | **Daphne** | Likewise\! | End |
 | `335` | **Miron** | Stay safe, okay? | End |
-| `336` | **Miron** | Here's your pass\. | ➡️ `337` \[Daphne: Thanks\.\] |
-| `337` | **Daphne** | Thanks\. | ➡️ `333` \[Miron: Was nice seeing you again\!\] |

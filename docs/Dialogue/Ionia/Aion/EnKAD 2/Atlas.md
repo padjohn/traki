@@ -9,6 +9,7 @@ title: Atlas
 | :------- | :------ | :------- | :------------ |
 | `0` | **invalid** |  | ➡️ `1` \[invalid\] |
 | `1` | **invalid** |  | ➡️ `639` \[Atlas\] |
+| `639` | **Atlas** |  | ➡️ `2` \[invalid: You got a minute?\] |
 | `2` | **invalid** | You got a minute? | ➡️ `3` \[Atlas: Sure\.\] |
 | `3` | **Atlas** | Sure\. | ➡️ `518` \[Atlas\] |
 | `518` | **Atlas** |  | ➡️ `519` \[invalid: How are you feeling?\] |
@@ -37,8 +38,8 @@ title: Atlas
 | `542` | **Atlas** | But I can't help if I don't know what your problem is\. | ➡️ `543` \[invalid\] |
 | `543` | **invalid** |  | ➡️ `544` \[invalid: You want to know what my problem is?\] |
 | `544` | **invalid** | You want to know what my problem is? | ➡️ `546` \[invalid\] |
-| `545` | **invalid** | You\. | ➡️ `547` \[Atlas: Huh?\] |
 | `546` | **invalid** |  | ➡️ `545` \[invalid: You\.\] |
+| `545` | **invalid** | You\. | ➡️ `547` \[Atlas: Huh?\] |
 | `547` | **Atlas** | Huh? | ➡️ `548` \[invalid: That's exactly it\!\] |
 | `548` | **invalid** | That's exactly it\! | ➡️ `549` \[invalid: You're pretending everything's fine\!\] |
 | `549` | **invalid** | You're pretending everything's fine\! | ➡️ `550` \[Atlas: I'm afraid you lost me\.\] |
@@ -102,6 +103,7 @@ title: Atlas
 | `616` | **Atlas** | Yeah\. | ➡️ `617` \[invalid: What about it?\] |
 | `617` | **invalid** | What about it? | ➡️ `618` \[Atlas: Who was he with?\] |
 | `618` | **Atlas** | Who was he with? | ➡️ `638` \[invalid\] |
+| `638` | **invalid** |  | ➡️ `619` \[invalid: Icarus\.\] |
 | `619` | **invalid** | Icarus\. | ➡️ `620` \[invalid\] |
 | `620` | **invalid** |  | ➡️ `621` \[Atlas: Sorry\.\] |
 | `621` | **Atlas** | Sorry\. | ➡️ `622` \[invalid: It's fine\.\] |
@@ -120,6 +122,4 @@ title: Atlas
 | `634` | **invalid** |  | ➡️ `635` \[Atlas: Third floor\.\] |
 | `635` | **Atlas** | Third floor\. | ➡️ `636` \[invalid\] |
 | `636` | **invalid** |  | ➡️ `640` \[Atlas\] |
-| `638` | **invalid** |  | ➡️ `619` \[invalid: Icarus\.\] |
-| `639` | **Atlas** |  | ➡️ `2` \[invalid: You got a minute?\] |
 | `640` | **Atlas** |  | End |

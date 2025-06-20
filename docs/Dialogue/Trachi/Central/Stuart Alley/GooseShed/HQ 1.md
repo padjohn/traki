@@ -94,14 +94,15 @@ title: HQ 1
 | `85` | **Icarus** | Yeah, yeah\. | ➡️ `86` \[Icarus: 'Orpheus'\.\] |
 | `86` | **Icarus** | 'Orpheus'\. | ➡️ `87` \[Ariadne: He'll barely tell us anything\.\] |
 | `87` | **Ariadne** | He'll barely tell us anything\. | ➡️ `144` \[Ariadne: And you know that\!\] |
+| `144` | **Ariadne** | And you know that\! | ➡️ `88` \[Ariadne\] |
 | `88` | **Ariadne** |  | ➡️ `89` \[Eurydice: Icarus\.\.\.\] |
 | `89` | **Eurydice** | Icarus\.\.\. | ➡️ `90` \[Icarus: What?\] |
 | `90` | **Icarus** | What? | ➡️ `91` \[Eurydice: I heard a little story, you know\.\] |
 | `91` | **Eurydice** | I heard a little story, you know\. | ➡️ `92` \[Eurydice: From a friend\.\] |
 | `92` | **Eurydice** | From a friend\. | ➡️ `93` \[Eurydice: About you and Ganymede\.\] |
 | `93` | **Eurydice** | About you and Ganymede\. | ➡️ `95` \[Eurydice\] |
-| `94` | **Eurydice** | What was your place called again? | ➡️ `96` \[Eurydice: 'Chicken House'?\] |
 | `95` | **Eurydice** |  | ➡️ `94` \[Eurydice: What was your place called again?\] |
+| `94` | **Eurydice** | What was your place called again? | ➡️ `96` \[Eurydice: 'Chicken House'?\] |
 | `96` | **Eurydice** | 'Chicken House'? | ➡️ `97` \[Eurydice\] |
 | `97` | **Eurydice** |  | ➡️ `98` \[Icarus: Go ahead\.\] |
 | `98` | **Icarus** | Go ahead\. | ➡️ `99` \[Icarus: Ari knows already\.\] |
@@ -150,4 +151,3 @@ title: HQ 1
 | `141` | **Icarus** | In the meantime\.\.\. | ➡️ `142` \[Icarus: Here's hoping you're right\.\] |
 | `142` | **Icarus** | Here's hoping you're right\. | ➡️ `143` \[Icarus\] |
 | `143` | **Icarus** |  | End |
-| `144` | **Ariadne** | And you know that\! | ➡️ `88` \[Ariadne\] |

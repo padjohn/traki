@@ -8,10 +8,10 @@ title: Sanctuary
 | Entry ID | Speaker | Dialogue | Next |
 | :------- | :------ | :------- | :------------ |
 | `0` | **invalid** |  | ➡️ `83` \[Pandora\] |
-| `1` | **Prometheus** |  | ➡️ `5` \[Prometheus: Likewise\!\] |
-| `5` | **Prometheus** | Likewise\! | ➡️ `85` \[Pandora: Did you have a good night's rest?\] |
 | `83` | **Pandora** |  | ➡️ `84` \[Pandora: Good morning\!\] |
 | `84` | **Pandora** | Good morning\! | ➡️ `1` \[Prometheus\] |
+| `1` | **Prometheus** |  | ➡️ `5` \[Prometheus: Likewise\!\] |
+| `5` | **Prometheus** | Likewise\! | ➡️ `85` \[Pandora: Did you have a good night's rest?\] |
 | `85` | **Pandora** | Did you have a good night's rest? | ➡️ `86` \[Prometheus: Far from it\.\] |
 | `86` | **Prometheus** | Far from it\. | ➡️ `87` \[Prometheus: But we had a good time either way\!\] |
 | `87` | **Prometheus** | But we had a good time either way\! | ➡️ `88` \[Pandora: Uh, okay?\] |
@@ -22,8 +22,8 @@ title: Sanctuary
 | `97` | **Prometheus** | On that note\. | ➡️ `98` \[Prometheus: What are you up to, Lorna?\] |
 | `98` | **Prometheus** | What are you up to, Lorna? | ➡️ `99` \[Pandora: Uhh, it's a good question\.\] |
 | `99` | **Pandora** | Uhh, it's a good question\. | ➡️ `127` \[Pandora: I guess I'm looking for a friend\.\] |
-| `100` | **Prometheus** | Really? What's their name? | ➡️ `128` \[Pandora: Cleo\!\] |
 | `127` | **Pandora** | I guess I'm looking for a friend\. | ➡️ `100` \[Prometheus: Really? What's their name?\] |
+| `100` | **Prometheus** | Really? What's their name? | ➡️ `128` \[Pandora: Cleo\!\] |
 | `128` | **Pandora** | Cleo\! | ➡️ `129` \[Pandora: Anton knows her too\.\] |
 | `129` | **Pandora** | Anton knows her too\. | ➡️ `130` \[Helios: For better or worse\.\] |
 | `130` | **Helios** | For better or worse\. | ➡️ `132` \[Prometheus: Cleo, hm?\] |
@@ -56,6 +56,7 @@ title: Sanctuary
 | `162` | **Pandora** | Yeah, about that\. | ➡️ `163` \[Pandora: You were supposed to link up with us?\] |
 | `163` | **Pandora** | You were supposed to link up with us? | ➡️ `164` \[Helios: So what?\] |
 | `164` | **Helios** | So what? | ➡️ `196` \[Helios: Did you need my help?\] |
+| `196` | **Helios** | Did you need my help? | ➡️ `165` \[Pandora: Of course we did\!\] |
 | `165` | **Pandora** | Of course we did\! | ➡️ `166` \[Pandora: If you were there\.\.\.\] |
 | `166` | **Pandora** | If you were there\.\.\. | ➡️ `167` \[Eurydice\] |
 | `167` | **Eurydice** |  | ➡️ `168` \[Prometheus: Lorna\.\] |
@@ -75,15 +76,14 @@ title: Sanctuary
 | `181` | **Pandora** | You're coming too? | ➡️ `182` \[Daphne: I said I'd help, didn't I?\] |
 | `182` | **Daphne** | I said I'd help, didn't I? | ➡️ `183` \[Pandora: Thank you so much\!\] |
 | `183` | **Pandora** | Thank you so much\! | ➡️ `189` \[Eurydice\] |
+| `189` | **Eurydice** |  | ➡️ `184` \[Helios: Cool\.\] |
 | `184` | **Helios** | Cool\. | ➡️ `186` \[Helios: Let's kill the circlejerk\.\] |
 | `186` | **Helios** | Let's kill the circlejerk\. | ➡️ `187` \[Pandora: You bet your butt you'll be there, too\.\] |
 | `187` | **Pandora** | You bet your butt you'll be there, too\. | ➡️ `188` \[Helios: Of course\.\] |
 | `188` | **Helios** | Of course\. | ➡️ `190` \[Pandora: No more excuses\.\] |
-| `189` | **Eurydice** |  | ➡️ `184` \[Helios: Cool\.\] |
 | `190` | **Pandora** | No more excuses\. | ➡️ `191` \[Helios: Seriously, Lornz\.\] |
 | `191` | **Helios** | Seriously, Lornz\. | ➡️ `192` \[Helios: What makes you think I wasn't waiting on you?\] |
 | `192` | **Helios** | What makes you think I wasn't waiting on you? | ➡️ `193` \[Eurydice\] |
 | `193` | **Eurydice** |  | ➡️ `194` \[Prometheus: Let's head out\!\] |
 | `194` | **Prometheus** | Let's head out\! | ➡️ `195` \[Prometheus\] |
 | `195` | **Prometheus** |  | End |
-| `196` | **Helios** | Did you need my help? | ➡️ `165` \[Pandora: Of course we did\!\] |

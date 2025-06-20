@@ -8,10 +8,11 @@ title: Hyperion
 | Entry ID | Speaker | Dialogue | Next |
 | :------- | :------ | :------- | :------------ |
 | `0` | **Daphne** |  | ➡️ `82` \[Daphne\]<br>➡️ `83` \[Daphne\] |
-| `1` | **Hyperion** | Was Atlas aware? | ➡️ `5` \[Daphne: He gave me his address\.\] |
-| `2` | **Hyperion** | You did it by yourself? | ➡️ `4` \[Daphne: Yeah\.\] |
+| `82` | **Daphne** |  | ➡️ `3` \[Daphne\] |
 | `3` | **Daphne** |  | ➡️ `2` \[Hyperion: You did it by yourself?\]<br>➡️ `39` \[Hyperion: Don’t be too hard on yourself\.\] |
+| `2` | **Hyperion** | You did it by yourself? | ➡️ `4` \[Daphne: Yeah\.\] |
 | `4` | **Daphne** | Yeah\. | ➡️ `1` \[Hyperion: Was Atlas aware?\] |
+| `1` | **Hyperion** | Was Atlas aware? | ➡️ `5` \[Daphne: He gave me his address\.\] |
 | `5` | **Daphne** | He gave me his address\. | ➡️ `6` \[Daphne: And I'm assuming he was also present that night\.\] |
 | `6` | **Daphne** | And I'm assuming he was also present that night\. | ➡️ `7` \[Hyperion: What makes you think that?\] |
 | `7` | **Hyperion** | What makes you think that? | ➡️ `8` \[Daphne: Ganymede being there, for one\.\] |
@@ -44,6 +45,7 @@ title: Hyperion
 | `34` | **Daphne** |  | ➡️ `35` \[Hyperion: What do you make of it?\] |
 | `35` | **Hyperion** | What do you make of it? | ➡️ `36` \[Daphne: If you ask me like that\.\.\.\] |
 | `36` | **Daphne** | If you ask me like that\.\.\. | ➡️ `85` \[Daphne\] |
+| `85` | **Daphne** |  | ➡️ `37` \[Daphne: I think they were all in on it\.\] |
 | `37` | **Daphne** | I think they were all in on it\. | ➡️ `38` \[Daphne\] |
 | `38` | **Daphne** |  | End |
 | `39` | **Hyperion** | Don’t be too hard on yourself\. | ➡️ `40` \[Daphne: I should’ve known\.\] |
@@ -76,16 +78,6 @@ title: Hyperion
 | `68` | **Hyperion** | If he kept his flock in check, none of this would’ve happened\. | ➡️ `69` \[Hyperion\] |
 | `69` | **Hyperion** |  | ➡️ `70` \[Daphne: What about Atlas?\] |
 | `70` | **Daphne** | What about Atlas? | ➡️ `87` \[Daphne\] |
-| `76` | **Daphne** | Is that accurate? | ➡️ `97` \[Daphne\] |
-| `77` | **Hyperion** | I think it was around 1914\. | ➡️ `78` \[Hyperion: Before your time\.\] |
-| `78` | **Hyperion** | Before your time\. | ➡️ `79` \[Hyperion: Before <color=\#811e1e\>K<color=\#FFFFFF\>enović\.\] |
-| `79` | **Hyperion** | Before <color=\#811e1e\>K<color=\#FFFFFF\>enović\. | ➡️ `80` \[Hyperion\] |
-| `80` | **Hyperion** |  | ➡️ `81` \[Hyperion: Before Atlas met that Lorna girl\.\] |
-| `81` | **Hyperion** | Before Atlas met that Lorna girl\. | ➡️ `84` \[Hyperion\] |
-| `82` | **Daphne** |  | ➡️ `3` \[Daphne\] |
-| `83` | **Daphne** |  | ➡️ `3` \[Daphne\] |
-| `84` | **Hyperion** |  | End |
-| `85` | **Daphne** |  | ➡️ `37` \[Daphne: I think they were all in on it\.\] |
 | `87` | **Daphne** |  | ➡️ `88` \[Hyperion: You said there's reason to assume he was present d\.\.\.\] |
 | `88` | **Hyperion** | You said there's reason to assume he was present during Icarus' death\. | ➡️ `89` \[Daphne: Right\.\] |
 | `89` | **Daphne** | Right\. | ➡️ `90` \[Hyperion: That's what you'll tell them\.\] |
@@ -95,4 +87,12 @@ title: Hyperion
 | `93` | **Hyperion** |  | ➡️ `94` \[Hyperion: His motivations remain unclear, to this date\.\] |
 | `94` | **Hyperion** | His motivations remain unclear, to this date\. | ➡️ `96` \[Hyperion: But we assume a romantical relationship with Euryd\.\.\.\] |
 | `96` | **Hyperion** | But we assume a romantical relationship with Eurydice to be the primary cause\. | ➡️ `76` \[Daphne: Is that accurate?\] |
+| `76` | **Daphne** | Is that accurate? | ➡️ `97` \[Daphne\] |
 | `97` | **Daphne** |  | ➡️ `77` \[Hyperion: I think it was around 1914\.\] |
+| `77` | **Hyperion** | I think it was around 1914\. | ➡️ `78` \[Hyperion: Before your time\.\] |
+| `78` | **Hyperion** | Before your time\. | ➡️ `79` \[Hyperion: Before <color=\#811e1e\>K<color=\#FFFFFF\>enović\.\] |
+| `79` | **Hyperion** | Before <color=\#811e1e\>K<color=\#FFFFFF\>enović\. | ➡️ `80` \[Hyperion\] |
+| `80` | **Hyperion** |  | ➡️ `81` \[Hyperion: Before Atlas met that Lorna girl\.\] |
+| `81` | **Hyperion** | Before Atlas met that Lorna girl\. | ➡️ `84` \[Hyperion\] |
+| `84` | **Hyperion** |  | End |
+| `83` | **Daphne** |  | ➡️ `3` \[Daphne\] |

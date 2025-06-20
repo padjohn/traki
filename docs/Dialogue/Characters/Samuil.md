@@ -12,7 +12,9 @@ title: Samuil
 | `2` | **Atlas** | Is Lieutenant Tanner in? | ➡️ `3` \[Samuil: What's it to you?\] |
 | `3` | **Samuil** | What's it to you? | ➡️ `4` \[Atlas: We have some business to discuss with him\.\] |
 | `4` | **Atlas** | We have some business to discuss with him\. | ➡️ `96` \[Atlas: He's expecting us\.\] |
+| `96` | **Atlas** | He's expecting us\. | ➡️ `5` \[Samuil: Yeah?\] |
 | `5` | **Samuil** | Yeah? | ➡️ `97` \[Samuil: Not that I would have heard\.\] |
+| `97` | **Samuil** | Not that I would have heard\. | ➡️ `8` \[Atlas\] |
 | `8` | **Atlas** |  | ➡️ `9` \[Atlas: So?\] |
 | `9` | **Atlas** | So? | ➡️ `10` \[Atlas: Will you go and fetch him, then?\] |
 | `10` | **Atlas** | Will you go and fetch him, then? | ➡️ `11` \[Samuil: I'm afraid not\.\] |
@@ -20,14 +22,12 @@ title: Samuil
 | `12` | **Atlas** | And why's that? | ➡️ `13` \[Samuil: Not allowed to leave my post, unfortunately\.\] |
 | `13` | **Samuil** | Not allowed to leave my post, unfortunately\. | ➡️ `14` \[Atlas: So we're free to enter?\] |
 | `14` | **Atlas** | So we're free to enter? | ➡️ `91` \[Samuil: Can't let that happen\.\] |
+| `91` | **Samuil** | Can't let that happen\. | ➡️ `22` \[Atlas: I'm getting tired of this\.\] |
 | `22` | **Atlas** | I'm getting tired of this\. | ➡️ `23` \[Samuil: Sorry, I don't make the rules\.\] |
 | `23` | **Samuil** | Sorry, I don't make the rules\. | ➡️ `24` \[Atlas: Are you we supposed to wait until he strolls by?\] |
 | `24` | **Atlas** | Are you we supposed to wait until he strolls by? | ➡️ `25` \[Samuil: Well\.\.\.\] |
 | `25` | **Samuil** | Well\.\.\. | ➡️ `26` \[Samuil: You're not from Trachi, are you?\] |
 | `26` | **Samuil** | You're not from Trachi, are you? | ➡️ `98` \[Atlas: How does that matter?\] |
-| `91` | **Samuil** | Can't let that happen\. | ➡️ `22` \[Atlas: I'm getting tired of this\.\] |
-| `96` | **Atlas** | He's expecting us\. | ➡️ `5` \[Samuil: Yeah?\] |
-| `97` | **Samuil** | Not that I would have heard\. | ➡️ `8` \[Atlas\] |
 | `98` | **Atlas** | How does that matter? | ➡️ `99` \[Samuil: Well\.\.\.\] |
 | `99` | **Samuil** | Well\.\.\. | ➡️ `100` \[Atlas: Get to the point, if you please\.\] |
 | `100` | **Atlas** | Get to the point, if you please\. | ➡️ `101` \[Samuil: Technically, I could let you in\.\.\.\] |

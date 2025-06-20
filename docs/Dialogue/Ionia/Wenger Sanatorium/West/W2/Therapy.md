@@ -31,6 +31,7 @@ title: Therapy
 | `21` | **Iosef** | Were you aware of that? | ➡️ `22` \[Ganymede: As I said\.\] |
 | `22` | **Ganymede** | As I said\. | ➡️ `23` \[Ganymede: I was pretty clueless at that point\.\] |
 | `23` | **Ganymede** | I was pretty clueless at that point\. | ➡️ `115` \[Iosef: How did you react?\] |
+| `115` | **Iosef** | How did you react? | ➡️ `24` \[Ganymede: I went back towards the safehouse\.\] |
 | `24` | **Ganymede** | I went back towards the safehouse\. | ➡️ `25` \[Iosef: The safehouse in Rondham?\] |
 | `25` | **Iosef** | The safehouse in Rondham? | ➡️ `26` \[Ganymede: The only one I know\.\] |
 | `26` | **Ganymede** | The only one I know\. | ➡️ `27` \[Ganymede\] |
@@ -61,14 +62,15 @@ title: Therapy
 | `54` | **Iosef** | Why do you think he told you? | ➡️ `55` \[Ganymede: How am I supposed to know?\] |
 | `55` | **Ganymede** | How am I supposed to know? | ➡️ `57` \[Ganymede: Maybe ask him, instead?\] |
 | `57` | **Ganymede** | Maybe ask him, instead? | ➡️ `59` \[Ganymede\] |
-| `58` | **Ganymede** | Oh wait, that's right\. | ➡️ `60` \[Ganymede: He's dead\.\] |
 | `59` | **Ganymede** |  | ➡️ `58` \[Ganymede: Oh wait, that's right\.\] |
+| `58` | **Ganymede** | Oh wait, that's right\. | ➡️ `60` \[Ganymede: He's dead\.\] |
 | `60` | **Ganymede** | He's dead\. | ➡️ `61` \[Ganymede\] |
 | `61` | **Ganymede** |  | ➡️ `62` \[Iosef: Who killed him?\] |
 | `62` | **Iosef** | Who killed him? | ➡️ `63` \[Iosef\] |
 | `63` | **Iosef** |  | ➡️ `64` \[Ganymede: Are you kidding me?\] |
 | `64` | **Ganymede** | Are you kidding me? | ➡️ `65` \[Ganymede\] |
 | `65` | **Ganymede** |  | ➡️ `118` \[Ganymede\] |
+| `118` | **Ganymede** |  | End |
 | `66` | **Iosef** | You said you fell asleep\. | ➡️ `67` \[Ganymede: Yeah\.\] |
 | `67` | **Ganymede** | Yeah\. | ➡️ `68` \[Iosef: While Icarus was killed?\] |
 | `68` | **Iosef** | While Icarus was killed? | ➡️ `69` \[Ganymede: Look\.\.\.\] |
@@ -113,6 +115,4 @@ title: Therapy
 | `111` | **Iosef** |  | ➡️ `112` \[Iosef: Have you ever seen anything like it before?\] |
 | `112` | **Iosef** | Have you ever seen anything like it before? | ➡️ `113` \[Iosef\] |
 | `113` | **Iosef** |  | End |
-| `115` | **Iosef** | How did you react? | ➡️ `24` \[Ganymede: I went back towards the safehouse\.\] |
 | `116` | **Ganymede** |  | ➡️ `1` \[Iosef\] |
-| `118` | **Ganymede** |  | End |

@@ -41,18 +41,18 @@ title: InterrogAtion
 | `35` | **Orpheus** | I told him to stand down\. | ➡️ `36` \[Eurydice: Why?\] |
 | `36` | **Eurydice** | Why? | ➡️ `37` \[Orpheus: Ionia won't take this city\.\] |
 | `37` | **Orpheus** | Ionia won't take this city\. | ➡️ `46` \[Orpheus: Not as long as I'm around\.\] |
+| `46` | **Orpheus** | Not as long as I'm around\. | ➡️ `38` \[Eurydice: If you're defecting\-\] |
 | `38` | **Eurydice** | If you're defecting\- | ➡️ `47` \[Eurydice: Why did you come back?\] |
+| `47` | **Eurydice** | Why did you come back? | ➡️ `48` \[Orpheus: I want to make amends\.\] |
+| `48` | **Orpheus** | I want to make amends\. | ➡️ `49` \[Orpheus: Most of all to you\.\] |
+| `49` | **Orpheus** | Most of all to you\. | ➡️ `50` \[Eurydice: Go on\.\] |
+| `50` | **Eurydice** | Go on\. | ➡️ `39` \[Orpheus: You can get a message to Solka\.\] |
 | `39` | **Orpheus** | You can get a message to Solka\. | ➡️ `40` \[Orpheus: And drag me back to AIon\.\] |
 | `40` | **Orpheus** | And drag me back to AIon\. | ➡️ `41` \[Orpheus: As long as you promise me one thing\.\] |
 | `41` | **Orpheus** | As long as you promise me one thing\. | ➡️ `42` \[Eurydice\] |
 | `42` | **Eurydice** |  | ➡️ `43` \[Orpheus: Can you look after Ganymede?\] |
 | `43` | **Orpheus** | Can you look after Ganymede? | ➡️ `45` \[Eurydice\] |
 | `45` | **Eurydice** |  | ➡️ `51` \[Orpheus: Please, Eury\.\] |
-| `46` | **Orpheus** | Not as long as I'm around\. | ➡️ `38` \[Eurydice: If you're defecting\-\] |
-| `47` | **Eurydice** | Why did you come back? | ➡️ `48` \[Orpheus: I want to make amends\.\] |
-| `48` | **Orpheus** | I want to make amends\. | ➡️ `49` \[Orpheus: Most of all to you\.\] |
-| `49` | **Orpheus** | Most of all to you\. | ➡️ `50` \[Eurydice: Go on\.\] |
-| `50` | **Eurydice** | Go on\. | ➡️ `39` \[Orpheus: You can get a message to Solka\.\] |
 | `51` | **Orpheus** | Please, Eury\. | ➡️ `52` \[Eurydice: I don't believe you\.\] |
 | `52` | **Eurydice** | I don't believe you\. | ➡️ `53` \[Orpheus: Everything I said is true\.\] |
 | `53` | **Orpheus** | Everything I said is true\. | ➡️ `54` \[Eurydice: I'm not doubting the contents\.\] |
@@ -66,15 +66,15 @@ title: InterrogAtion
 | `62` | **Eurydice** | You shipped him to Siginum\. | ➡️ `63` \[Eurydice: Far away from Aion\.\] |
 | `63` | **Eurydice** | Far away from Aion\. | ➡️ `64` \[Eurydice: Far away from here\.\] |
 | `64` | **Eurydice** | Far away from here\. | ➡️ `67` \[Orpheus\] |
+| `67` | **Orpheus** |  | ➡️ `65` \[Eurydice: You covered every possibility\.\] |
 | `65` | **Eurydice** | You covered every possibility\. | ➡️ `66` \[Orpheus: Except for you\.\] |
 | `66` | **Orpheus** | Except for you\. | ➡️ `68` \[Eurydice: Even me\.\] |
-| `67` | **Orpheus** |  | ➡️ `65` \[Eurydice: You covered every possibility\.\] |
 | `68` | **Eurydice** | Even me\. | ➡️ `76` \[Orpheus\] |
+| `76` | **Orpheus** |  | ➡️ `70` \[Eurydice: Now let's stop pretending\.\] |
 | `70` | **Eurydice** | Now let's stop pretending\. | ➡️ `71` \[Eurydice: And talk about Plan B\.\] |
 | `71` | **Eurydice** | And talk about Plan B\. | ➡️ `72` \[Orpheus: Are you sure?\] |
 | `72` | **Orpheus** | Are you sure? | ➡️ `73` \[Eurydice: I can't unsee the letter, can I\/\] |
 | `73` | **Eurydice** | I can't unsee the letter, can I\/ | ➡️ `75` \[Orpheus\] |
 | `75` | **Orpheus** |  | ➡️ `77` \[Eurydice: Incidentally\.\] |
-| `76` | **Orpheus** |  | ➡️ `70` \[Eurydice: Now let's stop pretending\.\] |
 | `77` | **Eurydice** | Incidentally\. | ➡️ `78` \[Eurydice: I know someone who should see the bigger picture, \.\.\.\] |
 | `78` | **Eurydice** | I know someone who should see the bigger picture, too\. | End |

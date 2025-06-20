@@ -50,6 +50,110 @@ title: Heinrich
 | `39` | **Atlas** | Alright\. | ➡️ `40` \[Atlas: Thank you for your time, regardless\.\] |
 | `40` | **Atlas** | Thank you for your time, regardless\. | ➡️ `41` \[none: none\] |
 | `41` | **none** | none | End |
+| `167` | **Pandora** | Thank you so much for helping out\! | ➡️ `177` \[Heinrich: No need to thank me\.\] |
+| `177` | **Heinrich** | No need to thank me\. | ➡️ `178` \[Heinrich: It's my front\-porch, after all\.\] |
+| `178` | **Heinrich** | It's my front\-porch, after all\. | ➡️ `181` \[Pandora\] |
+| `181` | **Pandora** |  | ➡️ `182` \[Heinrich: Not your personal playground\.\] |
+| `182` | **Heinrich** | Not your personal playground\. | ➡️ `183` \[Heinrich\] |
+| `183` | **Heinrich** |  | ➡️ `184` \[Pandora: Huh?\] |
+| `184` | **Pandora** | Huh? | ➡️ `185` \[Pandora: What's wrong with him?\] |
+| `185` | **Pandora** | What's wrong with him? | End |
+| `176` | **Pandora** | Hey\. | ➡️ `220` \[Pandora\] |
+| `220` | **Pandora** |  | ➡️ `221` \[Pandora: He's gone\.\] |
+| `221` | **Pandora** | He's gone\. | ➡️ `222` \[Pandora\] |
+| `222` | **Pandora** |  | ➡️ `223` \[Pandora: I wish I could've done something\.\] |
+| `223` | **Pandora** | I wish I could've done something\. | ➡️ `225` \[Pandora\] |
+| `225` | **Pandora** |  | ➡️ `226` \[Pandora: Or at least apologize\.\] |
+| `226` | **Pandora** | Or at least apologize\. | ➡️ `227` \[Pandora\] |
+| `227` | **Pandora** |  | ➡️ `228` \[Pandora: Wait a minute\!\] |
+| `228` | **Pandora** | Wait a minute\! | ➡️ `229` \[Pandora\] |
+| `229` | **Pandora** |  | ➡️ `232` \[Pandora: You stay put, okay?\] |
+| `232` | **Pandora** | You stay put, okay? | ➡️ `233` \[Pandora: I'll get you back in no time\!\] |
+| `233` | **Pandora** | I'll get you back in no time\! | End |
+| `186` | **Heinrich** | What do you want? | ➡️ `187` \[Pandora: I wanted to say thanks\!\] |
+| `187` | **Pandora** | I wanted to say thanks\! | ➡️ `188` \[Heinrich: Can you do that somewhere else?\] |
+| `188` | **Heinrich** | Can you do that somewhere else? | ➡️ `190` \[Pandora: Jeez\.\] |
+| `190` | **Pandora** | Jeez\. | ➡️ `199` \[Pandora: Do you HAVE to be unfriendly?\] |
+| `199` | **Pandora** | Do you HAVE to be unfriendly? | ➡️ `191` \[Heinrich: I'll be whatever I want in my own house\!\] |
+| `191` | **Heinrich** | I'll be whatever I want in my own house\! | ➡️ `200` \[Pandora: You were a jerk out there, too\!\] |
+| `200` | **Pandora** | You were a jerk out there, too\! | ➡️ `201` \[Heinrich\] |
+| `201` | **Heinrich** |  | ➡️ `196` \[Heinrich: Are you done?\] |
+| `196` | **Heinrich** | Are you done? | ➡️ `198` \[Pandora: Yeah\.\] |
+| `198` | **Pandora** | Yeah\. | ➡️ `202` \[Pandora: Sorry to intrude\.\] |
+| `202` | **Pandora** | Sorry to intrude\. | ➡️ `203` \[Pandora: Thanks, anyway\.\] |
+| `203` | **Pandora** | Thanks, anyway\. | End |
+| `192` | **Heinrich** | Weren't you on your way out? | End |
+| `193` | **Pandora** | What am I doing here? | ➡️ `254` \[Pandora\] |
+| `254` | **Pandora** |  | ➡️ `255` \[Pandora\] |
+| `255` | **Pandora** |  | ➡️ `256` \[Pandora\] |
+| `256` | **Pandora** |  | End |
+| `194` | **Heinrich** | How many hints do you need? | ➡️ `195` \[Pandora: I got the message, alright\.\] |
+| `195` | **Pandora** | I got the message, alright\. | ➡️ `179` \[Pandora: But I need to say a couple of things\.\] |
+| `179` | **Pandora** | But I need to say a couple of things\. | ➡️ `257` \[Pandora\] |
+| `257` | **Pandora** |  | ➡️ `180` \[Pandora: First off: I'm sorry I broke your door\.\] |
+| `180` | **Pandora** | First off: I'm sorry I broke your door\. | ➡️ `259` \[Pandora\] |
+| `259` | **Pandora** |  | ➡️ `260` \[Heinrich: And?\] |
+| `260` | **Heinrich** | And? | ➡️ `261` \[Pandora: You're an ass\.\] |
+| `261` | **Pandora** | You're an ass\. | ➡️ `262` \[Pandora: But that didn't give me the right to intrude\.\] |
+| `262` | **Pandora** | But that didn't give me the right to intrude\. | ➡️ `263` \[Pandora\] |
+| `263` | **Pandora** |  | ➡️ `264` \[Heinrich: Thank you\.\] |
+| `264` | **Heinrich** | Thank you\. | ➡️ `265` \[Pandora\] |
+| `265` | **Pandora** |  | ➡️ `266` \[Heinrich: If that's all\-\] |
+| `266` | **Heinrich** | If that's all\- | ➡️ `267` \[Pandora: One last thing\.\] |
+| `267` | **Pandora** | One last thing\. | ➡️ `268` \[Pandora: I'm sorry I brought you back\.\] |
+| `268` | **Pandora** | I'm sorry I brought you back\. | ➡️ `269` \[Heinrich: Don't worry about it\.\] |
+| `269` | **Heinrich** | Don't worry about it\. | ➡️ `270` \[Pandora: I do\!\] |
+| `270` | **Pandora** | I do\! | ➡️ `271` \[Pandora\] |
+| `271` | **Pandora** |  | ➡️ `283` \[Pandora: It's none of my business, I know\.\] |
+| `283` | **Pandora** | It's none of my business, I know\. | ➡️ `284` \[Pandora: But is there a reason why you want to die?\] |
+| `284` | **Pandora** | But is there a reason why you want to die? | ➡️ `285` \[Pandora\] |
+| `285` | **Pandora** |  | ➡️ `272` \[Heinrich: Can you work wood?\] |
+| `272` | **Heinrich** | Can you work wood? | ➡️ `273` \[Pandora: I know how to break it\!\] |
+| `273` | **Pandora** | I know how to break it\! | ➡️ `274` \[Heinrich: Evidently\.\] |
+| `274` | **Heinrich** | Evidently\. | ➡️ `275` \[Pandora: I'm quick to pick things up\!\] |
+| `275` | **Pandora** | I'm quick to pick things up\! | ➡️ `276` \[Heinrich: We'll see about that\.\] |
+| `276` | **Heinrich** | We'll see about that\. | ➡️ `280` \[Heinrich\] |
+| `280` | **Heinrich** |  | End |
+| `209` | **Pandora** |  | ➡️ `208` \[Pandora: Yo\!\] |
+| `208` | **Pandora** | Yo\! | ➡️ `230` \[Pandora\] |
+| `230` | **Pandora** |  | ➡️ `231` \[Pandora: Are you there?\] |
+| `231` | **Pandora** | Are you there? | End |
+| `211` | **Pandora** |  | ➡️ `210` \[Pandora: What's he up to?\] |
+| `210` | **Pandora** | What's he up to? | End |
+| `213` | **Pandora** |  | ➡️ `212` \[Pandora: Hey\!\] |
+| `212` | **Pandora** | Hey\! | ➡️ `214` \[Pandora: Open up\!\] |
+| `214` | **Pandora** | Open up\! | End |
+| `216` | **Pandora** |  | ➡️ `215` \[Pandora: Okay\.\] |
+| `215` | **Pandora** | Okay\. | ➡️ `217` \[Pandora: I've had it\.\] |
+| `217` | **Pandora** | I've had it\. | ➡️ `218` \[Pandora\] |
+| `218` | **Pandora** |  | ➡️ `219` \[Pandora: If you're in there – clear the door\!\] |
+| `219` | **Pandora** | If you're in there – clear the door\! | End |
+| `224` | **Pandora** | Hey\! | ➡️ `234` \[Heinrich: You again\.\] |
+| `234` | **Heinrich** | You again\. | ➡️ `235` \[Pandora: Welcome back\!\] |
+| `235` | **Pandora** | Welcome back\! | ➡️ `236` \[Heinrich: Let me guess\.\] |
+| `236` | **Heinrich** | Let me guess\. | ➡️ `237` \[Heinrich: That was you?\] |
+| `237` | **Heinrich** | That was you? | ➡️ `238` \[Pandora: I think so\!\] |
+| `238` | **Pandora** | I think so\! | ➡️ `239` \[Heinrich: Can I ask you something?\] |
+| `239` | **Heinrich** | Can I ask you something? | ➡️ `240` \[Pandora: Sure\!\] |
+| `240` | **Pandora** | Sure\! | ➡️ `241` \[Heinrich: Do you enjoy stepping on other people's toes?\] |
+| `241` | **Heinrich** | Do you enjoy stepping on other people's toes? | ➡️ `242` \[Pandora: Excuse me?\] |
+| `242` | **Pandora** | Excuse me? | ➡️ `243` \[Heinrich: I am asking why you won't let a dead man rest\.\] |
+| `243` | **Heinrich** | I am asking why you won't let a dead man rest\. | ➡️ `244` \[Pandora: You wanted to die?\] |
+| `244` | **Pandora** | You wanted to die? | ➡️ `245` \[Heinrich: If that's the price of peace and quiet\.\] |
+| `245` | **Heinrich** | If that's the price of peace and quiet\. | ➡️ `246` \[Pandora\] |
+| `246` | **Pandora** |  | ➡️ `247` \[Pandora: I'm sorry\.\] |
+| `247` | **Pandora** | I'm sorry\. | ➡️ `248` \[Heinrich: It's alright\.\] |
+| `248` | **Heinrich** | It's alright\. | ➡️ `249` \[Heinrich: Just let bygones be bygones, next time\.\] |
+| `249` | **Heinrich** | Just let bygones be bygones, next time\. | ➡️ `250` \[Pandora\] |
+| `250` | **Pandora** |  | ➡️ `251` \[Heinrich: Now, if you don't mind\.\] |
+| `251` | **Heinrich** | Now, if you don't mind\. | ➡️ `252` \[Heinrich: I have a door to repair\.\] |
+| `252` | **Heinrich** | I have a door to repair\. | End |
+| `277` | **Pandora** |  | ➡️ `204` \[Pandora: Huh?\] |
+| `204` | **Pandora** | Huh? | ➡️ `205` \[Pandora\] |
+| `205` | **Pandora** |  | ➡️ `206` \[Pandora: Hello?\] |
+| `206` | **Pandora** | Hello? | ➡️ `207` \[Pandora: Anybody home?\] |
+| `207` | **Pandora** | Anybody home? | End |
+| `279` | **Pandora** | I should talk to Dorothy\. | End |
 | `42` | **Atlas** | That's a nice uniform you have on display over there\. | ➡️ `43` \[Atlas: From what I know, you're usually not allowed to ke\.\.\.\] |
 | `43` | **Atlas** | From what I know, you're usually not allowed to keep those\. | ➡️ `44` \[Heinrich: Some people have a hard time letting go\.\] |
 | `44` | **Heinrich** | Some people have a hard time letting go\. | ➡️ `45` \[Heinrich: But I doubt that you're here to discuss memorabili\.\.\.\] |
@@ -84,107 +188,3 @@ title: Heinrich
 | `73` | **Heinrich** | We're done\. | ➡️ `74` \[Heinrich: I'll see you later\.\] |
 | `74` | **Heinrich** | I'll see you later\. | End |
 | `75` | **Heinrich** | We're done\. | End |
-| `167` | **Pandora** | Thank you so much for helping out\! | ➡️ `177` \[Heinrich: No need to thank me\.\] |
-| `176` | **Pandora** | Hey\. | ➡️ `220` \[Pandora\] |
-| `177` | **Heinrich** | No need to thank me\. | ➡️ `178` \[Heinrich: It's my front\-porch, after all\.\] |
-| `178` | **Heinrich** | It's my front\-porch, after all\. | ➡️ `181` \[Pandora\] |
-| `179` | **Pandora** | But I need to say a couple of things\. | ➡️ `257` \[Pandora\] |
-| `180` | **Pandora** | First off: I'm sorry I broke your door\. | ➡️ `259` \[Pandora\] |
-| `181` | **Pandora** |  | ➡️ `182` \[Heinrich: Not your personal playground\.\] |
-| `182` | **Heinrich** | Not your personal playground\. | ➡️ `183` \[Heinrich\] |
-| `183` | **Heinrich** |  | ➡️ `184` \[Pandora: Huh?\] |
-| `184` | **Pandora** | Huh? | ➡️ `185` \[Pandora: What's wrong with him?\] |
-| `185` | **Pandora** | What's wrong with him? | End |
-| `186` | **Heinrich** | What do you want? | ➡️ `187` \[Pandora: I wanted to say thanks\!\] |
-| `187` | **Pandora** | I wanted to say thanks\! | ➡️ `188` \[Heinrich: Can you do that somewhere else?\] |
-| `188` | **Heinrich** | Can you do that somewhere else? | ➡️ `190` \[Pandora: Jeez\.\] |
-| `190` | **Pandora** | Jeez\. | ➡️ `199` \[Pandora: Do you HAVE to be unfriendly?\] |
-| `191` | **Heinrich** | I'll be whatever I want in my own house\! | ➡️ `200` \[Pandora: You were a jerk out there, too\!\] |
-| `192` | **Heinrich** | Weren't you on your way out? | End |
-| `193` | **Pandora** | What am I doing here? | ➡️ `254` \[Pandora\] |
-| `194` | **Heinrich** | How many hints do you need? | ➡️ `195` \[Pandora: I got the message, alright\.\] |
-| `195` | **Pandora** | I got the message, alright\. | ➡️ `179` \[Pandora: But I need to say a couple of things\.\] |
-| `196` | **Heinrich** | Are you done? | ➡️ `198` \[Pandora: Yeah\.\] |
-| `198` | **Pandora** | Yeah\. | ➡️ `202` \[Pandora: Sorry to intrude\.\] |
-| `199` | **Pandora** | Do you HAVE to be unfriendly? | ➡️ `191` \[Heinrich: I'll be whatever I want in my own house\!\] |
-| `200` | **Pandora** | You were a jerk out there, too\! | ➡️ `201` \[Heinrich\] |
-| `201` | **Heinrich** |  | ➡️ `196` \[Heinrich: Are you done?\] |
-| `202` | **Pandora** | Sorry to intrude\. | ➡️ `203` \[Pandora: Thanks, anyway\.\] |
-| `203` | **Pandora** | Thanks, anyway\. | End |
-| `204` | **Pandora** | Huh? | ➡️ `205` \[Pandora\] |
-| `205` | **Pandora** |  | ➡️ `206` \[Pandora: Hello?\] |
-| `206` | **Pandora** | Hello? | ➡️ `207` \[Pandora: Anybody home?\] |
-| `207` | **Pandora** | Anybody home? | End |
-| `208` | **Pandora** | Yo\! | ➡️ `230` \[Pandora\] |
-| `209` | **Pandora** |  | ➡️ `208` \[Pandora: Yo\!\] |
-| `210` | **Pandora** | What's he up to? | End |
-| `211` | **Pandora** |  | ➡️ `210` \[Pandora: What's he up to?\] |
-| `212` | **Pandora** | Hey\! | ➡️ `214` \[Pandora: Open up\!\] |
-| `213` | **Pandora** |  | ➡️ `212` \[Pandora: Hey\!\] |
-| `214` | **Pandora** | Open up\! | End |
-| `215` | **Pandora** | Okay\. | ➡️ `217` \[Pandora: I've had it\.\] |
-| `216` | **Pandora** |  | ➡️ `215` \[Pandora: Okay\.\] |
-| `217` | **Pandora** | I've had it\. | ➡️ `218` \[Pandora\] |
-| `218` | **Pandora** |  | ➡️ `219` \[Pandora: If you're in there – clear the door\!\] |
-| `219` | **Pandora** | If you're in there – clear the door\! | End |
-| `220` | **Pandora** |  | ➡️ `221` \[Pandora: He's gone\.\] |
-| `221` | **Pandora** | He's gone\. | ➡️ `222` \[Pandora\] |
-| `222` | **Pandora** |  | ➡️ `223` \[Pandora: I wish I could've done something\.\] |
-| `223` | **Pandora** | I wish I could've done something\. | ➡️ `225` \[Pandora\] |
-| `224` | **Pandora** | Hey\! | ➡️ `234` \[Heinrich: You again\.\] |
-| `225` | **Pandora** |  | ➡️ `226` \[Pandora: Or at least apologize\.\] |
-| `226` | **Pandora** | Or at least apologize\. | ➡️ `227` \[Pandora\] |
-| `227` | **Pandora** |  | ➡️ `228` \[Pandora: Wait a minute\!\] |
-| `228` | **Pandora** | Wait a minute\! | ➡️ `229` \[Pandora\] |
-| `229` | **Pandora** |  | ➡️ `232` \[Pandora: You stay put, okay?\] |
-| `230` | **Pandora** |  | ➡️ `231` \[Pandora: Are you there?\] |
-| `231` | **Pandora** | Are you there? | End |
-| `232` | **Pandora** | You stay put, okay? | ➡️ `233` \[Pandora: I'll get you back in no time\!\] |
-| `233` | **Pandora** | I'll get you back in no time\! | End |
-| `234` | **Heinrich** | You again\. | ➡️ `235` \[Pandora: Welcome back\!\] |
-| `235` | **Pandora** | Welcome back\! | ➡️ `236` \[Heinrich: Let me guess\.\] |
-| `236` | **Heinrich** | Let me guess\. | ➡️ `237` \[Heinrich: That was you?\] |
-| `237` | **Heinrich** | That was you? | ➡️ `238` \[Pandora: I think so\!\] |
-| `238` | **Pandora** | I think so\! | ➡️ `239` \[Heinrich: Can I ask you something?\] |
-| `239` | **Heinrich** | Can I ask you something? | ➡️ `240` \[Pandora: Sure\!\] |
-| `240` | **Pandora** | Sure\! | ➡️ `241` \[Heinrich: Do you enjoy stepping on other people's toes?\] |
-| `241` | **Heinrich** | Do you enjoy stepping on other people's toes? | ➡️ `242` \[Pandora: Excuse me?\] |
-| `242` | **Pandora** | Excuse me? | ➡️ `243` \[Heinrich: I am asking why you won't let a dead man rest\.\] |
-| `243` | **Heinrich** | I am asking why you won't let a dead man rest\. | ➡️ `244` \[Pandora: You wanted to die?\] |
-| `244` | **Pandora** | You wanted to die? | ➡️ `245` \[Heinrich: If that's the price of peace and quiet\.\] |
-| `245` | **Heinrich** | If that's the price of peace and quiet\. | ➡️ `246` \[Pandora\] |
-| `246` | **Pandora** |  | ➡️ `247` \[Pandora: I'm sorry\.\] |
-| `247` | **Pandora** | I'm sorry\. | ➡️ `248` \[Heinrich: It's alright\.\] |
-| `248` | **Heinrich** | It's alright\. | ➡️ `249` \[Heinrich: Just let bygones be bygones, next time\.\] |
-| `249` | **Heinrich** | Just let bygones be bygones, next time\. | ➡️ `250` \[Pandora\] |
-| `250` | **Pandora** |  | ➡️ `251` \[Heinrich: Now, if you don't mind\.\] |
-| `251` | **Heinrich** | Now, if you don't mind\. | ➡️ `252` \[Heinrich: I have a door to repair\.\] |
-| `252` | **Heinrich** | I have a door to repair\. | End |
-| `254` | **Pandora** |  | ➡️ `255` \[Pandora\] |
-| `255` | **Pandora** |  | ➡️ `256` \[Pandora\] |
-| `256` | **Pandora** |  | End |
-| `257` | **Pandora** |  | ➡️ `180` \[Pandora: First off: I'm sorry I broke your door\.\] |
-| `259` | **Pandora** |  | ➡️ `260` \[Heinrich: And?\] |
-| `260` | **Heinrich** | And? | ➡️ `261` \[Pandora: You're an ass\.\] |
-| `261` | **Pandora** | You're an ass\. | ➡️ `262` \[Pandora: But that didn't give me the right to intrude\.\] |
-| `262` | **Pandora** | But that didn't give me the right to intrude\. | ➡️ `263` \[Pandora\] |
-| `263` | **Pandora** |  | ➡️ `264` \[Heinrich: Thank you\.\] |
-| `264` | **Heinrich** | Thank you\. | ➡️ `265` \[Pandora\] |
-| `265` | **Pandora** |  | ➡️ `266` \[Heinrich: If that's all\-\] |
-| `266` | **Heinrich** | If that's all\- | ➡️ `267` \[Pandora: One last thing\.\] |
-| `267` | **Pandora** | One last thing\. | ➡️ `268` \[Pandora: I'm sorry I brought you back\.\] |
-| `268` | **Pandora** | I'm sorry I brought you back\. | ➡️ `269` \[Heinrich: Don't worry about it\.\] |
-| `269` | **Heinrich** | Don't worry about it\. | ➡️ `270` \[Pandora: I do\!\] |
-| `270` | **Pandora** | I do\! | ➡️ `271` \[Pandora\] |
-| `271` | **Pandora** |  | ➡️ `283` \[Pandora: It's none of my business, I know\.\] |
-| `272` | **Heinrich** | Can you work wood? | ➡️ `273` \[Pandora: I know how to break it\!\] |
-| `273` | **Pandora** | I know how to break it\! | ➡️ `274` \[Heinrich: Evidently\.\] |
-| `274` | **Heinrich** | Evidently\. | ➡️ `275` \[Pandora: I'm quick to pick things up\!\] |
-| `275` | **Pandora** | I'm quick to pick things up\! | ➡️ `276` \[Heinrich: We'll see about that\.\] |
-| `276` | **Heinrich** | We'll see about that\. | ➡️ `280` \[Heinrich\] |
-| `277` | **Pandora** |  | ➡️ `204` \[Pandora: Huh?\] |
-| `279` | **Pandora** | I should talk to Dorothy\. | End |
-| `280` | **Heinrich** |  | End |
-| `283` | **Pandora** | It's none of my business, I know\. | ➡️ `284` \[Pandora: But is there a reason why you want to die?\] |
-| `284` | **Pandora** | But is there a reason why you want to die? | ➡️ `285` \[Pandora\] |
-| `285` | **Pandora** |  | ➡️ `272` \[Heinrich: Can you work wood?\] |

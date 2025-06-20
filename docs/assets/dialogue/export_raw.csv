@@ -2789,6 +2789,7 @@ Pandora_Paradise_Thermopylae_LiberAtion_175,29,175,16,1,,,,False,Block,Normal,,,
 Pandora_Paradise_Thermopylae_LiberAtion_176,29,176,16,16,,,,False,Block,Normal,"orkHasQuest(""Kings of the road"")  == true",,Continue()@0.1;,[],,,[],,,05437dbd-e7be-4384-913d-0a62fd85ae71,,{{omit}},436.2132;111.8889
 Pandora_Paradise_Thermopylae_LiberAtion_177,29,177,16,16,,,Who put this here?,False,Block,Normal,,,,[],,,[],,,2063c7b3-14f1-4ad7-a9b9-2a3ec09d4eee,,{{omit}},447.027;185.3965
 Ganymede_ATOPIA_ExcommunicAtion_START,30,0,9,9,START,,,False,Block,Normal,,,None(),[],,,[],,{{omit}},0f91b4ea-4dd1-4a53-8ef4-bc38d6034a49,,{{omit}},3106.382;373.1696
+entrytag,ConvID,ID,Actor,Conversant,Title,MenuText,DialogueText,IsGroup,FalseConditionAction,ConditionPriority,Conditions,Script,Sequence,Pictures,Description,Parenthetical,Audio Files,Video File,Response Menu Sequence,Guid,ja,EventGuid,canvasRect
 Ganymede_ATOPIA_ExcommunicAtion_1,30,1,9,10,,,"[NSC]Over here, Daph.",False,Block,Normal,"makiGetFloat(""battlePhase"") == 1 and (Dialog[thisID].SimStatus == ""Untouched"")",,"PanelPos(3);\nDelay(0.2)@Message(Typed);\nrequired Rotate(90, listener)@Message(r);",[],,,[],,,3783d1c6-9680-4982-b919-5687673f1ed9,,{{omit}},1307.616;742.6301
 Daphne_ATOPIA_ExcommunicAtion_3,30,3,10,10,,,[S]Did you just die?,False,Block,Normal,,,,[],,,[],,{{omit}},b114df1a-51b9-44d4-bc7c-4e911959cc4e,,{{omit}},1526.098;797.5838
 Ganymede_ATOPIA_ExcommunicAtion_4,30,4,9,9,,,[SC]Not really.,False,Block,Normal,,,,[],,,[],,{{omit}},1fdae34c-934d-4598-a189-f6220316e261,,{{omit}},7790.118;1615.53
@@ -17462,6 +17463,10 @@ Number,Number,Number,Number,Special
 30,66,30,645,Normal
 30,67,30,78,Normal
 30,68,30,72,Normal
+entrytag,ConvID,ID,Actor,Conversant,Title,MenuText,DialogueText,IsGroup,FalseConditionAction,ConditionPriority,Conditions,Script,Sequence,Pictures,Description,Parenthetical,Audio Files,Video File,Response Menu Sequence,Guid,ja,EventGuid,canvasRect
+Ganymede_ATOPIA_ExcommunicAtion_1,30,1,9,10,,,"[NSC]Over here, Daph.",False,Block,Normal,"makiGetFloat(""battlePhase"") == 1 and (Dialog[thisID].SimStatus == ""Untouched"")",,"PanelPos(3);\nDelay(0.2)@Message(Typed);\nrequired Rotate(90, listener)@Message(r);",[],,,[],,,3783d1c6-9680-4982-b919-5687673f1ed9,,{{omit}},1307.616;742.6301
+OriginConvID,OriginID,DestConvID,DestID,ConditionPriority
+Number,Number,Number,Number,Special
 30,73,30,352,Normal
 30,73,30,47,Normal
 30,73,30,252,Normal
