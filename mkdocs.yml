@@ -39,7 +39,8 @@ theme:
     code: "Roboto Mono"
 plugins:
    - meta
-   - blog
+   - blog:
+      pagination_per_page: 3
    - search
    #- panzoom
    - awesome-nav
