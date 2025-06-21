@@ -10,9 +10,11 @@ theme:
   custom_dir: overrides
   features:
     - navigation.instant
+    - navigation.footer
     - content.tooltips
     - navigation.tabs
     - content.action.edit
+    - embed
   site_url: https://github.com/norygami/traki/
   icon:
     repo: fontawesome/brands/git-alt
@@ -37,6 +39,14 @@ theme:
   font:
     text: "Jost"
     code: "Roboto Mono"
+extra:
+  social:
+    - icon: fontawesome/brands/steam 
+      link: https://store.steampowered.com/franchise/TRACHI
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/SvaYDEUasg
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@noryR
 plugins:
    - meta
    - blog:
@@ -58,7 +68,7 @@ plugins:
    - rss:
       match_path: "blog/posts/.*"
       date_from_meta:
-        as_creation: date.created
+        as_creation: date
         as_update: date.updated
 markdown_extensions:
   - abbr
@@ -93,3 +103,4 @@ extra_javascript:
   - https://unpkg.com/cytoscape@3.26.0/dist/cytoscape.min.js
   - https://unpkg.com/dagre@0.8.5/dist/dagre.min.js
   - https://unpkg.com/cytoscape-dagre@2.5.0/cytoscape-dagre.js
+  - https://cdn.jsdelivr.net/npm/@squidfunk/mkdocs-material@latest/dist/partials/embed.css

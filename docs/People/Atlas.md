@@ -17,8 +17,6 @@ tags:
     [IIS][] [1921]  
     AIO [1923]
 
-
-
 ## Early Life
 Atlas' life before [EnKAD][] is a question mark. Both of his parents were allegedly killed by Republicans during the 2nd Enlightement. Being left an orphan, Atlas was raised by his aunt, until he disappeared in 1908.
 
@@ -28,23 +26,23 @@ By the time he resurfaced in 1910, Atlas established himself as a Stratigos of t
 While Atlas was being held for questioning, a senior officer from EnKAD – [Crius][] – happened to inspect the local prefecture. Crius took a personal interest in Atlas and took it upon himself to conduct the interrogation. According to an anonymous member of the prefecture's medical staff, 'Crius opened negotiations by shooting Atlas in the leg'. However, Atlas supposedly refused to share the names of his co-associates.
 
 ## EnKAD
-Crius was seemingly impressed with Atlas' resilience and offered him amnesty if Atlas were willing to become an informant for EnKAD. Contrary to most of EnKADs extended personnel, Atlas' civil name was registered into Cipher and henceforth treated as a grade-1 state-secret. Atlas henceforth operated under his Mononym, granting him grade-2 security clearance and access to the EnKAD compounds 3 to 12. More importantly, Crius regarded Atlas' as one of his mentees and supposedly even introduced him to his wife Cecilia and daughter [Dorothy][]. 
+Crius was seemingly impressed with Atlas' resilience and offered him amnesty if Atlas were willing to become an informant for EnKAD. Contrary to most of EnKADs extended personnel, Atlas' civil name was registered into Cipher and henceforth treated as a grade-1 state-secret. Atlas henceforth operated under his Mononym, granting him grade-2 security clearance and access to the EnKAD compounds 3 to 12. More importantly, Crius regarded Atlas' as one of his protégé and supposedly even introduced him to his wife Cecilia and daughter [Dorothy][]. 
 
 ## Kenovice
-The relationship between Atlas and Crius continued until early 1915, when Crius was discharged from EnKAD due to his alleged involvement in the assassination of Pjotr Antoni. Atlas remained a member of EnKAD and consequentially became a civil servant of the Secretariat for State Security. His first assignment under his new handler – [Eurydice][] – dispatched him to Kenovice in order to assist the Ionian Army in the pacification of the city and formally end the Dichotomy by purging EnKAD's Hippocratic branch. Atlas was not only involved in the kidnapping of Crius' wife and daughter, but also personally ended Crius' life.
+The mentor-mentee relationship between Atlas and Crius continued until early 1915. When the Dichotomy Act discharged Crius and large parts of EnKAD's upper-echelon after the assassination of Chairman Antoni, Atlas remained with the government-aligned faction – becoming a civil servant of the Secretariat for State Security. His first assignment saw dispatched him to Kenovice and assist the Ionian Army's pacification of the city. According to sources close to StateStec, Atlas supervised the abduction of Crius' wife and daughter and personally ended Crius' life.
 
 ## Calpoli
-In the year 1919, Atlas loyalties were put to the test once more. His contact in the irregular Military Intelligence Platoon Periphas – Corporal [Lorna Farago][], attempted desertion by crossing into Serbia through the checkpoint near Calpoli. Although the exact sequence of events remain confidential to this day, fragments of Atlas' statements were published as part of the StateSec's annual report. According to Atlas, he had been investigating Farago since 1915, primarily due to her familial ties with a senior member of Ionia's intelligence organizations. Corporal Farago was – in Atlas' words – a *likely vector of foreign subversion* and put under surveillance in accordance with §83a of the Ionian Constitution. 
+In the year 1919, Atlas loyalties were put to the test once more. His contact in the irregular Military Intelligence Platoon Periphas – Corporal [Lorna Farago][], attempted desertion by crossing into Serbia. Although the exact sequence of events remain confidential, excerpts of Atlas' statement were published in StateSec's 1920 report. According to Atlas, Farago had been under active surveillance since 1915. In accordance with §83b of the natural secrets act, her ties to a senior member of Ionian intelligence made Corporal Farago – in Atlas' words – a *likely vector of subversion*. While his romantic relationship with Farago hoped to detect recruitment attempts by foreign actors, his primary goal was to provoke such an attempt. 
 
-When Farago was about to cross the border, both herself and Atlas were picked up by members of the IAF and held for questioning. Atlas' was cleared of any charges, but lamented the intrusion of border officials in his statement given to an internal EnKAD inquiry: 
+When Farago and Atlas were about to pass the Ionian checkpoint near Calpoli, they were picked up by members of the IAF. Atlas' was quickly released at the behest of EnKAD, which called for an immediate interdepartmental inquiry. As the chief witness, Atlas lambasted the intrusion of border officials: 
 
 !!! quote "Case Calpoli: Minutes"
 
-    *If it weren't for the intervention by the hands of the IAF, Corporal Farago's desertion might've produced a unique opportunity to lure out high-ranking members of* [REDACTED]'s *intelligence network. Over the last six years, Ionia has lost tens – if not hundreds – of state officials to illegal emigration.* 
+    *The intervention by the hands of the IAF dismantled a unique opportunity to expose high-ranking members of [REDACTED]'s intelligence. Over the last six years, Ionia has lost tens – if not hundreds – of state officials to illegal emigration.* 
 
-    *Although the IAF is to be commended for their efforts, this incident is further proof that all intelligence operations – including those conducted by the Secretariat for Foreign Affairs and the Secretariat for Defense – should be coordinated with the Secretariat for State Security.*
+    *Although the IAF's enthusiasm is to be commended, this incident further underlines the redundancies imposed by disconcerted intelligence operations. Should there not be a concious effort to consolidate – or at the very least coordinate – intradepartmental efforts, Ionia's intelligence will remain its own worst enemy.*
 
-It's assumed that Calpoli was a major catalyst for Ionia to adapt an integrated intelligence strategy. One expression of this centralization appeared in 1921, when the [Commissariat for External Affairs][] (CoExA) was transferred from the Secretariat of External Affairs to the Secretariat for State Security. Although EnKAD itself wasn't practically affected by the reorganization, it henceforth operates under the umbrella of the [Ionian Intelligence Service][].
+Shortly after the publication of the report, Ionia's central committee passed a memorandum to formulate an integrated intelligence strategy. The most prominent expression of this centralization emerged in 1921, when the [Commissariat for External Affairs][] (CoExA) was transferred from the Secretariat of External Affairs to the Secretariat for State Security. Although EnKAD wasn't formally affected by the reorganization, it henceforth operates under the umbrella of the [Ionian Intelligence Service][].
 
 ## *effigy*
 

@@ -47,6 +47,25 @@
           mask-image: var(--md-admonition-icon--construction);
 }
 
+.md-embed {
+  position: relative;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+}
+
+.md-embed--16-9 {
+  padding-bottom: 56.25%;
+}
+
+.md-embed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  border: 0;
+}
 
 
 .md-typeset figure.float-right {
