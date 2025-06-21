@@ -1,4 +1,4 @@
-*[EnKAD]: Endo-Kathartic Division
+*[EnKAD]: Endo-Kathartic Dialect
 *[CoExA]: Commissariat for External Affairs
 *[ION]: Ionian Party
 *[IIS]: Ionian Intelligence Service

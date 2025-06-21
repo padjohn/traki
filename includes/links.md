@@ -25,7 +25,7 @@
 [AIO]: /Organizations/AIO/
 [Autonomous Illyrian Operations]: /Organizations/AIO/
 [EnKAD]: /Organizations/EnKAD/
-[Endo-Kathartic Division]: /Organizations/EnKAD/
+[Endo-Kathartic Dialect]: /Organizations/EnKAD/
 [CoExA]: /Organizations/CoExA/
 [Commissariat for External Affairs]: /Organizations/CoExA/
 [IIS]: /Organizations/IIS/

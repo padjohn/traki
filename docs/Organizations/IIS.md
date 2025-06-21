@@ -6,7 +6,7 @@ tags:
 ![IIS](../assets/organizations/IIS.png){ width=200, align=right }
 The Ionian Intelligence Service is [Ionia][]'s primary joint-intelligence and information agency.
 
-Established in 1921, its main function is to act as an umbrella organization and coordinate the nation's individual institutions. To avoid conflicts of interest, all  agents across all of Ionia's intelligence entities are formally employed by the IIS. The most prominent of these agencies are the [Endo-Kathartic Division][] and the [Commissariat for External Affairs][].
+Established in 1921, its main function is to act as an umbrella organization and coordinate the nation's individual institutions. To avoid conflicts of interest, all  agents across all of Ionia's intelligence entities are formally employed by the IIS. The most prominent of these agencies are the [Endo-Kathartic Dialect][] and the [Commissariat for External Affairs][].
 
 Above all, the IIS aims to act as a singular entity - both domestically and abroad. However, recent reports suggest that cooperation between EnKAD and CoExA remains lackluster, at best. An anonymous operative once supposedly stated: 
 

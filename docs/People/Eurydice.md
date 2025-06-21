@@ -31,7 +31,7 @@ Among this cohort, Eurydice began her career as a civil servant in the Secretari
 
 Eurydice was subsequently transferred to the Secretariat for State Security on the 7th July 1911. Curiously, the accompanying missive stated "concerns about divergent loyalties". 
 
-It is unclear whether the reason given is genuine, seeing as Eurydice has seemingly always outperformed her peers. However, internal Endo-Kathartic Division memos suggest that she requested the reassignment herself. The timing of her transfer also coincides with her sister [Lorna][]'s first arrest by the police.
+It is unclear whether the reason given is genuine, seeing as Eurydice has seemingly always outperformed her peers. However, internal [Endo-Kathartic Dialect][] memos suggest that she requested the reassignment herself. The timing of her transfer also coincides with her sister [Lorna][]'s first arrest by the police.
 
 ## Endo-Kathartic Dialect
 Once again, Eurydice quickly adapted to her new environment and made extensive use of governmental and non-governmental connections to great effect. During the reclamation of Kenovice, Eurydice was able to severely diminish resistance to the occupation by activating assets loyal to her family and thus create an information network to recruit collaborators all over the region.
