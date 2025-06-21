@@ -15,6 +15,9 @@
         <link rel="next" href="../../../world/">
       
       
+        <link rel="alternate" type="application/rss+xml" title="RSS feed" href="../../../../../feed_rss_created.xml">
+        <link rel="alternate" type="application/rss+xml" title="RSS feed of updated content" href="../../../../../feed_rss_updated.xml">
+      
       <link rel="icon" href="../../../../../assets/organizations/ARedC.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.9">
     
@@ -676,6 +679,18 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    AUTONOMY
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="../../" class="md-nav__link md-nav__link--active">
         
   
@@ -686,6 +701,52 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#teaser-and-status" class="md-nav__link">
+    <span class="md-ellipsis">
+      Teaser and Status
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teaser-status" class="md-nav__link">
+    <span class="md-ellipsis">
+      Teaser &amp; Status
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#old-and-new" class="md-nav__link">
+    <span class="md-ellipsis">
+      Old and New
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -22966,6 +23027,41 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#teaser-and-status" class="md-nav__link">
+    <span class="md-ellipsis">
+      Teaser and Status
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teaser-status" class="md-nav__link">
+    <span class="md-ellipsis">
+      Teaser &amp; Status
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#old-and-new" class="md-nav__link">
+    <span class="md-ellipsis">
+      Old and New
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -22978,162 +23074,6 @@
       <header class="md-typeset">
         <h1 id="autonomy">AUTONOMY</h1>
       </header>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2021-07-24 00:00:00+00:00">July 24, 2021</time></li>
-        
-          <li class="md-meta__item">
-            in
-            
-              <a href="../../" class="md-meta__link">AUTONOMY</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              8 min read
-            
-          </li>
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="premortem"><a class="toclink" href="../../../../2021/07/24/premortem/">Premortem</a></h2>
-<p>Hey  fellas,
-it's Saturday the 24th July.<strong> One week from now, Trachi 1.2 will be released.</strong>
-Since this will probably the biggest update the game has ever received, I want to use this opportunity to take a look  at some of the roadblocks and tough decisions I've had to face during the course of development.
-I also had a few in-depth talks with some of the testers, recently. 
-On one hand, I received a lot of compliments and encouragements. And while I'm thankful for that, I here want to focus on a the parts of the game that they rightfully pointed out as being flawed.
-<strong>For this reason, I will not only cover game specific stuff, but also talk about general approaches to game design</strong> <strong>and project management</strong>. </p>
-<p>An emphasis will be put on <strong>heuristic decision making </strong>and <strong>path dependencies</strong>. To illustrate my considerations, I will showcase examples from project T during various stages of development.
-That being said, let's start of with a comparison.</p>
-<p><strong>Below, you'll find a very old version (circa 2019) of the first map that the game places you in:</strong>
-<img alt="" src="https://img.itch.zone/aW1nLzY1ODMyMDYucG5n/original/4jRDiV.png" />
-<strong>And to contrast, the current version (July 2021):</strong><img alt="" src="https://img.itch.zone/aW1nLzY1ODMyMTEucG5n/original/RJjL9L.png" />
-As you can see, a lot has changed. Now, I'm not one to judge which version looks better. But the important thing for me is that the current iteration is a much better <strong>representation of how I intended the game to look</strong>, in the first place.</p>
-<p>The reason why I'm showing this area, in particular, is because it's the<strong> first thing a player sees after starting a new game</strong>. But it's also an area that I might have never remade, if I decided that my time is better invested in further parts of the game. </p>
-<p><strong>The underlying question is: "Was it worth it?"</strong></p>
-<h3 id="division-of-labour"><a class="toclink" href="../../../../2021/07/24/premortem/#division-of-labour">Division of labour</a></h3>
-<p>Back when I uploaded this project to itch, I made <a href="https://noury.itch.io/trachi/devlog/266671/a-decade-of-trachi">a lengthy post</a> detailing the creation process of Trachi, going back almost ten years. That post is only a month old, but it feels like an eternity ago. 
-At that point, I had already updated the prologue with the tilesets from the main game, in contrast to my initial plans.</p>
-<p>Back then, Act 1 was highly unfinished, while the prologue was still struggling to find it's place in the encompassing narrative. The original roadmap had me wrap up and release the three acts of the main game and then go back to the prologue.
-The reason why I'm referring to this is because it ties into a big, general question that has to be repeatedly answered during the course of every mid- to long-term project: <strong>"Should I use the limited time I have to work on the old, or the new?"</strong>
-It is a question so elementary that every human is faced with it repeatedly during their lives. Not only in a professional context, but also in personal matters. 
- On one end of the spectrum lies fanatical perfectionism, unable to push forward and thus incapable of ever finishing anything.
- On the other end is a half-finished soup of ideas that never got the chance to flourish. </p>
-<p>Without a doubt, I am naturally inclined much more to the former, than the latter.  However, I also have a tendency to bounce between those two extremes. A professor of mine once non-nonchalantly said to me: <strong>"You're a person with a lot of great ideas. But once in a while, people like you need a kick up their creative butt."</strong>
-He was right.  At least I think so. The problem was that I tried to do a lot of things at once, so I never had the resources to focus on a specific aspect and give it the attention it deserved.
-<strong>In terms of Trachi</strong>, I knew that I wanted to tell a story, first and foremost. I'm not a great artist, nor did I have any experience in the development of games. I've played video games since I was five, but never actively build one, until then.
-If you've ever worked in event-management,  you know how different your perception is to someone who's simply a guest at the very same event. 
-**There's always an urge to look behind the curtains, but there's also a reason why those curtains are there, in the first place. **
- It is to separate a light form of enjoyment from hard and scrupulous work that always involves cutting corners left and right.
-But enough rambling. Back to the point.</p>
-<h3 id="the-old"><a class="toclink" href="../../../../2021/07/24/premortem/#the-old">The old</a></h3>
-<p>One month ago, I was faced with a decision. I always planned to update the characters to be more in line with the narrative. For reference, this is one of Ganymede's the old facesets and walking sprites:
-<img alt="" src="https://img.itch.zone/aW1nLzY1ODMwMzYucG5n/original/mT6ED0.png" />
-<img alt="" src="https://img.itch.zone/aW1nLzY1ODMwNDEucG5n/original/Io5IjI.png" />
-Both were generated using the default generator in RMMV. And while I was content with them for the longest time, I increasingly felt that they became more and more inappropriate with the overall theme of the game. </p>
-<p>The baseline of RMMV is a fantasy RPG in which people kill slimes, buy weapon upgrades &amp; potions, to then restore their HP/MP by lying in a bed for thirty seconds to a good-night jingle.
-**Trachi, on the other hand, is a game about abstract concepts that were especially pronounced from modernity onwards. **</p>
-<p>The early 20th century, which the game is loosely based on, was a time of increased industrialisation, transportation and electrification, in technological terms. In cultural terms, Europe was still mostly dominated by empires that had claimed a significant part of the world for themselves.</p>
-<p>However, mass politics, national identities and social issues were starting to usher in widespread changes. Socialism rose from a paradigm to an actual form of government and Fascism established itself as a widespread alternative to existing form of governance, as well.</p>
-<p>**
-The point is, that the narrative had outgrown the representation of the characters. **</p>
-<h3 id="the-new"><a class="toclink" href="../../../../2021/07/24/premortem/#the-new">The new</a></h3>
-<p>In early July, I had a more or less complete game that just needed a lot of refining on my hands, but certain aspects of it were dragging it down, significantly. The release dates were however already set, more or less. So I was very reluctant to make significant changes that would require me to spend weeks just to fix a certain aspects.
-In my mind, there was never a question of whether I'd give certain characters a remake, and others not. 
-<strong>I was adamant that, if I remodelled the characters, every single one had to be remade in the same style.</strong></p>
-<p>Since the prologue had already been released (and I was set on not remaking the overarching narrative), I tried to stay as true to the original characters, as I could. On the other hand, I wanted to fulfil the original goal of developing a style that would fit into the narrative.
-After two and a half weeks spent in character generators and gimp, I'm now at a point at which I'm satisfied with most of the characters, barring minor flaws. Since pictures say more than a thousand words, see the new Ganymede, below:
-<img alt="" src="https://img.itch.zone/aW1nLzY1ODMwNDkucG5n/original/tGZ8JS.png" />
-<img alt="" src="https://img.itch.zone/aW1nLzY1ODMwNTUucG5n/original/5SCQkB.png" /></p>
-<p>Now, it probably depends on your perspective, and I'm sure there's at least one person who prefers the old set to the new one. And that's perfectly valid opinion to have. But I personally am much more fond of the new ones.</p>
-<p><strong>More importantly, however, they blend themselves much better into the world they're placed in.</strong></p>
-<h3 id="closing-thoughts"><a class="toclink" href="../../../../2021/07/24/premortem/#closing-thoughts">Closing thoughts</a></h3>
-<p>I think it's clear that my point here is much less: "old bad - new good". On the contrary, neither of those pairs are universally fixed to each other, in any direction.
-The question is much more <strong>what kind of elements are emphasized and how well they fit togethe</strong>r. I could have bended the narrative to fit the characters. In fact, I did so during many instances, in the past.
-But in the end, I decided to go back and remake considerable portions of the game. </p>
-<p><strong>I always knew Trachi would get good, eventually. **
-My biggest fear is players getting discouraged before they'll even have a chance to see immerse themselves into a world I've spent more than a thousand hours on, already.
-Even though there are undoubtedly segments in the game that I am incredibly proud of, other parts are still nagging me.
-As for now, though, I'm going to let the prologue rest for a while (for real, this time!) and focus on finishing Act 1, which will be publicly available for the first time from next Saturday, onwards. 
-Contrary to the prologue, its segments were designed around the new tilesets. I thus expect  much less post-release polishing to be required on the main game, but one can never be absolutely sure, when it comes to that.
-To close it off, I want to show you one more comparison between two iterations of the same area.
- </strong>The eastern checkpoint**, which is the quasi hub of the prologue, was the first area I designed in the revived Trachi project. It has thus seen countless variations and will likely be subjected to a lot of refining, in the future, as well.</p>
-<p><strong>Below, you can see the oldest version of it I could dig up (circa 2018)</strong>.
- If I'm not mistaken, it has never been released to the public, since I remade significant parts of before the legacy build of the prologue was released.
-<img alt="" src="https://img.itch.zone/aW1nLzY1ODMzMTgucG5n/original/x5e0nn.png" /></p>
-<p><strong>And the current version, to be released along Trachi 1.2:</strong>
-<img alt="" src="https://img.itch.zone/aW1nLzY1ODM0MzEucG5n/original/p50z%2BN.png" /></p>
-<p>So to finally answer the question I posed, initially: 
-**
-In my opinion, it was worth it.**</p>
-<p>Thank you very much for your attention and interest. I hope I was able to shed light on some of the challenges I've had to face during the last three and a half years of development. And I am very much looking forward to hear your own experiences, as well.</p>
-<p>Much love, as always, 
-Nory</p>
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2021-07-18 00:00:00+00:00">July 18, 2021</time></li>
-        
-          <li class="md-meta__item">
-            in
-            
-              <a href="../../" class="md-meta__link">AUTONOMY</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              2 min read
-            
-          </li>
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="release-date"><a class="toclink" href="../../../../2021/07/18/release-date/">Release date</a></h2>
-<p><strong><em>*Hey again,
-work on Act 1 is coming along nicely. All necessary characters have been ported and implemented successfully. And while some of them might have gotten a bit younger in their appearance, it does feel like they've all grown up a little.
-Concerning </em>*maps</strong>, all but two outdoor areas of Act 1 are ready for release. In other words, they feature:
-- a certain level of detail
-- a contribution to the narrative
-- fitting audio backdrop
-- NPCs, including dialogue
-As for the <strong>narrative</strong>, the first half of the Act is currently being tested. The second part is missing a few connecting pieces, but they should be ready and presentable for the next week's devlog. Which will also be the last devlog before the next version of Trachi will be published.</p>
-<h3 id="thats-right-weve-got-a-date-you-and-i"><a class="toclink" href="../../../../2021/07/18/release-date/#thats-right-weve-got-a-date-you-and-i">That's right, we've got a date, you and I.</a></h3>
-<p><strong>Trachi 1.2 (Infiltration) will be available on 31st of July 2021.</strong>
-This iteration will feature the <strong>first act</strong>,<strong> Infiltration</strong>, from start<strong> ** to finish. 
-Not only that, but an </strong>updated version of the Prologue<strong> with new face images, sprites, dialogue and bugfixes will also be included.
-In other words, it will be possible to play from the beginning of the prologue all the way to the end of Act 1!
-Needless to say, I am beyond excited for this and cannot wait to share it with you.
-Below, you'll find two screenshots. One of them is from the updated prologue, the other one shows one of the areas of Act.
-That all being said, I'll see you guys again next week.
-Much love, 
-Nory.
-<img alt="" src="https://img.itch.zone/aW1nLzY1Mzg2MDIucG5n/original/lTU9yW.png" />
-</strong>Wegner Sanatorium (Western Hallway)<strong><em>*</em>*
-<img alt="" src="https://img.itch.zone/aW1nLzY1MzYyNTMucG5n/original/j%2FUeFE.png" />
-</strong>Clarin Square**</p>
-    
-  </div>
-</article>
       
         <article class="md-post md-post--excerpt">
   <header class="md-post__header">
@@ -23169,13 +23109,108 @@ Nory.
 <p><strong>As for the general status of Act 1:</strong>
 All but two important characters have been remade and implemented. </p>
 <p>I have also finished the first batch of NPCs today. Right now, I'm sitting at 29, however I expect this will increase to around 50-ish by the end of of it. </p>
-<p>With at least a few of the sprites implemented, I can also finally show a some more parts of the city.  </p>
-<p>I've attached two screenshots showing two different areas, both being integral to the events not only of the first Act, but for Trachi as a whole. Feel free to check them out, below.</p>
-<p>After spending the better part of the last two weeks on generating characters, it feels great to finally put them into place. </p>
-<p>There's still some kinks to work out, but the city is at last starting to feel alive and bustling by the day.</p>
-<p>In any case, I'll be back soon with more stuff.</p>
-<p><strong>Have a great time until then</strong>
+
+    
+      <nav class="md-post__action">
+        <a href="../../../../2021/07/10/teaser-and-status/">
+          Continue reading
+        </a>
+      </nav>
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2021-07-10 00:00:00+00:00">July 10, 2021</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="../../" class="md-meta__link">AUTONOMY</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              2 min read
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="teaser-status"><a class="toclink" href="../../../../2021/07/10/teaser--status/">Teaser &amp; Status</a></h2>
+<p>Hey Friendos,
+as you might have seen, I've released a first <strong>Teaser for Act 1</strong>, which I'd like to let speak for itself:</p>
+<div class="embed">
+<iframe src="https://www.youtube.com/embed/FCbpUgbu8Mk" frameborder="0" allowfullscreen></iframe>
+</div>
+<p>I had a lot of fun experimenting with lighting and footsteps, and I'm very excited to implement them properly and retrocactively from now on.
+<strong>As for the general status of Act 1</strong>, all but two important characters have been remade and implemented.
+I have also finished the first batch of NPCs today. Right now, I'm sitting at 29, however I expect this will increase to around 50-ish by the end of of it.
+With at least a few of the sprites implemented, I can also finally show a some more parts of the city.
+I've attached two screenshots showing two different areas, both being integral to the events not only of the first Act, but for Trachi as a whole. Feel free to check them out, below.
+After spending the better part of the last two weeks on generating characters, it feels great to finally put them into place. There's still some kinks to work out, but the city is at last starting to feel alive and bustling by the day.
+In any case, I'll be back soon with more stuff.</p>
+<p>Have a great time until then
 Nory</p>
+<h3 id="_1"><a class="toclink" href="../../../../2021/07/10/teaser--status/#_1"></a></h3>
+<p><img alt="" src="https://img.itch.zone/aW1nLzY0NjY1MzQucG5n/original/qO3o8g.png" /></p>
+<h3 id="portside"><a class="toclink" href="../../../../2021/07/10/teaser--status/#portside">Portside</a></h3>
+<h3 id="_2"><a class="toclink" href="../../../../2021/07/10/teaser--status/#_2"></a></h3>
+<p><img alt="" src="https://img.itch.zone/aW1nLzY0NjgzNjQucG5n/original/ot8mXC.png" /></p>
+<h3 id="rondham-district-central"><a class="toclink" href="../../../../2021/07/10/teaser--status/#rondham-district-central">Rondham District Central</a></h3>
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2021-07-04 00:00:00+00:00">July 4, 2021</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="../../" class="md-meta__link">AUTONOMY</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              2 min read
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="old-and-new"><a class="toclink" href="../../../../2021/07/04/old-and-new/">Old and New</a></h2>
+<p>Hey lads,
+I've spent the last one and a half weeks primarily on remaking all the existing characters in a new generator.
+The face images for the three main characters are now finally implemented. The other characters in Act 1 have their base finished as well and just need their face varieties implemented.
+Beyond that, there's only the walking sprites left to do. This shouldn't take too long however, and I still expect to meet the end of July deadline.
+<strong>Now, as for the remake of the characters:</strong>
+Much of the effort went into trying to keep the general features behind the characters intact. However, there are some cases where this either proved impossible, or the new remade characters are much closer to how I envisaged them in the first place.</p>
+
+    
+      <nav class="md-post__action">
+        <a href="../../../../2021/07/04/old-and-new/">
+          Continue reading
+        </a>
+      </nav>
     
   </div>
 </article>
@@ -23187,7 +23222,7 @@ Nory</p>
 
 
 <nav class="md-pagination">
-  <a class="md-pagination__link" href="../../">1</a> <span class="md-pagination__dots">..</span> <a class="md-pagination__link" href="../14/">14</a> <a class="md-pagination__link" href="../15/">15</a> <span class="md-pagination__current">16</span> <a class="md-pagination__link" href="../17/">17</a> <a class="md-pagination__link" href="../18/">18</a> <span class="md-pagination__dots">..</span> <a class="md-pagination__link" href="../22/">22</a>
+  <a class="md-pagination__link" href="../../">1</a> <span class="md-pagination__dots">..</span> <a class="md-pagination__link" href="../14/">14</a> <a class="md-pagination__link" href="../15/">15</a> <span class="md-pagination__current">16</span> <a class="md-pagination__link" href="../17/">17</a> <a class="md-pagination__link" href="../18/">18</a> <span class="md-pagination__dots">..</span> <a class="md-pagination__link" href="../21/">21</a>
 </nav>
         
       
