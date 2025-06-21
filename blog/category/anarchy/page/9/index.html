@@ -744,15 +744,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#rendezvous-preview" class="md-nav__link">
-    <span class="md-ellipsis">
-      Rendezvous (Preview)
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#marche" class="md-nav__link">
     <span class="md-ellipsis">
       Marche
@@ -765,6 +756,15 @@
   <a href="#marche-preview" class="md-nav__link">
     <span class="md-ellipsis">
       Marche (Preview)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#encore" class="md-nav__link">
+    <span class="md-ellipsis">
+      Encore
     </span>
   </a>
   
@@ -793,30 +793,6 @@
   
   <span class="md-ellipsis">
     AUTONOMY
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../world/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    World
     
   </span>
   
@@ -23084,15 +23060,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#rendezvous-preview" class="md-nav__link">
-    <span class="md-ellipsis">
-      Rendezvous (Preview)
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#marche" class="md-nav__link">
     <span class="md-ellipsis">
       Marche
@@ -23105,6 +23072,15 @@
   <a href="#marche-preview" class="md-nav__link">
     <span class="md-ellipsis">
       Marche (Preview)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#encore" class="md-nav__link">
+    <span class="md-ellipsis">
+      Encore
     </span>
   </a>
   
@@ -23124,78 +23100,6 @@
       <header class="md-typeset">
         <h1 id="anarchy">ANARCHY</h1>
       </header>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2023-12-13 00:00:00+00:00">December 13, 2023</time></li>
-        
-          <li class="md-meta__item">
-            in
-            
-              <a href="../../" class="md-meta__link">ANARCHY</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              4 min read
-            
-          </li>
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="rendezvous-preview"><a class="toclink" href="../../../../2023/12/13/rendezvous-preview/">Rendezvous (Preview)</a></h2>
-<h4 id="hey-party-people"><a class="toclink" href="../../../../2023/12/13/rendezvous-preview/#hey-party-people">Hey party people! 👓</a></h4>
-<p>We're just about two weeks into December – halfway towards <strong>ANARCHY 0.1.4</strong>! </p>
-<p><strong>Rendezvous</strong> (previously Varieté) transforms ParAdise into a battlefield and achievements into Steam Inventory Items. All of that – and more – because TRACHI's people can't wait to leave a good impression on you.</p>
-<h4 id="loose-ends"><a class="toclink" href="../../../../2023/12/13/rendezvous-preview/#loose-ends"><strong>Loose Ends</strong></a></h4>
-<div class="md-embed md-embed--16-9">
-<iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/KBpbJAUYMoQ"></iframe>
-</div>
-
-<p>In <a href="https://store.steampowered.com/news/app/2169000/view/3749869144024608259?l=english">Marche's preview</a>, I mentioned a desire to make ParAdise more <strong>dynamic</strong>. One way of achieving that was to have <em>Battle Triggers</em> (aka <em>Field Impostors</em>) roam the map. </p>
-<p>Eventually, I settled for a <strong>barebone implementation</strong> moving enemies back and forth. Complex <strong>behaviours</strong> (fleeing / chasing) would require these entities to be actual combatants. At which point we might as well duke it out right there.</p>
-<h4 id="battlefield"><a class="toclink" href="../../../../2023/12/13/rendezvous-preview/#battlefield"><strong>Battlefield</strong></a></h4>
-<p><img alt="" src="/assets/blog/images/steam/2023/83efa56845cb8f2cbebd57531136e6bc966f8a71.png" />
-Starting with 0.1.4, field maps are populated by <strong>enemy combatants</strong>. Battles are triggered the same way, but the actual encounters take place where you meet your enemies. Every combatant in range (including Lorna) is placed on the grid and you get to deploy your people in a grid-shaped radius around you.</p>
-<p>Structurally, battles follow the same rules as before. ParAdise's <strong>terrain</strong> however already has a big effect on strategic options. Fortunately, you'll now be able to see who you'll be fighting where.</p>
-<h4 id="transition"><a class="toclink" href="../../../../2023/12/13/rendezvous-preview/#transition"><strong>TRAnsition</strong></a></h4>
-<p><img alt="" src="/assets/blog/images/steam/2023/80c8dbd1a3487d4cf8f06e6d9829b8e84a56ce84.png" />
-Following your <strong>victory</strong>, your friends despawn and you pick things up right where you left off. Compared to the old system, that's two loading screens we'll never have to see again. On the other hand, there's a whole new level of possible interactions between exploration and combat.</p>
-<p>At some point, combatants passing by might be able to join a <strong>running battle</strong>. Throw both friendly and enemy patrols into the mix – and we're well on our way to breathe life into ParAdise.</p>
-<h4 id="souvenir"><a class="toclink" href="../../../../2023/12/13/rendezvous-preview/#souvenir"><strong>Souvenir</strong></a></h4>
-<p><img alt="" src="/assets/blog/images/steam/2023/399757c2af71e11befe1858c508bd80a95cbfff7.png" />
-If you'd like to take something with you, go right ahead! From <strong>December 28th</strong> this year, you'll have plenty of opportunities to add more Items to your <strong>Steam Inventory</strong>. What's more, the Items are also used to change your characters' appearance.</p>
-<p>Every character will have their own <strong>equipment slot</strong> with a different set of Variations. To equip one of these, you need to have the corresponding Item on your Steam Account. The character's appearance reflects the piece you have equipped – outside of Fragments.</p>
-<h4 id="dues"><a class="toclink" href="../../../../2023/12/13/rendezvous-preview/#dues"><strong>Dues</strong></a></h4>
-<p><img alt="" src="/assets/blog/images/steam/2023/582d2974c239080b7242220d6fc0a933e114a58c.png" />
-One of the items does exactly what <strong>Vanguard</strong> currently does. Both cover the same Variation of Daphne. Everybody who has unlocked the achievement automatically receives the Item on the <strong>28th</strong>.</p>
-<p>Similarly, people that achieved <strong><em>Broken Wings</em></strong> are rewarded with Ganymede's (long promised) first <strong>variation</strong>, too. It's no secret he likes dressing up – especially if he's got a date. 😏</p>
-<h4 id="enter-paradise"><a class="toclink" href="../../../../2023/12/13/rendezvous-preview/#enter-paradise"><strong>Enter ParAdise</strong></a></h4>
-<p><img alt="" src="/assets/blog/images/steam/2023/3bc7b4de5d28342408e4887f1c285778d19fb7e2.png" />
-Naturally, 0.1.4 comes with another <strong>monthly challenge</strong>. A new achievement – <strong>ParAtrooper</strong> – is awarded for <strong>winning</strong> your first battle in <strong>ParAdise</strong>. </p>
-<p>Contrary to previous iterations, this reward is shipped with the update itself. In other words: You'll receive your Item as soon as you get the achievement – until 0.1.5 goes live.</p>
-<h4 id="bread-and-roses"><a class="toclink" href="../../../../2023/12/13/rendezvous-preview/#bread-and-roses"><strong>Bread and Roses</strong></a></h4>
-<p><img alt="" src="/assets/blog/images/steam/2023/c152c80f56864c100ca3f97ff18cc252ef40b028.png" />
-If you'd rather sit this one out, but are still eager to get your hands on any of the rewards – we've got your back! <em>Rendezvous</em> also launches ANARCHY's <a href="https://store.steampowered.com/itemstore/2169000/"><strong>Item Store</strong></a>, where you can browse the current collection at your own convenience.</p>
-<p>Barring that, we're also evaluating the ability to <strong>trade</strong> and or <strong>buy/sell</strong> these on the <strong>Steam's Community Market</strong>. The jury is still out on that one, so it would be great if you could let us know what you think.</p>
-<h4 id="in-sum"><a class="toclink" href="../../../../2023/12/13/rendezvous-preview/#in-sum"><strong>In Sum</strong></a></h4>
-<p><img alt="" src="/assets/blog/images/steam/2023/9030dcb6c664c173e74b0ca9f2fb4af0883332ac.png" />
-ANARCHY 0.1.4 puts the finishing touches on 2023 – with big ambitions for 2024. Not only is our own little spin on <strong>monetisation</strong> set up and ready to go, we've also made big leaps towards finding our stride in ParAdise.</p>
-<p>The next two weeks will mostly be dedicated to <strong>troubleshooting</strong> both of these features extensively. However, I'll also work in the other <a href="https://steamcommunity.com/app/2169000/discussions/0/3877093297627672205/"><strong>feedback</strong></a> I've received (big thanks to <strong>(-_-!)</strong> and everyone else). 🤗</p>
-<p>Either way, I hope all of you have a splendid couple of holidays. No matter where and in which kind of constellation – you can be sure I'll be thinking of you! 🥰</p>
-<p><strong>much love</strong><br />
-nory</p>
-    
-  </div>
-</article>
       
         <article class="md-post md-post--excerpt">
   <header class="md-post__header">
@@ -23359,6 +23263,89 @@ From September 1923 to October 1926, <strong>Ganymede</strong> was interned at o
 <p>All in all, <strong><em>Marche</em></strong> will be a bit <strong>smaller</strong> than its <strong>predecessor</strong> due to special <strong>day-job commitments</strong> this month. The good news is: Everything you see here is already live on the public <strong>beta</strong> <strong>branch</strong>. Starting <strong>November 18th</strong>, I'll take a little vacation and fully throw myself into <strong>development</strong> until release. This gives me more than a week to <strong>clean</strong> up <strong>0.1.3</strong> and mayhaps even include a <strong>feature</strong> or two originally planned for <strong>0.1.4</strong>.</p>
 <p>Either way – I'll get back to you at the latest with a little <strong>overview</strong> of <strong>0.1.3</strong> – <strong><em>Marche</em></strong> once it's released on <strong>November 28th</strong>. 😊</p>
 <p>Until then, I hope you have a <strong>great couple of weeks</strong>. 🥰</p>
+<p><strong>much love</strong><br />
+nory</p>
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2023-10-23 00:00:00+00:00">October 23, 2023</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="../../" class="md-meta__link">ANARCHY</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              6 min read
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="encore"><a class="toclink" href="../../../../2023/10/23/encore/">Encore</a></h2>
+<h4 id="howdy-ho-friends"><a class="toclink" href="../../../../2023/10/23/encore/#howdy-ho-friends"><strong>Howdy-ho, friends! 🤗</strong></a></h4>
+<p>At long last, ANARCHY's <strong>second update</strong> is finally here. 
+There's so much to cover – and so little time.</p>
+<h4 id="lets-jump-in"><a class="toclink" href="../../../../2023/10/23/encore/#lets-jump-in"><strong>Let's jump in!</strong></a></h4>
+<p>Development of 0.1.2 revolved around three primary goals: Implementing the first set of <strong>InvAsion scenes</strong>, reworking <strong>ExcommunicAtion's Phase 4</strong> and adding mountains of content to <strong>ParAdise</strong>. I'm very proud to announce all three milestones were met!🎉 In addition, there's general <strong>UI improvements</strong> alongside a prototype for cosmetic <strong>VariAtions</strong>, topped off by a new patch-wide <strong>challenge</strong>.</p>
+<h4 id="top-to-bottom"><a class="toclink" href="../../../../2023/10/23/encore/#top-to-bottom"><strong>Top to Bottom</strong></a></h4>
+<p><img alt="" src="/assets/blog/images/steam/2023/e1164c0b231b0e0d5f601d2b631526be8887567f.png" /></p>
+<p>The first thing you'll notice is that there's two new<strong>achievements</strong>. One of them – eerily similar to the picture above – sports the faces of <strong>Icarus</strong> and <strong>Ganymede</strong>. There's a story between these two. And I think it's time for us to admit we know how it went. For the duration of this patch, <strong>I'd love to see people recreate this particular scene</strong>. 👀</p>
+<h4 id="method"><a class="toclink" href="../../../../2023/10/23/encore/#method"><strong>Method</strong></a></h4>
+<p><img alt="" src="/assets/blog/images/steam/2023/d43b2de8804810147328d9f65282de83b4b5df5f.png" /></p>
+<p>In a continued effort to polish <strong>ExcommunicAtion</strong>, <strong>Phase 4</strong> underwent a slight rework. Going forward, <strong>Ariadne</strong> will do her best to set you up. All her efforts go into a devastating <strong>arena-wide spell</strong> that reduces the <strong>HP</strong> of all targets to <strong>1</strong>. Afterwards, <strong>the stage is yours</strong>.</p>
+<h4 id="tact"><a class="toclink" href="../../../../2023/10/23/encore/#tact"><strong>Tact</strong></a></h4>
+<p><img alt="" src="/assets/blog/images/steam/2023/01197f1a6e4ef8f066fc39e9c5e194c39b8931e4.gif" />
+On a related note, <strong>all stats</strong> have been carefully <strong>readjusted</strong> for each individual <strong>phase</strong>. Attacks feel a lot more deadly and the phases themselves flow a bit <strong>quicker</strong>. Naturally, this also has an effect on <strong>ParAdise</strong>. Enemies generally live longer, but <strong>Equipment</strong> makes a much bigger difference now.</p>
+<h4 id="liberation"><a class="toclink" href="../../../../2023/10/23/encore/#liberation"><strong>LiberAtion</strong></a></h4>
+<p><img alt="" src="/assets/blog/images/steam/2023/c0d23f4fd9eebc26a95c3fe912e1f45e21254843.png" />
+To kickstart <strong>Lorna's</strong> adventures, she'll now receive a <strong>weapon</strong> through a little <strong>event</strong> just a couple of steps away from the initial spawning point. And since Lorna's story is all about taking matters into her <strong>own hands</strong>, she now gets to wield a very special <strong>axe</strong>. 🪓</p>
+<h4 id="goblins"><a class="toclink" href="../../../../2023/10/23/encore/#goblins"><strong>Goblins</strong></a></h4>
+<p><img alt="" src="/assets/blog/images/steam/2023/1c080a2abbbfe5bde58b17dcce7174b7b0778d80.png" />
+In addition to an overall <strong>stats</strong> and <strong>loot table</strong> reworks, a tribe of Goblins intend to cause big trouble in little ParAdise. They're not all too clever, yet. But word on the street is, they'll learn to <strong>coordinate</strong>, soon. Until then, feel free to <strong>hack away at them</strong> as much you please. Though be advised that they're already a lot stronger than the other enemies you've faced.</p>
+<h4 id="frontier"><a class="toclink" href="../../../../2023/10/23/encore/#frontier"><strong>Frontier</strong></a></h4>
+<p><img alt="" src="/assets/blog/images/steam/2023/5d6d6d38ca4e482caa06155b337e35a7cf1a1b9d.png" />
+The <strong>tiles</strong> of Paradise's first map have been massively reworked. <strong>Hilltops</strong> now have their own distinctive color and the <strong>ground</strong> is in general is <strong>much less busy</strong> on the eyes. <strong>Trees</strong> have been repositioned to allow for smoother <strong>movement</strong> across the map. Next to a lot more <strong>props</strong> all over the place, the outside parts of a <strong>toll-house</strong> now overlook the river separating north from south.</p>
+<h4 id="black-market"><a class="toclink" href="../../../../2023/10/23/encore/#black-market"><strong>Black Market</strong></a></h4>
+<p><img alt="" src="/assets/blog/images/steam/2023/580347b4af236dc91b024e86d2c60aafc9057964.png" />
+If you've been looking for a way to spend your <strong>Polygons</strong>, Ari's got your back! From <strong>consumables</strong> to starter <strong>equipment</strong>, she loves nothing more than sorting you out. There's rumors she even temporarily got her hands on some <strong>special stuff</strong>. 👀</p>
+<h4 id="ostrakon"><a class="toclink" href="../../../../2023/10/23/encore/#ostrakon"><strong>Ostrakon</strong></a></h4>
+<p><img alt="" src="/assets/blog/images/steam/2023/bfe36164edbdab313b0fdb1e39cf5f4c34328e86.png" />
+Oftentimes in <strong>history</strong>, we see the past only through little <strong>fragments</strong> here and there. It's for us to connect these bits and pieces in an effort to make sense of it. Although the <strong>old word</strong> is lost, it's <strong>not forgotten</strong>. On the contrary! Like a present, it's waiting to unwrap itself in front you.</p>
+<h4 id="nostalgia"><a class="toclink" href="../../../../2023/10/23/encore/#nostalgia"><strong>Nostalgia</strong></a></h4>
+<p><img alt="" src="/assets/blog/images/steam/2023/c131b33308a12ffa723c0ffc4a45560d088283a5.png" />
+Interacting with <strong>Fragments</strong> triggers an old world <strong>memory</strong>. Players get to witness a moment in TRACHI's history, currently represented by a collection of <strong>InvAsion scenes</strong>. They offer a snapshot of a moment in the <strong>character's previous lives</strong>. The characters get to remember, and you get to find something out about them. And maybe, you get to keep a little <strong>souvenir</strong>.</p>
+<h4 id="navigation"><a class="toclink" href="../../../../2023/10/23/encore/#navigation"><strong>NavigAtion</strong></a></h4>
+<p><img alt="" src="/assets/blog/images/steam/2023/f5f929ef54499c4cffb97e863a2ec23717383ab8.png" />
+Sometimes things don't go as planned. Sometimes you'd rather be <strong>somewhere else</strong>. Going forward, you can return to the <strong>Start Menu</strong> (almost) whenever you please. As a bonus, the <strong>chapter selection</strong> has also received a slight <strong>visual</strong> rework.</p>
+<h4 id="variation"><a class="toclink" href="../../../../2023/10/23/encore/#variation"><strong>VariAtion</strong></a></h4>
+<p><img alt="" src="/assets/blog/images/steam/2023/f358f0d194d17a7aa7ac7348fe46903bf011c27d.png" />
+They say: "Clothes make the man". Does that go for <strong>fictional people</strong>, too? In ANARCHY, characters are represented as <strong>base classes</strong> with a whole set of different <strong>VariAtions</strong>. At the moment, the system itself is mostly used within <strong>Fragment Scenes</strong>. Though I'd love for you to have additional options for <strong>customization</strong>, too!</p>
+<h4 id="field-trial"><a class="toclink" href="../../../../2023/10/23/encore/#field-trial"><strong>Field Trial</strong></a></h4>
+<p><img alt="" src="/assets/blog/images/steam/2023/39eb04cfbc27da4d31149ef51fe90ca65802b52d.png" />
+As a thank you to the absolute awesome bunch of people that invested their valuable time to overcome <strong>ExcommunicAtion</strong> during <strong>0.1.1</strong>, a new <strong>skin</strong> is now available for <strong>Daphne</strong>. Going forward, I'd like to at least include one VariAtion per patch. These will be tied to a monthly challenge represented by a special <strong>achievements</strong>.</p>
+<h4 id="vanguard"><a class="toclink" href="../../../../2023/10/23/encore/#vanguard"><strong>Vanguard</strong></a></h4>
+<p><img alt="" src="/assets/blog/images/steam/2023/d0a1384a11ead3b11434688427d2cd1c0360f6d3.png" />
+If you like what you see and haven't completed <strong>ExcommunicAtion</strong> yet – don't worry! There'll be plenty more opportunities to grab this <strong>cosmetic</strong> down the line. Beyond potential <strong>reruns</strong>, there are also plans to couple VariAtions with <strong>Steam's Inventory System</strong> and thus open the door for <strong>trading</strong>, <strong>buying/selling</strong> on the <strong>market</strong> and/or purchase the item as a <strong>DLC</strong>.</p>
+<h4 id="conclusion"><a class="toclink" href="../../../../2023/10/23/encore/#conclusion"><strong>Conclusion</strong></a></h4>
+<p><img alt="" src="/assets/blog/images/steam/2023/d0101c9bc85bc25d713a3c379b3645b8bedaf046.png" />
+As you can see, there's tons of elements going into <strong>ANARCHY</strong>. It's my <strong>responsibility</strong> to not only work on these segments, but also tie them together in a <strong>meaningful way</strong>. Your presence helps me to discern <strong>essential features</strong> from <strong>flavor stuff</strong> – and serves as a continuous <strong>encouragement</strong> for me to keep going. </p>
+<p>As such, I'd like to – once again – <strong>thank you so much for all the support</strong>! 😊</p>
+<p>I hope you'll enjoy this update as another big leap forward to transform the world of <strong>TRACHI</strong> into a video game. I'll be back soon to talk more about the next <strong>milestone</strong> – henceforth known as <strong>ANARCHY 0.1.3 (Marché)</strong>. In the meantime, <strong>here's to you having a great couple of weeks</strong>! 🍻</p>
+<p>Big hugs and kissies! 🥰</p>
 <p><strong>much love</strong><br />
 nory</p>
     
