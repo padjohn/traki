@@ -41,6 +41,7 @@ plugins:
    - meta
    - blog:
       pagination_per_page: 3
+      blog_toc: true
    - search
    #- panzoom
    - awesome-nav
@@ -54,6 +55,11 @@ plugins:
       cards_layout_options:
         font_family: Jost
         background_color: black
+   - rss:
+      match_path: "blog/posts/.*"
+      date_from_meta:
+        as_creation: date.created
+        as_update: date.updated
 markdown_extensions:
   - abbr
   - attr_list
