@@ -2,6 +2,7 @@ site_name: TRAKI
 repo_url: https://github.com/norygami/traki/
 repo_name: traki
 edit_uri: edit/main/docs/
+site_url: https://github.com/norygami/traki/
 
 theme:
   logo: assets/organizations/ARedC.png
@@ -15,7 +16,6 @@ theme:
     - navigation.tabs
     - content.action.edit
     - embed
-  site_url: https://github.com/norygami/traki/
   icon:
     repo: fontawesome/brands/git-alt
     admonition:
