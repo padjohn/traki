@@ -15,6 +15,10 @@ theme:
     - navigation.footer
     - content.tooltips
     - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - toc.follow
     - content.action.edit
     - embed
   icon:
@@ -80,6 +84,8 @@ markdown_extensions:
   - pymdownx.tilde
   - admonition
   - pymdownx.details
+  - toc:
+      permalink: true
   - pymdownx.superfences:
         custom_fences:
         - name: mermaid
