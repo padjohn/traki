@@ -73,6 +73,9 @@ plugins:
 markdown_extensions:
   - abbr
   - attr_list
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
   - admonition
   - pymdownx.details
   - pymdownx.superfences:
