@@ -3,7 +3,6 @@ import os
 import re
 import shutil
 import io
-import json
 
 class DialogueParser:
     def __init__(self, csv_path):
@@ -151,13 +150,13 @@ class DialogueParser:
                 dest_dialogue = dest_entry.DialogueText if pd.notna(dest_entry.DialogueText) else ""
                 dest_dialogue_clean = re.sub(r"\[.*?\]", "", dest_dialogue).strip().replace('"', "'").replace("\n", " ")
                 
-                inner_label_content = f"{dest_actor}: {dest_dialogue_clean[:50]}..." if len(dest_dialogue_clean) > 50 else f"{dest_actor}: {dest_dialogue_clean}"
+                inner_label_content = f"**{dest_actor}**: {dest_dialogue_clean[:50]}..." if len(dest_dialogue_clean) > 50 else f"{dest_actor}: {dest_dialogue_clean}"
                 if not dest_dialogue_clean:
                     inner_label_content = dest_actor
-                full_descriptive_label_string = f"[{inner_label_content}]"
+                full_descriptive_label_string = f"{inner_label_content}"
                 target_label_display = self._escape_markdown_special_chars(full_descriptive_label_string)
 
-                next_scenes.append(f"➡️ `{int(link.DestID)}` {target_label_display}")
+                next_scenes.append(f"→ `{int(link.DestID)}` {target_label_display}")
 
             if next_scenes:
                 conv_entries.loc[idx, 'Next Scene(s)'] = '<br>'.join(next_scenes)

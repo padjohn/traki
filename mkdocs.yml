@@ -2,7 +2,7 @@ site_name: TRAKI
 repo_url: https://github.com/norygami/traki/
 repo_name: traki
 edit_uri: edit/main/docs/
-site_url: https://github.com/norygami/traki/
+#site_url: https://github.com/norygami/traki/
 
 theme:
   logo: assets/organizations/ARedC.png
