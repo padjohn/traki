@@ -136,7 +136,9 @@
     
       
 
-<header class="md-header" data-md-component="header">
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../../../../.." title="TRAKI" class="md-header__button md-logo" aria-label="TRAKI" data-md-component="logo">
       
@@ -247,14 +249,8 @@
     
   </nav>
   
-</header>
     
-    <div class="md-container" data-md-component="container">
       
-      
-        
-          
-            
 <nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
   <div class="md-grid">
     <ul class="md-tabs__list">
@@ -372,7 +368,13 @@
     </ul>
   </div>
 </nav>
-          
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
         
       
       <main class="md-main" data-md-component="main">
@@ -1114,7 +1116,7 @@
         
   
   <span class="md-ellipsis">
-    IIS
+    Ionian Intelligence Service
     
   </span>
   
@@ -13787,11 +13789,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../Dialogue/Trachi/Central/Hudsman%20Corner/EV0010/" class="md-nav__link">
+      <a href="../../../../../Dialogue/Trachi/Central/Hudsman%20Corner/EV010/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    EV0010
+    EV010
     
   </span>
   
@@ -13809,11 +13811,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../Dialogue/Trachi/Central/Hudsman%20Corner/EV010/" class="md-nav__link">
+      <a href="../../../../../Dialogue/Trachi/Central/Hudsman%20Corner/EV0010/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    EV010
+    EV0010
     
   </span>
   
@@ -23160,32 +23162,32 @@
   
 
 
-<h1 id="legacy">LEGACY</h1>
-<h2 id="hey-friends">Hey Friends! 👋</h2>
+<h1 id="legacy">LEGACY<a class="headerlink" href="#legacy" title="Permanent link">&para;</a></h1>
+<h2 id="hey-friends">Hey Friends! 👋<a class="headerlink" href="#hey-friends" title="Permanent link">&para;</a></h2>
 <p>Welcome to the <strong>end of the year</strong> – again.</p>
 <p>This time, there are two announcements: <strong>ANARCHY's</strong> post will tackle active development. <strong>AUTONOMY</strong> handles big-picture stuff. I composed eight sections filled with <strong>meta</strong> rants. The trials and tribulations of an indie brand. </p>
 <p>Turns out we can do better than that! As a matter of fact: AUTONOMY is <strong>relevant</strong> again!
 Yes! That's right! We're 100% <strong>on-topic</strong> for once! 😳</p>
-<h2 id="plot">Plot</h2>
+<h2 id="plot">Plot<a class="headerlink" href="#plot" title="Permanent link">&para;</a></h2>
 <p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/6d8363fdb499c27008a4addd9387422791043c48.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/6d8363fdb499c27008a4addd9387422791043c48.png" /></a>
 Let's <strong>recap</strong> the year real-quick! The first three months had me neck-deep in ANARCHY. Somewhere around mid-march, I remembered that my <strong>PhD-thesis</strong> was due in early 2026. Days spent in Unity slowly gave way to messing around with Transformers (or what the normies call 'AI').</p>
 <p>Fast forward to mid-May. TRACHI creeped back into my head. Three weeks later, I set up a bunch of character-based, locally-hosted <strong>Discord bots</strong>. These bots – Atlas, Daphne, Ganymede &amp; Pandora – feed their interactions to a Large Language Model fine-tuned on handcrafted interactions. For added authenticity, I extracted AUTONOMY's and ANARCHY's dialogue and threw that into the mix as well. </p>
 <p>This was followed by a 36-hour stint where I started porting AUTONOMY from <strong>RPG Maker MV</strong> to MZ. In addition to a lot of QoL, MZ adds tons of performance improvements and properly scaled fullscreen. In other words: The game wouldn't look as if it was made in 1995. </p>
 <p>As the phrasing might suggest, that port never happened. There's three major reasons why. First of all: ANARCHY. Secondly: RPGMaker. Last but not least: A somewhat absurd situation in the Plugin community. </p>
 <p>Today, I'd like to cover these three aspects. We'll start with the darkest depths of the game-development ecosystem, work our way through shoddy engines and – finally – cast a little light on the horizon.</p>
-<h2 id="mz">MZ</h2>
+<h2 id="mz">MZ<a class="headerlink" href="#mz" title="Permanent link">&para;</a></h2>
 <p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/4c5a82c1daf4dd460e75ac408630cb19cd7457da.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/4c5a82c1daf4dd460e75ac408630cb19cd7457da.png" /></a>
 If you're an RPGMaker developer, chances are you've caught on. Yes! I admit it! AUTONOMY is chock-full of <strong>plugins</strong>. From 'pathfinding' to dialogue boxes, from save and load menus. Many features of the game are handled by small scripts layered on top of RPGMaker actual.</p>
 <p>Most of the plugins were developed (and some released for free) by a person named <a href="http://yanfly.moe/">YanFly</a>. nory being a good-boy, I bought the full-pack. Largely to make AUTONOMY a better game, but also to support a fellow creator. So far so good. </p>
 <p>Now for porting the entire thing. It's known that plugins pose a major headache. And so they did! Although there's ways to force MZ into using MV-plugins, many essential features (like 'pathfinding') refused to work. That's no biggie, though!</p>
 <p>After all, most of the old plugins had MZ-equivalents. Even the YanFly collection! At worst, I'd have to rebuy the pack and support the group that took up YanFly's torch.</p>
-<h2 id="stella">Stella</h2>
+<h2 id="stella">Stella<a class="headerlink" href="#stella" title="Permanent link">&para;</a></h2>
 <p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/58ce037641b0429b94a797df7305f2c03f09d82f.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/58ce037641b0429b94a797df7305f2c03f09d82f.png" /></a>
 If the name sounds familiar, you're on to something! <a href="https://visustella.itch.io/">VisuStella</a> is the crowd that not only develops and hosts the majority of RPGMaker MZ plugins – they're also the people behind the <strong>Character Generator</strong> we've been using since 2021. ANARCHY-andies know that I've dropped a snarky comment here and there. My main gripe was an update supposedly scheduled for Mid-2023.</p>
 <p>If you're asking if it's been released – ask me again in 2025. To be fair: I know the troubles of <strong>development</strong>, so I can 100% emphasize. Besides, I've gotten used to squeeze out as much as I can from the 2022 iteration. Although I wish they'd have included the source code. Not having a revert and redo is funny for a day, but I stopped laughing afterwards.</p>
 <p>You see, I like tinkering with things. Working with UE, Unity – and Data Science stuff I do at work –exposed me to the beauty of code. In fact: Part of the reason why I wanted to give <strong>RPGMaker</strong> another spin was to test my newfound expertise. And since I had JavaScript somewhere on my bucket list, I was eager to dive head-first into the plugins' code.</p>
 <p>Spoiler alert: My excitement didn't last very long. Although I learned a new word for my vocabulary.</p>
-<h2 id="obfuscation">Obfuscation</h2>
+<h2 id="obfuscation">Obfuscation<a class="headerlink" href="#obfuscation" title="Permanent link">&para;</a></h2>
 <p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/09e4759533470b7016287cf4ea70e9d5f2fbbb69.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/09e4759533470b7016287cf4ea70e9d5f2fbbb69.png" /></a>
 Let's try and formulate a definition: <em>the act of making something less clear [...] to understand, especially intentionally</em>. Well, that wasn't so hard! Maybe it's because I ripped it straight from the <a href="https://dictionary.cambridge.org/dictionary/english/obfuscation">Cambridge dictionary</a>. Not that I'm obligated to tell you. I just think it's common decency.</p>
 <p>In terms of code, obfuscation refers to scrambling variable and function names so they're human-intelligable. Note the term <strong><em>intentional</em></strong>. Believe me, I've come across tons of bad code in my time – most of it made by myself. To add another layer of hypocrisy: I'm also regularly tucking away source code when I build an application.</p>
@@ -23193,13 +23195,13 @@ Let's try and formulate a definition: <em>the act of making something less clear
 <p>If you make a <strong>copy</strong>, for personal or commercial purposes – or distribute the product elsewhere – I might have to send you a cease n' desist. Realistically, I couldn't care less. TRACHI is like a <del>parasite</del> symbiont. Success is measured in how many people it affects. </p>
 <p>Either way, the <strong>ToS</strong> states that I can't tell you about the several thousand deobfuscation websites out there. In fact, word on the street is that the developers literally used the first website that pops up when you google that term.</p>
 <p>How do I know? I guess my hand must've slipped. Or maybe I don't like buying a cat in a bag with a black bar on its face. Putting obfuscated code on top of a framework with <strong>exposed</strong> code is like me asking you to forget what you just read.</p>
-<h2 id="exodus">Exodus</h2>
+<h2 id="exodus">Exodus<a class="headerlink" href="#exodus" title="Permanent link">&para;</a></h2>
 <p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/d1824312bfbdacb0ab09f8990347fbdc43ce5a05.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/d1824312bfbdacb0ab09f8990347fbdc43ce5a05.png" /></a>
 After I got over my little tantrum, reasonable nory intervened. Deobfuscation (which I totally didn't do) would have left me with semi-readable code. Now I just had to introduce myself to <strong>application-development</strong> in JavaScript – while my mind was parsing Python for work and C# for ANARCHY.</p>
 <p>Why was I doing that again? To funnel more work into a dead-end engine/framework. Every minute spent in RPGMaker would mean about twenty seconds of porting it into Unity. Since I had most of the QoL stuff already implemented in <strong>ANARCHY</strong>, RPGMaker had nothing to offer beyond ~5 hours of content.</p>
 <p>At the same time, August 28th was coming up. I had promised an AUTONOMY-themed prologue for ANARCHY. On December 13th (!), <strong><em><a href="https://store.steampowered.com/news/app/2169000/view/509566179781641078?l=english">ExtrapolAtion</a></em></strong> hit the shelves. It includes two locations from AUTONOMY: <em>Wenger</em> 1926 and ExterminAtion's <em>Trachi</em> 1923 (<em>Stuart Alley</em> by night and all that).</p>
 <p>Seeing the characters in those places – coupled with ANARCHY's features – put a big smile on my face. It made me think of how far the game has come in <strong>fourteen months</strong>. The movement, the pathfinding, the menus, the quests, the dialogue boxes, conversation skips and auto modes. As if AUTONOMY came to life again!</p>
-<h2 id="refulgence">Refulgence</h2>
+<h2 id="refulgence">Refulgence<a class="headerlink" href="#refulgence" title="Permanent link">&para;</a></h2>
 <div class="md-embed md-embed--16-9">
 <iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/5-92Ps25N-M"></iframe>
 </div>
@@ -23209,7 +23211,7 @@ After I got over my little tantrum, reasonable nory intervened. Deobfuscation (w
 <p><strong>Trachi's checkpoint</strong> is ported and even has its main-quest logic and conversations dialled in. I try to keep both of these verbatim, applying just a little <strong>detail</strong> here and there. The same goes for the environments, NPCs and overall progression. Sound-effects (as long as they're not RPGMaker-inherent) stay, but the music will get a big upgrade. </p>
 <p>For the sake of my own sanity – and your trust in me – we're talking <strong>remaster</strong> and not a remake. The story will happen exactly as it did in AUTONOMY. Characters are operating on 1923 knowledge, without a hint of what'll happen in a year. As for what's new: We'll include AUTONOMY's <strong>deleted scenes</strong>, <strong>a quest-system</strong>, <strong>biographies</strong>, <strong>items</strong>, <strong>equipment</strong> (#variations) and more. </p>
 <p>Once we're done, there'll be two AUTONOM(Y)(ies): RPGMaker's <strong>AUTONOMY(R)</strong> and Unity's <strong>AUTONOMY(U)</strong>.</p>
-<h2 id="legacy_1">Legacy</h2>
+<h2 id="legacy_1">Legacy<a class="headerlink" href="#legacy_1" title="Permanent link">&para;</a></h2>
 <p>It's a mouthful, I know! Then again: we're getting two games for the price of one. If Valve doesn't mind, AUTONOMY(R) gets a new name: TRACHI – LEGACY. As for ANARCHY, we'll trim the name a bit: </p>
 <p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/45313f4cb2ccd4626b9efb4190e073ad01d40774.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/45313f4cb2ccd4626b9efb4190e073ad01d40774.png" /></a>
 Three years of separation are about to end. Our meta-dripping, post-ironic anarchistic adventure is in for a big bag of history. Three days, three people and a city. Most importantly: <strong>YOU</strong>. </p>
@@ -23239,7 +23241,7 @@ nory</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 22, 2025 07:17:18">June 22, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 22, 2025 08:04:54">June 22, 2025</span>
   </span>
 
     
@@ -23261,6 +23263,12 @@ nory</p>
           
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
         
       </main>
       
@@ -23367,7 +23375,7 @@ nory</p>
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../../../..", "features": ["navigation.instant", "navigation.footer", "content.tooltips", "navigation.tabs", "content.action.edit", "embed"], "search": "../../../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../../../..", "features": ["navigation.instant", "navigation.footer", "content.tooltips", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "toc.follow", "content.action.edit", "embed"], "search": "../../../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../../../../assets/javascripts/bundle.c8b220af.min.js"></script>

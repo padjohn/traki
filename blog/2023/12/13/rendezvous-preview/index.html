@@ -136,7 +136,9 @@
     
       
 
-<header class="md-header" data-md-component="header">
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../../../../.." title="TRAKI" class="md-header__button md-logo" aria-label="TRAKI" data-md-component="logo">
       
@@ -247,14 +249,8 @@
     
   </nav>
   
-</header>
     
-    <div class="md-container" data-md-component="container">
       
-      
-        
-          
-            
 <nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
   <div class="md-grid">
     <ul class="md-tabs__list">
@@ -372,7 +368,13 @@
     </ul>
   </div>
 </nav>
-          
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
         
       
       <main class="md-main" data-md-component="main">
@@ -1114,7 +1116,7 @@
         
   
   <span class="md-ellipsis">
-    IIS
+    Ionian Intelligence Service
     
   </span>
   
@@ -13787,11 +13789,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../Dialogue/Trachi/Central/Hudsman%20Corner/EV0010/" class="md-nav__link">
+      <a href="../../../../../Dialogue/Trachi/Central/Hudsman%20Corner/EV010/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    EV0010
+    EV010
     
   </span>
   
@@ -13809,11 +13811,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../Dialogue/Trachi/Central/Hudsman%20Corner/EV010/" class="md-nav__link">
+      <a href="../../../../../Dialogue/Trachi/Central/Hudsman%20Corner/EV0010/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    EV010
+    EV0010
     
   </span>
   
@@ -23169,42 +23171,42 @@
   
 
 
-<h1 id="rendezvous-preview">Rendezvous (Preview)</h1>
-<h3 id="hey-party-people">Hey party people! 👓</h3>
+<h1 id="rendezvous-preview">Rendezvous (Preview)<a class="headerlink" href="#rendezvous-preview" title="Permanent link">&para;</a></h1>
+<h3 id="hey-party-people">Hey party people! 👓<a class="headerlink" href="#hey-party-people" title="Permanent link">&para;</a></h3>
 <p>We're just about two weeks into December – halfway towards <strong>ANARCHY 0.1.4</strong>! </p>
 <p><strong>Rendezvous</strong> (previously Varieté) transforms ParAdise into a battlefield and achievements into Steam Inventory Items. All of that – and more – because TRACHI's people can't wait to leave a good impression on you.</p>
-<h3 id="loose-ends"><strong>Loose Ends</strong></h3>
+<h3 id="loose-ends"><strong>Loose Ends</strong><a class="headerlink" href="#loose-ends" title="Permanent link">&para;</a></h3>
 <div class="md-embed md-embed--16-9">
 <iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/KBpbJAUYMoQ"></iframe>
 </div>
 
 <p>In <a href="https://store.steampowered.com/news/app/2169000/view/3749869144024608259?l=english">Marche's preview</a>, I mentioned a desire to make ParAdise more <strong>dynamic</strong>. One way of achieving that was to have <em>Battle Triggers</em> (aka <em>Field Impostors</em>) roam the map. </p>
 <p>Eventually, I settled for a <strong>barebone implementation</strong> moving enemies back and forth. Complex <strong>behaviours</strong> (fleeing / chasing) would require these entities to be actual combatants. At which point we might as well duke it out right there.</p>
-<h3 id="battlefield"><strong>Battlefield</strong></h3>
+<h3 id="battlefield"><strong>Battlefield</strong><a class="headerlink" href="#battlefield" title="Permanent link">&para;</a></h3>
 <p><a class="glightbox" href="../../../../../assets/blog/images/steam/2023/83efa56845cb8f2cbebd57531136e6bc966f8a71.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2023/83efa56845cb8f2cbebd57531136e6bc966f8a71.png" /></a>
 Starting with 0.1.4, field maps are populated by <strong>enemy combatants</strong>. Battles are triggered the same way, but the actual encounters take place where you meet your enemies. Every combatant in range (including Lorna) is placed on the grid and you get to deploy your people in a grid-shaped radius around you.</p>
 <p>Structurally, battles follow the same rules as before. ParAdise's <strong>terrain</strong> however already has a big effect on strategic options. Fortunately, you'll now be able to see who you'll be fighting where.</p>
-<h3 id="transition"><strong>TRAnsition</strong></h3>
+<h3 id="transition"><strong>TRAnsition</strong><a class="headerlink" href="#transition" title="Permanent link">&para;</a></h3>
 <p><a class="glightbox" href="../../../../../assets/blog/images/steam/2023/80c8dbd1a3487d4cf8f06e6d9829b8e84a56ce84.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2023/80c8dbd1a3487d4cf8f06e6d9829b8e84a56ce84.png" /></a>
 Following your <strong>victory</strong>, your friends despawn and you pick things up right where you left off. Compared to the old system, that's two loading screens we'll never have to see again. On the other hand, there's a whole new level of possible interactions between exploration and combat.</p>
 <p>At some point, combatants passing by might be able to join a <strong>running battle</strong>. Throw both friendly and enemy patrols into the mix – and we're well on our way to breathe life into ParAdise.</p>
-<h3 id="souvenir"><strong>Souvenir</strong></h3>
+<h3 id="souvenir"><strong>Souvenir</strong><a class="headerlink" href="#souvenir" title="Permanent link">&para;</a></h3>
 <p><a class="glightbox" href="../../../../../assets/blog/images/steam/2023/399757c2af71e11befe1858c508bd80a95cbfff7.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2023/399757c2af71e11befe1858c508bd80a95cbfff7.png" /></a>
 If you'd like to take something with you, go right ahead! From <strong>December 28th</strong> this year, you'll have plenty of opportunities to add more Items to your <strong>Steam Inventory</strong>. What's more, the Items are also used to change your characters' appearance.</p>
 <p>Every character will have their own <strong>equipment slot</strong> with a different set of Variations. To equip one of these, you need to have the corresponding Item on your Steam Account. The character's appearance reflects the piece you have equipped – outside of Fragments.</p>
-<h3 id="dues"><strong>Dues</strong></h3>
+<h3 id="dues"><strong>Dues</strong><a class="headerlink" href="#dues" title="Permanent link">&para;</a></h3>
 <p><a class="glightbox" href="../../../../../assets/blog/images/steam/2023/582d2974c239080b7242220d6fc0a933e114a58c.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2023/582d2974c239080b7242220d6fc0a933e114a58c.png" /></a>
 One of the items does exactly what <strong>Vanguard</strong> currently does. Both cover the same Variation of Daphne. Everybody who has unlocked the achievement automatically receives the Item on the <strong>28th</strong>.</p>
 <p>Similarly, people that achieved <strong><em>Broken Wings</em></strong> are rewarded with Ganymede's (long promised) first <strong>variation</strong>, too. It's no secret he likes dressing up – especially if he's got a date. 😏</p>
-<h3 id="enter-paradise"><strong>Enter ParAdise</strong></h3>
+<h3 id="enter-paradise"><strong>Enter ParAdise</strong><a class="headerlink" href="#enter-paradise" title="Permanent link">&para;</a></h3>
 <p><a class="glightbox" href="../../../../../assets/blog/images/steam/2023/3bc7b4de5d28342408e4887f1c285778d19fb7e2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2023/3bc7b4de5d28342408e4887f1c285778d19fb7e2.png" /></a>
 Naturally, 0.1.4 comes with another <strong>monthly challenge</strong>. A new achievement – <strong>ParAtrooper</strong> – is awarded for <strong>winning</strong> your first battle in <strong>ParAdise</strong>. </p>
 <p>Contrary to previous iterations, this reward is shipped with the update itself. In other words: You'll receive your Item as soon as you get the achievement – until 0.1.5 goes live.</p>
-<h3 id="bread-and-roses"><strong>Bread and Roses</strong></h3>
+<h3 id="bread-and-roses"><strong>Bread and Roses</strong><a class="headerlink" href="#bread-and-roses" title="Permanent link">&para;</a></h3>
 <p><a class="glightbox" href="../../../../../assets/blog/images/steam/2023/c152c80f56864c100ca3f97ff18cc252ef40b028.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2023/c152c80f56864c100ca3f97ff18cc252ef40b028.png" /></a>
 If you'd rather sit this one out, but are still eager to get your hands on any of the rewards – we've got your back! <em>Rendezvous</em> also launches ANARCHY's <a href="https://store.steampowered.com/itemstore/2169000/"><strong>Item Store</strong></a>, where you can browse the current collection at your own convenience.</p>
 <p>Barring that, we're also evaluating the ability to <strong>trade</strong> and or <strong>buy/sell</strong> these on the <strong>Steam's Community Market</strong>. The jury is still out on that one, so it would be great if you could let us know what you think.</p>
-<h3 id="in-sum"><strong>In Sum</strong></h3>
+<h3 id="in-sum"><strong>In Sum</strong><a class="headerlink" href="#in-sum" title="Permanent link">&para;</a></h3>
 <p><a class="glightbox" href="../../../../../assets/blog/images/steam/2023/9030dcb6c664c173e74b0ca9f2fb4af0883332ac.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2023/9030dcb6c664c173e74b0ca9f2fb4af0883332ac.png" /></a>
 ANARCHY 0.1.4 puts the finishing touches on 2023 – with big ambitions for 2024. Not only is our own little spin on <strong>monetisation</strong> set up and ready to go, we've also made big leaps towards finding our stride in ParAdise.</p>
 <p>The next two weeks will mostly be dedicated to <strong>troubleshooting</strong> both of these features extensively. However, I'll also work in the other <a href="https://steamcommunity.com/app/2169000/discussions/0/3877093297627672205/"><strong>feedback</strong></a> I've received (big thanks to <strong>(-_-!)</strong> and everyone else). 🤗</p>
@@ -23253,6 +23255,12 @@ nory</p>
           
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
         
       </main>
       
@@ -23359,7 +23367,7 @@ nory</p>
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../../../..", "features": ["navigation.instant", "navigation.footer", "content.tooltips", "navigation.tabs", "content.action.edit", "embed"], "search": "../../../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../../../..", "features": ["navigation.instant", "navigation.footer", "content.tooltips", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "toc.follow", "content.action.edit", "embed"], "search": "../../../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../../../../assets/javascripts/bundle.c8b220af.min.js"></script>

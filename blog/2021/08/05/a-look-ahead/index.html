@@ -136,7 +136,9 @@
     
       
 
-<header class="md-header" data-md-component="header">
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../../../../.." title="TRAKI" class="md-header__button md-logo" aria-label="TRAKI" data-md-component="logo">
       
@@ -247,14 +249,8 @@
     
   </nav>
   
-</header>
     
-    <div class="md-container" data-md-component="container">
       
-      
-        
-          
-            
 <nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
   <div class="md-grid">
     <ul class="md-tabs__list">
@@ -372,7 +368,13 @@
     </ul>
   </div>
 </nav>
-          
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
         
       
       <main class="md-main" data-md-component="main">
@@ -1114,7 +1116,7 @@
         
   
   <span class="md-ellipsis">
-    IIS
+    Ionian Intelligence Service
     
   </span>
   
@@ -13787,11 +13789,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../Dialogue/Trachi/Central/Hudsman%20Corner/EV0010/" class="md-nav__link">
+      <a href="../../../../../Dialogue/Trachi/Central/Hudsman%20Corner/EV010/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    EV0010
+    EV010
     
   </span>
   
@@ -13809,11 +13811,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../Dialogue/Trachi/Central/Hudsman%20Corner/EV010/" class="md-nav__link">
+      <a href="../../../../../Dialogue/Trachi/Central/Hudsman%20Corner/EV0010/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    EV010
+    EV0010
     
   </span>
   
@@ -23130,10 +23132,10 @@
   
 
 
-<h1 id="a-look-ahead">A look ahead</h1>
+<h1 id="a-look-ahead">A look ahead<a class="headerlink" href="#a-look-ahead" title="Permanent link">&para;</a></h1>
 <p><strong>Howdy,</strong>
 first things first:</p>
-<h3 id="12-post-release">1.2 post-release</h3>
+<h3 id="12-post-release">1.2 post-release<a class="headerlink" href="#12-post-release" title="Permanent link">&para;</a></h3>
 <p>Shortly after the release of 1.2, I received some immediate feedback. 
 Apparently, a few plugins were causing trouble.
 Thankfully, I was able to fix the issue and push out a fixed version (1.2a), a few hours after that.
@@ -23150,18 +23152,18 @@ I'll cover each of these areas in separate devlogs over the coming weeks.
 For now though, a few pointers to the big chances coming in 1.3:</p>
 <!-- more -->
 
-<h4 id="improved-and-expanded-walking-sprites">**Improved and expanded walking sprites</h4>
+<h4 id="improved-and-expanded-walking-sprites">**Improved and expanded walking sprites<a class="headerlink" href="#improved-and-expanded-walking-sprites" title="Permanent link">&para;</a></h4>
 <p>I've already tested a bunch of different scaling algorithms and am planning to update each sprite to look a lot <strong>more defined and less blurry</strong>.
 In the comparison below, you can see that there's already a slight improvement between the new sprite (left), and the old one (right).
 <a class="glightbox" href="../../../../../assets/blog/images/itch/2021/AFI_5Q.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/itch/2021/AFI_5Q.png" /></a>
 I'll keep playing with different methods, but I'm already very confident that the new look will improve the aesthetic of the game, a lot.
 On that note, I'm also going to add more detail on them and add another batch of NPCs to place throughout the city. 
 The biggest change in the visual department will however come in the shape of <strong>special poses</strong>, such as sitting, kneeling, lying down and so on.</p>
-<h4 id="dialogue">Dialogue</h4>
+<h4 id="dialogue">Dialogue<a class="headerlink" href="#dialogue" title="Permanent link">&para;</a></h4>
 <p>My primary goal in this area is for the player to have <strong>more control</strong> over the flow of the dialogue.
 This includes advancing a conversation more quickly by getting "straight to the point" or going more in-depth by asking questions about certain topics, be it events, people, locations and so on.
 So far, I've implemented a few prototypes and will look at a few dedicated cases to start implementing these systems from 1.3 onwards.</p>
-<h4 id="act-2">Act 2</h4>
+<h4 id="act-2">Act 2<a class="headerlink" href="#act-2" title="Permanent link">&para;</a></h4>
 <p>I've structured the second Act from the start to around 4/5th of it.
  Next up, I'll start working on the intro and hopefully have the<strong> first teaser</strong> out <strong>in around two weeks</strong>. 
 Around that time, I'll also release more details about the act itself. 
@@ -23276,6 +23278,12 @@ Nory</p>
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
       </main>
       
         <footer class="md-footer">
@@ -23381,7 +23389,7 @@ Nory</p>
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../../../..", "features": ["navigation.instant", "navigation.footer", "content.tooltips", "navigation.tabs", "content.action.edit", "embed"], "search": "../../../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../../../..", "features": ["navigation.instant", "navigation.footer", "content.tooltips", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "toc.follow", "content.action.edit", "embed"], "search": "../../../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../../../../assets/javascripts/bundle.c8b220af.min.js"></script>
