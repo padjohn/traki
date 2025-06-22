@@ -6,9 +6,11 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
+        <meta name="description" content="Artificial freedom for artificial people.">
       
       
-        <link rel="canonical" href="https://github.com/norygami/traki/blog/2024/01/13/silhouette-preview/">
+      
+        <link rel="canonical" href="https://norygami.github.io/traki/blog/2024/01/13/silhouette-preview/">
       
       
         <link rel="prev" href="../../../../2023/12/30/all-good-things/">
@@ -72,9 +74,9 @@
       
         <meta  property="og:title"  content="Silhouette (Preview) - TRAKI" >
       
-        <meta  property="og:description"  content="None" >
+        <meta  property="og:description"  content="Artificial freedom for artificial people." >
       
-        <meta  property="og:image"  content="https://github.com/norygami/traki/assets/images/social/blog/posts/Archive/steam/anarchy/STEAM_24-01-13.png" >
+        <meta  property="og:image"  content="https://norygami.github.io/traki/assets/images/social/blog/posts/Archive/steam/anarchy/STEAM_24-01-13.png" >
       
         <meta  property="og:image:type"  content="image/png" >
       
@@ -82,15 +84,15 @@
       
         <meta  property="og:image:height"  content="630" >
       
-        <meta  property="og:url"  content="https://github.com/norygami/traki/blog/2024/01/13/silhouette-preview/" >
+        <meta  property="og:url"  content="https://norygami.github.io/traki/blog/2024/01/13/silhouette-preview/" >
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
         <meta  name="twitter:title"  content="Silhouette (Preview) - TRAKI" >
       
-        <meta  name="twitter:description"  content="None" >
+        <meta  name="twitter:description"  content="Artificial freedom for artificial people." >
       
-        <meta  name="twitter:image"  content="https://github.com/norygami/traki/assets/images/social/blog/posts/Archive/steam/anarchy/STEAM_24-01-13.png" >
+        <meta  name="twitter:image"  content="https://norygami.github.io/traki/assets/images/social/blog/posts/Archive/steam/anarchy/STEAM_24-01-13.png" >
       
     
     
@@ -1068,7 +1070,7 @@
         
   
   <span class="md-ellipsis">
-    CoExA
+    Commisariat for External Affairs
     
   </span>
   
@@ -1090,7 +1092,7 @@
         
   
   <span class="md-ellipsis">
-    EnKAD
+    Endo-Kathartic Dialect
     
   </span>
   
@@ -23261,7 +23263,7 @@
 <h3 id="heyhey-fellow-2024s">Heyhey, fellow 2024s! 👋</h3>
 <p>It's been two weeks since the release of <strong><em>Rendezvous</em></strong>. Even though it feels like yesterday, we're once again already halfway towards the release of ANARCHY's next update on January 28th. </p>
 <p><strong><em>Silhoutte</em></strong> is about to introduce <strong>roaming combatants</strong>, a follow-up scene to <strong>ImmigrAtion</strong>, collectible <strong>lore</strong>, a <strong>profile</strong> selection screen, improvements to the way <strong>conversations</strong> flow, and much much more!</p>
-<p><a class="glightbox" href="/assets/blog/images/steam/2024/c0d8fba26ea364aa3860a326dcfad34814c47796.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2024/c0d8fba26ea364aa3860a326dcfad34814c47796.png" /></a></p>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/c0d8fba26ea364aa3860a326dcfad34814c47796.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/c0d8fba26ea364aa3860a326dcfad34814c47796.png" /></a></p>
 <h3 id="artificial-intelligence"><strong>Artificial Intelligence</strong></h3>
 <p>If you remember November's update (<em>Marche</em>), you might also recall me being hellbent on getting both enemies and friends to <strong>roam</strong> the field. This eventually led to the removal of <em>Field Impostors</em> in favour of actual combatants in ANARCHY 0.1.2 (<em>Rendezvous</em>).</p>
 <p>Building on top that, every combatant on the field now follows a <strong>behaviour tree</strong> comprised of four different states: Following random waypoints around their initial spawn, idling for a couple of seconds, chasing a player if they happen spot one and – last but not least – returning to their original destination if they lose track of you.</p>
@@ -23273,66 +23275,66 @@
 <p>All the movements mentioned above include a <strong>check</strong> that verifies whether the corresponding AI actor is actually able to see you. Fences and other objects, including the hills separating high- from low-ground all break line-of-sight.</p>
 <p>In other words, you won't have to worry about accidentally pulling a pack from a hill or from beyond a fence. The same goes for the rules controlling which combatants join a running battle. Speaking of which – there's some changes to that, too!</p>
 <h3 id="chain-reaction"><strong>Chain Reaction</strong></h3>
-<p><a class="glightbox" href="/assets/blog/images/steam/2024/fadcf45b8325aa94b2956684d67cd5c35e88161a.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2024/fadcf45b8325aa94b2956684d67cd5c35e88161a.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/fadcf45b8325aa94b2956684d67cd5c35e88161a.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/fadcf45b8325aa94b2956684d67cd5c35e88161a.png" /></a>
 Now that we've got a map full of roaming entities, we'll regularly see combatants <strong>hot-join</strong> the fight on either side. If they get close enough to a combatant that is already part of the battle, they'll become part of the battle and then further also pull in enemies close to them.</p>
 <p>If you combine what I just mentioned with AI behaviours, you can already imagine how important it is to pick the places where you fight. A small-scale fight can quickly escalate into situations we're you're fighting so many enemies you might as well book a trip back to the Monolith.</p>
 <h3 id="victory"><strong>Victory</strong></h3>
-<p><a class="glightbox" href="/assets/blog/images/steam/2024/d80000d2de385c878c243c723d8bc773ebcf1fcc.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2024/d80000d2de385c878c243c723d8bc773ebcf1fcc.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/d80000d2de385c878c243c723d8bc773ebcf1fcc.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/d80000d2de385c878c243c723d8bc773ebcf1fcc.png" /></a>
 Considering that battles have become much more volatile and fierce – it's good to have friends around. Friends that got your back. Friends you can trust and rely on when you're in a pinch. And what better devil than the one you know?</p>
 <p>Starting with <em>Silhouette</em>, <strong>Daph</strong> will make her introduction to ParAdise. There'll be a little encounter, where you save her from a couple of slimes. Or rather: Save the slimes from her by putting a quick end to them. As a reward, she'll join you for the road ahead – and you get an <strong>achievement</strong> that automatically unlocks a new variation for as long as 0.1.5 is live.</p>
 <h3 id="dorothy"><strong>Dorothy</strong></h3>
-<p><a class="glightbox" href="/assets/blog/images/steam/2024/e9ae07f88ec4373050537183cefb6e88bbb56ac3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2024/e9ae07f88ec4373050537183cefb6e88bbb56ac3.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/e9ae07f88ec4373050537183cefb6e88bbb56ac3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/e9ae07f88ec4373050537183cefb6e88bbb56ac3.png" /></a>
 In 1919, Daphne recently graduated from the college of Kenovice with a major in behavioural psychology. She's all about a person's mind – which comes in quite handy, if you're an <strong>eighteen-year old girl</strong> working for the nation's secret police.</p>
 <p>It's undoubtedly a more timid, much less confident version of Daph. However, we're also aware TRACHI's people have learned a couple of tricks for ANARCHY. I won't spoil it too much – but if you want a piece of advice: Don't judge a girl by her cover! 😏</p>
 <h3 id="certain-things"><strong>Certain things</strong></h3>
-<p><a class="glightbox" href="/assets/blog/images/steam/2024/438be5b9da69bc555d7a8f79f0d0fd18b60339c1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2024/438be5b9da69bc555d7a8f79f0d0fd18b60339c1.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/438be5b9da69bc555d7a8f79f0d0fd18b60339c1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/438be5b9da69bc555d7a8f79f0d0fd18b60339c1.png" /></a>
 Sometimes segues write themselves. That's the case for the one we just did. However, we're obviously not confining our fantasies to the scope of announcements, as cute as our interactions here might be. Above all, we want to make a banger video-game – and that requires a proper stage.</p>
 <p><em>Silhouette</em> hence adds another piece to the puzzle known as <strong>ImmigrAtion</strong>. The Faragos' famous home is now an actual apartment – including two furnished bedrooms and a little storage niche. There's currently no loading screens, since it's all one big scene. In fact, you can even see what's going on in the other rooms.</p>
 <h3 id="have-to-be-said"><strong>Have to be said</strong></h3>
-<p><a class="glightbox" href="/assets/blog/images/steam/2024/3a5f980bf58acb1974adfcb7ce989f2facbfecb4.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2024/3a5f980bf58acb1974adfcb7ce989f2facbfecb4.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/3a5f980bf58acb1974adfcb7ce989f2facbfecb4.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/3a5f980bf58acb1974adfcb7ce989f2facbfecb4.png" /></a>
 No matter how much time you spend exploring Lorna's new <strong>home</strong>, all roads lead to this place. Lorna's room saw her turn from a sheltered younger sister to the woman we all know and love. Given we're watching moments that (seemingly) occurred in 1913, you can imagine there's a lot of excitement going around.</p>
 <p>However, we've also picked up hints that both she and her sister's move to Aion wasn't entirely voluntary. You could even say they're more or less on the run. Which is a perfect setup for breaking even bigger news to her.</p>
 <h3 id="horizon"><strong>Horizon</strong></h3>
-<p><a class="glightbox" href="/assets/blog/images/steam/2024/0d61e725d6cb0450a7e43d922c33502e6ef7a5c4.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2024/0d61e725d6cb0450a7e43d922c33502e6ef7a5c4.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/0d61e725d6cb0450a7e43d922c33502e6ef7a5c4.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/0d61e725d6cb0450a7e43d922c33502e6ef7a5c4.png" /></a>
 If you've played AUTONOMY, ImmigrAtion feels a bit off. We know what happened both to Lorna and Ekaterina (then Eurydice) down the line, so the entire segment is giving off huge prequel-vibes. It's frankly a bit eerie and uncanny seeing these two behave like that.</p>
 <p>There's moments when <strong>Ekaterina</strong> suddenly tenses up. It's like she's about to break into tears, if it weren't for decades of practice not doing that. Lorna will notice something's changed – and so will you.</p>
 <h3 id="preparation"><strong>PreparAtion</strong></h3>
-<p><a class="glightbox" href="/assets/blog/images/steam/2024/90f54ec1101f53fbd25602173d8f76318d3c5e9d.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2024/90f54ec1101f53fbd25602173d8f76318d3c5e9d.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/90f54ec1101f53fbd25602173d8f76318d3c5e9d.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/90f54ec1101f53fbd25602173d8f76318d3c5e9d.png" /></a>
 I'm normally not in the habit of announcing things that aren't done – especially if they're not shipped with the update we're currently looking at. However, <em>Silhouette</em> is also the final patch of the 0.1 arc. With the release of 0.2 on <strong>February 28th</strong>, we'll add the third and final segment to what will one day be ParAdise's intro.</p>
 <p>In other words: We'll close the gap between ImmigrAtion and ParAdise. It's my way of introducing big changes – both to Lorna and to you. Taking the lessons learned from InvAsion, I'll give it my all to do it right this time! 😤</p>
 <h3 id="story"><strong>Story</strong></h3>
-<p><a class="glightbox" href="/assets/blog/images/steam/2024/9c011ba1288508df88086e4855c8b4f3b9510d5e.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2024/9c011ba1288508df88086e4855c8b4f3b9510d5e.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/9c011ba1288508df88086e4855c8b4f3b9510d5e.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/9c011ba1288508df88086e4855c8b4f3b9510d5e.png" /></a>
 In a similar way, I also finally got around to implement something I've been wanting to do since AUTONOMY. As you know, TRACHI puts a big focus both on <strong>knowledge</strong> and perspective. World-building is mainly achieved through dialogue, without a narrator to guide your hand.</p>
 <p>Given this circumstance, there was always a bit of a narrative bottleneck. I didn't want to shove thousands of pages of in-universe facts through dialogue alone, so I had to come up with another way to present it all to you.</p>
 <h3 id="history"><strong>History</strong></h3>
-<p><a class="glightbox" href="/assets/blog/images/steam/2024/26d558a6a5e5d2e5d691695bf95ef8b00dafc47a.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2024/26d558a6a5e5d2e5d691695bf95ef8b00dafc47a.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/26d558a6a5e5d2e5d691695bf95ef8b00dafc47a.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/26d558a6a5e5d2e5d691695bf95ef8b00dafc47a.png" /></a>
 If you open the Info section on the ingame menu in 0.1.5, you'll not only find quests, challenges and a catalogue of enemies you fought. A new option named <strong><em>Lore</em></strong> introduces a variety of pseudo-quests you can use to track your knowledge of certain things – starting with where Lorna is and when.</p>
 <p>At the moment, there's no rewards – so the min-maxers won't feel bad about missing these. The idea is to provide a space where I can present additional knowledge about the world and its people. Since we're using the quest system as an infrastructure, we'll also be able to update existing entries with more information as you're making your way through ANARCHY.</p>
 <h3 id="persistency"><strong>Persistency</strong></h3>
-<p><a class="glightbox" href="/assets/blog/images/steam/2024/9a11ad061ecbb754dd220ee87f0b265231574655.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2024/9a11ad061ecbb754dd220ee87f0b265231574655.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/9a11ad061ecbb754dd220ee87f0b265231574655.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/9a11ad061ecbb754dd220ee87f0b265231574655.png" /></a>
 Considering the many things mentioned in the preceding paragraphs, it's clear ParAdise is slowly but surely coming alive. While that's great and all, it also pushed me to think more about your own individual <strong>journey</strong> through ANARCHY.</p>
 <p>In other words: More content means you're more likely to take a break. The ability to save and load your progress in ParAdise has been there from the start. The system itself worked great, except a couple of whoopsies along the way. However, I wasn't too happy with the way its presented to you.</p>
 <h3 id="awake"><strong>Awake()</strong></h3>
-<p><a class="glightbox" href="/assets/blog/images/steam/2024/c21c77b41515076db9cb11582b79f4f6705c73a0.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2024/c21c77b41515076db9cb11582b79f4f6705c73a0.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/c21c77b41515076db9cb11582b79f4f6705c73a0.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/c21c77b41515076db9cb11582b79f4f6705c73a0.png" /></a>
 Going forward, three things happen when you jump ParAdise. First off, the game checks if there's an existing save. If that's not the case, you'll head straight in. If one of the slots already has a save, you'll be greeted with the menu above. </p>
 <p>It's both a menu for loading and a starting new game. A <strong>profile</strong> that already has a save can be reset by pressing the Menu Button (TAB by default). Compared to what we had before, this is a huge step up in quality of life – and a big shift towards encouraging you to continue a save versus starting new.</p>
 <h3 id="everything-else"><strong>Everything else</strong></h3>
-<p><a class="glightbox" href="/assets/blog/images/steam/2024/f8fa366098110d6244a79e7a782e4b0aec5a9203.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2024/f8fa366098110d6244a79e7a782e4b0aec5a9203.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/f8fa366098110d6244a79e7a782e4b0aec5a9203.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/f8fa366098110d6244a79e7a782e4b0aec5a9203.png" /></a>
 There's obviously also a ton of smaller changes. From UI Icons you might've spotted while I was presenting the <em>Lore</em> menu to ogres receiving a full visual makeover – complemented by further improvements to pathfinding and conversation controls.</p>
 <p>As if that weren't enough, there's also a bunch of other things I'd like to implement. I won't go too deep into them, but I still wanted to give you a glimpse of the biggest one.</p>
 <h3 id="status-values"><strong>Status Values</strong></h3>
-<p><a class="glightbox" href="/assets/blog/images/steam/2024/e9a2726b73349b58adce87695307c20f801a6527.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2024/e9a2726b73349b58adce87695307c20f801a6527.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/e9a2726b73349b58adce87695307c20f801a6527.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/e9a2726b73349b58adce87695307c20f801a6527.png" /></a>
 Leveling up in ParAdise feels a bit weird, if we're perfectly honest. HP values increase massively with each level and ATK had to be bumped up in turn. DEF on other hand gives far too much value per individual point.</p>
 <p>First of all, we'll rework the overall <strong>damage formula</strong>. ATK needs to hit harder per individual point, whereas DEF has to be cut down to size a little. l'll try to get the adjustment shipped 0.1.5, but it'll definitely be there for 0.2 on February 28th.</p>
 <h3 id="giving-back"><strong>Giving Back</strong></h3>
-<p><a class="glightbox" href="/assets/blog/images/steam/2024/71fdba47ebbaa24488c2bb65ec4e804c040d4530.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2024/71fdba47ebbaa24488c2bb65ec4e804c040d4530.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/71fdba47ebbaa24488c2bb65ec4e804c040d4530.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/71fdba47ebbaa24488c2bb65ec4e804c040d4530.png" /></a>
 In Rendezvous' release announcement, I mentioned a desire to reach out to a couple of artists I've been admiring for a while. One of them is known on Twitter as <a href="https://twitter.com/babykatafan"><strong>babykatafan</strong></a>. He's drawn up the wonderful sketch you can see above.</p>
 <p>There's a lot more in the works from a couple of other artists as well. At the moment, we're trying to get a groove going where I put something around two-hundred USD per month towards art. We're just about to reach that mark for January – but there's still plenty of room for ideas starting with February.</p>
 <h3 id="long-story-short"><strong>Long Story Short</strong></h3>
 <p>We're putting a lot of love towards every major aspect of ANARCHY. Since the release of 0.1 last September, the game has evolved from a technical prototype to something that grows ever more confident in calling itself a <strong>video game</strong>.</p>
 <p>There'll be two big milestones to hit this year. First, there's 0.2 in February. As was the case with 0.1, we'll be pushing five major updates on a monthly basis as we go along. On August 28th, we'll celebrate ANARCHY's birthday by releasing 0.3. In other words: We're down bad for 2024!</p>
 <h3 id="above-all"><strong>Above All</strong></h3>
-<p><a class="glightbox" href="/assets/blog/images/steam/2024/608938b2aafb92b74d3b62ac58824c6158c9b6fe.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2024/608938b2aafb92b74d3b62ac58824c6158c9b6fe.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/608938b2aafb92b74d3b62ac58824c6158c9b6fe.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/608938b2aafb92b74d3b62ac58824c6158c9b6fe.png" /></a>
 I want to thank you from the bottom of my heart for being here these last few months. Developing ANARCHY out in the open together with you has been – no cap – the most gratifying experience of my entire life.</p>
 <p>So if you ever get into a mood where it feels like no one really cares, please think of the fact that I do. Every single bit of ANARCHY is there not because I like to dream – but because I'm thinking of <strong>you</strong>.</p>
 <p>I'll be back next week with a set of update notes, coupled with the release of 0.1.5 on the <strong>public beta</strong> branch.</p>
@@ -23359,7 +23361,7 @@ nory</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 21, 2025 15:23:34">June 21, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 22, 2025 07:17:18">June 22, 2025</span>
   </span>
 
     

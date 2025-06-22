@@ -6,9 +6,11 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
+        <meta name="description" content="Artificial freedom for artificial people.">
       
       
-        <link rel="canonical" href="https://github.com/norygami/traki/blog/2025/04/06/words/">
+      
+        <link rel="canonical" href="https://norygami.github.io/traki/blog/2025/04/06/words/">
       
       
         <link rel="prev" href="../../../03/16/expectation/">
@@ -70,9 +72,9 @@
       
         <meta  property="og:title"  content="Words - TRAKI" >
       
-        <meta  property="og:description"  content="None" >
+        <meta  property="og:description"  content="Artificial freedom for artificial people." >
       
-        <meta  property="og:image"  content="https://github.com/norygami/traki/assets/images/social/blog/posts/Archive/steam/anarchy/STEAM_25-04-06.png" >
+        <meta  property="og:image"  content="https://norygami.github.io/traki/assets/images/social/blog/posts/Archive/steam/anarchy/STEAM_25-04-06.png" >
       
         <meta  property="og:image:type"  content="image/png" >
       
@@ -80,15 +82,15 @@
       
         <meta  property="og:image:height"  content="630" >
       
-        <meta  property="og:url"  content="https://github.com/norygami/traki/blog/2025/04/06/words/" >
+        <meta  property="og:url"  content="https://norygami.github.io/traki/blog/2025/04/06/words/" >
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
         <meta  name="twitter:title"  content="Words - TRAKI" >
       
-        <meta  name="twitter:description"  content="None" >
+        <meta  name="twitter:description"  content="Artificial freedom for artificial people." >
       
-        <meta  name="twitter:image"  content="https://github.com/norygami/traki/assets/images/social/blog/posts/Archive/steam/anarchy/STEAM_25-04-06.png" >
+        <meta  name="twitter:image"  content="https://norygami.github.io/traki/assets/images/social/blog/posts/Archive/steam/anarchy/STEAM_25-04-06.png" >
       
     
     
@@ -1066,7 +1068,7 @@
         
   
   <span class="md-ellipsis">
-    CoExA
+    Commisariat for External Affairs
     
   </span>
   
@@ -1088,7 +1090,7 @@
         
   
   <span class="md-ellipsis">
-    EnKAD
+    Endo-Kathartic Dialect
     
   </span>
   
@@ -23189,40 +23191,41 @@
 <p>In one sentence: AUTONOMY to ANARCHY. After handling tiles, cameras and Transformers <a href="https://store.steampowered.com/news/app/2169000/view/506197182866522356"><strong>previously</strong></a>, we're back in our habitat! Today we'll talk about the <strong>story</strong>. Not just any part of it! We'll put our eyes on detailed issues very, very soon. For now, let's tell a tale about two games and two engines. </p>
 <p><strong>AUTONOMY</strong>'s duality, order in <strong>ANARCHY</strong> – and <strong>TRACHI</strong>'s 12.000 lines of dialogue.</p>
 <h2 id="constitution">Constitution</h2>
-<p><a class="glightbox" href="/assets/blog/images/steam/2025/1b30bba58b5ff166449fa3b6d919df0d01719d7c.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2025/1b30bba58b5ff166449fa3b6d919df0d01719d7c.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2025/1b30bba58b5ff166449fa3b6d919df0d01719d7c.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2025/1b30bba58b5ff166449fa3b6d919df0d01719d7c.png" /></a>
 I admit it: AUTONOMY's true scale eluded me. My general expectation was something between six and seven thousand lines. Turns out we're much closer to <strong>8.000</strong>. For comparison: ANARCHY – including InvAsion – sits at roundabout four.</p>
+<!-- more -->
+
 <p>I'm sure you can see the implication. If our goal is to transpose AUTONOMY's words into ANARCHY, we need a solid <strong>strategy</strong>. The how and when were subject to intense speculation until around two weeks ago. Alas, one truth was always clear as day: We're <strong>not</strong> copy-pasting line-by line. </p>
 <p>The dialogue would enter ANARCHY in a single swoop. We'd parse a whole lot of <strong>JSONs</strong> and translate the data into a format fit for Unity. One process, three construction-sites: extraction, transformation, integration.</p>
 <p>Let's start at what we'd call the source of truth!</p>
-<!-- more -->
 <h2 id="ad-fontes">Ad fontes</h2>
-<p><a class="glightbox" href="/assets/blog/images/steam/2025/f11eb78eb9fb1a1199d781c1163cfc128ff52635.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2025/f11eb78eb9fb1a1199d781c1163cfc128ff52635.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2025/f11eb78eb9fb1a1199d781c1163cfc128ff52635.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2025/f11eb78eb9fb1a1199d781c1163cfc128ff52635.png" /></a>
 Any RPG Maker (MV) <strong>project</strong> follows a given structure. A project holds a database. It defines actors, items, stats, tilesets and many other things. While the fact that Gotcha Gotcha Games wrote all of that in Javscr*pt is as absurd as it is impressive – our focus lies somewhere else.</p>
 <p>The actual content is stored within the <strong>Maps</strong>. Each Map is a rectangle-shaped grid composed of two primary elements: Tiles and Events. Since we're reconstructing the tilemaps manually, we're only concerned with Events. But what's an Event anyway?</p>
 <p>Each cell within the Grid can hold exactly one <strong>Event</strong>. We can supply a name and a note – but the real sauce is in the <strong>Pages</strong>. There's Conditions, an Image (Sprite) and a bunch of minor options. The most important part is the 'Contents' section: A list of Commands that span everything from 'Control Switch' through 'Play BGM' or 'Fadeout/Fadein Screen'.</p>
 <p>That's great and all – but we're after one thing particular.</p>
 <h2 id="content">Content</h2>
-<p><a class="glightbox" href="/assets/blog/images/steam/2025/22cfd662fc42aaaa0338fe476d775e92fce52845.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2025/22cfd662fc42aaaa0338fe476d775e92fce52845.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2025/22cfd662fc42aaaa0338fe476d775e92fce52845.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2025/22cfd662fc42aaaa0338fe476d775e92fce52845.png" /></a>
 'Show Text' holds a reference to a texture (resolved as a <strong>Portrait</strong>) and a field for the <strong>Text</strong>. Since RPGMaker MV doesn't have a dedicated name field, we also wrote the content for the name box (e.g. \n</p>
 <p>) into the Text.</p>
 <p>Even this top-level overview should give you a good idea of what we need to do. We have to traverse the Maps, loop over every single Event Page and extract the properties of a Command code that corresponds to '<strong>Show Text</strong>'.</p>
 <p>We previously extracted Dialogue to extend our <a href="https://huggingface.co/datasets/norygano/TRACHI"><strong>Dataset</strong></a> for training LLMs. Back then, the script only included bare-bone data – namely: Map, Event, Page, Speaker and Dialogue. To minimize the amount of manual <strong>post-processing</strong>, we'd also need the Portrait, Sprite, Conditions and several commands that affect the logic of the game.</p>
 <p>Furthermore, AUTONOMY's event data wasn't exactly structured. Even before we transform the data into ANARCHY's lingo, we want to handle certain aspects during extraction. To understand why, we'll have to revisit some of ANARCHY's systems. </p>
 <h2 id="destination">Destination</h2>
-<p><a class="glightbox" href="/assets/blog/images/steam/2025/20d142df2fdcb43194412d4a6b9388039c90c146.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2025/20d142df2fdcb43194412d4a6b9388039c90c146.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2025/20d142df2fdcb43194412d4a6b9388039c90c146.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2025/20d142df2fdcb43194412d4a6b9388039c90c146.png" /></a>
 At the risk of sounding self-indulgent: I'm proud of where we are. I often voiced concerns at how much time I spent on ANARCHY's <strong>infrastructure</strong>. While it undoubtedly came at the cost of content, its also paid off tremendously.</p>
 <p>For example: In AUTONOMY, every portrait is a hard-coded reference to a cell in a sliced texture-sheet. There is no formal connection between who's talking and which portrait we're showing. We could have a line where the <strong>Speaker</strong> is Atlas, but the <strong>Portrait</strong> points to the texture 'Icarus1', index '5'. That combination wouldn't make any sense – which is why we streamlined the entire process in ANARCHY.</p>
 <p>What if I told you we just need a single tag? We can describe a Combatant's expression ([Eyebrows|Mouth|Eyes]) by a three-letter <strong>acronym</strong>: [N] stands for neutral, [NSC] would be <strong>N</strong>eutral, <strong>S</strong>mile, <strong>C</strong>losed – and so forth and so on. Everything else is handled programmatically. Since a Combatant has exactly one set of portraits per Variation, we can always resolve a tag through the Combatant and their active Variation.</p>
 <p>So far the easy part. Now let's get to some of the more complex prep we had to do in ANARCHY!</p>
 <h2 id="inheritance">Inheritance</h2>
-<p><a class="glightbox" href="/assets/blog/images/steam/2025/ccb0dd85e074e9aac64a660f2d18cd48f166790e.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2025/ccb0dd85e074e9aac64a660f2d18cd48f166790e.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2025/ccb0dd85e074e9aac64a660f2d18cd48f166790e.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2025/ccb0dd85e074e9aac64a660f2d18cd48f166790e.png" /></a>
 Not all of AUTONOMY's <strong>characters</strong> made it into ANARCHY. This goes for unique characters (DeBloom, Tanner, Solka etc.), but also for a couple of missing generics (Amrynian Armed Forces, Trachian Guardsmen et al.). Before we imported the Dialogue, we manually created at least one <strong>Prefab</strong> and one Combatant per Sprite.</p>
 <p>It's a perfect opportunity to implement a crucial piece of automation. As pointed out here, we're using <strong>Sprite Libraries</strong> to run all Combatants on a single set of animations. As of March 2025, we still built these Libraries by dragging individual subTextures into predefined slots. With our new script, we just drag in a Texture and the Library assembles itself.</p>
 <p>That's great and all, but there's a much bigger problem! <strong>Generic characters</strong> are called generics because they share a sprite – and thus a Sprite Library. For better or worse, AUTONOMY had around 430 characters of that type. Without peeking at the next paragraph: Can you guess what my first initial thought was?</p>
 <p>'I'm not creating these by hand!' Turns out I didn't have to. We just need a <strong>template</strong> Prefab for every Sprite Library! Like the portraits, we mapped AUTONOMY's sprite-sheets to their ANARCHY counterparts. In this case: we injected the name of the corresponding template Prefab. </p>
 <p>We'll talk more about how we're utilizing that in a bit. For now, there's one more aspect of ANARCHY I want to show.</p>
 <h2 id="timetable">Timetable</h2>
-<p><a class="glightbox" href="/assets/blog/images/steam/2025/3f25d8a38230c77c0a4a3b4d81bd662afb460d98.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2025/3f25d8a38230c77c0a4a3b4d81bd662afb460d98.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2025/3f25d8a38230c77c0a4a3b4d81bd662afb460d98.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2025/3f25d8a38230c77c0a4a3b4d81bd662afb460d98.png" /></a>
 A couple of paragraphs ago, I mentioned (Self-)Switches and Variables. These are <strong>conditions</strong> that enable/disable Event Pages. Here's an example from the Prologue: You could only move from the Eastern Checkpoint to the Outskirts after completing the Customs Office shenanigans.</p>
 <p>If you played both AUTONOMY and ANARCHY, you might spot a structural resemblance. ANARCHY (for the most part) doesn't rely on Switches – it uses <strong>Quest(Task)s</strong>. While translating Switches to Quests isn't too hard, we'd still need to set up the Quests.</p>
 <p>More concretely: Put AUTONOMY's ~300 Switches into a <strong>sequence</strong> and assign them to their Acts. We could've immediately loaded that into Unity and generate Quests (Acts) and corresponding Tasks (Switches). There was just one problem: AUTONOMY's nory was neither consistent nor descriptive in the way he named the Switches.</p>
@@ -23230,14 +23233,14 @@ A couple of paragraphs ago, I mentioned (Self-)Switches and Variables. These are
 <p>That being said: It could just be a placeholder. I do want to keep time and date as a property for every Quest Task, but it doesn't necessarily need to be the Task's actual <strong>name</strong>. The important thing is: when we import AUTONOMY into ANARCHY, we can directly reference Quests and Quest Tasks by an indistinguishable name.</p>
 <p>Speaking of the import, let's talk a word or two about that as well!</p>
 <h2 id="graph">Graph</h2>
-<p><a class="glightbox" href="/assets/blog/images/steam/2025/c856f06247c47bc26a322e37c0a99770771cc456.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2025/c856f06247c47bc26a322e37c0a99770771cc456.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2025/c856f06247c47bc26a322e37c0a99770771cc456.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2025/c856f06247c47bc26a322e37c0a99770771cc456.png" /></a>
 In our script, we need to handle three separate sections. The most trivial would be the Dialogue <strong>Actors</strong>: We run through our list of Speakers and add them one by one. In addition, every Actor gets a 'Prefab' property that points to a 'Prefab' Template.</p>
 <p>Secondly, the <strong>Conversations</strong>. ANARCHY distinguishes between Interaction-triggered (e.g. talking to NPCs) and scene-driven conversations (e.g. when entering a scene). The category is important, since every character has their own unique conversation tree. Thankfully, RPGMaker has a 'Trigger' property which separates 'Interact' from 'Autorun' conversations.</p>
 <p>Then there's the <strong>Dialogue Entries</strong>. We need to assign each line to a Conversation. Furthermore, we also reference an Actor. This defines the position of the Dialogue Bubble, the name in the name box – and the portrait in combination with the portrait-tag.</p>
 <p>If you recall, Events have Pages. Events themselves point to a conversation. Pages constitute the branches. We need to arrange the lines (nodes) like a <strong>tree</strong> and set up connections (edges) between the nodes. Lastly, the Conditions manage which branch of the conversation we're activating at a given point. </p>
 <p>And that's – basically – it. We imported AUTONOMY's 650 conversations, created roundabout 350 actors, prefabs and just as many combatants. </p>
 <h2 id="technical-debt">Technical Debt</h2>
-<p><a class="glightbox" href="/assets/blog/images/steam/2025/a90cb4eb7e681820ce1aacc9736c9d40b68758e2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2025/a90cb4eb7e681820ce1aacc9736c9d40b68758e2.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2025/a90cb4eb7e681820ce1aacc9736c9d40b68758e2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2025/a90cb4eb7e681820ce1aacc9736c9d40b68758e2.png" /></a>
 As we were preparing ANARCHY, we also changed a couple of things in the back-end. You probably won't notice a difference, but the way we're <strong>referencing</strong> stuff has changed. The key takeaway is: Next time we change the name of a Conversation, Quest(Task) or Scene, we won't break references anymore.</p>
 <p>The last thing on my immediate To-Do is a rewrite of the <strong>Companion</strong> system. I like the way it works in general, but we're still manually placing things. I'll take a deeper look into how Larian and Bioware make sure that your party automatically spawns around you whenever you change scenes.</p>
 <p>Once that's done, the real <strong>work</strong> begins! We imported around 95% of the in-conversation logic, but there's a lot of gaps. Pathfinding, Music and Sfx are better done by hand – especially since we want to rework some of it anyway. More importantly: we also need to set up the overarching scene logic for every scene.</p>
@@ -23252,7 +23255,7 @@ As we were preparing ANARCHY, we also changed a couple of things in the back-end
 <p>I never doubted that we'd make it. The question was: How much manual work would be left afterwards. Turns out, it's much less than I thought! As a bonus, I also learned tons about <strong>Editor</strong> scripting. If you recall, one of my main complaints in game-development was the amount of clicking around. </p>
 <p>We'll hopefully be able to use our newfound expertise and <strong>automate</strong> workflows even beyond this little sub-project. Since I learned how to manipulate Unity Assets programmatically, it should turn ANARCHY – or rather: TRACHI – into a much more polished and coherent product.</p>
 <h2 id="horizon">Horizon</h2>
-<p><a class="glightbox" href="/assets/blog/images/steam/2025/dfb7569138347f5cfc6506f13029d1063665d7a9.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2025/dfb7569138347f5cfc6506f13029d1063665d7a9.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2025/dfb7569138347f5cfc6506f13029d1063665d7a9.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2025/dfb7569138347f5cfc6506f13029d1063665d7a9.png" /></a>
 Whether that translates into more content remains to be seen. On the other hand, we're on the verge of turning ANARCHY into 200% of what it was. If the stars align, we might reach <strong>parity</strong> this Summer. Then we'll tackle the narrative inconsistencies and – if we're still around – extend AUTONOMY.</p>
 <p>More on that in AUTONOMY's next announcement. As for this place here: Let's see if we can't have something cool by June.</p>
 <p>Until then, I remain an ardent admirer – and your biggest fan! 😊</p>
@@ -23278,7 +23281,7 @@ nory</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 21, 2025 15:23:34">June 21, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 22, 2025 07:25:29">June 22, 2025</span>
   </span>
 
     

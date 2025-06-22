@@ -6,9 +6,11 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
+        <meta name="description" content="Artificial freedom for artificial people.">
       
       
-        <link rel="canonical" href="https://github.com/norygami/traki/blog/2024/06/06/technically/">
+      
+        <link rel="canonical" href="https://norygami.github.io/traki/blog/2024/06/06/technically/">
       
       
         <link rel="prev" href="../../../05/28/renaissance-preview/">
@@ -72,9 +74,9 @@
       
         <meta  property="og:title"  content="Technically - TRAKI" >
       
-        <meta  property="og:description"  content="None" >
+        <meta  property="og:description"  content="Artificial freedom for artificial people." >
       
-        <meta  property="og:image"  content="https://github.com/norygami/traki/assets/images/social/blog/posts/Archive/steam/anarchy/STEAM_24-06-06.png" >
+        <meta  property="og:image"  content="https://norygami.github.io/traki/assets/images/social/blog/posts/Archive/steam/anarchy/STEAM_24-06-06.png" >
       
         <meta  property="og:image:type"  content="image/png" >
       
@@ -82,15 +84,15 @@
       
         <meta  property="og:image:height"  content="630" >
       
-        <meta  property="og:url"  content="https://github.com/norygami/traki/blog/2024/06/06/technically/" >
+        <meta  property="og:url"  content="https://norygami.github.io/traki/blog/2024/06/06/technically/" >
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
         <meta  name="twitter:title"  content="Technically - TRAKI" >
       
-        <meta  name="twitter:description"  content="None" >
+        <meta  name="twitter:description"  content="Artificial freedom for artificial people." >
       
-        <meta  name="twitter:image"  content="https://github.com/norygami/traki/assets/images/social/blog/posts/Archive/steam/anarchy/STEAM_24-06-06.png" >
+        <meta  name="twitter:image"  content="https://norygami.github.io/traki/assets/images/social/blog/posts/Archive/steam/anarchy/STEAM_24-06-06.png" >
       
     
     
@@ -1068,7 +1070,7 @@
         
   
   <span class="md-ellipsis">
-    CoExA
+    Commisariat for External Affairs
     
   </span>
   
@@ -1090,7 +1092,7 @@
         
   
   <span class="md-ellipsis">
-    EnKAD
+    Endo-Kathartic Dialect
     
   </span>
   
@@ -23190,39 +23192,39 @@
 <p>I recently <a href="https://store.steampowered.com/news/app/2169000/view/4188989134099863984?l=english">announced</a> a triplet of monthly updates. Each of them packs a piece of this year's special event - <strong>ExtrapolAtion</strong>. I also mentioned that the first part – ExtrapolAtion A – was about 80%-90% done.</p>
 <p>Just a week later, we're almost feature complete. This left a bit of room to sit down and finally polish some of ANARCHY's core systems. In this post, I'd like to present these optimizations and also provide a more in-depth technical overview.</p>
 <h3 id="visualisation">Visualisation</h3>
-<p><a class="glightbox" href="/assets/blog/images/steam/2024/71b01d029ab7f0ae3e8b420f5f7e6fa676a04956.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2024/71b01d029ab7f0ae3e8b420f5f7e6fa676a04956.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/71b01d029ab7f0ae3e8b420f5f7e6fa676a04956.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/71b01d029ab7f0ae3e8b420f5f7e6fa676a04956.png" /></a>
 From the get-go (i.e. InvAsion), I put a big effort into making the character's visual appearance customisable and scalable. Thanks to Unity's <a href="https://docs.unity3d.com/Packages/com.unity.2d.animation@10.0/manual/SL-component.html">Sprite Libraries</a>, we're able to run all the characters on a single <a href="https://docs.unity3d.com/Manual/class-AnimatorController.html">animation tree</a>. We're also using inheritance to derive individual <a href="https://docs.unity3d.com/Manual/PrefabVariants.html">character prefab</a>s from a single base-combatant. This means that changes to colliders, path-finding and many other pieces of logic don't need to be adjusted one-by-one.</p>
 <p>However, Variations introduced a bit of a problem. We're running most of the game through <a href="https://orkframework.com/">ORK</a>, while handling <a href="https://assetstore.unity.com/packages/tools/behavior-ai/dialogue-system-for-unity-11672">Dialogue</a> separately. Each Variation added a bit of redundancy, since I not only had to make two sets of portraits per Variation – but also create another prefab.</p>
 <p>The complexity of this system could also cause desyncs here and there. Switching Variations effectively respawned the character's object. In some cases, the Dialogue System wouldn't recognize that new object as the same character and thus wasn't able to anchor the character's dialogue bubble. In other cases, the camera unhooked itself.</p>
 <h3 id="portrayal">Portrayal</h3>
-<p><a class="glightbox" href="/assets/blog/images/steam/2024/d48ffaa6302a1ef90d136f18d6ff141d5d875a5c.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2024/d48ffaa6302a1ef90d136f18d6ff141d5d875a5c.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/d48ffaa6302a1ef90d136f18d6ff141d5d875a5c.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/d48ffaa6302a1ef90d136f18d6ff141d5d875a5c.png" /></a>
 About two weeks ago, I finally came up with a solution. Instead of defining a set of portraits in both ORK and the Dialogue System, I rewrote parts of the latter so it would pull the corresponding portrait directly from ORK. In effect, we now only need one <a href="https://www.pixelcrushers.com/dialogue_system/manual2x/html/dialogue_actor.html">Dialogue Actor</a> per character. That – in combination with a little script handling the different sets of sprites – means we can run all Variations of a character on a single object.</p>
 <p>This means less headaches for me and more stability for the game overall. There is an even bigger upside, though! Changing a set of sprites to another is much less invasive than respawning the entire object. In effect, we can now equip Variations almost everywhere.</p>
 <p>One result of that is you being able to alter Daphne's appearance all throughout ExcommunicAtion – even while she's in the middle of a dialogue line. The same goes, of course, for ParAdise. As a bonus, there'll be no more camera issues caused by respawning characters. This ties in nicely with another optimization.</p>
 <p>Every time you loaded into a new scene, it could be that the <a href="https://docs.unity3d.com/Packages/com.unity.cinemachine@2.3/manual/CinemachineBodyFramingTransposer.html">camera</a> hadn't adjusted itself to the characters. We diminished that problem by hard-coding about 0.5 seconds of delay before fading in the screen. Since a couple of days ago, the game now properly waits for the camera to be set up – i.e. no more artificial delay.</p>
 <h3 id="abilities">Abilities</h3>
-<p><a class="glightbox" href="/assets/blog/images/steam/2024/cb53021c7a967a350e88114dd88972a04f584a3f.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2024/cb53021c7a967a350e88114dd88972a04f584a3f.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/cb53021c7a967a350e88114dd88972a04f584a3f.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/cb53021c7a967a350e88114dd88972a04f584a3f.png" /></a>
 There's a couple of miscellaneous adjustments, but I'd like to tackle a major one right here. I mentioned ExtrapolAtion A being just about done. Without revealing too much, let's say that the 1926 encounter between Daphne and Ganymede in ANARCHY will be much more physical than AUTONOMY's. I promised it would combine the best of all worlds – and I intend to keep my word.</p>
 <p>Generally spoken, ExcommunicAtion is a bit of a tutorial for ANARCHY's basic combat interactions. ExtrapolAtion aims to do something similar for advanced mechanics. One of them is the <em>Knockback</em> we introduced in ANARCHY 0.1.3 (Silhouette). Simply put, the ability tries to push a target one tile away from the user.</p>
 <p>That leaves us with three points. An origin (user), a target and a destination. If the destination is an empty cell, the target is pushed back. If something's in the way, the target ends up back where it was – and we'll deal a hefty amount of damage to the target and whatever's occupying the destination. The ability itself is super rewarding, but its implementation has always been a bit undercooked.</p>
 <p>You could say the same about ANARCHY's combat in general. Major parts of it were ad-hoc solutions, making the system increasingly hard to work with. To illustrate that point, let's take a look at what happened whenever a combatant uses an ability.</p>
 <h3 id="problem">Problem</h3>
-<p><a class="glightbox" href="/assets/blog/images/steam/2024/d800edb45da9ca8b476299af346384d553a6be36.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2024/d800edb45da9ca8b476299af346384d553a6be36.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/d800edb45da9ca8b476299af346384d553a6be36.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/d800edb45da9ca8b476299af346384d553a6be36.png" /></a>
 We start in our regular top-down view and gather the combatants involved in the corresponding 'Battle Action'. An 'Action Overlay' appears and so do a couple of HUD elements. The characters, as 'Side-View' sprites, are then placed on predefined spots. There's a couple of animations, sound and visual effects, as the action itself goes through its motions.</p>
 <p>Since we're swapping forth between Top-Down and Side-View perspectives, I had to create a custom solution for that. One of the biggest challenges was picking up the right characters, storing their original positions, rotations and scale – all the while making sure it would work both for single- and self-targeted abilities and for cell- and target-based AOEs. Not to speak of special cases like <em>Interception</em>, <em>Construct</em> or <em>Knockback</em>.</p>
 <p>At some point, the entire system got so convoluted – I was afraid to touch even a single line. Imagine if you'd like to have a <em>Counterattack</em> where you wanted one or several targets to retaliate. Ideally, we wouldn't close the Overlay between the 'Main Action' and the corresponding Counter. We'd want to open the Overlay, run the initial attack and follow it up with a Counter straight away.</p>
 <h3 id="setup">Setup</h3>
-<p><a class="glightbox" href="/assets/blog/images/steam/2024/7b351c9d8a136f8937c8a3f85f8f9d66421b1fd0.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2024/7b351c9d8a136f8937c8a3f85f8f9d66421b1fd0.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/7b351c9d8a136f8937c8a3f85f8f9d66421b1fd0.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/7b351c9d8a136f8937c8a3f85f8f9d66421b1fd0.png" /></a>
 Twelve months into development, I have a much better idea of what the 'Action Overlay' should and shouldn't do. Each Action has a 'User', a 'Target' and a varying amount of 'Collaterals' (for Cleaves / AOEs) at the very least. In addition, there's, 'Intervenors' and 'Assistors'. You've already seen an example of the former. When Icarus sacrifices himself, he's what we now call an 'Intervenor'.</p>
 <p>The reason for putting Combatants in abstract boxes like that is to account for all possible scenarios. Going back to our <em>Knockback</em> example, we want to differentiate between entities that are knocked back and those that are in the way. If you think about <em>Knockback</em> projecting a line from the 'User' through the 'Target', we can automatically tell the 'Collateral' has to be on the same line.</p>
 <p>In the Side-View, on the other hand, we always want the 'User' on the left and the 'Target' on the right. We thus know that the 'Collateral' has to be placed even further to the right. By creating boxes within boxes, we're accounting for that fact.</p>
 <h3 id="static">Static</h3>
-<p><a class="glightbox" href="/assets/blog/images/steam/2024/150ad6091d2e2e5e552c2c97f6f8e872b869f3c0.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2024/150ad6091d2e2e5e552c2c97f6f8e872b869f3c0.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/150ad6091d2e2e5e552c2c97f6f8e872b869f3c0.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/150ad6091d2e2e5e552c2c97f6f8e872b869f3c0.png" /></a>
 To place the combatants, we need more than just a direction – even for simple cases like this right here. We could place them on preset spots depending on what kind of box they're in. Incidentally, that's how we've been handling it for almost a year. It served us nicely, but two major problems became increasingly hard to ignore.</p>
 <p>For one, we had to predefine spots for specific abilities. <em>Interception</em>, for example, places the 'User' further to the left. <em>Knockback</em>, as we saw, has a 'User', 'Target' and a 'Collateral' spot. <em>Cleave</em> – hitting the Target and one Combatant to the Target's left and right – thus uses a 'Target' and two 'Collateral' spots along the y-axis.</p>
 <p>Now, the last example might have you asking: "Even if you put 'Target' and 'Collateral' in two boxes, how do you know which 'Collateral' is which?". In the scenario above, the 'Collateral' further to the north should also occupy the northernmost spot, right? So why don't we just take their Top-Down constellation and translate it to the side-view?</p>
 <h3 id="trigonometry">Trigonometry</h3>
-<p><a class="glightbox" href="/assets/blog/images/steam/2024/3b46ae1e0e1cbaf771359c881d4146b9f8854dc6.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2024/3b46ae1e0e1cbaf771359c881d4146b9f8854dc6.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/3b46ae1e0e1cbaf771359c881d4146b9f8854dc6.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/3b46ae1e0e1cbaf771359c881d4146b9f8854dc6.png" /></a>
 For every case that works, there's three that won't. In order to represent the original configuration, we have to check the relation between 'User' and 'Target' first. Once again, we can form a line from left to right (x) – and then a line from the bottom to the top (y). Noting the position of the User user(x, y) and target(x, y), we subtract the user's coordinates from those of the target and get a relative position r(x, y). Now we draw a line from (0, 0) to the x and y in r(x, y).</p>
 <p>Say the 'User' is one step to the north of the 'Target'. That would be user(2, 2) and target(2, 3). Our relative position would be r(2-2, 3-2), i.e (0, 1). Now draw a line from (0, 0) to (0, 1), and compare it to the line defining the x-axis. The angle would be 90°. If the 'User' is straight to the left of the 'Target', that could be user(2, 2), target(3, 2) – resolving to r(3-2, 2-2) -&gt; r(1, 0). That line would match the x-axis, which means their angle would be 0°.</p>
 <p>Now try to rotate the picture in the middle by 180°, and the right one by 270°. We can apply this to every possible configuration to derive an angle by which to rotate the entire thing and end up at the 'User' being left of the 'Target'. Every 'Collateral' is thus placed in relation to its Top-Down position relative to the 'User'.</p>
@@ -23244,7 +23246,7 @@ For every case that works, there's three that won't. In order to represent the o
 <p>Like <em>Knockback</em> and its abstract class 'Manipulation', 'Counter' adds a whole new dimension to the Combat. It's clear that we'll have to tinker with it over the next couple of months. However, we've effectively transcended the 1-Action-per-Overlay limitation. This opens the door not only for User-&gt;Target chains, but could also be refactored into User-&gt;User or User-&gt;Intervenor sequences.</p>
 <p>With our new Ability and a faster, better stronger Action system, we can put our eyes towards the horizon. First off, we'll wrap up the last bits of ExtrapolAtion A. That means putting in the final two or three elements and testing it all. There's a bit of overlap between that and some of the new / reworked combat systems – so the road toward ANARCHY 0.2.2 is already paved.</p>
 <h3 id="cu-soon">CU soon</h3>
-<p><a class="glightbox" href="/assets/blog/images/steam/2024/bef7408b963a1f71785f61e8ae856b2e63c0bb27.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2024/bef7408b963a1f71785f61e8ae856b2e63c0bb27.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/bef7408b963a1f71785f61e8ae856b2e63c0bb27.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/bef7408b963a1f71785f61e8ae856b2e63c0bb27.png" /></a>
 I'll be out of town for a short work-trip until Sunday. This leaves about a week to polish <em>Renaissance</em> for its beta release around the end of next week.</p>
 <p>If you'd like to help make ANARCHY a better game – you're more than welcome to participate. One way or the other, please accept my heartfelt gratitude for reading this lengthy post. I'm learning tons of new things each day – and I consider myself privileged to have you there.</p>
 <p>Kissies and huggies all around. 🤗</p>
@@ -23270,7 +23272,7 @@ nory</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 21, 2025 15:23:34">June 21, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 22, 2025 07:17:18">June 22, 2025</span>
   </span>
 
     

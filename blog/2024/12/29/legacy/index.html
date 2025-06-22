@@ -6,9 +6,11 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
+        <meta name="description" content="Artificial freedom for artificial people.">
       
       
-        <link rel="canonical" href="https://github.com/norygami/traki/blog/2024/12/29/legacy/">
+      
+        <link rel="canonical" href="https://norygami.github.io/traki/blog/2024/12/29/legacy/">
       
       
         <link rel="prev" href="../../12/extrapolation/">
@@ -72,9 +74,9 @@
       
         <meta  property="og:title"  content="LEGACY - TRAKI" >
       
-        <meta  property="og:description"  content="None" >
+        <meta  property="og:description"  content="Artificial freedom for artificial people." >
       
-        <meta  property="og:image"  content="https://github.com/norygami/traki/assets/images/social/blog/posts/Archive/steam/autonomy/STEAM_24-12-29.png" >
+        <meta  property="og:image"  content="https://norygami.github.io/traki/assets/images/social/blog/posts/Archive/steam/autonomy/STEAM_24-12-29.png" >
       
         <meta  property="og:image:type"  content="image/png" >
       
@@ -82,15 +84,15 @@
       
         <meta  property="og:image:height"  content="630" >
       
-        <meta  property="og:url"  content="https://github.com/norygami/traki/blog/2024/12/29/legacy/" >
+        <meta  property="og:url"  content="https://norygami.github.io/traki/blog/2024/12/29/legacy/" >
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
         <meta  name="twitter:title"  content="LEGACY - TRAKI" >
       
-        <meta  name="twitter:description"  content="None" >
+        <meta  name="twitter:description"  content="Artificial freedom for artificial people." >
       
-        <meta  name="twitter:image"  content="https://github.com/norygami/traki/assets/images/social/blog/posts/Archive/steam/autonomy/STEAM_24-12-29.png" >
+        <meta  name="twitter:image"  content="https://norygami.github.io/traki/assets/images/social/blog/posts/Archive/steam/autonomy/STEAM_24-12-29.png" >
       
     
     
@@ -1068,7 +1070,7 @@
         
   
   <span class="md-ellipsis">
-    CoExA
+    Commisariat for External Affairs
     
   </span>
   
@@ -1090,7 +1092,7 @@
         
   
   <span class="md-ellipsis">
-    EnKAD
+    Endo-Kathartic Dialect
     
   </span>
   
@@ -23165,34 +23167,34 @@
 <p>Turns out we can do better than that! As a matter of fact: AUTONOMY is <strong>relevant</strong> again!
 Yes! That's right! We're 100% <strong>on-topic</strong> for once! 😳</p>
 <h2 id="plot">Plot</h2>
-<p><a class="glightbox" href="/assets/blog/images/steam/2024/6d8363fdb499c27008a4addd9387422791043c48.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2024/6d8363fdb499c27008a4addd9387422791043c48.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/6d8363fdb499c27008a4addd9387422791043c48.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/6d8363fdb499c27008a4addd9387422791043c48.png" /></a>
 Let's <strong>recap</strong> the year real-quick! The first three months had me neck-deep in ANARCHY. Somewhere around mid-march, I remembered that my <strong>PhD-thesis</strong> was due in early 2026. Days spent in Unity slowly gave way to messing around with Transformers (or what the normies call 'AI').</p>
 <p>Fast forward to mid-May. TRACHI creeped back into my head. Three weeks later, I set up a bunch of character-based, locally-hosted <strong>Discord bots</strong>. These bots – Atlas, Daphne, Ganymede &amp; Pandora – feed their interactions to a Large Language Model fine-tuned on handcrafted interactions. For added authenticity, I extracted AUTONOMY's and ANARCHY's dialogue and threw that into the mix as well. </p>
 <p>This was followed by a 36-hour stint where I started porting AUTONOMY from <strong>RPG Maker MV</strong> to MZ. In addition to a lot of QoL, MZ adds tons of performance improvements and properly scaled fullscreen. In other words: The game wouldn't look as if it was made in 1995. </p>
 <p>As the phrasing might suggest, that port never happened. There's three major reasons why. First of all: ANARCHY. Secondly: RPGMaker. Last but not least: A somewhat absurd situation in the Plugin community. </p>
 <p>Today, I'd like to cover these three aspects. We'll start with the darkest depths of the game-development ecosystem, work our way through shoddy engines and – finally – cast a little light on the horizon.</p>
 <h2 id="mz">MZ</h2>
-<p><a class="glightbox" href="/assets/blog/images/steam/2024/4c5a82c1daf4dd460e75ac408630cb19cd7457da.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2024/4c5a82c1daf4dd460e75ac408630cb19cd7457da.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/4c5a82c1daf4dd460e75ac408630cb19cd7457da.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/4c5a82c1daf4dd460e75ac408630cb19cd7457da.png" /></a>
 If you're an RPGMaker developer, chances are you've caught on. Yes! I admit it! AUTONOMY is chock-full of <strong>plugins</strong>. From 'pathfinding' to dialogue boxes, from save and load menus. Many features of the game are handled by small scripts layered on top of RPGMaker actual.</p>
 <p>Most of the plugins were developed (and some released for free) by a person named <a href="http://yanfly.moe/">YanFly</a>. nory being a good-boy, I bought the full-pack. Largely to make AUTONOMY a better game, but also to support a fellow creator. So far so good. </p>
 <p>Now for porting the entire thing. It's known that plugins pose a major headache. And so they did! Although there's ways to force MZ into using MV-plugins, many essential features (like 'pathfinding') refused to work. That's no biggie, though!</p>
 <p>After all, most of the old plugins had MZ-equivalents. Even the YanFly collection! At worst, I'd have to rebuy the pack and support the group that took up YanFly's torch.</p>
 <h2 id="stella">Stella</h2>
-<p><a class="glightbox" href="/assets/blog/images/steam/2024/58ce037641b0429b94a797df7305f2c03f09d82f.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2024/58ce037641b0429b94a797df7305f2c03f09d82f.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/58ce037641b0429b94a797df7305f2c03f09d82f.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/58ce037641b0429b94a797df7305f2c03f09d82f.png" /></a>
 If the name sounds familiar, you're on to something! <a href="https://visustella.itch.io/">VisuStella</a> is the crowd that not only develops and hosts the majority of RPGMaker MZ plugins – they're also the people behind the <strong>Character Generator</strong> we've been using since 2021. ANARCHY-andies know that I've dropped a snarky comment here and there. My main gripe was an update supposedly scheduled for Mid-2023.</p>
 <p>If you're asking if it's been released – ask me again in 2025. To be fair: I know the troubles of <strong>development</strong>, so I can 100% emphasize. Besides, I've gotten used to squeeze out as much as I can from the 2022 iteration. Although I wish they'd have included the source code. Not having a revert and redo is funny for a day, but I stopped laughing afterwards.</p>
 <p>You see, I like tinkering with things. Working with UE, Unity – and Data Science stuff I do at work –exposed me to the beauty of code. In fact: Part of the reason why I wanted to give <strong>RPGMaker</strong> another spin was to test my newfound expertise. And since I had JavaScript somewhere on my bucket list, I was eager to dive head-first into the plugins' code.</p>
 <p>Spoiler alert: My excitement didn't last very long. Although I learned a new word for my vocabulary.</p>
 <h2 id="obfuscation">Obfuscation</h2>
-<p><a class="glightbox" href="/assets/blog/images/steam/2024/09e4759533470b7016287cf4ea70e9d5f2fbbb69.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2024/09e4759533470b7016287cf4ea70e9d5f2fbbb69.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/09e4759533470b7016287cf4ea70e9d5f2fbbb69.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/09e4759533470b7016287cf4ea70e9d5f2fbbb69.png" /></a>
 Let's try and formulate a definition: <em>the act of making something less clear [...] to understand, especially intentionally</em>. Well, that wasn't so hard! Maybe it's because I ripped it straight from the <a href="https://dictionary.cambridge.org/dictionary/english/obfuscation">Cambridge dictionary</a>. Not that I'm obligated to tell you. I just think it's common decency.</p>
 <p>In terms of code, obfuscation refers to scrambling variable and function names so they're human-intelligable. Note the term <strong><em>intentional</em></strong>. Believe me, I've come across tons of bad code in my time – most of it made by myself. To add another layer of hypocrisy: I'm also regularly tucking away source code when I build an application.</p>
 <p>So, what's the difference? Well, I'm obligated to encrypt source code due to <strong>license agreements</strong> with 3rd Parties. I am legally instructed to remind you not to decompile. Otherwise I'm forced to spend the millions I'm making off TRACHI to sue you relentlessly.</p>
-<p>If you make a <strong>copy</strong>, for personal or commercial purposes – or distribute the product elsewhere – I might have to send you a cease n' desist. Realistically, I couldn't care less. TRACHI is like a [strike]parasite[/strike] symbiont. Success is measured in how many people it affects. </p>
+<p>If you make a <strong>copy</strong>, for personal or commercial purposes – or distribute the product elsewhere – I might have to send you a cease n' desist. Realistically, I couldn't care less. TRACHI is like a <del>parasite</del> symbiont. Success is measured in how many people it affects. </p>
 <p>Either way, the <strong>ToS</strong> states that I can't tell you about the several thousand deobfuscation websites out there. In fact, word on the street is that the developers literally used the first website that pops up when you google that term.</p>
 <p>How do I know? I guess my hand must've slipped. Or maybe I don't like buying a cat in a bag with a black bar on its face. Putting obfuscated code on top of a framework with <strong>exposed</strong> code is like me asking you to forget what you just read.</p>
 <h2 id="exodus">Exodus</h2>
-<p><a class="glightbox" href="/assets/blog/images/steam/2024/d1824312bfbdacb0ab09f8990347fbdc43ce5a05.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2024/d1824312bfbdacb0ab09f8990347fbdc43ce5a05.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/d1824312bfbdacb0ab09f8990347fbdc43ce5a05.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/d1824312bfbdacb0ab09f8990347fbdc43ce5a05.png" /></a>
 After I got over my little tantrum, reasonable nory intervened. Deobfuscation (which I totally didn't do) would have left me with semi-readable code. Now I just had to introduce myself to <strong>application-development</strong> in JavaScript – while my mind was parsing Python for work and C# for ANARCHY.</p>
 <p>Why was I doing that again? To funnel more work into a dead-end engine/framework. Every minute spent in RPGMaker would mean about twenty seconds of porting it into Unity. Since I had most of the QoL stuff already implemented in <strong>ANARCHY</strong>, RPGMaker had nothing to offer beyond ~5 hours of content.</p>
 <p>At the same time, August 28th was coming up. I had promised an AUTONOMY-themed prologue for ANARCHY. On December 13th (!), <strong><em><a href="https://store.steampowered.com/news/app/2169000/view/509566179781641078?l=english">ExtrapolAtion</a></em></strong> hit the shelves. It includes two locations from AUTONOMY: <em>Wenger</em> 1926 and ExterminAtion's <em>Trachi</em> 1923 (<em>Stuart Alley</em> by night and all that).</p>
@@ -23209,7 +23211,7 @@ After I got over my little tantrum, reasonable nory intervened. Deobfuscation (w
 <p>Once we're done, there'll be two AUTONOM(Y)(ies): RPGMaker's <strong>AUTONOMY(R)</strong> and Unity's <strong>AUTONOMY(U)</strong>.</p>
 <h2 id="legacy_1">Legacy</h2>
 <p>It's a mouthful, I know! Then again: we're getting two games for the price of one. If Valve doesn't mind, AUTONOMY(R) gets a new name: TRACHI – LEGACY. As for ANARCHY, we'll trim the name a bit: </p>
-<p><a class="glightbox" href="/assets/blog/images/steam/2024/45313f4cb2ccd4626b9efb4190e073ad01d40774.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="/assets/blog/images/steam/2024/45313f4cb2ccd4626b9efb4190e073ad01d40774.png" /></a>
+<p><a class="glightbox" href="../../../../../assets/blog/images/steam/2024/45313f4cb2ccd4626b9efb4190e073ad01d40774.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../../../assets/blog/images/steam/2024/45313f4cb2ccd4626b9efb4190e073ad01d40774.png" /></a>
 Three years of separation are about to end. Our meta-dripping, post-ironic anarchistic adventure is in for a big bag of history. Three days, three people and a city. Most importantly: <strong>YOU</strong>. </p>
 <p>If you don't mind me asking (with a batted eyelash or two): Please grab your pitchfork and make me walk the line! 🙏 Not like I need or want you, okay!? You're just one of those special <strong>10%</strong> that dug their way through AUTONOMY - I mean LEGACY.</p>
 <p>That's two homes for two-thousand people! 👏 One place for the future – and one for our memories!
@@ -23237,7 +23239,7 @@ nory</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 21, 2025 15:23:34">June 21, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 22, 2025 07:17:18">June 22, 2025</span>
   </span>
 
     
