@@ -1,6 +1,7 @@
 ---
 tags:
     - Ionia
+title: Ionian Intelligence Service
 ---
 
 ![IIS](../assets/organizations/IIS.png){ width=200, align=right }

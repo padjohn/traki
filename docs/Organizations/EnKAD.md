@@ -1,6 +1,8 @@
 ---
 tags:
     - Ionia
+title: Endo-Kathartic Dialect
+description: The Endo-Kathartic Dialect is the domestic branch of the Ionian Intelligence Service.
 ---
 
 ![EnKAD](../assets/organizations/EnKAD.png){ width=200, align=right }

@@ -1,6 +1,7 @@
 ---
 tags:
     - Ionia
+title: Commisariat for External Affairs
 ---
 
 ![CoExA](../assets/organizations/CoExA.png){ width=200, align=right }

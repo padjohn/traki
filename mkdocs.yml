@@ -2,7 +2,8 @@ site_name: TRAKI
 repo_url: https://github.com/norygami/traki/
 repo_name: traki
 edit_uri: edit/main/docs/
-#site_url: https://github.com/norygami/traki/
+site_url: https://norygami.github.io/traki/
+site_description: "Artificial freedom for artificial people."
 
 theme:
   logo: assets/organizations/ARedC.png
@@ -62,9 +63,10 @@ plugins:
    - git-revision-date-localized:
       enable_creation_date: false
    - social:
-      cards_layout_options:
-        font_family: Jost
-        background_color: black
+      cards_color:
+        fill: "#000000"
+        text: "#FFFFFF"
+      cards_font: "Jost"
    - rss:
       match_path: "blog/posts/.*"
       date_from_meta:
