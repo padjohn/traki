@@ -11,7 +11,7 @@ Established in 1921, its main function is to act as an umbrella organization and
 
 Above all, the IIS aims to act as a singular entity - both domestically and abroad. However, recent reports suggest that cooperation between EnKAD and CoExA remains lackluster, at best. An anonymous operative once supposedly stated: 
 
-!!! quote "State of the union (1924/34) – Tales from the shadow: Is the IIS too big to succeed?"
+!!! quote "State of the union (1924/37) – Tales from the shadow: Is the IIS too big to succeed?"
 
     *The IIS spends most of their time fighting itself.*
 

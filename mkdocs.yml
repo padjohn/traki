@@ -1,8 +1,8 @@
 site_name: TRAKI
-repo_url: https://github.com/norygami/traki/
+repo_url: https://github.com/padjohn/traki/
 repo_name: traki
 edit_uri: edit/main/docs/
-site_url: https://norygami.github.io/traki/
+site_url: https://padjohn.github.io/traki/
 site_description: "Artificial freedom for artificial people."
 
 theme:
